@@ -1,0 +1,14 @@
+name: JCBScope
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - ipykernel
+  - matplotlib
+  - pytorch-gpu
+  - torchaudio
+  - torchvision
+  - cuda-version=12.1
+  - captum
+  - pandas
+  - scipy
