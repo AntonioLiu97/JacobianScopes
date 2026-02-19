@@ -1,0 +1,1502 @@
+[
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man wearing a beige shirt and cowboy hat ropes a calf while riding a brown horse.Hypothesis: The cowboy is riding a bull.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A female is reading a book while sitting on the floor next to some flowers.Hypothesis: A man reading on the subway next to a woman with flowers in her hair.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Six people are sitting around an L-shaped table surrounded by books and yarn.Hypothesis: A group is together.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two go-carts with riders, one wearing a white and the other a black helmet.Hypothesis: The two cart riders have different colored helmets.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: There are football players in red running drills near the end zone.Hypothesis: The coach doesn't let players practice much.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A girl and young boy are jumping on a trampoline in a suburban yard.Hypothesis: The kids are jumping on a trampoline.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: a shirtless man leans over a balcony looking platform.Hypothesis: The man looks out over the balcony.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A dark-haired boy and dark-haired girl stand on the grass.Hypothesis: The humans are upside down.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman carrying large bags walks down the street.Hypothesis: A woman running down the streetAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in a white jacket looking away from what everyone else is looking at.Hypothesis: A man has his back turned away from a crowd.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in a white shirt and helmet is riding a skateboard at an angle.Hypothesis: The man knows how to ride a skateboard.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A small kid wearing a helmet smiles while his father is doing some adjustment at its back.Hypothesis: A boy and his father are doing an activity together.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two men walking down a dirt path.Hypothesis: two people are outsideAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: 2 friends are looking at clothes at a stand while at a shopping mall.Hypothesis: people are at the mallAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: People are taking pictures of something.Hypothesis: There is more than one person.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two Rubbish men standing on their truck loading trash.Hypothesis: There are two men standing up.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Around 15 people are on a boat on a river going somewhere.Hypothesis: A group of people are riding in a boat.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A lady is riding a white horse.Hypothesis: A woman giving her cat a bath.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A dog is running with a blue bone in its mouthHypothesis: The dog has found it's stuffed toy and is carrying it.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man wearing glasses sits with a drink at a table whilst reading the newspaper.Hypothesis: A man is enjoying his day reading a newspaper.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A small child in a red coat points to a handbag in a shop window.Hypothesis: A man is missing his wife.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two collies are barking as they play on the edge of the oceanHypothesis:  Two collies are barking as they play in the backyard.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two women and a man are standing on a stage with a guitar nearby on the floor.Hypothesis: The two women and man are on the stage.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A tennis player in white clothes finishing a strike on a tennis ball.Hypothesis: A player takes a shower.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: People are doing bonding each other.Hypothesis: Some guys are helping a lady who lost her way.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A group of about eight people wearing different colored, numbered sport shirts are all sitting very close to the ground on what appears to be go-carts or specialized race cars.Hypothesis: The person stood next to the go-kart.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: In an athletic stance, the woman awaits the tennis ball.Hypothesis: a brunette woman is sitting in a cafeAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A blond woman is looking at some lights.Hypothesis: The woman has her eyes closed.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Asian man pointing at a Playboy brand sign.Hypothesis: An Asian man is reading the Book of Mormon.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: This monster truck jumping over some cars.Hypothesis: The monster truck is backing up.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in a green hoodie is trying to do a trick on his skateboard in a park.Hypothesis: the man is nudeAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A red shirted man is renovating his kitchen, prepping the wall behind where his counter will sit.Hypothesis: A man is doing construction work on his home.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman in a red swimsuit and blue swim cap swims underwater while wearing a pair of yellow nose plugs.Hypothesis: There is a woman swimming underwater.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Couple sleep on subway line sitting next to each other.Hypothesis: The couple sitting on the subway line are asleep.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in a yellow shirt is digging in a cave, while a man in a white shirt watches.Hypothesis: a man digging in a caveAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two brown dogs are wearing muzzles and running very fast through the grass.Hypothesis: Two dogs are running through the field.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man with his surfboard stands in the sand.Hypothesis: A man is running down the beach with a surfboard.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man walks a group of Dalmatians on the beach.Hypothesis: The dogs are not Dalmatians.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A large group of cyclists pedal down a road lined with trees.Hypothesis: A group of bikers pedal down the roadAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman wearing skates, a helmet, and pads, jumping in the air.Hypothesis: The man is skating.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man holding onto a jungle gym ladder.Hypothesis: A man is holding a ladder.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: The people are standing around at the auto show.Hypothesis: People broswe wares at the gun show.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man is wearing a mask, green beads and green pants.Hypothesis: The man is wearing all red.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A female runner with sunglasses and green with white athletic clothes is running.Hypothesis: A female runner is running.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A brown dog running in a yard.Hypothesis: The dog is brownAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two men with long hair play horns.Hypothesis: There are people playing instruments.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman in a red dress is talking on a cellphone.Hypothesis: A woman dives for oysters in the ocean.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A shiny black dog runs on the grass during a bright and sunny day.Hypothesis: A Dog runs outside.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: a small dog with a boy holding a stick in his mouthHypothesis: A boy eats a sandwichAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A tall person with long hair, brown sweater, white pants and a orange and white tote bag is hugging the girl with brown pant and long-sleeved shirt as they walk down the sidewalk.Hypothesis: Friends punching each otherAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A tribal man standing on the back of a covered boat riding through calm watersHypothesis: A man standing on a boatAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two women voice their opinions at a political rallyHypothesis: Women voice their opinions at a rally.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A small child in batman pajamas playing with tinker toys.Hypothesis: A SMALL CHILD IS CRYINGAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in a Hawaiian shirt takes a photo of a woman wearing white.Hypothesis: A man is dancingAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man shaking the hand of a teenager sitting on a bench.Hypothesis: The two people are touching.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A girl in a red, white, and blue soccer uniform playing soccer.Hypothesis: A girl in a soccer uniform directs traffic.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man falls onto the ball during a game of rugby.Hypothesis: A  man is playing a game of rugby.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: People holding umbrellas over their heads walk up a staircase next to an escalator.Hypothesis: The people with umbrellas are sleeping on the stairs.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young girl shines shoes while sitting on a bench.Hypothesis: A girl is shining shoes.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A person standing a rocky ridge.Hypothesis: A person is standing.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A mother in a blue jacket, and a child in a black jacket, are walking in the snow around trees.Hypothesis: A mother and child are walking in the snow.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in a suit is sitting at a bus stop.Hypothesis: A man is waiting for a bus.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two young girls in dresses and sweaters walking hand in hand down a path.Hypothesis: Two young girls are walking down a path.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A barefoot child wearing a blue shirt and a child wearing sandals with a red shirt both attempting to grab a soccer ball falling from the air.Hypothesis: A child attempts to grab a soccer ball.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Girl in colorful clothes and makeup poses on a building's rusty ladder.Hypothesis: The man poses for the camera.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A child is on a motorcycle smiling.Hypothesis: A man is on a motorcycle smiling.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Soccer players hold each other and face towards the crowd.Hypothesis: They are baseball players.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman takes a picture along side a group.Hypothesis: Some people one of which is taking a picture.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young woman with dark hair and wearing glasses is putting white powder on a cake using a sifter.Hypothesis: A young woman is standing beside a cake.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A little kid is soaking wet, posing in the street, while a couple walks behind him in front of a red building.Hypothesis: a kid is wetAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Boy in shorts, face down in shallow, reflective water.Hypothesis: a girl competes in a swim meetAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A female figure skater on one leg with the other high up in the air as her arms are spread open wide.Hypothesis: A woman is motionless on the ground.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man races in a small vehicle while another man hangs off the back.Hypothesis: Two men are in a vehicle.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A busy florist shop filled with workers.Hypothesis: The florist shop stands empty, closed and locked for the night.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man and woman sitting next to each other quietly.Hypothesis: Two people are sitting next to each other.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A fluffy dog carries a stick through snow.Hypothesis: A dog is trudging through the snow.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Shirtless man skateboards down a sunny roadsideHypothesis: A man is riding his skateboard down a roadAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: The silhouette of a little girl in a skirt runs down a beach at dusk.Hypothesis: She is running at approximately 200 mph.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A group of people running a marathon round a curve as spectators look on.Hypothesis: the group stayed home and sleptAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A basketball gameHypothesis: A sports game.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two dogs, one bigger than the other, are playing tug-of-war.Hypothesis: There are animals playing.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A girl in a dress rides her bike down an empty city street.Hypothesis: A girl rides her bike.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in a worn Arizona ball cap, polo shirt, and dark pants stitches something on his lap.Hypothesis: two men knit togetherAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Older male laying down on a table while the female dentist looks at him.Hypothesis: A man lays on the table for the dentist.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man and a child in the water, swimming.Hypothesis: the kids are wetAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: a woman opens a present while drinking beerHypothesis: women is eatingAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two men are in the water using waterskiing equipmentHypothesis: The two men are currently engaged in para-sailing.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A group of women rollerskating.Hypothesis: there are some people in this pictureAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman with sunglasses is having lunch with a friend.Hypothesis: woman shopping in the MarketAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man is diving into a swimming pool from a diving board.Hypothesis: A man is sunbathing near the swimming pool.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An older man, with a dirty white tank top, eating something from his hands.Hypothesis: A young child sits inside the house.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman filling out some paperwork while another woman waits.Hypothesis: man plays pianoAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A policeman is shown working a block party.Hypothesis: A police officer is patrolling around a block party.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A referee presides over a female roller derby game.Hypothesis: There is a referee at the roller derby game.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in a black shirt, and black shorts is walking down the street, holding hands with a woman in a black sundress.Hypothesis: A person is holding hands with another person.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: There are four soldiers, two are hurt and in wheelchairs.Hypothesis: all the soldiers are standingAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two women are laughing behind a girl who is sitting down.Hypothesis: Two women are laughing.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man wearing a blue tank-top is in the park striking a pose.Hypothesis: A man wearing a blue tank-top is in the park.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two homeless men sitting next to a building with a shopping cart.Hypothesis: Two men in nice suits are inside a store.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A group of people are partying inside a building.Hypothesis: The people are outside.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two of the members of Lynyrd Skynyrd are performing on stage playing guitar in front of a sign that says, \"Lynyrd Skynyrd, God and Guns, World Tour\"Hypothesis: The band is playing music.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man wearing a baseball cap is skateboarding.Hypothesis: A guy skateboards while wearing a hat.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A father and a child are playing in the poolHypothesis: A father plays soccer with his son.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two little kids crawl up to a large statue outdoors.Hypothesis: the kids are going to saw the head off the statueAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man is working on the caboose of the red train.Hypothesis: A man is in an airplane.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man performing for a crowd.Hypothesis: There is a crowd.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A person in the snow drilling a hole in the ice.Hypothesis: A person drills holes into the ice on a snowy day.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman is singing and playing the drums.Hypothesis: woman plating drums and singsAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young boy and girl are playing in a tunnel.Hypothesis: A young boy and girl are riding a train.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Three asian children, 2 boys and a girl, is sitting and studying in a classroom that is painted light green.Hypothesis: The classroom is painted light blueAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Pedestrians and bikers crossing a busy streetHypothesis: Pedestrians and bikers cross a beach.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A boy jumps off of an open air staircase.Hypothesis: A boy never was upstairs as long as he lived.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young man snacks while on a dock looking out into a body of water.Hypothesis: A young man snacks while outside.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in a polar bear suit is standing with a sign in protest.Hypothesis: A man is reading books on polar bears.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two little girls, both dressed in pink, play on the jungle gym.Hypothesis: Two little girls are climbing.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A smiling man with glasses is near a giant lizard who is sleeping.Hypothesis: A muddy boy holding up a jar filled with tadpoles.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A dad and his child dressed up for halloween trick or treating on a sidewalk in a downtown area or a neighborhood.Hypothesis: A father and his child are jumpingAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Band leader motions with a stick while wearing a plaid kilt and cape.Hypothesis: He is diving in the seaAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman and two children prepare a kite.Hypothesis: The woman is near a kite.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Four police officers dressed in riot gear are maintaining a crowd that includes a man dressed as a clown.Hypothesis: Four police officers having coffee in the woods.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A girl in a black shirt looks at the camera while eating an apple and another smiles while looking downward.Hypothesis: A girl is eating a piece of fruit.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in swim trunks hugging a woman in cutoffs and a bikini top in a fountain.Hypothesis: the man is in a volcanoAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman writing the alphabet on a chalkboard while carrying a sleeping baby on her back.Hypothesis: A man is teaching in a classroom.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A person laying on the ground below some stairs.Hypothesis: The person is prone on the groundAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man and a woman are sitting on a couch next to other people behind a table full of papers.Hypothesis: Two people sitting on a couch.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A waitress in a black T-shirt and black shorts at Cafe Mambo serves a tray of beverages to a seated customer in a red tank top and black bandanna.Hypothesis: The waitress is outside taking a smoke break.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Chairs have been placed in front of a building.Hypothesis: A few chairs being taken down after an event.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A blindfolded woman with green hair attempts to hit a pinata with a stick, while a man dressed in green watches.Hypothesis: A woman with green hair attempts to hit a pinata.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man is sitting next to a woman who is standing.Hypothesis: A woman is standing next to a man.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two young women sitting on a doorstep.Hypothesis: The two women sitting down are young.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A girl is riding her bike at night.Hypothesis: A girl is riding her bike during the day.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man is taking a swing with his axe in front of chopped wood.Hypothesis: A man swinging his axe in front of woodAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A toddler in a blue shirt is crying.Hypothesis: The young boy is quite happy.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A runner splashes through a big puddle in the forest.Hypothesis: The runner is riding a bike.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman getting her face painted by another woman.Hypothesis: A woman applying makeup to another personAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: One man smokes a cigarette in the presence of another man at night.Hypothesis: the men are eating cakeAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A mother squatting near her child in a stroller.Hypothesis: A family is hanging out with each other.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman talking on a cellphone and a man with a mustache emerge up the stairs from an underground subway.Hypothesis: A man and woman are in an elevator.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man sitting at his desk with empty soda cans.Hypothesis: A man stands on top of his desk and screams loudly.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A musician is posing while playing an odd-shaped guitar.Hypothesis: A musician poses with a weird piano.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young boy in a blue shirt gingerly waters a plant.Hypothesis: A young boy waters a plant.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman poses with a statute of two people dressed in fancy clothes.Hypothesis: a woman poses with another womanAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Three men are smoothing out the ground with brooms and other tools.Hypothesis: three men are sword fightingAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: The man is sitting with a little girl in the park.Hypothesis: A man and girl are running after the family dog at the park.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Religious leader holding hands out.Hypothesis: people are holding hands outAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two men in black shirts are resting in the bed of a pick-up truck.Hypothesis: The two men are driving.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An old lady in a big black coat holds the hand of a young boy in a blue jacket in the subway.Hypothesis: A old lady looks through her cabinets for her favorite mug.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: And older woman sitting on a chair is duplicating a painting.Hypothesis: The older woman is swimming in the pacific ocean.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A boy and a girl are talking while hiking on a park trail together.Hypothesis: Two people have a conversation on the trail.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Little girl running alone the beach among the seagullsHypothesis: Little girl running alone the beach among the ravensAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: The man stands in a body of water near a waterfall.Hypothesis: Some of the people in the picture are wet.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young boy wearing a blue winter coat and hat, is looking carefully at flower arrangements.Hypothesis: A boy is looking over some flowers.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Children playing in front of a sign for the \"Hartman Prehistoric Garden\".Hypothesis: The people playing are old men.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A street performer spinning fire.Hypothesis: A professional mime is in body paint.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A girl wearing a white coat stands in the middle of sprinklers.Hypothesis: The girl is wearing a coat.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Dog is jumping down a ramp.Hypothesis: A dog jumps down.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: This appear to be an older picture with an old car.Hypothesis: Picture with a brand new car.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An old man holds the wrists of a little boy wearing Spiderman bathing shorts while standing on a wooden bridge.Hypothesis: The wooden bridge is made out of steel.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A Guy is swimming in the pool with his eye goggles on.Hypothesis: A guy swims in the pool with goggles.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man with a drink cup is talking to another man.Hypothesis: Two guys are talking.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: People are walking through a Christmas themed market.Hypothesis: There are people in a market at Christmas.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: The lady on the street seemed very intoxicated.Hypothesis: The lady has drank alcohol recently.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A cartoon cutout of Snow White is standing in front of a store display window while a woman in a large hat is standing cross legged at the door.Hypothesis: The woman is driving the school bus.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: People go by old white walls with gray squares.Hypothesis: Males and females are in proximity of old walls.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Young girls playing soccer in a field.Hypothesis: young girls playingAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Crowd in an Asian city surrounding a man, in the foreground a woman holding a purple bicycle overlooking the scene.Hypothesis: a man is surroundedAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Woman standing in a field of tulipsHypothesis: woman in fieldAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A brown and white dog standing in a yard.Hypothesis: A dog is in a yardAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: People running downhill in a city.Hypothesis: People are running in a city.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man is cutting something above a sink.Hypothesis: There is a woman in the kitchen.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An older person in sunglasses crossing the sidewalk.Hypothesis: A person moves to the other side of the street.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A toddler in a blue shirt is crying.Hypothesis: The toddler is not crying.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A surfer rides a wave in a clear blue ocean.Hypothesis: the skiiers rode up the lift hillAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A dirt street in what looks to be China, with two women dressed in pink and white pointing and laughing off-screen.Hypothesis: Two women dressed in pink and white on a dirt street.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two men are laying bricks for a home's chimney.Hypothesis: Two men are building something.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two dogs in the snow.Hypothesis: Two animals in the snow.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young woman tries to stick her foot in a fountain.Hypothesis: A woman is near a fountain.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Lady in red wearing boots walks right and a man in a blue suit walks left in front of an \"I heart\" NY mural.Hypothesis:  Lady in red wearing boots.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A boy holds up a strange plant.Hypothesis: A boy holds up a plant.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman holding a pitcher with blue hairnet and apronHypothesis: The customer pays the cashier.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two men stand in front of a shabby vegetable stand.Hypothesis: Two men are near a small structure.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A team of young volleyball players saying a pep talk right before a big game.Hypothesis: The volleyball players are elderly.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in a blue Speedo holding swim goggles.Hypothesis: A man shopping for groceriesAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Three photographers with their cameras and tripods set up indoors in a high-traffic area.Hypothesis: There are three jugglers putting on a show.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman walking near a fast food restaurant.Hypothesis: A man is jogging past a fancy restaurant.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man with a guitar sings.Hypothesis: A man sings.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man wearing a face mask sits near a tent and a trailer.Hypothesis: A man with his face hidden is sitting.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two female ice skaters, one wearing dark blue bent upwards, and the other wearing light blue bent downwards.Hypothesis: Two ice skaters in blue are bent in different directions.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two young girl jumps into a small, round area of deeper water while a young boy looks on while running past.Hypothesis: Two girls play while a boy watches.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in a black shirt and black jeans and a little boy are taking a look inside a green truck's engine while it is parked in a grass field with a gas tank in front of it.Hypothesis: A man in black and a young boy are inspecting the engine of a green truck.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A crowd of people pass through a busy intersection in a city.Hypothesis: The crowd is entering a store.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman floating on a raft in tropical waters in front of a beach.Hypothesis: the people were on concreteAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Four men in green at a soccer goal post trying to score, while 3 men in blue try to prevent it.Hypothesis: The green team and the blue team are playing soccerAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: a man in a leather jacket is looking down at a bunch of bananas and a light made out of a can.Hypothesis: The man is looking at something.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A rider of a dirt bike is midair.Hypothesis: A bike rider is driving through a tunnel.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: soccer player jumping to head ball while other players look on.Hypothesis: A group of cats sit alone indoors.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Four people are at a pavilion getting drinks from two men.Hypothesis: A family is picking up their hot dogs from a vendor.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A fun, well-lit shot of a house party with three people dancing with glowing wristbands and light sticks, and four others talking in the background.Hypothesis: A group of people dancing and having fun at a party with others in the background.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A Toddler wearing a dark blue jacket and knit cap is standing on gravel and pointing upward, with stone columns and a wooden display board in the background.Hypothesis: A child is outside.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two black women wearing white shirts facing opposite directions.Hypothesis: The two women have the same colored shirt.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young girl is at the bottom of a slide.Hypothesis: The young girl is at the top of the slide.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man stands on a busy street with buildings and shops in the background.Hypothesis: Man standing on busy street.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A little girl is sitting in bed with a book and a drink.Hypothesis: A girl is going to sing and she obviously intoxicated, but not by alcohol because she is underage, probably meds.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: The groom and bride are both jumping on the Great Wall of China.Hypothesis: The newlyweds are swimming at their hotel.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man is standing on mossy ground next to a calm body of water, holding a fishing pole and fishing in the water.Hypothesis: The man is in his living room.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A boy wearing a red shirt and jeans is doing a flip on his bike.Hypothesis: A boy is doing a flip on his bike.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A person in a long orange coat walks along a sets of stairs.Hypothesis: The person is well clothed.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A person guarding a hockey goal.Hypothesis: A person is talking to a referee.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A group of well dressed people sitting around a table with champagne glasses laughing.Hypothesis: People drinking champage.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: The dark-haired woman is making a sandwich.Hypothesis: A woman baking a cake.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young boy is standing next to a sand sculpture of a pyramid.Hypothesis: A child is near a creation that comes to a point.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An elderly man in a red jacket shielding his face from the sun.Hypothesis: A older person is dressed in red.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Male cheerleader holding a female cheerleader up during a football game.Hypothesis: Male cheerleader holding a female cheerleaderAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: The lady is polishing her fingernails a bright red color.Hypothesis: The lady is washing dishes.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A person in a cap with earflaps carries two grocery bags down a city street past a poster of a mustached man.Hypothesis: A person sitting at home watching TV.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A couple in black coats is looking at the camera with pleasant expressions on their faces.Hypothesis: The couple are wearing coats.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in a black suit knocks his head with his fist as he puts his arm around a woman in a white strapless dress.Hypothesis: A man wearing a pink suit laying on the ground as a woman rides a bike near him.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Construction workers are working with a heavy piece of machinery behind an orange and white striped barrier.Hypothesis: Two workers working on a barrier.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Girl in green hoodie looking at the landscape.Hypothesis: The girl is wearing a red hoodie.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man wearing a red costume stands near others.Hypothesis: The man in the red costume is standing by the others.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young male dumps the extra water out of his small motorboat.Hypothesis: A person fills up his car with gas.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A snowboarder jumps over a shed which is almost covered with snowHypothesis: A snowboarder is riding a ski lift.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: a african-american woman stands in the crowd.Hypothesis: A woman stands among people.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A street vendor tends to his stand with lots of kids toys and items.Hypothesis: a vendor tends to standAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two men are making an arch with their arms and a third man is ducking beneath it.Hypothesis: Three men are racing cars.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A large group of people are working on a sidewalk landscaping.Hypothesis: A group of people are working on the landscape.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A surfer is riding on a breaking wave.Hypothesis: The surfer is sleeping inside.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman in a chair staring at a white box.Hypothesis: A woman is opening a box.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: This is a you boy with a skateboardHypothesis: There is a boy and his skateboard.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An elderly man sleeping on a bench on a pier.Hypothesis: An elder man is sleepingAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young girl jumps off the hands of a man in a pool near the ocean.Hypothesis: A human jumps.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man and a woman walking out of a store.Hypothesis: teens are playing in the ground.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An older man wearing a black jacket standing outside.Hypothesis: A woman dressed in pink is standing inside.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two people fold a parachute after they have landed in a field.Hypothesis: Two people folding a blanket.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in a black coat walking down the street.Hypothesis: A man is on a street.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two ladies in jeans stood in front of three young children with fair hair.Hypothesis: There are women sitting outdoorsAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young woman is standing behind an information stall at the 2012 London Olympic Games.Hypothesis: A man is waving at another man across a field.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: a kid wearing snowshoes and laying on his back on snowHypothesis: A child is outside in the cold weather.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A brown spotted dog walks in shallow water.Hypothesis: An animal is wading.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two men juggling in front of a group of people.Hypothesis: Two men juggling in crowd.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: professional motorcycle racer turning a cornerHypothesis: Nobody is turning.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: The fisherman paddles in his to a new spot.Hypothesis: An owl eats a mouse.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two women stand by a large series of signs which say \"Le Cafe Marley\" in a hallway with a very high and ornate ceiling.Hypothesis: Two women standing by signAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A first baseman makes a catch as a runner comes up.Hypothesis: The first baseman is taking a rest.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A colorfully dressed man, who is on the street wearing balloons, sculpts some balloons.Hypothesis: the man is making a paintingAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Posing with their much loved guitar, a couple smiles joyously.Hypothesis: A couple is posing with a guitar.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man wears a t-shirt showing a baby humping a stuffed bear.Hypothesis: A man is wearing a graphic t-shirt.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: There is a 3 person band performing for a large crowd in a public setting on a lake.Hypothesis: There is a quartet playing for a small group of people inside of a theater.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man with a Texas flag stands in the snow by tents.Hypothesis: A man with a Texas flag stands inside a garage.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Six track and field runners competing in the Olympics.Hypothesis: There are very few competitors in track and field this year.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Three men cross the street in front of a yellow truck.Hypothesis: Three men are rowing a boat.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man, who wears a blue shirt, sits, hunched over on a bench while a woman in a yellow dress carrying a red shopping bag walks behind him on an urban sidewalk.Hypothesis: A man sits on a bench hunched over with a woman behind him.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A band on stage in front of a body of water.Hypothesis: A band on stage.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A runner is being handed a water bottle from a woman in a teal jacket holding an umbrella.Hypothesis: A racecar driver is handed some water after a race.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An older couple looking over various foods in the deli.Hypothesis: A old couple are gently rocking in a hammock outdoors.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young man in camouflage shorts and a hat jumping up in the air on a bridge.Hypothesis: A man is sitting.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: In this picture we see an open air market, the tables of produce are illuminated with lamps that have red shades.Hypothesis: There are products to buy at the market.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: The little girl tackles a man and makes the universal sign for \"Touchdown!\"Hypothesis: A young girl is wrestling with a dog.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Three men in cowboy hats at a rodeo.Hypothesis: There aren't any animals at the rodeo.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Three soldiers are washing cooking tins in red buckets with two women with yellow vests standing behind them.Hypothesis: There are no soldiers.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two women in black embrace at crowded outdoor event.Hypothesis: There are people enjoying an indoor swim meet.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A crowd is gathered for some event while a woman in a flowered blouse talks with a man in a brown t-shirt.Hypothesis: A dog is talking to a person at a event.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Man sitting on a ledge wearing a green Celtics shirt while eating.Hypothesis: Man eating in sports shirt.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A group of people walking on the side of a railroad track.Hypothesis: A hobo jumps into a railroad car as it passes by.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in an uniform is reading a paper.Hypothesis: The man has something in his hands.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A smiling man with a headphones and a gray mustacheHypothesis: A man with headphones and mustache.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman wearing a white hat examines an item in a store.Hypothesis: a woman calls her friendAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An old woman with a mustard sweater and white skirt walking on the sidewalk past a photo store.Hypothesis: An old woman with a mustard gas sweater and white skirt walking on the sidewalkAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: a boy in a blue t-shirt is taking an orange bicycle over a jump in the street.Hypothesis: A boy is jumping over the street with his bicycle.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Man on rocky beach playing with black and white dog.Hypothesis: A man and his dog are asleep on the beach.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A band with two women and one man is on stage playing music.Hypothesis: People are singing karaoke at a bar.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman in a pink scarf is on a cellphone.Hypothesis: Talking on the cellphone is a woman who is wearing a scarf that is pink.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man walking across a chain over top of water.Hypothesis: A man is swimming in a lake.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young boy sits next to a wind sculpture.Hypothesis: A boy sits next to a piece of artwork.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young boy peering out the window of a passenger bus.Hypothesis: There is a bus.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A crowd gathers in the street to watch a performer roll a chrome ball over his body.Hypothesis: a performer performs with a silver ball in a street.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A girls is jumping in the sand.Hypothesis: The boy is shooting the beebe gun.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Some old people admiring classic cars park in front of them.Hypothesis: The old people are looking at cars.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Some elements are too small to visualize without a microscope.Hypothesis: Some elements are very bigAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two men are talking with each other around the corner of a cemented type of building.Hypothesis: Two men are talking outside.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in black staring down at the sidewalk with shadows.Hypothesis: A man at a dentist appointment.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A person is doing a trick on a bicycle with grass and sky as the background.Hypothesis: A person is riding on his bike.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two men are playing basketball and one is trying to block the others shot.Hypothesis: the men are playing soccerAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Photographers photograph a young woman on the street.Hypothesis: The photographers are asleep.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: One man holding a post and another man and woman waiting to cross the street looking to their left.Hypothesis: The group of people wait to cross the road.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: People are walking down the street with vendors on the side on a beautiful, sunny day.Hypothesis: Peole are walking down the hilly road with food venders standing at the side of the road.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman bartender looks up at the camera with a smile while pouring a drink.Hypothesis: There is a women taking picturesAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A girl sits on a rock wall while looking at her cellphone.Hypothesis: The girl is sitting on a washing machineAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young boy, wearing a chef's hat and apron, is cutting sausages in a kitchen.Hypothesis: a girl is learning cosmetologyAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A crowd of people are standing around a yellow-suited musician.Hypothesis: A crowd of people are sitting.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two men dressed as Santa Clause performing in a park.Hypothesis: Some men are playing the part of Santa Claus.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An elderly gray-haired man standing before a storefront.Hypothesis: A young man gazes at an undeveloped lot.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A group of people protesting in a city.Hypothesis: There are several people fathered together.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A large crowd of people are seated outdoors.Hypothesis: The large crowd is sitting outside.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A dog running with something in its mouthHypothesis: A dog is running.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A group of people sitting at stadium desks with headphones on with their hands raised.Hypothesis: People are talking on phones at the stadium.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A black and white dog holds the handle of a large red round toy in a fieldHypothesis: A dog jumps up to catch a blue frisbee in mid-air.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Five men, one wearing a white shirt standing on something, hanging up a picture of a child.Hypothesis: A man is hanging up a picture of a child.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: The people have paint on them.Hypothesis: The people are painting.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A bride and her bridesmaids are posing for a picture.Hypothesis: The groom and groomsmen are posing in the same photo.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: People sitting at a dining table raise their glasses in a toast.Hypothesis: People sitting at a dining table raise their glasses.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A crowd is watching a man surf.Hypothesis: The crowd is crying.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Some men are attending a meeting.Hypothesis: There are no men.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two little boys climbing into the gray van and the third little boy secure in his car set.Hypothesis: Three boys are with a gray van.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A person in a booth giving the peace sign while someone else is holding a map.Hypothesis: The person is in a booth, while someone is holding a map.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A little girl is touching a man's face while riding on his shoulders.Hypothesis: The child is touching an adult's head.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A group of men walk and hang onto ropes.Hypothesis: One man and one woman play tug of war with a ropeAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A father sitting on a couch while holding his baby daughter and his other daughter is smiling at the camera.Hypothesis: A father sitting on a couch while holding his daughter.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two dogs standing in the snow.Hypothesis: The two dogs are running around.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in a black hat holding a small device with his mouth open.Hypothesis: The man is holding the bat in both handsAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An audience of senior citizens in a room with lighted Christmas trees.Hypothesis: The senior citizens are outside.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A policeman looks at an advertisement in a windowHypothesis: The officer is reading the ad taped to the window.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A foreign store and hotel with streets that look run down with a kid in a bicycle sitting.Hypothesis: A kid in a foreign country sitting on a bike outdoors.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Large happy family walking down railroad tracks with two dogs in the winter.Hypothesis: The family is walking with two dogs.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Kid in yellow and shirtless kid tossing fabric in the air.Hypothesis: They are adults.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: The train is sitting at the train station with not too many passengers around.Hypothesis: A train is leaving the station without passengers.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A pair of athletes are in a kayak equipped with protective gear and oars, rowing down a rapid body of water in a blue and white kayak.Hypothesis: A woman eats a sausage.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A snowboarder goes down a short hill next to stairs.Hypothesis: dog chases birdAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A basketball player runs while dribbling the ball.Hypothesis: A player bounces a ball.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A large group of people standing around a sign for the Oxford Circus Station and many are reading some sort of newspaper.Hypothesis: They are all taking a nap.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Children and a few adults are playing in a water fountain on the ground.Hypothesis: The people are playing with water.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A female athlete ties the laces of one of her cleats on the field.Hypothesis: An athlete is preparing to dive into the pool.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: a black cow and a brown cow being chased by a dogHypothesis: The dog is chasing two lambs.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Multiple men trying to move a van in the snow.Hypothesis: Men are trying to push a vehicle during winter.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A graying dog is pushing a blue soccer ball downhill with his nose.Hypothesis: A dog swimming in a pool.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An elderly man is cooking hotdogs on a grill.Hypothesis: A woman is cooking a steak in a frying pan.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A group of people dancing.Hypothesis: The people are sleeping.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two young children are playing with a bubble-maker.Hypothesis: The children are playing with bubbles.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in a black shirt is walking in front of a billboard with an animated dinosaur on it.Hypothesis: The man is sitting at home playing jacksAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in an orange jacket playfully tosses a small girl into the air on an empty stretch of beach on an overcast day.Hypothesis: A man and a small girl together on a beachAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two men look excitedly at a cooked turkey!Hypothesis: The two men are about to cook the turkey.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A boy jumps from the top of a blue plastic slide.Hypothesis: A boy jumps from the top of a red plastic ladder.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A person canoeing on water with a black background.Hypothesis: the person is driving a cabAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two older women, one on a bicycle talking in front of a sign in a city with an older gentleman looking on.Hypothesis: A group of older people sit in a nursing home.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in red shirt is walking behind a couple and a girl with a white hat in the park.Hypothesis: A man wearing a blue shirt sitting at home watching his tv.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Couple overlooking a metal rail with water and a boat in the background.Hypothesis: There are people outdoors.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young Indian boy holding up two newspapers with a headline on \"Murder\".Hypothesis: indian boy holding a newspaper with a headline on \"murder\"Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A boy is sitting at a table writing in his notebook.Hypothesis: A girl is singing a song.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A girl looking through a large telescope on a school trip.Hypothesis: The girl is looking at something far away.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Well dressed man walks along a city street.Hypothesis: The man has a leather tongue.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A white dog running through the grass.Hypothesis: The black dog is sitting down.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A black-haired man and woman, probably a couple, are kissing on an escalator.Hypothesis: Two people kiss on an escalator.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two uniformed men having a conversation outside of a factory.Hypothesis: Two guys talk near a factory.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A skier is in the snow next to a red flag.Hypothesis: A person is in the snow next to a red flag.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two blond-haired woman are walking by the street in front of a large building.Hypothesis: The women are outside.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A group of people are attending a conference.Hypothesis: People are gathering for a meeting.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young girl with red-hair sits at a table with a red and white tablecloth.Hypothesis: The red-haired girl is leaning on the tableAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in a dark jacket works in a wood shop.Hypothesis: A man is indoors.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman rides a bike across the street while holding an umbrella.Hypothesis: The woman is walking on the street.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: One woman is sitting on a couch with a bottle in her hand while another is on the floor with a child looking at a computer.Hypothesis: One woman is sitting on furniture while another is on the floor with a kid who has his eyes closed in front of a compter.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two motorcycle cops are sitting in the street talking.Hypothesis: The cops are beating each other up.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A boy in a white shirt is looking through the glass at a little creature.Hypothesis: A large man is looking through the glass at a creature.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An audience at a live concert cheering on the band.Hypothesis: A crowd gets angry after a band is late to make the stage.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two people are in the water and splashing.Hypothesis: Two people are in the water.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: In a street in japan traditional and modern styles of clothing can both be seen.Hypothesis: people wear clothes in japanAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: The woman is preparing a sandwich for a customer.Hypothesis: The woman is by herself washing dishes.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A little boy with a moose sweater plays with a train set.Hypothesis: A child is playing with trains.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two jacketed men with double-barreled shotguns carry home prey that they have shot on a hunting trip on a muddy country road.Hypothesis: Two men are sleeping.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two men playing shoot a ball at the same time.Hypothesis: Two men sitting at work.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An off road vehicle driving through a mud puddle.Hypothesis: The vehicle is driving through the street.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A toddler in a white onesie is playing a video game at an arcade.Hypothesis: There is a toddler in a white onesie.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An artist painting standing in the street painting his scenery of a red and white building.Hypothesis: There is a clown laughing in a hotel room.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Some guys are playing sports together.Hypothesis: People play a game.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: a flagman holding a stop sing out on a country road with green trees and mailboxes.Hypothesis: The flagman is in a rural area.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman in a gray shirt and plaid shorts swings gleefully on a tire swing with trees in the background.Hypothesis: A woman slides down a ride at the water park.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two individuals are standing near a chalkboard.Hypothesis: Two people are sitting near a chalkboard.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A child steps up on a playground toy as arms reach for her.Hypothesis: A kid is on a playground.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in a white shirt with glasses is typing on his MacBook in front of a fashion ad with an attractive woman.Hypothesis: A man wearing a white shirt and glasses writing something on his Macbook directly in front of a fashion ad featuring an attractive woman wearing apperal.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Three children stand in front of their home.Hypothesis: They are outsideAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Little dog running through an obstacle course.Hypothesis: A cat is running through an obstacle course.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A bride and her bridesmaids are posing for a picture.Hypothesis: There are more than two people.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A rocking climbing mountain inside a building.Hypothesis: An outdoor rock climbing mountain.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman in a white sweater looks at three types of lamps in an art display, while a man with a shaved head looks on in shadow.Hypothesis: A woman is reading a book.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Police officers on horses stop by a group of boys.Hypothesis: Police officers went on a high speed car chase to catch the woman.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A baby shower was held for the new mother, there was a lovely cake in pink and white, and strawberries and punch for refreshments.Hypothesis: There was no baby shower for the mother because it turns out she was not pregnant.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A girl running along the beach.Hypothesis: The girl sits at the bar, waiting for her prince charming to buy her a drink.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: baseball player in black and gray uniform swinging at ball.Hypothesis: A baseball player swings a bat.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An older man wearing a black hat, tan jacket, and dark pants, sits in front of a lime green door.Hypothesis: An old man is sitting in front of a door.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A group of women, some with kids, wearing white t-shirts with number tags, are smiling as they are being photographed on the field.Hypothesis: A group of women with children, wearing t-shirts are having their pictures taken.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A Japanese couple in kimonos walk down the street on a rainy day.Hypothesis: Two people try on kimonos.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An older lady wearing a Tinkerbell jacket.Hypothesis: A woman is wearing a Mickey Mouse jacket.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Some young girls standing in a group some with their arms around each other.Hypothesis: The girls are sitting on the sofa.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A small black and white dog on a leash stands next to a gray and white cat on the sidewalk.Hypothesis: The animals are outsideAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A person in a white shirt with blue stripes is holding a large bucket shaped object on the head.Hypothesis: The person is wearing clothes.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in a blue and purple striped shirt and hat is walking past a brick building.Hypothesis: A man is sleeping.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A kid with a blue Mohawk is playing a violinHypothesis: A boy eats ice cream.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Asian woman wearing jeans and a tank top while playing an electric guitar inside a house.Hypothesis: a man is playing aucustic guitarAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman sits in a subway station.Hypothesis: the woman is at homeAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in an orange shirt enjoying drinks outdoors.Hypothesis: There is a man wearing an orange shirt.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Asian singer performs live jazz music in a nightclub.Hypothesis: Asian singer performs jazz live.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A small brown dog is playing with a fuzzy slipper.Hypothesis: A small dog is playing with a ball.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two brown horses pulling a sleigh through the snow.Hypothesis: Horses are standing in the snow.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man with gray hair and a plaid shirt is smoking a cigarette.Hypothesis: A man has gray hair.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young woman stands outside in the snow, wearing a jacket and a backpack, standing in snowshoes, while her black dog faces away from the camera.Hypothesis: The woman and her dog are enjoying the summer day.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two men wearing black t-shirts are sitting on the back of a truck.Hypothesis: Two men sit in the back of a truck.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young child is eating a meal out of a styrofoam container while he sits at a table next to a window.Hypothesis: Having been warned about throwing food at the other students, the young child was forced to eat his meal while sitting in the classroom closet.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in jeans and a white shirt is creating a sculpture.Hypothesis: The man is making a sculpture.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Men in hard hats and brightly colored shirts are on scaffolding next to a building.Hypothesis: Men stand next to a building.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A surfer is jumping a wave.Hypothesis: A surfer is carrying a surfboard away from the water.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: There is a man surfing at night.Hypothesis: A person on a surfboard in the evening.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Three young men wearing hooded sweatshirts, standing at a bench.Hypothesis: Three men are outside by a bench.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Young guy sitting on the curb in white t-shirt, dark shorts and sandals.Hypothesis: A young boy is swinging.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman in a white tank top is sitting net to water with a canvas in her lap.Hypothesis: boy eats friesAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A person staring at a wall that has a bike against it.Hypothesis: A person is looking at a wall.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two boys are walking down a tree lined dirt path.Hypothesis: The boys are walking on the path.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A crowd of people gather nearby to watch the parade.Hypothesis: A crowd watches a parade.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A little oriental girl glancing upward toward her right.Hypothesis: There is a small girl that has dark skin.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A boy wearing blue swim trunks is climbing on rocks with hotels on the beach in the distance.Hypothesis: The boy can see the hotels.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Women sitting on a bench.Hypothesis: Lady is shopping at store.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Eight tan children making faces in a treeHypothesis: Children are inside playing board games.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man with a black baseball cap, blue shorts, gloves and no shirt is standing atop a roof.Hypothesis: There is a man standing on the roof of his house.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A girl in a newspaper hat with a bow is unwrapping an item.Hypothesis: The girls are wadding up old newspapers at the campsite in order to build a bonfire for tonight.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An adult woman is signing a large petition directed toward a cause to help women.Hypothesis: A woman is holding a pen.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Guy drinking beverage outside of brightly lit basement.Hypothesis: the guy is at a bar.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two people stand in front of a building with graffiti that reads \"Boss Life\".Hypothesis: The building was burnt down due to arson.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two men wearing red caps are cooking and serving grilled food on a boat.Hypothesis: Two women are laying out on a boat.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A child, roughly ten years old, playing a video game on an old style computer.Hypothesis: The child is playing a video game.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman in a string bathing suit with a man on a boardwalk on a foggy day.Hypothesis: The woman and man are hanging out on a foggy day.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A carnival midway at night.Hypothesis: The carnival is almost over at night.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A dog playing with a sprinklerHypothesis: An animal playing with a sprinklerAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Six people casting their ballot in an election.Hypothesis: There is an election going onAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man dressed in gray laying on the floor in front of another person while reaching out his hand.Hypothesis: A man is lying on the floor.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Dad holding little girls hand while walking.Hypothesis: Dad is smoking.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A little girl in a pink outfit is looking straight ahead and holding a pair of binoculars on a stony trail.Hypothesis: A little girl is looking at confetti.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two modern buildings made of glass and stone accent the setting.Hypothesis: Two glass and stone buildings accent the environment.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A female volleyball team huddles up.Hypothesis: The zombie volleyball team is about to devour the other team.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man is swinging on a rope swing into a lake.Hypothesis: A man is swinging on a rope into a lakeAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Construction worker setting beams on building.Hypothesis: The construction team is building a new facility.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Four men are playing basketball with houses and trees in the background.Hypothesis: Guys are playing basketball outdoors.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Basketball player attempts to dunk the basketball while being surrounded by three members of the opposing team.Hypothesis: The player is trying to kick a field goal.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Asian guy with a red shirt and white shorts serving or attacking a badminton hit.Hypothesis: Man swinging a racket.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man singing while playing guitar with passion.Hypothesis: A man playing the drumsAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: a young boy wearing a gren shirt running on the beachHypothesis: The boy is running on the sand.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A little girl in a red dress is standing on a trail in the forest with a horse in the background.Hypothesis: a little girl is standing outsideAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A tattooed woman puts on a motorcycle helmet.Hypothesis: A woman puts on a jacket.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: man and a woman sitting in black chairs drinking.Hypothesis: Two women drinking.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Man with a blue shirt on sitting in a computer room with at least 13 monitors in front of him with several keyboards and phones with one microphone directly in front of his face.Hypothesis: A man with a blue shirt is sitting.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A child is jumping off of a small hill of snow.Hypothesis: A child is jumping.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A little boy crying on an old man's lap as the old man holds a present.Hypothesis: The little boy and his grandfather are at a carnival playing games.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An outdoor vendor with a table full of hats, dolls and jewelry.Hypothesis: A vendor with items.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman playing a giant game of chess.Hypothesis: The woman is playing football.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young boy, dressed in a karate gee and wearing a yellow belt, stands ready to defend himself inside a gym.Hypothesis: A boy is in a gym.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: a beautiful seaside scene with people on a dock and a large white building in the backgroundHypothesis: There are people indoors playing video games.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An adult is braiding the hair of a young schoolgirl who sitting in a wooden chair in front of a tent with a baby in her lap.Hypothesis: A young girl is making her baby sister laugh while her mother looks on.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Girl wearing blue shirt and black shorts plays trumped outside.Hypothesis: Girl plays outside.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A old man wearing red, white and bluish gray playing music on a stage using a cross-cut saw.Hypothesis: An old man is preforming music.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A skateboarder in gray clothes jumps over a boot in front of an apartment.Hypothesis: A skateboarder jumps over a boot.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Three dogs play with a red ball.Hypothesis: three cats sleep peacefuly in a boxAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Four people talking during a shopping trip.Hypothesis: Four people are asleep on the couch.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A group of women being served hors d'oeuvres at an affair.Hypothesis: There are hors d'oeuvers at the event.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Several people bathe in a lake.Hypothesis: people are dryAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A dog plays in the grass.Hypothesis: A dog is playing.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Three people in shorts, two shirtless are in front of an Asian storefront, one resting in a chair and the other two cleaning and watering.Hypothesis: The people are all inside of the store.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man, with a dog, holding a leash and a small bag.Hypothesis: A rabid stray dog is on the loose in front of a house.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A white lady in colorful dress drinking out of a glass.Hypothesis: A woman has a drink.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Person dressed in black and wearing a red helmet is riding a light blue small motorbike.Hypothesis: The person is atop a motorbike.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A blond woman is listening to headphones outside.Hypothesis: the cat eats the ratAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: a beautiful woman with angel wings juggles with her two mime-like partners on a sunny day.Hypothesis: A woman spins plates on a sunny day.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two people perform a song and dance for a crowd of spectators in a plaza.Hypothesis: a lot of people are outside.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two boys, one standing up, playing with sticks.Hypothesis: Two boys are near each other.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two people sit outside a building.Hypothesis: Two people are next to a structure.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: The woman in the black shirt and reddish skirt is getting a gift from the man with the white shirt, while a girl with a white sweater is looking eagerly at what the man is giving the woman, and are, presumably, in a party.Hypothesis: There are multiple people present.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man in blue jeans and blue shirt sits outside a building next to a man wearing gray slacks and a long-sleeved shirt.Hypothesis: The man is wearing jeans.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman wearing rubber gloves is kneeling on the ground next to a few round, colorful, Chinese lanterns.Hypothesis: The woman is running after the bus.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A teenage boy in a blue striped shirt is digging through hay.Hypothesis: A teenage boy playing video games.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Three people (two ladies and one man) sitting outdoors having an asian meal served on leaves.Hypothesis: A group of people are sitting outside eating.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A red race car speeds down the racetrack.Hypothesis: a red car going very fast on the roadAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Girl playing mini golf with flowers in the background.Hypothesis: A girl is playing a game of golf.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man and woman wearing sunglasses are window shopping.Hypothesis: Two people window shopping.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Little girl looking through a camera.Hypothesis: The girl has a camera.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: People walking past a construction site.Hypothesis: The people are riding in a helicopterAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man stands outside a blue building holding a white helmet.Hypothesis: A man stands outsideAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.Hypothesis: A woman in a hat is standing behind baskets of bread in the outdoors.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman in a red dress and blue shoes is helping up a man in a red shirt who is lying on the ground.Hypothesis: A woman helps a man.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Some people are having a barbecue.Hypothesis: The people are eating food made out of cooked sand.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man selling fruits and vegetables.Hypothesis: A man selling stuff.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Young man in is holding surfboard with young girl on surfboard, both in black attire with wave behind them.Hypothesis: The man is on the surfboard.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Four people standing in front of the house with some Meijer bags sitting on a table in front of one of the women.Hypothesis: There is a group of people next to a house.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A helicopter is flying behind a plane that is performing aerobatics.Hypothesis: Two vehicles flying.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A group of people are riding public transportation.Hypothesis: The people are outside using mass transit.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Kids playing cricket with pads onHypothesis: Some kids are wearing safety gear.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man is standing in front of a bar.Hypothesis: Two dogs are fighting.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A man wearing a red tie standing in front of a statue.Hypothesis: A homeless man leans against a statue.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: School children reading and listening in africa.Hypothesis: The children are at home eating a snack.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two elderly woman, both in long-sleeve jackets with white hair, holding hands near wall with graffiti.Hypothesis: Two women with white hair are eatingAnswer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Three handlers lead a string of 11 camels, each carrying a pair of riders, through shallow water on a beach.Hypothesis: 11 people are going on a camel ride on the beach.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An elderly Asian woman praying with offerings in hand.Hypothesis: The Asian woman is religious.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: White dog with dark markings jumping to catch an object.Hypothesis: A white dog is catching something in the air.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young girl with her face paint is painting a picture of her own.Hypothesis: An old woman paints her self-portrait.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Three people knee-deep muddy water are bent over while planting riceHypothesis: Three adults were planting a garden in a puddleAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: In this picture, there are two college girls studying.Hypothesis: Two girls are having a conversation.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: An elderly Asian woman wearing a red long-sleeved shirt and carrying a woven purse points to a man she is speaking to who is wearing a red light jacket and carrying a satchel.Hypothesis: An elderly Asian woman has a red long-sleeved shirt.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: The child enjoys going down the slide.Hypothesis: The child is sleeping in his bed, warm and comfortable.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two African Americans are together and one is wearing a cowboy hat while playing the guitar while the other is standing with sunglasses on.Hypothesis: A couple of black people are hanging out playing an instrument while the other has shades on his face.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman in a black dress and long hair is posing on a soccer field holding a soccer ball.Hypothesis: A man in a black dress and long hair is posing on a soccer field holding a soccer ball.Answer: no"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A young surfer waves to the camera while on the water.Hypothesis: A young surfer waves.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Two people washing dishes.Hypothesis: A couple of folks doing the dishes.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A woman with a chain around her neck leans before a small girl playing a game of Jenga while others watch on.Hypothesis: A small girl is playing jengaAnswer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: Many people walking, some are holding up signs.Hypothesis: A goup of people are moving along.Answer: yes"
+  },
+  {
+    "prompt": "Does the premise support the hypothesis? Answer yes or no.Premise: A child in a bright red jacket runs through a pile of hay.Hypothesis: A child runs through the pile of hay.Answer: yes"
+  }
+]

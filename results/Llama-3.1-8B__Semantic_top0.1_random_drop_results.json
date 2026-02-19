@@ -1,0 +1,1405 @@
+{
+  "label": "Llama-3.1-8B__Semantic_top0.1_random_drop",
+  "results": [
+    {
+      "delta_log_prob": -0.10253190994262695,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Some people in blue shirts are standing up at an even with big letters spelling out the word \"KRUNCH\". Hypothesis: The people are wearing blue. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 0
+    },
+    {
+      "delta_log_prob": -0.0026341676712036133,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man with a cigarette in his mouth is riding a motorcycle. Hypothesis: A man has a cigarette while riding a harley. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 1
+    },
+    {
+      "delta_log_prob": 0.13069307804107666,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A Mormon missionary walks his bicycle past a Metro sign. Hypothesis: The missionary is wearing a helmet. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " neutral",
+      "index": 2
+    },
+    {
+      "delta_log_prob": 0.06686806678771973,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: The little boy is wearing white shorts. Hypothesis: Boy has on white shirts. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 3
+    },
+    {
+      "delta_log_prob": -0.0809715986251831,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Woman running in jeans in a forest on a trail. Hypothesis: A woman is running in a forest. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 4
+    },
+    {
+      "delta_log_prob": -0.16445136070251465,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man is standing with his arms folded looking at something while the person behind him is jumping onto one of the two beds in the room. Hypothesis: There is only one bed in the room. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 5
+    },
+    {
+      "delta_log_prob": 0.3451698422431946,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A woman wearing a red and white apron is standing next to a wall with the number 333 written on it. Hypothesis: A man is standing next to a wall. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 6
+    },
+    {
+      "delta_log_prob": -0.11084222793579102,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A player kicks the soccer ball from the corner of the field. Hypothesis: a person playing a sport. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 7
+    },
+    {
+      "delta_log_prob": -0.011830687522888184,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A brunette man sitting next to a picnic table full of a smores ingredients. Hypothesis: man at picnic table Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 8
+    },
+    {
+      "delta_log_prob": -0.1852729320526123,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A little girl wearing a yellow dress moves frantically in front of a crowded baseball stadium. Hypothesis: Everything is calm at the stadium. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " contradiction",
+      "index": 9
+    },
+    {
+      "delta_log_prob": -0.0066013336181640625,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A girl looking through a large telescope on a school trip. Hypothesis: A boy tosses a telescope at a girl Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 10
+    },
+    {
+      "delta_log_prob": 0.027651429176330566,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A young man is participating in a competitive gun shooting event. Hypothesis: The young man is asleep at home. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " contradiction",
+      "index": 11
+    },
+    {
+      "delta_log_prob": -0.030069947242736816,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: 3 children wearing hats playing on a horse Hypothesis: 3 children wearing hats playing on a horse at the rodeo Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 12
+    },
+    {
+      "delta_log_prob": 0.09580838680267334,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A woman dressed in blue is walking down a street near a marketplace. Hypothesis: A woman is walking down the street on a sunny day. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 13
+    },
+    {
+      "delta_log_prob": 0.056355178356170654,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A girl and a boy walking on stones. Hypothesis: They are related. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 14
+    },
+    {
+      "delta_log_prob": -0.0976419448852539,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: The man sitting seems to be reading while waiting for the bus while the people in the background seem to blend in with the landscape. Hypothesis: Many other people are waiting for the bus. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 15
+    },
+    {
+      "delta_log_prob": -0.24964439868927002,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A married couple looking out, on the waterfront. Hypothesis: The people are outside. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 16
+    },
+    {
+      "delta_log_prob": 0.13919615745544434,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: There is a man working on a billboard. Hypothesis: The picture of a man on a billboard is displaying an expensive watch. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 17
+    },
+    {
+      "delta_log_prob": 0.13407528400421143,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A guy is playing with his beard. Hypothesis: A guy is playing a guitar with his ears. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " contradiction",
+      "index": 18
+    },
+    {
+      "delta_log_prob": -0.6943923234939575,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A dog walking into a lake with reeds in the background Hypothesis: A cat walking into a lake with reeds in the background Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " The",
+      "index": 19
+    },
+    {
+      "delta_log_prob": -0.03312814235687256,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A black and white dog swimming in clear water. Hypothesis: A dog is in the water. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 20
+    },
+    {
+      "delta_log_prob": 0.18057286739349365,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Two mothers are pushing baby strollers as the dogs run down. Hypothesis: The babies are in a crib sleeping Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 21
+    },
+    {
+      "delta_log_prob": -0.016025781631469727,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Five kids are on a yellow ride at the amusement park. Hypothesis: The kids are having fun on the ride. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 22
+    },
+    {
+      "delta_log_prob": 0.006693840026855469,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man in blue shorts and a t-shirt is slicing tomatoes on a dining table. Hypothesis: A woman cuts a pineapple on a coffee table. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 23
+    },
+    {
+      "delta_log_prob": -0.4257618188858032,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Two bird dogs competing for the kill. Hypothesis: Two dogs are hunting birds. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 24
+    },
+    {
+      "delta_log_prob": 0.0359649658203125,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Multiple men wearing cowboy hats. Hypothesis: The men have cowboy hats on their heads. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 25
+    },
+    {
+      "delta_log_prob": 0.1685163378715515,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: An inline skater in red pants and blue shirt skates between green cones. Hypothesis: A skater is skating between cones. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 26
+    },
+    {
+      "delta_log_prob": 0.03205132484436035,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A woman in blue standing in front of a racetrack with a saddled horse. Hypothesis: The jockey is with her horse. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 27
+    },
+    {
+      "delta_log_prob": 0.18602848052978516,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A young man is skateboarding on a cement block wall. Hypothesis: a young man is skateboarding Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 28
+    },
+    {
+      "delta_log_prob": -0.13536834716796875,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A group of produce buyers inspecting fresh produce. Hypothesis: The people are looking at tomatoes. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 29
+    },
+    {
+      "delta_log_prob": -0.0681619644165039,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man is shucking corn with his son. Hypothesis: Green vegetation is being pulled off the corn. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 30
+    },
+    {
+      "delta_log_prob": 0.35308146476745605,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: This man is doing a trick on a skateboard while in the air. Hypothesis: A man is skateboarding Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 31
+    },
+    {
+      "delta_log_prob": 0.09913551807403564,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Pushing a mower that is a bit too large for him, a young boy tries to cut some grass. Hypothesis: The small boy's farther made him mow the lawn. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 32
+    },
+    {
+      "delta_log_prob": 0.005462765693664551,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A young kid is walking very carefully. Hypothesis: A baby crawls across a carpet. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 33
+    },
+    {
+      "delta_log_prob": 0.21966779232025146,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A little boy holds a bat in the air waiting on the ball. Hypothesis: A little league baseball player is at bat. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 34
+    },
+    {
+      "delta_log_prob": 0.3347586393356323,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man in a hat and coat is talking on the phone next to a building with a sign that is in a foreign language. Hypothesis: New app translates speech from English to any language Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 35
+    },
+    {
+      "delta_log_prob": -0.49740123748779297,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A person wearing orange getting on a bicycle. Hypothesis: The person is walking away from the bicycle. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " contradiction",
+      "index": 36
+    },
+    {
+      "delta_log_prob": -0.05703079700469971,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A blond child is eating a blue cupcake. Hypothesis: A child is learning trigonometry. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 37
+    },
+    {
+      "delta_log_prob": -0.14038825035095215,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A woman is sitting on the sidewalk, sketching an image with chalk. Hypothesis: A woman draws her favorite picture on the sidewalk. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 38
+    },
+    {
+      "delta_log_prob": 0.15258800983428955,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Spices and other goods are being put in display in what appears to be a local village shop. Hypothesis: The spices are made from brick powder from Mars. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 39
+    },
+    {
+      "delta_log_prob": 0.10170280933380127,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: An African American singer dressed all in black is singing into a microphone. Hypothesis: At a concert an African american signer is dressed in all black singing through a microphone infront of a crowd Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 40
+    },
+    {
+      "delta_log_prob": 0.1761993169784546,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Construction workers are digging a ditch. Hypothesis: Construction workers removing soil. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 41
+    },
+    {
+      "delta_log_prob": -0.17378711700439453,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: People are watching a boy on a skateboard at the top of a skate ramp. Hypothesis: People are watching a boy on a skateboard at the top of a skate ramp before he attempts to break a world record. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 42
+    },
+    {
+      "delta_log_prob": 0.05569195747375488,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man with a beard and colored glasses playing with fire. Hypothesis: A man is sitting in front of a campfire. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 43
+    },
+    {
+      "delta_log_prob": 0.07148706912994385,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A little girl is smiling while holding a vacuum and an older male is holding a large drill. Hypothesis: The man is helping the girl fix the vacuum. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 44
+    },
+    {
+      "delta_log_prob": -0.19646787643432617,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Kids scale a wall as two other people watch. Hypothesis: Children are doing homework. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " contradiction",
+      "index": 45
+    },
+    {
+      "delta_log_prob": -0.08932673931121826,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A boy standing in water doing a kick. Hypothesis: A person is doing a kick in warm water Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 46
+    },
+    {
+      "delta_log_prob": -0.09041786193847656,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Two people walking down an alley. Hypothesis: There are two people in the back street. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 47
+    },
+    {
+      "delta_log_prob": 0.014093995094299316,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Two police officers are riding around on horses in the street. Hypothesis: The policeman's horses are sleeping in the stables. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 48
+    },
+    {
+      "delta_log_prob": -0.18142962455749512,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A woman in shorts shoveling snow. Hypothesis: Woman shoveling snow Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 49
+    },
+    {
+      "delta_log_prob": 0.11088716983795166,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Three people overlook a green valley. Hypothesis: Three people looking down at green grass outside. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 50
+    },
+    {
+      "delta_log_prob": 0.11795973777770996,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A woman wearing a white lab coat is holding her jar up with a white glove. Hypothesis: The woman is wearing a lab coat. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 51
+    },
+    {
+      "delta_log_prob": -0.031703948974609375,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Two draft horses, hitched to a covered wagon that looked as if it could hold a number of passengers, stood quietly as an older woman looked at an older man in the wagon. Hypothesis: The older couple ride horses down the dirt road. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 52
+    },
+    {
+      "delta_log_prob": 0.33330416679382324,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Person with a backpack in a field Hypothesis: A dog is wearing a backback. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 53
+    },
+    {
+      "delta_log_prob": -0.21375823020935059,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A person, wearing a costume with many flowers, is standing on the sidewalk trying to get the attention of people passing by. Hypothesis: a person seeks attention Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 54
+    },
+    {
+      "delta_log_prob": 0.10789275169372559,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A woman in a dark blue T-shirt is weaving a striped piece of material. Hypothesis: The woman is weaving together some clothing. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 55
+    },
+    {
+      "delta_log_prob": 0.028263330459594727,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Two men wearing working clothes are brushing the street near a trash receptacle Hypothesis: Men wearing cloths are brushing the street. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 56
+    },
+    {
+      "delta_log_prob": -0.34984540939331055,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A muzzled greyhound dog is running around a track. Hypothesis: A dog is moving around. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 57
+    },
+    {
+      "delta_log_prob": -0.32365143299102783,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A large group of men are listening to a man with glasses sitting at a table with a strange pattern. Hypothesis: A group of men listen to a man sitting at a table. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 58
+    },
+    {
+      "delta_log_prob": -0.8559302091598511,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Two brown dogs run together. Hypothesis: The dogs are related Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " The",
+      "index": 59
+    },
+    {
+      "delta_log_prob": 0.19868481159210205,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A woman sings and plays a small guitar and a drummer sits behind her playing maracas. Hypothesis: The woman and the drummer are in the same band. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 60
+    },
+    {
+      "delta_log_prob": -0.1576695442199707,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: The people dressed in all white are having a good time. Hypothesis: The people dressed in all white were sad. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " contradiction",
+      "index": 61
+    },
+    {
+      "delta_log_prob": 0.04165244102478027,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man is cooking what appears to be green beans in a grill basket on a grill with a yellow lab standing by him while someone takes a picture from above. Hypothesis: A man is about to grill a steak. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " neutral",
+      "index": 62
+    },
+    {
+      "delta_log_prob": 0.22631323337554932,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man on stage with a microphone in front of an audience. Hypothesis: the man can sing Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 63
+    },
+    {
+      "delta_log_prob": 0.2763727307319641,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man in green shorts is jumping to catch a frisbee as another man and woman run towards him. Hypothesis: They are playing frisbee football. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 64
+    },
+    {
+      "delta_log_prob": -0.19647252559661865,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: On a sidewalk, apparently in a shopping district somewhere in Asia, young women in high-heeled shoes have a discussion, while other shoppers walk by. Hypothesis: The women are outside of a shopping mall. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " neutral",
+      "index": 65
+    },
+    {
+      "delta_log_prob": -0.8472639322280884,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: The surfer in the black bodysuit rides a wave off the coast Hypothesis: The surfer is walking on the beach holding his surfboard. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " The",
+      "index": 66
+    },
+    {
+      "delta_log_prob": 0.07550221681594849,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Two men in light colored shirts and dark pants sit on a balcony conversing as a lone car passes below. Hypothesis: Two men discuss life's issues above a road. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 67
+    },
+    {
+      "delta_log_prob": 0.0716099739074707,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Three women look on as two men look at the tire of a bike. Hypothesis: Men are looking at a tire Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " neutral",
+      "index": 68
+    },
+    {
+      "delta_log_prob": 0.09394466876983643,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A woman in a cream jacket gazes at photographs. Hypothesis: A woman looks at photographs Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 69
+    },
+    {
+      "delta_log_prob": -0.036191701889038086,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A father and his son bonding. Hypothesis: A father and his son are playing catch. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 70
+    },
+    {
+      "delta_log_prob": -0.0030133724212646484,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Five adults and a child run opposite of the waves on the beach. Hypothesis: There are people playing. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 71
+    },
+    {
+      "delta_log_prob": 0.015778064727783203,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A foreign man is preparing an ethnic dish. Hypothesis: A man cooks. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 72
+    },
+    {
+      "delta_log_prob": 0.39649224281311035,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Two people play water volleyball in a pool. Hypothesis: There are five people playing in the pool. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 73
+    },
+    {
+      "delta_log_prob": 0.04779958724975586,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Two young boys dressed in shorts are looking for something. Hypothesis: Two young boys are on a hunt. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 74
+    },
+    {
+      "delta_log_prob": -0.15651953220367432,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A small girl is going up outside steps wearing a red dress, and there are bicycles on the other side of the railing. Hypothesis: A girl is going down steps. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 75
+    },
+    {
+      "delta_log_prob": 0.13288664817810059,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Three girls standing outside, one girl is crying. Hypothesis: Tears run down her face Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 76
+    },
+    {
+      "delta_log_prob": 0.30104172229766846,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: The man in the black sweater is standing next to a green bird in a birdcage. Hypothesis: The man likes birds. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 77
+    },
+    {
+      "delta_log_prob": -0.054837942123413086,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A skateboarder slides down a handrail. Hypothesis: A skateboarder is rollerblading on a handrail Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 78
+    },
+    {
+      "delta_log_prob": 0.06449496746063232,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A teen in a yellow shirt directs his team on a sports field. Hypothesis: A teen in a light yellow shirt directs his team. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 79
+    },
+    {
+      "delta_log_prob": 0.028163909912109375,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man wearing bathing trunks and a black cape is lurching forward at an angle. Hypothesis: A person is wearing a cape. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 80
+    },
+    {
+      "delta_log_prob": 0.028824210166931152,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A woman and her child wheeling a smaller child in a stroller on a brick path. Hypothesis: A woman and two children walk to the store. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 81
+    },
+    {
+      "delta_log_prob": -0.17290925979614258,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A boy sits on the grass near a geometric sculpture. Hypothesis: A boy is drawing a picture of the geometric sculpture. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 82
+    },
+    {
+      "delta_log_prob": 0.0532989501953125,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A child plays on the ground in a pile of leaves. Hypothesis: A blond girl is playing under the tree. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 83
+    },
+    {
+      "delta_log_prob": 0.03222191333770752,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: City workers are doing maintenance on a train track. Hypothesis: City workers are repairing a road. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 84
+    },
+    {
+      "delta_log_prob": -0.09084153175354004,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man smokes a cigarette on rocks by the beach. Hypothesis: A man is running from the cops. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 85
+    },
+    {
+      "delta_log_prob": 0.000800013542175293,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Four dark-haired men are sitting around a basket of fish while other men stand around them. Hypothesis: Four men stand around a pool table. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 86
+    },
+    {
+      "delta_log_prob": 0.0005382299423217773,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Two basketball players fighting over control of a ball. Hypothesis: they are playing basketball Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 87
+    },
+    {
+      "delta_log_prob": 0.04353213310241699,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A girl in black t-shirt and blue jeans walking on the pathway. Hypothesis: The girl is sitting and reading a book in the pathway. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 88
+    },
+    {
+      "delta_log_prob": 0.009991884231567383,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A motorcycle racer wearing Number 60 in a green uniform and helmet appears to slight lead the race against many other drivers as they go around a curve, but the others are close behind. Hypothesis: The motorcycle racer Number 60 is losing. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 89
+    },
+    {
+      "delta_log_prob": 0.06196868419647217,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A little child with a hat on lays on the grass amid a few scattered fallen leaves. Hypothesis: A child lays on her bed, looking at the ceiling. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 90
+    },
+    {
+      "delta_log_prob": 0.08950018882751465,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A black, brown, and white dog jumping over a pile of logs with trees in the background. Hypothesis: Dogs playing outside. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 91
+    },
+    {
+      "delta_log_prob": 0.18799889087677002,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Kids are always a pleasure to be around and to smile about. Hypothesis: kids are a pleasure Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 92
+    },
+    {
+      "delta_log_prob": -0.33765149116516113,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Ladies work in a field in front of palm trees. Hypothesis: A group of women are getting paid to work in a field. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 93
+    },
+    {
+      "delta_log_prob": 0.08298611640930176,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A quintet is posing for a photograph with their instruments- a cello, 3 violins and a clarinet. Hypothesis: People getting their picture taken. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 94
+    },
+    {
+      "delta_log_prob": 0.43672990798950195,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Three boys and there father working in a yard. Hypothesis: Four males are outside. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 95
+    },
+    {
+      "delta_log_prob": 0.07056927680969238,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A woman on a white horse chasing a bull. Hypothesis: A woman is sitting on a couch. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 96
+    },
+    {
+      "delta_log_prob": -0.09273457527160645,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A priest on the phone near some female military workers taking a break. Hypothesis: The person is not wearing a baseball hat. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 97
+    },
+    {
+      "delta_log_prob": 0.21739590167999268,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A little baby is playing with the nozzle of a vacuum cleaner. Hypothesis: A huge baby. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 98
+    },
+    {
+      "delta_log_prob": 0.11809647083282471,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A baby playing in a toy Hypothesis: A babies toy is new Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 99
+    },
+    {
+      "delta_log_prob": -0.20460617542266846,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A dark street scene shows a neon lights and a group of people dining while another group walks. Hypothesis: The group of people are watching tv Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 100
+    },
+    {
+      "delta_log_prob": -0.11787372827529907,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Local vendor in the city selling his product to city folk. Hypothesis: A vendor is manning his food cart. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 101
+    },
+    {
+      "delta_log_prob": -0.03875696659088135,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A brown dog runs in the woods with a serious look on its face. Hypothesis: The dog is looking for it's toy. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 102
+    },
+    {
+      "delta_log_prob": -0.22224628925323486,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Two boys are playing in the sand at a playground. Hypothesis: A girl is folding her clothes. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 103
+    },
+    {
+      "delta_log_prob": -0.2333669662475586,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A young girl in a green shirt and shorts out riding her bike past a very nice apartment building. Hypothesis: A man spray painting a nice building. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 104
+    },
+    {
+      "delta_log_prob": -0.21346652507781982,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Here is six gentlemen who are in a band, all are playing different instruments. Hypothesis: The gentlemen are in a band Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 105
+    },
+    {
+      "delta_log_prob": 0.29096341133117676,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A dark-haired man in a striped shirt records a video of a gray-haired man using a MacBook laptop. Hypothesis: There is a dark-haired man recording a gray-haired man for a school project. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 106
+    },
+    {
+      "delta_log_prob": -0.06284308433532715,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Little girl hugging and adorable cat Hypothesis: A person playing with a dog. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 107
+    },
+    {
+      "delta_log_prob": 0.23158681392669678,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Two older women are sitting in chairs talking to each other. Hypothesis: Nobody is sitting. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " contradiction",
+      "index": 108
+    },
+    {
+      "delta_log_prob": 0.3214324116706848,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man dressed in a sport coat, slacks and nice shoes, posing in a very busily-decorated room, while wearing a dark green mask that has large yellow monster teeth, a single orange eye, and completely covers his head. Hypothesis: There is a man posing at a costume party. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 109
+    },
+    {
+      "delta_log_prob": -0.22213661670684814,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Everyone is clapping in this office. Hypothesis: There are people in a workplace. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 110
+    },
+    {
+      "delta_log_prob": 0.2315119504928589,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man with glasses is reading a book in a mall. Hypothesis: A man reading Oliver Twist in the mall. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 111
+    },
+    {
+      "delta_log_prob": 0.10510790348052979,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Two men are riding in a big yellow truck. Hypothesis: A little boy is playing with a toy boat. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 112
+    },
+    {
+      "delta_log_prob": 0.3434809446334839,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A blond woman, who is smoking, and a brunette woman are conversing outside a building. Hypothesis: The women are at the movies. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 113
+    },
+    {
+      "delta_log_prob": 0.04222452640533447,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: People wearing life jackets jumping into or looking at the river. Hypothesis: People are standing on the beach. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 114
+    },
+    {
+      "delta_log_prob": 0.15140223503112793,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man in an orange raincoat is discussing something with another man wearing work clothes near a sewer manhole. Hypothesis: It is raining outside. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 115
+    },
+    {
+      "delta_log_prob": 0.3026140332221985,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A female athlete playing volleyball on the beach. Hypothesis: The Olympic women's volleyball team practices. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 116
+    },
+    {
+      "delta_log_prob": 0.0236968994140625,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: a chinese motorcyclist smokes a cigarette in traffic. Hypothesis: A motorcyclist smokes while riding in traffic. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 117
+    },
+    {
+      "delta_log_prob": 0.03965330123901367,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A guy in a costume, a crowd watching him. Hypothesis: The costumed man is the center of attention. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 118
+    },
+    {
+      "delta_log_prob": 0.02757859230041504,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Lady with sunglasses looks up, while man on her left consults a map Hypothesis: The lost couple tried to find their way home with the map. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 119
+    },
+    {
+      "delta_log_prob": -1.3158518075942993,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A baseball player wearing number 37 is standing in the batter's box with the bat on his shoulder. Hypothesis: The player is wearing number 42. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " The",
+      "index": 120
+    },
+    {
+      "delta_log_prob": 0.03567361831665039,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A Jewish man wearing glasses, button up long blue shirt getting desserts on the table Hypothesis: The man is getting appetizers. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 121
+    },
+    {
+      "delta_log_prob": -0.24650084972381592,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Two women sit at a bench in a small park, one in a blue dress, the other in a white dress Hypothesis: Two females outdoors watching a concert. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 122
+    },
+    {
+      "delta_log_prob": 0.090201735496521,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A pastor on a cellphone in front of a stone building with five officers wearing green uniforms; two are standing while the others are seated. Hypothesis: The man is about to be arrested. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 123
+    },
+    {
+      "delta_log_prob": -0.07694125175476074,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Two African American men wearing vests, as one African American man wearing a blue shirt with an emblem direct people or machinery. Hypothesis: They are working in a box factory. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 124
+    },
+    {
+      "delta_log_prob": -0.10373210906982422,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A young boy smiling runs past a gun toting soldier in the background. Hypothesis: A happy boy is running outside in a war zone. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 125
+    },
+    {
+      "delta_log_prob": 0.405389666557312,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A little boy swims underwater. Hypothesis: A boy floats on top of water. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 126
+    },
+    {
+      "delta_log_prob": 0.03678286075592041,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: woman with blue gloves working on the sidewalk with some cleaner Hypothesis: man with blue gloves working on the sidewalk with some cleaner Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 127
+    },
+    {
+      "delta_log_prob": -0.0027191638946533203,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A young woman being photographed by multiple people in the middle of the road. Hypothesis: A human being photographed Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 128
+    },
+    {
+      "delta_log_prob": -0.18573307991027832,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man in a white shirt and black pants is walking next to a parked blue bus. Hypothesis: A man is walking outdoors. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 129
+    },
+    {
+      "delta_log_prob": -0.08721721172332764,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A dog running toward the camera with a man in the background Hypothesis: A cat is walking. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " The",
+      "index": 130
+    },
+    {
+      "delta_log_prob": -0.006412625312805176,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man and a woman dance happily. Hypothesis: The couple are dancing in the ballroom. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 131
+    },
+    {
+      "delta_log_prob": -0.09095823764801025,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A woman wearing a headscarf is working with her hands. Hypothesis: A lady is wearing a kerchief on her head and is watching TV. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 132
+    },
+    {
+      "delta_log_prob": -0.03091907501220703,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: The young people party in the streets. Hypothesis: The young people are dead. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " contradiction",
+      "index": 133
+    },
+    {
+      "delta_log_prob": -0.04863786697387695,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A little boy in a blue shirt kicking a soccer ball around. Hypothesis: A boy playing sports Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 134
+    },
+    {
+      "delta_log_prob": 0.05356872081756592,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man who is smoking, wearing a yellow safety vest, is doing landscape work. Hypothesis: A man is doing landscape work to support his kite hobby. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 135
+    },
+    {
+      "delta_log_prob": 0.013180017471313477,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A woman in jeans bowling in a classic looking bowling alley. Hypothesis: A woman was fighting. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 136
+    },
+    {
+      "delta_log_prob": -0.243738055229187,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man in a orange shirt and green hat playing drum jumping up is the air. Hypothesis: This man plays music. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 137
+    },
+    {
+      "delta_log_prob": -0.022922396659851074,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A woman in a red sweater and a girl is in front of a girl in a green hoodie& a girl with a brown jacket and pink purse. Hypothesis: There is a man in a green t-shirt and a boy is in front of another boy. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 138
+    },
+    {
+      "delta_log_prob": -0.051637887954711914,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Several cyclists wearing different colors riding bikes on pavement. Hypothesis: People are playing hockey in the park. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 139
+    },
+    {
+      "delta_log_prob": 0.03632616996765137,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Three jockeys mounted on horses ride in race. Hypothesis: Horses are running toward the finish line. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 140
+    },
+    {
+      "delta_log_prob": 0.055846571922302246,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: man sitting on the ground with his child and a stroller Hypothesis: A man is nearby a stroller. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 141
+    },
+    {
+      "delta_log_prob": 0.08508145809173584,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Two tired-looking men relax on a couch near a wooden trestle table with a coffee cup on it. Hypothesis: The men are water skiing. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 142
+    },
+    {
+      "delta_log_prob": 0.06172037124633789,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A woman with short brown hair is wiping a railing with a yellow towel. Hypothesis: A woman is bathing in a bath tub with a blue towel. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 143
+    },
+    {
+      "delta_log_prob": -0.23695331811904907,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: a man bouncing on trampoline. Hypothesis: A man is moving up and down. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 144
+    },
+    {
+      "delta_log_prob": 0.12064838409423828,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Pale woman holding umbrella over her and a man. Hypothesis: Two people are sun bathing. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 145
+    },
+    {
+      "delta_log_prob": -0.0907895565032959,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Girl in blue jacket holding a baby in overalls. Hypothesis: A young girl is holding her new sibling Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 146
+    },
+    {
+      "delta_log_prob": 0.452451229095459,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man pushes a miniature train engine which a little boy, possibly his son, is riding down a track at a park of some sort. Hypothesis: a father and son play with the train Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 147
+    },
+    {
+      "delta_log_prob": -0.149552583694458,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: two boys stand at a blue table fill out a form. Hypothesis: Two boys filling out a form. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 148
+    },
+    {
+      "delta_log_prob": -0.059605956077575684,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Festival-goers have a fun time with their children Hypothesis: The concert was closed. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 149
+    },
+    {
+      "delta_log_prob": 0.16799676418304443,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: The small brown dog is running through the grass with a yellow ball in its mouth. Hypothesis: The small dog runs down a grassy hill. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 150
+    },
+    {
+      "delta_log_prob": -0.42420172691345215,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A child walks in the ocean. Hypothesis: A child in the ocean. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 151
+    },
+    {
+      "delta_log_prob": -0.23337364196777344,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man in a red jacket is snowboarding near a forest. Hypothesis: The man took his girlfriend snowboarding. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 152
+    },
+    {
+      "delta_log_prob": -0.14919590950012207,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Younger man in a yellow shirt and tan shorts is moving a dry yard or field with a riding John Deere tractor mover. Hypothesis: the young man sweated in a field Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 153
+    },
+    {
+      "delta_log_prob": -0.042275071144104004,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A woman bends down to the ground and smiles. Hypothesis: A woman smiles at her daughter on the ground. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 154
+    },
+    {
+      "delta_log_prob": -0.12685835361480713,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Four women are playing beach volleyball with an ad for London 2012 in the background. Hypothesis: The four women are having fun. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 155
+    },
+    {
+      "delta_log_prob": -0.04777359962463379,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A blond man with a leather jacket playing a guitar and singing. Hypothesis: A man is singing and playing guitar to a Beatles song. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 156
+    },
+    {
+      "delta_log_prob": -0.09071224927902222,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A big man in a black t-shirt is holding onto a beer with one hand and a microphone with the other. Hypothesis: A big man in a black t-shirt is holding a beer and a microphone. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 157
+    },
+    {
+      "delta_log_prob": 0.09081315994262695,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A construction vehicle on a hill of dirt. Hypothesis: A construction vehicle parked next to a school bus. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 158
+    },
+    {
+      "delta_log_prob": 0.2256922721862793,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man with dreadlocks is talking on a cellular phone. Hypothesis: The man is emailing on his phone. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " contradiction",
+      "index": 159
+    },
+    {
+      "delta_log_prob": -0.03906846046447754,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A group of women in orange bathing suits and sarongs. Hypothesis: a group in bathing suits Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 160
+    },
+    {
+      "delta_log_prob": 0.1363610029220581,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Group of about 40 people in a hotel meeting room. Hypothesis: All the people are men. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " contradiction",
+      "index": 161
+    },
+    {
+      "delta_log_prob": -0.07864773273468018,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A wedding couple are being photographed on a street corner amongst passersby and traffic. Hypothesis: A boxing couple are being photographed on a street corner amongst passersby and traffic. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 162
+    },
+    {
+      "delta_log_prob": 0.07311636209487915,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: There is a little boy in a red jacket walking down the railroad tracks and holding a stick. Hypothesis: A little boy is walking down the railroad track with a stick in his hand. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 163
+    },
+    {
+      "delta_log_prob": 0.2703949809074402,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A chubby, redheaded child swings a bat at a ball on a tee. Hypothesis: A child is swinging a bat. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 164
+    },
+    {
+      "delta_log_prob": -0.017856597900390625,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A young man is taking a self-portrait of his reflected image with a medium format camera while standing on an escalator. Hypothesis: A boy brushes his teeth in a bathroom. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 165
+    },
+    {
+      "delta_log_prob": 0.06541121006011963,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A woman watches as her bowling ball rolls down the lane toward pins. Hypothesis: The woman is winning the game. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 166
+    },
+    {
+      "delta_log_prob": 0.20687103271484375,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Three dogs wrestle in the grass. Hypothesis: Worms play pinochle. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 167
+    },
+    {
+      "delta_log_prob": 0.09514009952545166,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A group of people looking at sound equipment. Hypothesis: They look to see how the sound equipment is installed. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 168
+    },
+    {
+      "delta_log_prob": -0.041359782218933105,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Brunette woman in a pink tank top with sunglasses is laughing while holding a cup. Hypothesis: A woman heard a funny joke. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 169
+    },
+    {
+      "delta_log_prob": -0.22951948642730713,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: An older man in a red t-shirt and khaki shorts is waving to the crowd at a parade while driving an antique Ford vehicle. Hypothesis: A man is the director of the parade. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 170
+    },
+    {
+      "delta_log_prob": 0.1652715802192688,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: An adult and a child, both wearing hats, are outside, looking at a black and white rooster in a cage. Hypothesis: There are people looking at an animal. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 171
+    },
+    {
+      "delta_log_prob": 0.15037596225738525,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A girl is walking a horse across a paved suburban street. Hypothesis: A girl is with an animal outside. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 172
+    },
+    {
+      "delta_log_prob": 0.18325769901275635,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Young adults are seated at a restaurant table, smiling. Hypothesis: Young teenage boys sitting at a restaurant table waiting for their food. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 173
+    },
+    {
+      "delta_log_prob": -0.10314357280731201,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A grocery store worker is pushing several baskets at once. Hypothesis: The person works at the grocery store. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 174
+    },
+    {
+      "delta_log_prob": 0.016306281089782715,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A woman wearing a blue and yellow bodysuit is riding a yellow bicycle. Hypothesis: The woman likes the color yellow. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 175
+    },
+    {
+      "delta_log_prob": -0.3441469669342041,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man with a pierced eyebrow is looking at a laptop screen, while a cat is in the background. Hypothesis: The cat is burying the man in the back yard. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " contradiction",
+      "index": 176
+    },
+    {
+      "delta_log_prob": 0.2057180404663086,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A person riding a large unicycle. Hypothesis: A unicycle perfomance for entertainment Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 177
+    },
+    {
+      "delta_log_prob": -0.0720641016960144,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A girl standing in a skirt and black shoes. Hypothesis: A girl dressed in a skirt. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 178
+    },
+    {
+      "delta_log_prob": -0.050984859466552734,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: The family approached the water with their boat before as storm was coming in. Hypothesis: The family was scared Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 179
+    },
+    {
+      "delta_log_prob": 0.11521244049072266,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: a woman wearing black stands in front of a pickup truck. Hypothesis: a woman stands in front of a truck Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 180
+    },
+    {
+      "delta_log_prob": 0.02214205265045166,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Dog jumps over a man and catches a Frisbee in his mouth. Hypothesis: A dog in the air. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 181
+    },
+    {
+      "delta_log_prob": 0.005038857460021973,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A skateboarder doing a jump near some apartment buildings. Hypothesis: Someone is on the skateboard. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 182
+    },
+    {
+      "delta_log_prob": -0.04684650897979736,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: baseball player grabbing ball in his glove Hypothesis: Baseball player tries to turn a double play. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 183
+    },
+    {
+      "delta_log_prob": -0.34381043910980225,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: People walk along a sandy beach on a clear day. Hypothesis: One man stands in a city. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " neutral",
+      "index": 184
+    },
+    {
+      "delta_log_prob": 0.23563063144683838,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Two women with dark hair play chess at a table while standing. Hypothesis: The two women are playing a game. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 185
+    },
+    {
+      "delta_log_prob": -0.22420287132263184,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A woman wearing a hooded jacket over a striped sweater is rollerskating with other people. Hypothesis: A woman is rollerskating. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 186
+    },
+    {
+      "delta_log_prob": -0.1759355068206787,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Several people stand outside of a theater, while there is an advertisement sign with a man and woman in the foreground. Hypothesis: The people stood outside the theater. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 187
+    },
+    {
+      "delta_log_prob": -0.01259303092956543,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A police officer is talking to several men on a busy city street. Hypothesis: cop talks to people Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 188
+    },
+    {
+      "delta_log_prob": 0.13672113418579102,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A bird perches in an empty window frame. Hypothesis: A bird gazes into an empty home Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 189
+    },
+    {
+      "delta_log_prob": 0.1549292802810669,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: The cylinder's pattern could be described as red chevron. Hypothesis: The cylinder is part of a piping system. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 190
+    },
+    {
+      "delta_log_prob": -0.04882252216339111,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Girls in the aftermath of a rainstorm continue on their way. Hypothesis: Girls hitchhiking . Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " neutral",
+      "index": 191
+    },
+    {
+      "delta_log_prob": 0.028147459030151367,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A man is walking a white dog on a leash in a park setting. Hypothesis: A dog is wandering looking for it's owner. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " entail",
+      "index": 192
+    },
+    {
+      "delta_log_prob": -0.6135059595108032,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A dog is running on a pathway. Hypothesis: The dog is standing still on the path. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " contradiction",
+      "index": 193
+    },
+    {
+      "delta_log_prob": -0.27594316005706787,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A girl going into a wooden building. Hypothesis: Lisa is going to church. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 194
+    },
+    {
+      "delta_log_prob": 0.04260885715484619,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A spotted dog stands on his hind legs to catch a ball on the beach. Hypothesis: On the beach a dog play the ball. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 195
+    },
+    {
+      "delta_log_prob": 0.20786052942276,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: A person with a helmet on is airborne and upside down on a mechanized device for traveling on water Hypothesis:  A person with a metal helmet. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: neutral",
+      "true_token": " neutral",
+      "predicted_token": " entail",
+      "index": 196
+    },
+    {
+      "delta_log_prob": -0.20591044425964355,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Three women smiling and sitting down. Hypothesis: 3 people smile and sit down Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 197
+    },
+    {
+      "delta_log_prob": 0.022721052169799805,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: Two men and a young lady with red hair play Wii together in the living room on a black leather sofa. Hypothesis: No one is playing video games. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: contradiction",
+      "true_token": " contradiction",
+      "predicted_token": " contradiction",
+      "index": 198
+    },
+    {
+      "delta_log_prob": 0.18959486484527588,
+      "prompt": "Task: Determine the relationship between the premise and hypothesis. Answer with exactly one word: entailment, neutral, or contradiction.\n\nPremise: People standing outside of an Irish Pub. Hypothesis: People are standing outside a pub. Options:\n- entailment\n- neutral\n- contradiction\n\nAnswer: entail",
+      "true_token": " entail",
+      "predicted_token": " entail",
+      "index": 199
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "Llama-3.1-8B__Semantic_top0.1": {
+    "avg_abs_delta": 0.17206283748149873,
+    "variance_abs_delta": 0.02938584683985975
+  },
+  "Llama-3.1-8B__Semantic_top0.1_random_drop": {
+    "avg_abs_delta": 0.1511595806479454,
+    "variance_abs_delta": 0.026047162823313316
+  },
+  "Llama-3.1-8B__Semantic_top0.3": {
+    "avg_abs_delta": 0.3497024467587471,
+    "variance_abs_delta": 0.08419903881782777
+  },
+  "Llama-3.1-8B__Semantic_top0.3_random_drop": {
+    "avg_abs_delta": 0.33457677394151686,
+    "variance_abs_delta": 0.08251846052659617
+  },
+  "Llama-3.2-3B__Semantic_lambada_top0.1": {
+    "avg_delta": -6.770933061023946,
+    "variance_delta": 18.357257047420152,
+    "sem_delta": 0.24736785729907154,
+    "accuracy": 0.7266666666666667,
+    "num_correct": 218,
+    "total": 300
+  },
+  "Llama-3.2-3B__Semantic_lambada_top0.1_random_drop": {
+    "avg_delta": -1.0474781222805662,
+    "variance_delta": 4.03637057381111,
+    "sem_delta": 0.11599382991939858,
+    "accuracy": 0.7266666666666667,
+    "num_correct": 218,
+    "total": 300
+  },
+  "Llama-3.2-3B__Semantic_lambada_top0.05": {
+    "avg_delta": -5.050682817022244,
+    "variance_delta": 18.781682516485066,
+    "sem_delta": 0.25021112762681746,
+    "accuracy": 0.7266666666666667,
+    "num_correct": 218,
+    "total": 300
+  },
+  "Llama-3.2-3B__Semantic_lambada_top0.05_random_drop": {
+    "avg_delta": -0.7153351659367764,
+    "variance_delta": 3.5358738100877654,
+    "sem_delta": 0.10856447869181653,
+    "accuracy": 0.7266666666666667,
+    "num_correct": 218,
+    "total": 300
+  },
+  "Llama-3.2-3B__gradient_x_input_lambada_top0.1": {
+    "avg_delta": -6.770933061023946,
+    "variance_delta": 18.357257047420152,
+    "sem_delta": 0.24736785729907154,
+    "accuracy": 0.7266666666666667,
+    "num_correct": 218,
+    "total": 300
+  },
+  "Llama-3.2-3B__Semantic_lambada_top0.2": {
+    "avg_delta": -9.158013791943983,
+    "variance_delta": 15.85921771164982,
+    "sem_delta": 0.22992185420014496,
+    "accuracy": 0.7266666666666667,
+    "num_correct": 218,
+    "total": 300
+  },
+  "Llama-3.2-3B__gradient_x_input_lambada_top0.2": {
+    "avg_delta": -9.158013791943983,
+    "variance_delta": 15.85921771164982,
+    "sem_delta": 0.22992185420014496,
+    "accuracy": 0.7266666666666667,
+    "num_correct": 218,
+    "total": 300
+  },
+  "Llama-3.2-3B__gradient_x_input_lambada_top0.2_random_drop": {
+    "avg_delta": -2.8198629235700596,
+    "variance_delta": 12.258253474266638,
+    "sem_delta": 0.20214065626247016,
+    "accuracy": 0.7266666666666667,
+    "num_correct": 218,
+    "total": 300
+  },
+  "Llama-3.2-3B__gradient_x_input_lambada_top0.05": {
+    "avg_delta": -5.050682817022244,
+    "variance_delta": 18.781682516485066,
+    "sem_delta": 0.25021112762681746,
+    "accuracy": 0.7266666666666667,
+    "num_correct": 218,
+    "total": 300
+  },
+  "Llama-3.2-3B__Temperature_lambada_top0.2": {
+    "avg_delta": -8.917730709220365,
+    "variance_delta": 18.778133247711857,
+    "sem_delta": 0.2501874846837324,
+    "accuracy": 0.7266666666666667,
+    "num_correct": 218,
+    "total": 300
+  },
+  "Llama-3.2-3B__Temperature_lambada_top0.1": {
+    "avg_delta": -6.823025128436978,
+    "variance_delta": 18.421228644636294,
+    "sem_delta": 0.24779849773983895,
+    "accuracy": 0.7266666666666667,
+    "num_correct": 218,
+    "total": 300
+  },
+  "Llama-3.2-1B__Temperature_lambada_loo_rank": {
+    "mean_rank": 5.26,
+    "mean_ranking_pct": 6.458450233755067,
+    "sem_mean_ranking_pct": 1.0879464415621278,
+    "n_with_rank": 100,
+    "total": 100,
+    "within_top5_pct_count": 71,
+    "fraction_within_top5_pct": 0.71
+  },
+  "Llama-3.2-1B__Semantic_lambada_loo_rank": {
+    "mean_rank": 5.68,
+    "mean_ranking_pct": 7.030612070875371,
+    "sem_mean_ranking_pct": 1.1846990612721202,
+    "n_with_rank": 100,
+    "total": 100,
+    "within_top5_pct_count": 69,
+    "fraction_within_top5_pct": 0.69
+  },
+  "Llama-3.2-3B__Temperature_lambada_top0.05": {
+    "avg_delta": -4.954151991901381,
+    "variance_delta": 20.151339942445283,
+    "sem_delta": 0.2591739437935154,
+    "accuracy": 0.7266666666666667,
+    "num_correct": 218,
+    "total": 300
+  },
+  "Llama-3.2-1B__Random_lambada_loo_rank": {
+    "mean_rank": 40.72,
+    "mean_ranking_pct": 51.256406822926245,
+    "sem_mean_ranking_pct": 2.854745429212116,
+    "n_with_rank": 100,
+    "total": 100,
+    "within_top5_pct_count": 3,
+    "fraction_within_top5_pct": 0.03
+  },
+  "Llama-3.2-1B__gradient_x_input_lambada_loo_rank": {
+    "mean_rank": 5.48,
+    "mean_ranking_pct": 6.750874006471077,
+    "sem_mean_ranking_pct": 1.1655999569632969,
+    "n_with_rank": 100,
+    "total": 100,
+    "within_top5_pct_count": 69,
+    "fraction_within_top5_pct": 0.69
+  }
+}
