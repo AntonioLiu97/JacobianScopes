@@ -45,9 +45,16 @@ def customize_forward_pass(model, residual, presence, input_ids, grad_idx, atten
         base_embeds = F.embedding(input_ids_to_dev, embedding_layer.weight) 
         # base_embeds = embedding_layer(input_ids.to(embedding_layer.weight.device))
         
-    def build_inputs():
+    def build_inputs(residual_override=None, residual_batch=None):
+        """residual_override: [n_tokens, d] for single. residual_batch: [B, n_tokens, d] for batched (e.g. finite-diff JVP)."""
+        if residual_batch is not None:
+            B = residual_batch.shape[0]
+            embeds = base_embeds.expand(B, -1, -1).clone()
+            embeds[:, grad_idx, :] += residual_batch
+            return embeds
+        r = residual if residual_override is None else residual_override
         embeds = base_embeds.clone()
-        embeds[0, grad_idx, :] += residual
+        embeds[0, grad_idx, :] += r
         return embeds
 
     def compute_logits(hidden, built_input_embeds):
@@ -64,24 +71,32 @@ def customize_forward_pass(model, residual, presence, input_ids, grad_idx, atten
         return logits
 
 
-    def forward_pass(loss_position='all', hidden_norm_as_loss=False, unnormalized_logits=False, projection_probe=None,tie_input_output_embed = False, return_input_embeds = False, alpha=1):
-        embeds = build_inputs()
+    def forward_pass(loss_position='all', hidden_norm_as_loss=False, unnormalized_logits=False, projection_probe=None,tie_input_output_embed = False, return_input_embeds = False, alpha=1, residual_override=None, residual_batch=None, return_hidden=False):
+        embeds = build_inputs(residual_override=residual_override, residual_batch=residual_batch)
         input_embeds = embeds
-        # input_embeds[0, grad_idx, :] *= presence
-        input_embeds[0, :, :] *= presence
-        input_embeds[0, :, :] *= alpha
-        
-        # input_normalized = input_embeds[0, grad_idx, :] / input_embeds[0, grad_idx, :].norm(dim=-1, keepdim=True)
-        # print("norms: ", input_embeds.norm(dim=-1, keepdim=True))
-        
-        # input_embeds[0, grad_idx, :] += presence * input_normalized
+        batched = residual_batch is not None
+        if batched:
+            input_embeds = input_embeds * presence.unsqueeze(0)
+            input_embeds = input_embeds * alpha
+            attn = attention_mask.expand(input_embeds.shape[0], -1)
+        else:
+            input_embeds[0, :, :] *= presence
+            input_embeds[0, :, :] *= alpha
+            attn = attention_mask
         
         out = model.model(inputs_embeds=input_embeds,
-                        attention_mask=attention_mask,
+                        attention_mask=attn,
                         use_cache=False)
 
-        hidden = out.last_hidden_state       # [1, L, d]
+        hidden = out.last_hidden_state       # [1, L, d] or [B, L, d]
         # print("hidden", hidden.shape)
+
+        if return_hidden and loss_position != 'all':
+            if not torch.is_tensor(loss_position):
+                lp = torch.tensor(loss_position, device=hidden.device)
+            else:
+                lp = loss_position.to(hidden.device)
+            return hidden[0, lp, :] if not batched else hidden[:, lp, :]
 
         if tie_input_output_embed:
             readout_embeds = embeds            
