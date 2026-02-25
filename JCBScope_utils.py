@@ -1,5 +1,6 @@
-import torch            
-from transformers import AutoModelForCausalLM, AutoTokenizer  
+import torch
+import torch.nn.functional as F
+from transformers import AutoModelForCausalLM, AutoTokenizer
 from torch import nn
 
 def get_lm_head(model):
@@ -9,6 +10,16 @@ def get_lm_head(model):
         return model.embed_out
     else:
         raise ValueError(f"Unsupported model architecture: {type(model)}")
+
+def embedding_lookup(indices, embedding_layer):
+    """
+    Look up embeddings at given indices. Uses F.embedding directly to avoid
+    Accelerate hook device mismatches when using device_map="auto".
+    """
+    w_device = embedding_layer.weight.device
+    indices = indices.to(w_device) if indices.device != w_device else indices
+    return F.embedding(indices, embedding_layer.weight)
+
 
 def get_input_embeddings(model):
     if hasattr(model, 'get_input_embeddings'):
@@ -24,34 +35,32 @@ def customize_forward_pass(model, residual, presence, input_ids, grad_idx, atten
     lm_head = get_lm_head(model)
     embedding_layer = model.get_input_embeddings()
     vocab_embed = embedding_layer.weight
-    
+    embed_device = embedding_layer.weight.device
+    residual = residual.to(embed_device)
+    presence = presence.to(embed_device) 
+
     with torch.no_grad():
-        input_ids_to_dev = input_ids.to(embedding_layer.weight.device)
-        base_embeds = embedding_layer(input_ids_to_dev) 
+        input_ids_to_dev = input_ids.to(embed_device)
+        # Use F.embedding directly to bypass Accelerate hooks that can move inputs to the wrong device
+        base_embeds = F.embedding(input_ids_to_dev, embedding_layer.weight) 
         # base_embeds = embedding_layer(input_ids.to(embedding_layer.weight.device))
         
-    def build_inputs():                    
+    def build_inputs():
         embeds = base_embeds.clone()
-        # add residuals at masked positions
-        embeds[0, grad_idx, :] += residual           
+        embeds[0, grad_idx, :] += residual
         return embeds
 
     def compute_logits(hidden, built_input_embeds):
         """
             Modify logit of target token to use updated embedding for prediction
         """
-        
         L = built_input_embeds.size(1)
-        # lm_head = vocab_embed.clone()      
-        # logits = hidden[0,].to(lm_head.device) @ lm_head.T  
-        logits = hidden[0,].to(lm_head.device) @ vocab_embed.T          
-        
-        for t in range(0, L-1):
-            target_logit = torch.dot(hidden[0,t],built_input_embeds[0,t+1].to(hidden.device))
-            target_id = input_ids[0, t+1].item()
-            # print(f"logits[{t},{target_id}] before: {logits[t,target_id].item()}, after: {target_logit.item()}")
-            logits[t,target_id] = target_logit
-        
+        logits = hidden[0].to(lm_head.device) @ vocab_embed.T
+        hidden_prev = hidden[0, :-1]  # [L-1, d]
+        embeds_next = built_input_embeds[0, 1:].to(hidden.device)  # [L-1, d]
+        target_logits = (hidden_prev * embeds_next).sum(dim=-1)  # [L-1]
+        targets = input_ids[0, 1:].to(logits.device)
+        logits[torch.arange(L - 1, device=logits.device), targets] = target_logits.to(logits.device)
         return logits
 
 

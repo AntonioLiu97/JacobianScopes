@@ -80,9 +80,9 @@
     "total": 300
   },
   "Llama-3.2-3B__gradient_x_input_lambada_top0.05": {
-    "avg_delta": -4.60436372404872,
-    "variance_delta": 17.71019777642869,
-    "sem_delta": 0.2429691185893706,
+    "avg_delta": -4.6043728072484615,
+    "variance_delta": 17.710231738427076,
+    "sem_delta": 0.2429693515543821,
     "accuracy": 0.7266666666666667,
     "num_correct": 218,
     "total": 300
