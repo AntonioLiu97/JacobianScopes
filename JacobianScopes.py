@@ -267,10 +267,10 @@ def gradient_x_input_scores(forward_pass, residual, loss_position, embedding_lay
     Returns:
         scores: np.ndarray [n_tokens], float32
     """
-    loss, _ = forward_pass(
+    loss, logits = forward_pass(
         loss_position=loss_position,
         hidden_norm_as_loss=False,
-        unnormalized_logits=True,
+        unnormalized_logits=False,
     )
     grads = torch.autograd.grad(loss, residual, retain_graph=False)[0]
     with torch.no_grad():
@@ -278,7 +278,7 @@ def gradient_x_input_scores(forward_pass, residual, loss_position, embedding_lay
     scores = (grads * token_embeds.to(grads.device)).norm(dim=-1).squeeze().cpu().numpy().astype(np.float32)
     if scores.ndim > 1:
         scores = scores.squeeze()
-    return scores
+    return scores, logits
 
 
 def setup_scope_context(model, tokenizer, string, front_pad=0, back_pad=0, front_strip=0, eos_token_id=None):
