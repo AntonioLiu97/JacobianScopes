@@ -26,3 +26,13 @@ This repository contains interactive demonstrations for the paper:
 - [Raphaël Sarfati](https://raphaelsarfatixyz.wordpress.com/), raphael.sarfati@cornell.edu
 - [Nicolas Boullé](https://nboulle.github.io/), nb690@cam.ac.uk
 - [Christopher J. Earls](https://earls.cee.cornell.edu/people/), earls@cornell.edu
+
+## Citation information
+    @misc{liu2026jacobianscopestokenlevelcausal,
+        title={Jacobian Scopes: token-level causal attributions in LLMs}, 
+        author={Toni J. B. Liu and Baran Zadeoğlu and Nicolas Boullé and Raphaël Sarfati and Christopher J. Earls},
+        year={2026},
+        eprint={2601.16407},
+        archivePrefix={arXiv},
+        primaryClass={cs.CL},
+        url={https://arxiv.org/abs/2601.16407}, }
