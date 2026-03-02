@@ -1,0 +1,4 @@
+nohup: ignoring input
+/home/jl3499/conda/LLM1/lib/python3.12/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Processing prompts:   0%|          | 0/1000 [00:00<?, ?it/s]Processing prompts:   0%|          | 1/1000 [00:13<3:43:36, 13.43s/it]Processing prompts:   0%|          | 2/1000 [00:29<4:10:59, 15.09s/it]Processing prompts:   0%|          | 3/1000 [00:45<4:13:53, 15.28s/it]Processing prompts:   0%|          | 4/1000 [00:56<3:50:19, 13.88s/it]Processing prompts:   0%|          | 5/1000 [01:06<3:22:43, 12.22s/it]Processing prompts:   1%|          | 6/1000 [01:15<3:05:00, 11.17s/it]Processing prompts:   1%|          | 7/1000 [01:28<3:14:23, 11.75s/it]Processing prompts:   1%|          | 8/1000 [01:38<3:07:37, 11.35s/it]

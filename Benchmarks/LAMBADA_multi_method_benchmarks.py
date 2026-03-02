@@ -1,8 +1,16 @@
 
-num_prompts = 300
-modes = ['Temperature', 'Semantic', 'gradient_x_input', 'IG', "random_ablation"]
+# num_prompts = 300
+num_prompts = 1000
+modes = ['Temperature', 'Semantic', 'gradient_x_input','Fisher', 'IG', "random_ablation"]
+# modes = ['Fisher']
+fisher_k = 4
 presence_list = [0.2, 0.4, 0.6, 0.8, 1]
+
 top_k_fractions = [0.05, 0.1, 0.2]
+# model_name = "meta-llama/Llama-3.2-1B"
+# model_name = "meta-llama/Llama-3.2-3B"
+# model_name = "meta-llama/Llama-3.1-8B"
+model_name = "Qwen/Qwen2.5-3B"
 
 import numpy as np  
 np.random.seed(42)    
@@ -35,9 +43,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Load the tokenizer and model
 
-# model_name = "meta-llama/Llama-3.2-1B"
-model_name = "meta-llama/Llama-3.2-3B"
-# model_name = "meta-llama/Llama-3.1-8B"
+
 model_name_short = model_name.split("/")[-1]
 if device == "cpu":
     tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -50,14 +56,14 @@ else:
 embedding_layer = model.get_input_embeddings()
 embed_device = embedding_layer.weight.device    
 
-
+if 'Fisher' in modes:
+    lm_head = JCBScope_utils.get_lm_head(model)
 
 front_pad = 0
 back_pad = 0
 
 front_strip = 0
 # num_prompts = 1
-
 
 
 # Get special tokens if available
@@ -132,9 +138,10 @@ def change_in_max_log_p_with_ablation(string, mode, top_k_fraction=0.1, verbose=
         elif mode == "Semantic":
             grad_vals, logits_orig = JacobianScopes.semantic_scope_scores(forward_pass, residual, loss_position)
         elif mode == "gradient_x_input":
-            grad_vals, logits_orig = JacobianScopes.gradient_x_input_scores(
-                forward_pass, residual, loss_position, embedding_layer, input_ids, grad_idx
-            )
+            grad_vals, logits_orig = JacobianScopes.gradient_x_input_scores(forward_pass, residual, loss_position, embedding_layer, input_ids, grad_idx)
+        elif mode == "Fisher":
+            grad_vals, logits_orig = JacobianScopes.fisher_scope_scores(forward_pass,residual,loss_position,lm_head,method="low_rank",
+            k=fisher_k)
         else:
             raise ValueError(f"Unknown mode: {mode!r}")
         if grad_vals.ndim > 1:
@@ -193,7 +200,8 @@ import json
 from pathlib import Path
 
 # Load prompts from JSON
-prompts_path = Path("../data/lambada_prompts.json")
+# prompts_path = Path("../data/lambada_prompts.json")
+prompts_path = Path("../data/lambada_prompts_1000.json")
 with open(prompts_path, "r", encoding="utf-8") as f:
     all_prompts_data = json.load(f)
 
@@ -210,8 +218,11 @@ print("All modes:", modes)
 for mode in modes:
     print(f"Processing {mode}")
     # Multiple labels, one per k
+    mode_name = mode
+    if mode == "Fisher":
+        mode_name = f"{mode}_k_{fisher_k}"
     labels_by_k = {
-        k: f"{model_name_short}__{mode}_lambada_top{k}"
+        k: f"{model_name_short}__{mode_name}_lmbd1000_top{k}"
         for k in top_k_fractions
     }
     results_by_k = {k: [] for k in top_k_fractions}

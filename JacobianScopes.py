@@ -36,10 +36,11 @@ def fisher_hidden_from_logits_and_W(logits_t, W, chunk_size=8192):
         raise ValueError(f"logits_t has {logits_t.numel()} entries but W has vocab {W.shape[0]}")
 
     p = F.softmax(logits_t, dim=-1).to(dtype=W.dtype)
+    p = p.to(W.device)
     V, d = W.shape
     S = torch.zeros(d, d, device=W.device, dtype=W.dtype)
     mu = torch.zeros(d, device=W.device, dtype=W.dtype)
-
+    # Ensure W is on the same device as p
     for i in range(0, V, chunk_size):
         Wi = W[i : i + chunk_size]
         pi = p[i : i + chunk_size].unsqueeze(1)
@@ -233,7 +234,7 @@ def semantic_scope_scores(
     if grad_idx is None:
         grad_idx = list(range(residual.shape[0]))
 
-    presence_ratios = presence_ratios if presence_ratios is not None else np.linspace(0.01, 1.0, 10)
+    presence_ratios = presence_ratios if presence_ratios is not None else np.linspace(0.2, 1.0, 5)
     grads_per_step = []
     input_embeds_per_step = []
 
@@ -257,7 +258,7 @@ def semantic_scope_scores(
 
     if return_grads_per_step:
         return scores, grads_per_step, input_embeds_per_step
-    return scores
+    return scores, logits
 
 
 def gradient_x_input_scores(forward_pass, residual, loss_position, embedding_layer, input_ids, grad_idx):
