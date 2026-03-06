@@ -1,0 +1,7 @@
+nohup: ignoring input
+/home/jl3499/conda/LLM1/lib/python3.12/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Results will be saved to ../results/Llama-3.2-3B__LOO_KL_lambada_loo_results.json
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.45s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.43s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.59s/it]
+Processing mode: temperature
+Processing prompts:   0%|          | 0/1000 [00:00<?, ?it/s]

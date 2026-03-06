@@ -1,16 +1,18 @@
 
 # num_prompts = 300
 num_prompts = 1000
-modes = ['Temperature', 'Semantic', 'gradient_x_input','Fisher', 'IG', "random_ablation"]
-# modes = ['Fisher']
-fisher_k = 4
+# modes = ['Temperature', 'Semantic', 'gradient_x_input','Fisher', 'IG', "random_ablation"]
+modes = ['Fisher']
+# fisher_k = 4
+# fisher_k = 16
+fisher_k = 1
 presence_list = [0.2, 0.4, 0.6, 0.8, 1]
 
 top_k_fractions = [0.05, 0.1, 0.2]
 # model_name = "meta-llama/Llama-3.2-1B"
-# model_name = "meta-llama/Llama-3.2-3B"
+model_name = "meta-llama/Llama-3.2-3B"
 # model_name = "meta-llama/Llama-3.1-8B"
-model_name = "Qwen/Qwen2.5-3B"
+# model_name = "Qwen/Qwen2.5-3B"
 
 import numpy as np  
 np.random.seed(42)    

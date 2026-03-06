@@ -628,5 +628,140 @@
     "total": 1000,
     "within_top5_pct_count": 10,
     "fraction_within_top5_pct": 0.01
+  },
+  "Llama-3.2-1B__temperature_lambada_loo_rank": {
+    "mean_rank": 6.121,
+    "mean_ranking_pct": 7.957299322403573,
+    "sem_mean_ranking_pct": 0.4475852762207433,
+    "n_with_rank": 1000,
+    "total": 1000,
+    "within_top5_pct_count": 691,
+    "fraction_within_top5_pct": 0.691
+  },
+  "Llama-3.2-1B__semantic_lambada_loo_rank": {
+    "mean_rank": 5.047,
+    "mean_ranking_pct": 6.554701322974164,
+    "sem_mean_ranking_pct": 0.36919846939935574,
+    "n_with_rank": 1000,
+    "total": 1000,
+    "within_top5_pct_count": 715,
+    "fraction_within_top5_pct": 0.715
+  },
+  "Llama-3.2-1B__gradient_x_input_lambada_loo_rank": {
+    "mean_rank": 4.399,
+    "mean_ranking_pct": 5.712588817957186,
+    "sem_mean_ranking_pct": 0.30195433477644246,
+    "n_with_rank": 1000,
+    "total": 1000,
+    "within_top5_pct_count": 718,
+    "fraction_within_top5_pct": 0.718
+  },
+  "Llama-3.2-1B__ig_lambada_loo_rank": {
+    "mean_rank": 22.731,
+    "mean_ranking_pct": 29.51362138696621,
+    "sem_mean_ranking_pct": 0.9797556266319882,
+    "n_with_rank": 1000,
+    "total": 1000,
+    "within_top5_pct_count": 393,
+    "fraction_within_top5_pct": 0.393
+  },
+  "Llama-3.2-1B__random_lambada_loo_rank": {
+    "mean_rank": 38.429,
+    "mean_ranking_pct": 48.94024975532478,
+    "sem_mean_ranking_pct": 0.9121642356661944,
+    "n_with_rank": 1000,
+    "total": 1000,
+    "within_top5_pct_count": 63,
+    "fraction_within_top5_pct": 0.063
+  },
+  "Llama-3.2-1B__fisher_k4_lambada_loo_rank": {
+    "mean_rank": 4.16,
+    "mean_ranking_pct": 5.449396010424642,
+    "sem_mean_ranking_pct": 0.31320036857627154,
+    "n_with_rank": 1000,
+    "total": 1000,
+    "within_top5_pct_count": 750,
+    "fraction_within_top5_pct": 0.75
+  },
+  "Llama-3.2-3B__temperature_lambada_loo_rank": {
+    "mean_rank": 9.56,
+    "mean_ranking_pct": 12.306920876094933,
+    "sem_mean_ranking_pct": 0.5767889439621465,
+    "n_with_rank": 1000,
+    "total": 1000,
+    "within_top5_pct_count": 563,
+    "fraction_within_top5_pct": 0.563
+  },
+  "Llama-3.2-3B__semantic_lambada_loo_rank": {
+    "mean_rank": 7.824,
+    "mean_ranking_pct": 10.17897580953516,
+    "sem_mean_ranking_pct": 0.4921706665025981,
+    "n_with_rank": 1000,
+    "total": 1000,
+    "within_top5_pct_count": 599,
+    "fraction_within_top5_pct": 0.599
+  },
+  "Llama-3.2-3B__gradient_x_input_lambada_loo_rank": {
+    "mean_rank": 8.907,
+    "mean_ranking_pct": 11.65555998200806,
+    "sem_mean_ranking_pct": 0.5467426636952509,
+    "n_with_rank": 1000,
+    "total": 1000,
+    "within_top5_pct_count": 562,
+    "fraction_within_top5_pct": 0.562
+  },
+  "Llama-3.2-3B__ig_lambada_loo_rank": {
+    "mean_rank": 33.577,
+    "mean_ranking_pct": 42.81534666845465,
+    "sem_mean_ranking_pct": 0.8415791044510196,
+    "n_with_rank": 1000,
+    "total": 1000,
+    "within_top5_pct_count": 62,
+    "fraction_within_top5_pct": 0.062
+  },
+  "Llama-3.2-3B__random_lambada_loo_rank": {
+    "mean_rank": 37.858,
+    "mean_ranking_pct": 48.45386632035671,
+    "sem_mean_ranking_pct": 0.9224850923092821,
+    "n_with_rank": 1000,
+    "total": 1000,
+    "within_top5_pct_count": 72,
+    "fraction_within_top5_pct": 0.072
+  },
+  "Llama-3.2-3B__fisher_k4_lambada_loo_rank": {
+    "mean_rank": 7.234,
+    "mean_ranking_pct": 9.39819513230863,
+    "sem_mean_ranking_pct": 0.4656362411271498,
+    "n_with_rank": 1000,
+    "total": 1000,
+    "within_top5_pct_count": 618,
+    "fraction_within_top5_pct": 0.618
+  },
+  "Llama-3.2-3B__Fisher_k_16_lmbd1000_top0.05": {
+    "top_k_fraction": 0.05,
+    "avg_delta": -5.325681235447102,
+    "variance_delta": 20.387395046506047,
+    "sem_delta": 0.1427844355891287,
+    "accuracy": 0.775,
+    "num_correct": 775,
+    "total": 1000
+  },
+  "Llama-3.2-3B__Fisher_k_16_lmbd1000_top0.1": {
+    "top_k_fraction": 0.1,
+    "avg_delta": -7.606121920007381,
+    "variance_delta": 19.24257017517644,
+    "sem_delta": 0.1387175914409432,
+    "accuracy": 0.775,
+    "num_correct": 775,
+    "total": 1000
+  },
+  "Llama-3.2-3B__Fisher_k_16_lmbd1000_top0.2": {
+    "top_k_fraction": 0.2,
+    "avg_delta": -9.602744349325176,
+    "variance_delta": 17.7470487336628,
+    "sem_delta": 0.13321804957911224,
+    "accuracy": 0.775,
+    "num_correct": 775,
+    "total": 1000
   }
 }
