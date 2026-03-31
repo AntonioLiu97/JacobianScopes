@@ -1,0 +1,8 @@
+nohup: ignoring input
+/home/jl3499/conda/LLM1/lib/python3.12/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+All modes: ['Fisher']
+Processing Fisher
+Processing prompts:   0%|          | 0/1000 [00:00<?, ?it/s]/home/jl3499/conda/LLM1/lib/python3.12/site-packages/torch/autograd/graph.py:769: UserWarning: Attempting to run cuBLAS, but there was no current CUDA context! Attempting to set the primary context... (Triggered internally at /home/conda/feedstock_root/build_artifacts/libtorch_1742433629875/work/aten/src/ATen/cuda/CublasHandlePool.cpp:135.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Processing prompts:   0%|          | 1/1000 [00:04<1:08:47,  4.13s/it]Processing prompts:   0%|          | 2/1000 [00:08<1:09:41,  4.19s/it]Processing prompts:   0%|          | 3/1000 [00:12<1:08:54,  4.15s/it]Processing prompts:   0%|          | 4/1000 [00:16<1:06:39,  4.02s/it]Processing prompts:   0%|          | 5/1000 [00:19<1:03:00,  3.80s/it]Processing prompts:   1%|          | 6/1000 [00:23<1:00:43,  3.67s/it]Processing prompts:   1%|          | 7/1000 [00:26<1:01:57,  3.74s/it]Processing prompts:   1%|          | 8/1000 [00:30<1:00:47,  3.68s/it]Processing prompts:   1%|          | 9/1000 [00:33<59:29,  3.60s/it]  Processing prompts:   1%|          | 10/1000 [00:36<55:56,  3.39s/it]

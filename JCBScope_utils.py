@@ -147,10 +147,9 @@ def customize_forward_pass(model, residual, presence, input_ids, grad_idx, atten
         ### Loss at chosen location 
         if hidden_norm_as_loss == True:            
             ### Temperature scope
+            ### Implement Influence score = y_hat J
             hidden_act = hidden[:, loss_position, :].detach()
             hidden_act = hidden_act / hidden_act.norm(dim=-1, keepdim=True)
-            # print("hidden_act", hidden_act.shape)
-            # print("hidden", hidden.shape)
             loss_position = loss_position.to(hidden.device)
             loss = (hidden[0, loss_position, :] * hidden_act).sum(dim=-1)
             if return_input_embeds:

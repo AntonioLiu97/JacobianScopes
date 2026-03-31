@@ -58,7 +58,7 @@ def fisher_scope_scores(
     lm_head,
     method="full",
     batch_size=16,
-    k=8,
+    k=1,
     n_hutchinson_samples=8,
     eps_finite_diff=1e-5,
     progress=False,

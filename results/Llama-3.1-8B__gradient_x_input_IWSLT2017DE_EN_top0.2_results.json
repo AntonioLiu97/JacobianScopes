@@ -1,0 +1,1606 @@
+{
+  "label": "Llama-3.1-8B__gradient_x_input_IWSLT2017DE_EN_top0.2",
+  "top_k_fraction": 0.2,
+  "results": [
+    {
+      "delta_log_prob": -8.445448264479637,
+      "prompt": "German: Ich bin wirklich begeistert von dieser Konferenz, und ich danke Ihnen allen für die vielen netten Kommentare zu meiner Rede vorgestern Abend. English: I have been blown away by this conference, and I want to thank all of you for the many nice comments about what I had to say the other night",
+      "true_token": " night",
+      "predicted_token": " night",
+      "index": 0,
+      "text": "German: Ich bin wirklich begeistert von dieser Konferenz, und ich danke Ihnen allen für die vielen netten Kommentare zu meiner Rede vorgestern Abend. English: I have been blown away by this conference, and I want to thank all of you for the many nice comments about what I had to say the other night"
+    },
+    {
+      "delta_log_prob": -2.342560388147831,
+      "prompt": "German: Kurz nachdem Tipper und ich aus dem  Weißen Haus ausgezogen waren, fuhren wir von unserem Haus in Nashville zu unserer kleinen Farm 50 Meilen östlich von Nashville -- English: Soon after Tipper and I left the --  White House --  we were driving from our home in Nashville to a little farm we have 50 miles east of Nashville",
+      "true_token": " Nashville",
+      "predicted_token": " Nashville",
+      "index": 1,
+      "text": "German: Kurz nachdem Tipper und ich aus dem  Weißen Haus ausgezogen waren, fuhren wir von unserem Haus in Nashville zu unserer kleinen Farm 50 Meilen östlich von Nashville -- English: Soon after Tipper and I left the --  White House --  we were driving from our home in Nashville to a little farm we have 50 miles east of Nashville"
+    },
+    {
+      "delta_log_prob": -1.8020530985668302,
+      "prompt": "German: Ich weiß, für Sie ist das nichts Ungewöhnliches, aber ...  Ich sah in den Rückspiegel und plötzlich traf mich eine Erkenntnis. English: I know it sounds like a little thing to you, but --  I looked in the rear-view mirror and all of a sudden it just hit me",
+      "true_token": " me",
+      "predicted_token": " me",
+      "index": 2,
+      "text": "German: Ich weiß, für Sie ist das nichts Ungewöhnliches, aber ...  Ich sah in den Rückspiegel und plötzlich traf mich eine Erkenntnis. English: I know it sounds like a little thing to you, but --  I looked in the rear-view mirror and all of a sudden it just hit me"
+    },
+    {
+      "delta_log_prob": -1.4265242284163833,
+      "prompt": "German: Wir gingen rein und setzten uns in eine Nische. Die Kellnerin kam zu uns und machte viel Aufhebens um Tipper. Sie nahm unsere Bestellung auf, ging dann zum Paar in der Nische neben uns und senkte ihre Stimme so sehr, dass ich mich richtig anstrengen musste, um sie zu verstehen. English: We went in and sat down at the booth, and the waitress came over, made a big commotion over Tipper.  She took our order, and then went to the couple in the booth next to us, and she lowered her voice so much, I had to really strain to hear what she was saying",
+      "true_token": " saying",
+      "predicted_token": " saying",
+      "index": 3,
+      "text": "German: Wir gingen rein und setzten uns in eine Nische. Die Kellnerin kam zu uns und machte viel Aufhebens um Tipper. Sie nahm unsere Bestellung auf, ging dann zum Paar in der Nische neben uns und senkte ihre Stimme so sehr, dass ich mich richtig anstrengen musste, um sie zu verstehen. English: We went in and sat down at the booth, and the waitress came over, made a big commotion over Tipper.  She took our order, and then went to the couple in the booth next to us, and she lowered her voice so much, I had to really strain to hear what she was saying"
+    },
+    {
+      "delta_log_prob": -1.7674899995326996,
+      "prompt": "German: Am nächsten Tag -- immer noch eine wahre Geschichte! -- flog ich in einer G5 nach Afrika, um in Nigeria eine Rede zu halten, in Lagos, und zwar über das Thema Energie. English: The very next day, continuing the totally true story, I got on a G-V to fly to Africa to make a speech in Nigeria, in the city of Lagos, on the topic of energy",
+      "true_token": " energy",
+      "predicted_token": " energy",
+      "index": 4,
+      "text": "German: Am nächsten Tag -- immer noch eine wahre Geschichte! -- flog ich in einer G5 nach Afrika, um in Nigeria eine Rede zu halten, in Lagos, und zwar über das Thema Energie. English: The very next day, continuing the totally true story, I got on a G-V to fly to Africa to make a speech in Nigeria, in the city of Lagos, on the topic of energy"
+    },
+    {
+      "delta_log_prob": -15.194929422810674,
+      "prompt": "German: Zu Beginn der Rede erzählte ich, was mir am Vortag in Nashville passiert war. English: And I began the speech by telling them the story of what had just happened the day before in Nashville",
+      "true_token": " Nashville",
+      "predicted_token": " Nashville",
+      "index": 5,
+      "text": "German: Zu Beginn der Rede erzählte ich, was mir am Vortag in Nashville passiert war. English: And I began the speech by telling them the story of what had just happened the day before in Nashville"
+    },
+    {
+      "delta_log_prob": -4.329796642065048,
+      "prompt": "German: Ich erzählte es genau so, wie ich es Ihnen gerade erzählt habe. Tipper und ich fuhren selbst, Shoney's, billige Familienrestaurantkette, was der Mann gesagt hatte -- alle lachten. English: And I told it pretty much the same way I've just shared it with you: Tipper and I were driving ourselves, Shoney's, low-cost family restaurant chain, what the man said -- they laughed",
+      "true_token": " laughed",
+      "predicted_token": " all",
+      "index": 6,
+      "text": "German: Ich erzählte es genau so, wie ich es Ihnen gerade erzählt habe. Tipper und ich fuhren selbst, Shoney's, billige Familienrestaurantkette, was der Mann gesagt hatte -- alle lachten. English: And I told it pretty much the same way I've just shared it with you: Tipper and I were driving ourselves, Shoney's, low-cost family restaurant chain, what the man said -- they laughed"
+    },
+    {
+      "delta_log_prob": -19.47644640505314,
+      "prompt": "German: Im Flugzeug schlief ich, bis wir mitten in der Nacht auf den Azoren landeten, um zu tanken. English: I fell asleep on the plane until, during the middle of the night, we landed on the Azores Islands for refueling",
+      "true_token": "ueling",
+      "predicted_token": "ueling",
+      "index": 7,
+      "text": "German: Im Flugzeug schlief ich, bis wir mitten in der Nacht auf den Azoren landeten, um zu tanken. English: I fell asleep on the plane until, during the middle of the night, we landed on the Azores Islands for refueling"
+    },
+    {
+      "delta_log_prob": -6.215675950050354,
+      "prompt": "German: Ich wachte auf, öffnete die Tür und ging hinaus, um frische Luft zu schnappen. Da sah ich plötzlich einen Mann über das Rollfeld rennen. English: I woke up, they opened the door, I went out to get some fresh air, and I looked, and there was a man running across the runway",
+      "true_token": " runway",
+      "predicted_token": " runway",
+      "index": 8,
+      "text": "German: Ich wachte auf, öffnete die Tür und ging hinaus, um frische Luft zu schnappen. Da sah ich plötzlich einen Mann über das Rollfeld rennen. English: I woke up, they opened the door, I went out to get some fresh air, and I looked, and there was a man running across the runway"
+    },
+    {
+      "delta_log_prob": -0.12382066436111927,
+      "prompt": "German: Ich dachte so: Mitten in der Nacht, mitten im Atlantik, was in der Welt könnte in Washington schief laufen? English: And I thought to myself, in the middle of the night, in the middle of the Atlantic, what in the world could be wrong in Washington",
+      "true_token": " Washington",
+      "predicted_token": " Washington",
+      "index": 9,
+      "text": "German: Ich dachte so: Mitten in der Nacht, mitten im Atlantik, was in der Welt könnte in Washington schief laufen? English: And I thought to myself, in the middle of the night, in the middle of the Atlantic, what in the world could be wrong in Washington"
+    },
+    {
+      "delta_log_prob": -9.259663505945355,
+      "prompt": "German: Aber mein Mitarbeiter war wegem Folgenden so aufgeregt: Eine der nigerianischen Nachrichtenagenturen hatte schon eine Story über meine Rede herausgegeben. Und die war schon in Städten überall in den USA gedruckt worden -- English: was that my staff was extremely upset because one of the wire services in Nigeria had already written a story about my speech, and it had already been printed in cities all across the United States of America",
+      "true_token": " America",
+      "predicted_token": " America",
+      "index": 10,
+      "text": "German: Aber mein Mitarbeiter war wegem Folgenden so aufgeregt: Eine der nigerianischen Nachrichtenagenturen hatte schon eine Story über meine Rede herausgegeben. Und die war schon in Städten überall in den USA gedruckt worden -- English: was that my staff was extremely upset because one of the wire services in Nigeria had already written a story about my speech, and it had already been printed in cities all across the United States of America"
+    },
+    {
+      "delta_log_prob": -16.35241250693798,
+      "prompt": "German: Und die Geschichte begann mit: \"Ex-Vizepräsident Al Gore gab gestern in Nigeria bekannt: 'Meine Frau Tipper und ich haben ein billiges Familienrestaurant namens Shoney's eröffnet und wir führen es selbst.'\" Bevor ich wieder amerikanischen Boden betrat, machten David Letterman und Jay Leno schon Witze über mich -- einer von ihnen zeigte mich mit einer großen weißen Kochmütze und Tipper sagte: \"Noch einen Burger mit Pommes!\" English: And the story began, \"Former Vice President Al Gore announced in Nigeria yesterday,\" quote: 'My wife Tipper and I have opened a low-cost family restaurant'\" -- \"'named Shoney's, and we are running it ourselves.'\" Before I could get back to U.S. soil, David Letterman and Jay Leno had already started in on -- one of them had me in a big white chef's hat, Tipper was saying, \"One more burger with fries",
+      "true_token": " fries",
+      "predicted_token": " fries",
+      "index": 11,
+      "text": "German: Und die Geschichte begann mit: \"Ex-Vizepräsident Al Gore gab gestern in Nigeria bekannt: 'Meine Frau Tipper und ich haben ein billiges Familienrestaurant namens Shoney's eröffnet und wir führen es selbst.'\" Bevor ich wieder amerikanischen Boden betrat, machten David Letterman und Jay Leno schon Witze über mich -- einer von ihnen zeigte mich mit einer großen weißen Kochmütze und Tipper sagte: \"Noch einen Burger mit Pommes!\" English: And the story began, \"Former Vice President Al Gore announced in Nigeria yesterday,\" quote: 'My wife Tipper and I have opened a low-cost family restaurant'\" -- \"'named Shoney's, and we are running it ourselves.'\" Before I could get back to U.S. soil, David Letterman and Jay Leno had already started in on -- one of them had me in a big white chef's hat, Tipper was saying, \"One more burger with fries"
+    },
+    {
+      "delta_log_prob": -6.265199925750494,
+      "prompt": "German: Drei Tage später bekam ich einen netten, langen, handgeschriebenen Brief von meinem Freund, Partner und Kollegen Bill Clinton, in dem er schrieb: \"Glückwunsch zum neuen Restaurant, Al!\" English: Three days later, I got a nice, long, handwritten letter from my friend and partner and colleague Bill Clinton, saying, \"Congratulations on the new restaurant, Al",
+      "true_token": " Al",
+      "predicted_token": " Al",
+      "index": 12,
+      "text": "German: Drei Tage später bekam ich einen netten, langen, handgeschriebenen Brief von meinem Freund, Partner und Kollegen Bill Clinton, in dem er schrieb: \"Glückwunsch zum neuen Restaurant, Al!\" English: Three days later, I got a nice, long, handwritten letter from my friend and partner and colleague Bill Clinton, saying, \"Congratulations on the new restaurant, Al"
+    },
+    {
+      "delta_log_prob": -6.598402094095945,
+      "prompt": "German: Aber ich dachte, da ich ohnehin noch sehr oft zu TED zurückkommen will, könnte ich das vielleicht auf ein anderes Mal verschieben. English: But I was thinking that, since I plan to make a lifelong habit of coming back to TED, that maybe I could talk about that another time",
+      "true_token": " time",
+      "predicted_token": " time",
+      "index": 13,
+      "text": "German: Aber ich dachte, da ich ohnehin noch sehr oft zu TED zurückkommen will, könnte ich das vielleicht auf ein anderes Mal verschieben. English: But I was thinking that, since I plan to make a lifelong habit of coming back to TED, that maybe I could talk about that another time"
+    },
+    {
+      "delta_log_prob": -11.58841947093606,
+      "prompt": "German: Ich möchte mich auf das konzentrieren, was viele von Ihnen von mir hören wollen. Was kann jeder Einzelne gegen die Klimakrise tun? English: Al Gore: I want to focus on what many of you have said you would like me to elaborate on: What can you do about the climate crisis",
+      "true_token": " crisis",
+      "predicted_token": " crisis",
+      "index": 14,
+      "text": "German: Ich möchte mich auf das konzentrieren, was viele von Ihnen von mir hören wollen. Was kann jeder Einzelne gegen die Klimakrise tun? English: Al Gore: I want to focus on what many of you have said you would like me to elaborate on: What can you do about the climate crisis"
+    },
+    {
+      "delta_log_prob": -5.965784047730267,
+      "prompt": "German: Ich möchte beginnen mit ... Ich werde einige neue Bilder zeigen und nur vier oder fünf noch mal durchgehen. English: I want to start with a couple of -- I'm going to show some new images, and I'm going to recapitulate just four or five",
+      "true_token": " five",
+      "predicted_token": " five",
+      "index": 15,
+      "text": "German: Ich möchte beginnen mit ... Ich werde einige neue Bilder zeigen und nur vier oder fünf noch mal durchgehen. English: I want to start with a couple of -- I'm going to show some new images, and I'm going to recapitulate just four or five"
+    },
+    {
+      "delta_log_prob": -9.821987748146057,
+      "prompt": "German: Ich füge neue Bilder hinzu, weil ich jedes Mal wieder etwas dazulerne. Wie beim Strandgutsammeln -- jedes Mal, wenn die Flut da war, English: I add new images, because I learn more about it every time I give it. It's like beach-combing, you know",
+      "true_token": " know",
+      "predicted_token": " learn",
+      "index": 16,
+      "text": "German: Ich füge neue Bilder hinzu, weil ich jedes Mal wieder etwas dazulerne. Wie beim Strandgutsammeln -- jedes Mal, wenn die Flut da war, English: I add new images, because I learn more about it every time I give it. It's like beach-combing, you know"
+    },
+    {
+      "delta_log_prob": -0.9650671482086182,
+      "prompt": "German: aber jetzt kommt erst mal eine kurze Wiederholung und dann zeige ich Ihnen neues Material über mögliche Lösungen. English: But these are the recapitulation slides, and then I'm going to go into new material about what you can do",
+      "true_token": " do",
+      "predicted_token": " do",
+      "index": 17,
+      "text": "German: aber jetzt kommt erst mal eine kurze Wiederholung und dann zeige ich Ihnen neues Material über mögliche Lösungen. English: But these are the recapitulation slides, and then I'm going to go into new material about what you can do"
+    },
+    {
+      "delta_log_prob": -14.452229005284607,
+      "prompt": "German: Zunächst steuern wir hier mit dem US-Beitrag zur Erderwärmung hin, wenn nichts unternommen wird. English: First of all, this is where we're projected to go with the U.S. contribution to global warming, under business as usual",
+      "true_token": " usual",
+      "predicted_token": " usual",
+      "index": 18,
+      "text": "German: Zunächst steuern wir hier mit dem US-Beitrag zur Erderwärmung hin, wenn nichts unternommen wird. English: First of all, this is where we're projected to go with the U.S. contribution to global warming, under business as usual"
+    },
+    {
+      "delta_log_prob": -0.9004335701465607,
+      "prompt": "German: Autos und LKW -- darüber habe ich in der Diashow schon gesprochen, aber ich möchte, dass Sie es im rechten Licht betrachten. English: Cars and trucks -- I talked about that in the slideshow, but I want you to put it in perspective",
+      "true_token": " perspective",
+      "predicted_token": " the",
+      "index": 19,
+      "text": "German: Autos und LKW -- darüber habe ich in der Diashow schon gesprochen, aber ich möchte, dass Sie es im rechten Licht betrachten. English: Cars and trucks -- I talked about that in the slideshow, but I want you to put it in perspective"
+    },
+    {
+      "delta_log_prob": -5.770909547805786,
+      "prompt": "German: Das ist ein einfacher, sichtbarer Kritikpunkt, und so sollte es auch sein, aber Gebäude haben einen größeren Anteil an der Erderwärmung als Autos und LKW. English: It's an easy, visible target of concern -- and it should be -- but there is more global warming pollution that comes from buildings than from cars and trucks",
+      "true_token": " trucks",
+      "predicted_token": " trucks",
+      "index": 20,
+      "text": "German: Das ist ein einfacher, sichtbarer Kritikpunkt, und so sollte es auch sein, aber Gebäude haben einen größeren Anteil an der Erderwärmung als Autos und LKW. English: It's an easy, visible target of concern -- and it should be -- but there is more global warming pollution that comes from buildings than from cars and trucks"
+    },
+    {
+      "delta_log_prob": -6.689580038189888,
+      "prompt": "German: einiges ausmachen, und nach den Aussagen von Vinod, John Doerr und anderen, vielen von Ihnen -- hier sind viele Menschen direkt beteiligt -- wird dieser Keil viel schneller wachsen, als die aktuelle Projektion zeigt. Die CO2-Sequestrierung -- abgekürzt CCS -- English: And with what Vinod, and John Doerr and others, many of you here -- there are a lot of people directly involved in this -- this wedge is going to grow much more rapidly than the current projection shows it",
+      "true_token": " it",
+      "predicted_token": ".",
+      "index": 21,
+      "text": "German: einiges ausmachen, und nach den Aussagen von Vinod, John Doerr und anderen, vielen von Ihnen -- hier sind viele Menschen direkt beteiligt -- wird dieser Keil viel schneller wachsen, als die aktuelle Projektion zeigt. Die CO2-Sequestrierung -- abgekürzt CCS -- English: And with what Vinod, and John Doerr and others, many of you here -- there are a lot of people directly involved in this -- this wedge is going to grow much more rapidly than the current projection shows it"
+    },
+    {
+      "delta_log_prob": -2.536745071411133,
+      "prompt": "German: wird sich wahrscheinlich zum ultimativen Werkzeug entwickeln, mit dem wir fossile Brennstoffe auf sichere Weise weiterhin nutzen können. English: Carbon Capture and Sequestration -- that's what CCS stands for -- is likely to become the killer app that will enable us to continue to use fossil fuels in a way that is safe",
+      "true_token": " safe",
+      "predicted_token": " safe",
+      "index": 22,
+      "text": "German: wird sich wahrscheinlich zum ultimativen Werkzeug entwickeln, mit dem wir fossile Brennstoffe auf sichere Weise weiterhin nutzen können. English: Carbon Capture and Sequestration -- that's what CCS stands for -- is likely to become the killer app that will enable us to continue to use fossil fuels in a way that is safe"
+    },
+    {
+      "delta_log_prob": -10.192929476499557,
+      "prompt": "German: Bei allem, was Sie einkaufen, haben Sie die Wahl zwischen Produkten mit ungünstigen und deutlich weniger ungünstigen Auswirkungen auf die globale Klimakrise. English: You have choices with everything you buy, between things that have a harsh effect, or a much less harsh effect on the global climate crisis",
+      "true_token": " crisis",
+      "predicted_token": " crisis",
+      "index": 23,
+      "text": "German: Bei allem, was Sie einkaufen, haben Sie die Wahl zwischen Produkten mit ungünstigen und deutlich weniger ungünstigen Auswirkungen auf die globale Klimakrise. English: You have choices with everything you buy, between things that have a harsh effect, or a much less harsh effect on the global climate crisis"
+    },
+    {
+      "delta_log_prob": -9.789204195141792,
+      "prompt": "German: Diejenigen von Ihnen, die sich mit Slogans auskennen, wäre ich sehr dankbar für Tipps und Hilfe, wie man das so formulieren kann, dass es bei der Masse ankommt. English: Those of you who are good at branding, I'd love to get your advice and help on how to say this in a way that connects with the most people",
+      "true_token": " people",
+      "predicted_token": " people",
+      "index": 24,
+      "text": "German: Diejenigen von Ihnen, die sich mit Slogans auskennen, wäre ich sehr dankbar für Tipps und Hilfe, wie man das so formulieren kann, dass es bei der Masse ankommt. English: Those of you who are good at branding, I'd love to get your advice and help on how to say this in a way that connects with the most people"
+    },
+    {
+      "delta_log_prob": -13.299297511577606,
+      "prompt": "German: Reduzieren Sie Ihre CO2-Emissionen durch jede Wahl, die Sie treffen können, und kaufen oder erwerben Sie einen Ausgleich für den Rest, den Sie nicht vermeiden können. English: It means reduce your carbon dioxide emissions with the full range of choices that you make, and then purchase or acquire offsets for the remainder that you have not completely reduced",
+      "true_token": " reduced",
+      "predicted_token": " avoided",
+      "index": 25,
+      "text": "German: Reduzieren Sie Ihre CO2-Emissionen durch jede Wahl, die Sie treffen können, und kaufen oder erwerben Sie einen Ausgleich für den Rest, den Sie nicht vermeiden können. English: It means reduce your carbon dioxide emissions with the full range of choices that you make, and then purchase or acquire offsets for the remainder that you have not completely reduced"
+    },
+    {
+      "delta_log_prob": -5.8753669410943985,
+      "prompt": "German: Participant Productions hat unter meiner aktiven Teilnahme die führenden Programmierer der Welt zusammengerufen, um aus dieser geheimnisvollen Kunst der CO2-Berechnung einen anwenderfreundlichen CO2-Rechner zu basteln. English: Participant Productions convened -- with my active involvement -- the leading software writers in the world, on this arcane science of carbon calculation, to construct a consumer-friendly carbon calculator",
+      "true_token": " calculator",
+      "predicted_token": " calculator",
+      "index": 26,
+      "text": "German: Participant Productions hat unter meiner aktiven Teilnahme die führenden Programmierer der Welt zusammengerufen, um aus dieser geheimnisvollen Kunst der CO2-Berechnung einen anwenderfreundlichen CO2-Rechner zu basteln. English: Participant Productions convened -- with my active involvement -- the leading software writers in the world, on this arcane science of carbon calculation, to construct a consumer-friendly carbon calculator"
+    },
+    {
+      "delta_log_prob": -6.072288751602173,
+      "prompt": "German: Bis zum Fillmstart im Mai wird es ein Update auf Version 2.0 geben, in der man sich dann direkt zum Kauf von Ausgleichseinheiten durchklicken kann. English: And by the time the movie comes out in May, this will be updated to 2.0, and we will have click-through purchases of offsets",
+      "true_token": " offsets",
+      "predicted_token": " credits",
+      "index": 27,
+      "text": "German: Bis zum Fillmstart im Mai wird es ein Update auf Version 2.0 geben, in der man sich dann direkt zum Kauf von Ausgleichseinheiten durchklicken kann. English: And by the time the movie comes out in May, this will be updated to 2.0, and we will have click-through purchases of offsets"
+    },
+    {
+      "delta_log_prob": -2.9050686359405518,
+      "prompt": "German: Beziehen Sie Klimalösungen in Ihre Innovationen mit ein, egal, ob Sie im Bereich Technologie, Unterhaltung oder Bauwesen und Architektur arbeiten. English: Integrate climate solutions into all of your innovations, whether you are from the technology, or entertainment, or design and architecture community",
+      "true_token": " community",
+      "predicted_token": " industries",
+      "index": 28,
+      "text": "German: Beziehen Sie Klimalösungen in Ihre Innovationen mit ein, egal, ob Sie im Bereich Technologie, Unterhaltung oder Bauwesen und Architektur arbeiten. English: Integrate climate solutions into all of your innovations, whether you are from the technology, or entertainment, or design and architecture community"
+    },
+    {
+      "delta_log_prob": -7.8106324672698975,
+      "prompt": "German: Wenn Sie Geld in Manager investieren, die Sie auf der Grundlage ihrer Jahresleistung entlohnen, dann beklagen Sie sich nie wieder über kurzfristiges Management. English: Listen, if you have invested money with managers who you compensate on the basis of their annual performance, don't ever again complain about quarterly report CEO management",
+      "true_token": " management",
+      "predicted_token": "'s",
+      "index": 29,
+      "text": "German: Wenn Sie Geld in Manager investieren, die Sie auf der Grundlage ihrer Jahresleistung entlohnen, dann beklagen Sie sich nie wieder über kurzfristiges Management. English: Listen, if you have invested money with managers who you compensate on the basis of their annual performance, don't ever again complain about quarterly report CEO management"
+    },
+    {
+      "delta_log_prob": -9.550950348377228,
+      "prompt": "German: Und wenn sie aufgrund von kurzfristigen Gewinnen beurteilen, wie viel sie aus Ihrem investierten Kapital herausholen können, dann treffen sie kurzfristige Entscheidungen. English: And if they judge how much they're going to get paid on your capital that they've invested, based on the short-term returns, you're going to get short-term decisions",
+      "true_token": " decisions",
+      "predicted_token": " decisions",
+      "index": 30,
+      "text": "German: Und wenn sie aufgrund von kurzfristigen Gewinnen beurteilen, wie viel sie aus Ihrem investierten Kapital herausholen können, dann treffen sie kurzfristige Entscheidungen. English: And if they judge how much they're going to get paid on your capital that they've invested, based on the short-term returns, you're going to get short-term decisions"
+    },
+    {
+      "delta_log_prob": -5.745317697525024,
+      "prompt": "German: Der Film ist eine Filmversion der Diashow, die ich vorgestern gezeigt habe, nur viel unterhaltsamer. English: The movie is a movie version of the slideshow I gave two nights ago, except it's a lot more entertaining",
+      "true_token": " entertaining",
+      "predicted_token": " entertaining",
+      "index": 31,
+      "text": "German: Der Film ist eine Filmversion der Diashow, die ich vorgestern gezeigt habe, nur viel unterhaltsamer. English: The movie is a movie version of the slideshow I gave two nights ago, except it's a lot more entertaining"
+    },
+    {
+      "delta_log_prob": -2.313399463891983,
+      "prompt": "German: Ich werde persönlich Menschen schulen, diese Diashow zu zeigen, abgewandelt, die persönlichen Geschichten werden natürlich durch etwas Allgemeineres ersetzt, Es geht nicht nur um die Dias, sondern um ihre Bedeutung, ihren Zusammenhang. English: And I am personally going to train people to give this slideshow -- re-purposed, with some of the personal stories obviously replaced with a generic approach, and it's not just the slides, it's what they mean",
+      "true_token": " mean",
+      "predicted_token": " mean",
+      "index": 32,
+      "text": "German: Ich werde persönlich Menschen schulen, diese Diashow zu zeigen, abgewandelt, die persönlichen Geschichten werden natürlich durch etwas Allgemeineres ersetzt, Es geht nicht nur um die Dias, sondern um ihre Bedeutung, ihren Zusammenhang. English: And I am personally going to train people to give this slideshow -- re-purposed, with some of the personal stories obviously replaced with a generic approach, and it's not just the slides, it's what they mean"
+    },
+    {
+      "delta_log_prob": -14.54391991533339,
+      "prompt": "German: einen Kurs für eine Gruppe von Menschen abhalten, die von verschiedenen Leuten dafür nominiert werden, diesen Vortrag massenweise in Gemeinden im ganzen Land zu halten, und wir werden die Diashow für alle jede Woche aktualisieren, damit sie immer topaktuell ist. English: And so I'm going to be conducting a course this summer for a group of people that are nominated by different folks to come and then give it en masse, in communities all across the country, and we're going to update the slideshow for all of them every single week, to keep it right on the cutting edge",
+      "true_token": " edge",
+      "predicted_token": " edge",
+      "index": 33,
+      "text": "German: einen Kurs für eine Gruppe von Menschen abhalten, die von verschiedenen Leuten dafür nominiert werden, diesen Vortrag massenweise in Gemeinden im ganzen Land zu halten, und wir werden die Diashow für alle jede Woche aktualisieren, damit sie immer topaktuell ist. English: And so I'm going to be conducting a course this summer for a group of people that are nominated by different folks to come and then give it en masse, in communities all across the country, and we're going to update the slideshow for all of them every single week, to keep it right on the cutting edge"
+    },
+    {
+      "delta_log_prob": -1.4201582968235016,
+      "prompt": "German: In Zusammenarbeit mit Larry Lessig wird sie demnächst auch mit Tools und eingeschränkten Nutzungsrechten veröffentlicht werden, damit junge Leute eigene Remixe herstellen und sie auf ihre Art präsentieren können. English: Working with Larry Lessig, it will be, somewhere in that process, posted with tools and limited-use copyrights, so that young people can remix it and do it in their own way",
+      "true_token": " way",
+      "predicted_token": " way",
+      "index": 34,
+      "text": "German: In Zusammenarbeit mit Larry Lessig wird sie demnächst auch mit Tools und eingeschränkten Nutzungsrechten veröffentlicht werden, damit junge Leute eigene Remixe herstellen und sie auf ihre Art präsentieren können. English: Working with Larry Lessig, it will be, somewhere in that process, posted with tools and limited-use copyrights, so that young people can remix it and do it in their own way"
+    },
+    {
+      "delta_log_prob": -0.5103646218776703,
+      "prompt": "German: Sobald es ein geschlossenes System wird, mit Beteiligung der USA, dann wird jedes Vorstandsmitglied ... Wie viele von Ihnen sitzen im Vorstand eines Unternehmens? English: Once it becomes a closed system, with U.S. participation, then everybody who's on a board of directors -- how many people here serve on the board of directors of a corporation",
+      "true_token": " corporation",
+      "predicted_token": " company",
+      "index": 35,
+      "text": "German: Sobald es ein geschlossenes System wird, mit Beteiligung der USA, dann wird jedes Vorstandsmitglied ... Wie viele von Ihnen sitzen im Vorstand eines Unternehmens? English: Once it becomes a closed system, with U.S. participation, then everybody who's on a board of directors -- how many people here serve on the board of directors of a corporation"
+    },
+    {
+      "delta_log_prob": -1.6041419506072998,
+      "prompt": "German: In einem geschlossenen System sind Sie gesetzlich haftbar, wenn Sie den Vorstandsvorsitzenden nicht drängen, maximales Einkommen aus der Reduzierung und dem Handel mit unvermeidlichen CO2-Emissionen zu erzielen. Der Markt wird dieses Problem lösen -- wenn wir das schaffen. English: Once it's a closed system, you will have legal liability if you do not urge your CEO to get the maximum income from reducing and trading the carbon emissions The market will work to solve this problem -- if we can accomplish this",
+      "true_token": " this",
+      "predicted_token": " it",
+      "index": 36,
+      "text": "German: In einem geschlossenen System sind Sie gesetzlich haftbar, wenn Sie den Vorstandsvorsitzenden nicht drängen, maximales Einkommen aus der Reduzierung und dem Handel mit unvermeidlichen CO2-Emissionen zu erzielen. Der Markt wird dieses Problem lösen -- wenn wir das schaffen. English: Once it's a closed system, you will have legal liability if you do not urge your CEO to get the maximum income from reducing and trading the carbon emissions The market will work to solve this problem -- if we can accomplish this"
+    },
+    {
+      "delta_log_prob": -7.4599191546440125,
+      "prompt": "German: ist es nicht mehr wie früher Aufgabe von Logik und Vernunft, zwischen Wohlstand und Macht zu vermitteln, wie es früher einmal war. English: And in our modern country, the role of logic and reason no longer includes mediating between wealth and power the way it once did",
+      "true_token": " did",
+      "predicted_token": " did",
+      "index": 37,
+      "text": "German: ist es nicht mehr wie früher Aufgabe von Logik und Vernunft, zwischen Wohlstand und Macht zu vermitteln, wie es früher einmal war. English: And in our modern country, the role of logic and reason no longer includes mediating between wealth and power the way it once did"
+    },
+    {
+      "delta_log_prob": -1.4539162293076515,
+      "prompt": "German: Mir gefällt \"Klimakrise\" besser als \"Klimakatastrophe\". Aber noch einmal, ich brauche Hilfe von Leuten, die sich mit Markenentwicklung auskennen. English: I like \"climate crisis\" instead of \"climate collapse,\" but again, those of you who are good at branding, I need your help on this",
+      "true_token": " this",
+      "predicted_token": " this",
+      "index": 38,
+      "text": "German: Mir gefällt \"Klimakrise\" besser als \"Klimakatastrophe\". Aber noch einmal, ich brauche Hilfe von Leuten, die sich mit Markenentwicklung auskennen. English: I like \"climate crisis\" instead of \"climate collapse,\" but again, those of you who are good at branding, I need your help on this"
+    },
+    {
+      "delta_log_prob": -6.699031352996826,
+      "prompt": "German: Ein Wissenschaftler sagte mal zu mir, wir stünden jetzt vor der Prüfung, ob die Kombination aus einem opponierbaren Daumen und einem Neocortex überhaupt lebensfähig ist. English: Somebody said the test we're facing now, a scientist told me, is whether the combination of an opposable thumb and a neocortex is a viable combination",
+      "true_token": " combination",
+      "predicted_token": " one",
+      "index": 39,
+      "text": "German: Ein Wissenschaftler sagte mal zu mir, wir stünden jetzt vor der Prüfung, ob die Kombination aus einem opponierbaren Daumen und einem Neocortex überhaupt lebensfähig ist. English: Somebody said the test we're facing now, a scientist told me, is whether the combination of an opposable thumb and a neocortex is a viable combination"
+    },
+    {
+      "delta_log_prob": -11.31169131398201,
+      "prompt": "German: Es befasst sich mit einem der größten Gesundheitsprobleme auf dem Planeten, mit der Todesursache Nummer Eins von Kindern unter fünf Jahren, English: It addresses one of the biggest health issues on the planet, the number one cause of death in children under five",
+      "true_token": " five",
+      "predicted_token": " five",
+      "index": 40,
+      "text": "German: Es befasst sich mit einem der größten Gesundheitsprobleme auf dem Planeten, mit der Todesursache Nummer Eins von Kindern unter fünf Jahren, English: It addresses one of the biggest health issues on the planet, the number one cause of death in children under five"
+    },
+    {
+      "delta_log_prob": -1.9377363920211792,
+      "prompt": "German: Nein. Es ist das Einatmen von Rauch von Kochfeuern in geschlossenen Räumen - akute Atemwegsinfektionen, die dadurch verursacht werden. Können Sie das glauben? English: No. It's breathing the smoke from indoor cooking fires -- acute respiratory infections caused by this. Can you believe that",
+      "true_token": " that",
+      "predicted_token": " it",
+      "index": 41,
+      "text": "German: Nein. Es ist das Einatmen von Rauch von Kochfeuern in geschlossenen Räumen - akute Atemwegsinfektionen, die dadurch verursacht werden. Können Sie das glauben? English: No. It's breathing the smoke from indoor cooking fires -- acute respiratory infections caused by this. Can you believe that"
+    },
+    {
+      "delta_log_prob": -7.416601538658142,
+      "prompt": "German: Ich weiß, dass Bill Joy einen Vortrag über die fantastischen Kohlenstoffnanoröhren gehalten hat. Also werde ich über die Wunder von Kohlenstoffmakroröhren reden, also über Kohle. English: I know Bill Joy was talking to you about the wonders of carbon nanotubes, so I'm going to talk to you about the wonders of carbon macro-tubes, which is charcoal",
+      "true_token": " charcoal",
+      "predicted_token": " coal",
+      "index": 42,
+      "text": "German: Ich weiß, dass Bill Joy einen Vortrag über die fantastischen Kohlenstoffnanoröhren gehalten hat. Also werde ich über die Wunder von Kohlenstoffmakroröhren reden, also über Kohle. English: I know Bill Joy was talking to you about the wonders of carbon nanotubes, so I'm going to talk to you about the wonders of carbon macro-tubes, which is charcoal"
+    },
+    {
+      "delta_log_prob": -2.2387004494667053,
+      "prompt": "German: Vor ein paar Jahren gab es sehr starke Überschwemmungen welche zum Tod von Tausenden führten. Dies kann man direkt darauf zurückführen dass es auf den Hügeln keine Bäume mehr gibt, um den Boden zu stabilisieren. English: A couple years ago there was severe flooding that led to thousands of deaths -- that's directly attributable to the fact that there are no trees on the hills to stabilize the soil",
+      "true_token": " soil",
+      "predicted_token": " soil",
+      "index": 43,
+      "text": "German: Vor ein paar Jahren gab es sehr starke Überschwemmungen welche zum Tod von Tausenden führten. Dies kann man direkt darauf zurückführen dass es auf den Hügeln keine Bäume mehr gibt, um den Boden zu stabilisieren. English: A couple years ago there was severe flooding that led to thousands of deaths -- that's directly attributable to the fact that there are no trees on the hills to stabilize the soil"
+    },
+    {
+      "delta_log_prob": -2.746845006942749,
+      "prompt": "German: Nun, einer der Gründe, warum es so wenige Bäume gibt, ist dieser: Menschen müssen kochen, und dafür holen sie sich Holz, das sie dafür zu Kohle machen. English: Now one of the reasons why there are so few trees is this: people need to cook, and they harvest wood and they make charcoal in order to do it",
+      "true_token": " it",
+      "predicted_token": " so",
+      "index": 44,
+      "text": "German: Nun, einer der Gründe, warum es so wenige Bäume gibt, ist dieser: Menschen müssen kochen, und dafür holen sie sich Holz, das sie dafür zu Kohle machen. English: Now one of the reasons why there are so few trees is this: people need to cook, and they harvest wood and they make charcoal in order to do it"
+    },
+    {
+      "delta_log_prob": -4.519552493467927,
+      "prompt": "German: Und dann trifft man Familien wie diese, die in den Wald gehen, um einen Baum zu finden, ihn zu fällen und daraus Kohle zu machen. English: You'll find families like this who go out into the forest to find a tree, cut it down and make charcoal out of it",
+      "true_token": " it",
+      "predicted_token": " it",
+      "index": 45,
+      "text": "German: Und dann trifft man Familien wie diese, die in den Wald gehen, um einen Baum zu finden, ihn zu fällen und daraus Kohle zu machen. English: You'll find families like this who go out into the forest to find a tree, cut it down and make charcoal out of it"
+    },
+    {
+      "delta_log_prob": -6.180627703666687,
+      "prompt": "German: Vor circa vier Jahren habe ich ein Team von Studenten mit nach Haiti genommen, und wir haben mit Freiwilligen der dortigen Friedenstruppen zusammengearbeitet. English: About four years ago, I took a team of students down to Haiti and we worked with Peace Corps volunteers there",
+      "true_token": " there",
+      "predicted_token": " there",
+      "index": 46,
+      "text": "German: Vor circa vier Jahren habe ich ein Team von Studenten mit nach Haiti genommen, und wir haben mit Freiwilligen der dortigen Friedenstruppen zusammengearbeitet. English: About four years ago, I took a team of students down to Haiti and we worked with Peace Corps volunteers there"
+    },
+    {
+      "delta_log_prob": -1.5804246366024017,
+      "prompt": "German: Dies ist ein solcher Freiwilliger, und das ist ein Gerät, das er in dem Dorf, wo er arbeitete, gebaut hatte. English: This is one such volunteer and this is a device that he had built in the village where he worked",
+      "true_token": " worked",
+      "predicted_token": " worked",
+      "index": 47,
+      "text": "German: Dies ist ein solcher Freiwilliger, und das ist ein Gerät, das er in dem Dorf, wo er arbeitete, gebaut hatte. English: This is one such volunteer and this is a device that he had built in the village where he worked"
+    },
+    {
+      "delta_log_prob": -10.348953425884247,
+      "prompt": "German: Und die Idee war, Papierabfälle zu nehmen, sie zu komprimieren, und daraus Briketts zu machen, die man als Brennstoff verwenden konnte. English: And the idea was that you could take waste paper; you could compress it and make briquettes that could be used for fuel",
+      "true_token": " fuel",
+      "predicted_token": " fuel",
+      "index": 48,
+      "text": "German: Und die Idee war, Papierabfälle zu nehmen, sie zu komprimieren, und daraus Briketts zu machen, die man als Brennstoff verwenden konnte. English: And the idea was that you could take waste paper; you could compress it and make briquettes that could be used for fuel"
+    },
+    {
+      "delta_log_prob": -2.974040448665619,
+      "prompt": "German: Also haben unsere Ingenieursstudenten daran gearbeitet, und mit ein paar sehr einfachen Veränderungen waren sie in der Lage, den Durchsatz des Geräts zu verdreifachen. English: So our engineering students went to work on it and with some very simple changes, they were able to triple the throughput of this device",
+      "true_token": " device",
+      "predicted_token": " device",
+      "index": 49,
+      "text": "German: Also haben unsere Ingenieursstudenten daran gearbeitet, und mit ein paar sehr einfachen Veränderungen waren sie in der Lage, den Durchsatz des Geräts zu verdreifachen. English: So our engineering students went to work on it and with some very simple changes, they were able to triple the throughput of this device"
+    },
+    {
+      "delta_log_prob": -12.855207487940788,
+      "prompt": "German: Und während es eine gute Verwendung von Regierungspapieren sein mag, wenn dieser Freiwillige sie mit in sein Heimatdorf nimmt, war es doch 800 km weit entfernt. English: And while it was a good use of government paperwork for this volunteer to bring it back with him to his village, it was 800 kilometers away",
+      "true_token": " away",
+      "predicted_token": " away",
+      "index": 50,
+      "text": "German: Und während es eine gute Verwendung von Regierungspapieren sein mag, wenn dieser Freiwillige sie mit in sein Heimatdorf nimmt, war es doch 800 km weit entfernt. English: And while it was a good use of government paperwork for this volunteer to bring it back with him to his village, it was 800 kilometers away"
+    },
+    {
+      "delta_log_prob": -2.2673376500606537,
+      "prompt": "German: Was wir machen wollten war, einen Brennstoff herzustellen, der etwas verwendet, was es auf lokaler Ebene zur Genüge gibt. English: What we wanted to do is we wanted to make a fuel that used something that was readily available on the local level",
+      "true_token": " level",
+      "predicted_token": " level",
+      "index": 51,
+      "text": "German: Was wir machen wollten war, einen Brennstoff herzustellen, der etwas verwendet, was es auf lokaler Ebene zur Genüge gibt. English: What we wanted to do is we wanted to make a fuel that used something that was readily available on the local level"
+    },
+    {
+      "delta_log_prob": -6.282930739223957,
+      "prompt": "German: Was wir machen wollten war, einen Weg zu finden, diese Abfallressource zu nutzen und sie in einen Brennstoff zu verwandeln, mit dem die Leute einfach kochen können, so etwas wie Kohle. English: What we wanted to do was we wanted to find a way to harness this waste resource and turn it into a fuel that would be something that people could easily cook with, something like charcoal",
+      "true_token": " charcoal",
+      "predicted_token": " coal",
+      "index": 52,
+      "text": "German: Was wir machen wollten war, einen Weg zu finden, diese Abfallressource zu nutzen und sie in einen Brennstoff zu verwandeln, mit dem die Leute einfach kochen können, so etwas wie Kohle. English: What we wanted to do was we wanted to find a way to harness this waste resource and turn it into a fuel that would be something that people could easily cook with, something like charcoal"
+    },
+    {
+      "delta_log_prob": -8.68371857702732,
+      "prompt": "German: Man fängt also mit der Bagasse an und dann nimmt man einen sehr einfachen Ofen. Den kann man ganz einfach aus einem alten 200-Liter-Ölfass herstellen. English: So you start with the bagasse, and then you take a very simple kiln that you can make out of a waste fifty five-gallon oil drum",
+      "true_token": " drum",
+      "predicted_token": " drum",
+      "index": 53,
+      "text": "German: Man fängt also mit der Bagasse an und dann nimmt man einen sehr einfachen Ofen. Den kann man ganz einfach aus einem alten 200-Liter-Ölfass herstellen. English: So you start with the bagasse, and then you take a very simple kiln that you can make out of a waste fifty five-gallon oil drum"
+    },
+    {
+      "delta_log_prob": -2.3971325159072876,
+      "prompt": "German: Den Ofen zündet man an und versiegelt ihn nach einer Weile,¼ damit die Sauerstoffzufuhr begrenzt wird. Und am Ende bekommt man verkohltes Material wie das hier. English: After some time, after setting it on fire, you seal it to restrict the oxygen that goes into the kiln, and then you end up with this carbonized material here",
+      "true_token": " here",
+      "predicted_token": ".\n",
+      "index": 54,
+      "text": "German: Den Ofen zündet man an und versiegelt ihn nach einer Weile,¼ damit die Sauerstoffzufuhr begrenzt wird. Und am Ende bekommt man verkohltes Material wie das hier. English: After some time, after setting it on fire, you seal it to restrict the oxygen that goes into the kiln, and then you end up with this carbonized material here"
+    },
+    {
+      "delta_log_prob": -13.521522466093302,
+      "prompt": "German: Und da passte es gerade, dass einer meiner Schüler aus Ghana war, und sich an ein Gericht erinnerte, das seine Mutter immer für ihn gekocht hatte. Es heißt Kokonte und ist ein sehr klebriger Brei aus der Kassava-Wurzel. English: And conveniently, one of my students was from Ghana, and he remembered a dish his mom used to make for him called \"kokonte,\" which is a very sticky porridge made out of the cassava root",
+      "true_token": " root",
+      "predicted_token": " root",
+      "index": 55,
+      "text": "German: Und da passte es gerade, dass einer meiner Schüler aus Ghana war, und sich an ein Gericht erinnerte, das seine Mutter immer für ihn gekocht hatte. Es heißt Kokonte und ist ein sehr klebriger Brei aus der Kassava-Wurzel. English: And conveniently, one of my students was from Ghana, and he remembered a dish his mom used to make for him called \"kokonte,\" which is a very sticky porridge made out of the cassava root"
+    },
+    {
+      "delta_log_prob": -19.448366947472095,
+      "prompt": "German: Und dann schauten wir uns ein bisschen um und fanden heraus, dass die Kassava-Wurzel auch auf Haiti wächst und dort Maniok heißt. English: And so what we did was we looked, and we found that cassava is indeed grown in Haiti, under the name of \"manioc",
+      "true_token": "ioc",
+      "predicted_token": "ioc",
+      "index": 56,
+      "text": "German: Und dann schauten wir uns ein bisschen um und fanden heraus, dass die Kassava-Wurzel auch auf Haiti wächst und dort Maniok heißt. English: And so what we did was we looked, and we found that cassava is indeed grown in Haiti, under the name of \"manioc"
+    },
+    {
+      "delta_log_prob": -6.328118234872818,
+      "prompt": "German: Im Prinzip wächst sie nämlich überall auf der Welt -- Yucca, Tapioka, Maniok, Kassava - das ist alles dasselbe -- ein sehr stärkehaltiges Wurzelgemüse. English: In fact, it's grown all over the world -- yucca, tapioca, manioc, cassava, it's all the same thing -- a very starchy root vegetable",
+      "true_token": " vegetable",
+      "predicted_token": " vegetable",
+      "index": 57,
+      "text": "German: Im Prinzip wächst sie nämlich überall auf der Welt -- Yucca, Tapioka, Maniok, Kassava - das ist alles dasselbe -- ein sehr stärkehaltiges Wurzelgemüse. English: In fact, it's grown all over the world -- yucca, tapioca, manioc, cassava, it's all the same thing -- a very starchy root vegetable"
+    },
+    {
+      "delta_log_prob": -13.123604713007808,
+      "prompt": "German: Und daraus kann man einen sehr dicken, klebrigen Brei machen, mit dem man die Kohle zu Briketts formen kann. English: And you can make a very thick, sticky porridge out of it, which you can use to bind together the charcoal briquettes",
+      "true_token": "tes",
+      "predicted_token": "tes",
+      "index": 58,
+      "text": "German: Und daraus kann man einen sehr dicken, klebrigen Brei machen, mit dem man die Kohle zu Briketts formen kann. English: And you can make a very thick, sticky porridge out of it, which you can use to bind together the charcoal briquettes"
+    },
+    {
+      "delta_log_prob": -1.2738245129585266,
+      "prompt": "German: Das sind die Abschlussschüler der ersten Ecole de Charbon, dem Institut für Kohle. Und diese --  -- Ja, genau. Ich bilde am MIT und am Institut für Kohle aus. English: These are the graduates of the first Ecole de Charbon, or Charcoal Institute. And these --  That's right. So I'm actually an instructor at MIT as well as CIT",
+      "true_token": " CIT",
+      "predicted_token": " the",
+      "index": 59,
+      "text": "German: Das sind die Abschlussschüler der ersten Ecole de Charbon, dem Institut für Kohle. Und diese --  -- Ja, genau. Ich bilde am MIT und am Institut für Kohle aus. English: These are the graduates of the first Ecole de Charbon, or Charcoal Institute. And these --  That's right. So I'm actually an instructor at MIT as well as CIT"
+    },
+    {
+      "delta_log_prob": -14.486295312643051,
+      "prompt": "German: Jetzt nehme ich Sie auf einen anderen Kontinent mit. Das ist Indien. Und das hier ist der verbreitetste Kochbrennstoff in Indien: Kuhdung. English: Now I'm going to take you to a different continent. This is India and this is the most commonly used cooking fuel in India. It's cow dung",
+      "true_token": " dung",
+      "predicted_token": " dung",
+      "index": 60,
+      "text": "German: Jetzt nehme ich Sie auf einen anderen Kontinent mit. Das ist Indien. Und das hier ist der verbreitetste Kochbrennstoff in Indien: Kuhdung. English: Now I'm going to take you to a different continent. This is India and this is the most commonly used cooking fuel in India. It's cow dung"
+    },
+    {
+      "delta_log_prob": -1.930767610669136,
+      "prompt": "German: Und der produziert noch mehr Qualm als der Brennstoff in Haiti. Da sieht man auch die gesundheitlichen Auswirkungen, wenn man Kuhdung und Biomasse als Brennstoff verwendet. English: And more than in Haiti, this produces really smoky fires, and this is where you see the health impacts of cooking with cow dung and biomass as a fuel",
+      "true_token": " fuel",
+      "predicted_token": " fuel",
+      "index": 61,
+      "text": "German: Und der produziert noch mehr Qualm als der Brennstoff in Haiti. Da sieht man auch die gesundheitlichen Auswirkungen, wenn man Kuhdung und Biomasse als Brennstoff verwendet. English: And more than in Haiti, this produces really smoky fires, and this is where you see the health impacts of cooking with cow dung and biomass as a fuel"
+    },
+    {
+      "delta_log_prob": -13.216097593307495,
+      "prompt": "German: Und als Bindemittel konnten wir kleine Mengen von Kuhdung verwenden, den sie ja sonst als Brennstoff verwandten. Und dann haben wir Vergleichstests gemacht. Hier sehen Sie die Kohlebriketts, und hier ist der Kuhdung. English: And what we could use as a binder was actually small amounts of cow manure, And we did side-by-side tests, and here you can see the charcoal briquettes and here the cow dung",
+      "true_token": " dung",
+      "predicted_token": " dung",
+      "index": 62,
+      "text": "German: Und als Bindemittel konnten wir kleine Mengen von Kuhdung verwenden, den sie ja sonst als Brennstoff verwandten. Und dann haben wir Vergleichstests gemacht. Hier sehen Sie die Kohlebriketts, und hier ist der Kuhdung. English: And what we could use as a binder was actually small amounts of cow manure, And we did side-by-side tests, and here you can see the charcoal briquettes and here the cow dung"
+    },
+    {
+      "delta_log_prob": -8.25006890296936,
+      "prompt": "German: Aber eine Sache, die wir bei Vergleichstests mit Holzkohle herausfanden, English: But one of the things that we found was when we did side-by-side comparisons with wood charcoal, it didn't burn as long",
+      "true_token": " long",
+      "predicted_token": " hot",
+      "index": 63,
+      "text": "German: Aber eine Sache, die wir bei Vergleichstests mit Holzkohle herausfanden, English: But one of the things that we found was when we did side-by-side comparisons with wood charcoal, it didn't burn as long"
+    },
+    {
+      "delta_log_prob": -11.370419139042497,
+      "prompt": "German: Also wollten wir ein stabileres Brikett herstellen, das mit der Holzkohle auf dem Markt von Haiti mithalten konnte. English: So we wanted to try to find a way to make a stronger briquette so that we could compete with wood charcoal in the markets in Haiti",
+      "true_token": " Haiti",
+      "predicted_token": " Haiti",
+      "index": 64,
+      "text": "German: Also wollten wir ein stabileres Brikett herstellen, das mit der Holzkohle auf dem Markt von Haiti mithalten konnte. English: So we wanted to try to find a way to make a stronger briquette so that we could compete with wood charcoal in the markets in Haiti"
+    },
+    {
+      "delta_log_prob": -4.9126718789339066,
+      "prompt": "German: Also gingen wir zurück ins MIT, nahmen die Instron-Maschine und fanden heraus, was für Kräfte man braucht, um ein Brikett auf ein Niveau zu komprimieren, das seine Leistung verbessert. English: So we went back to MIT, we took out the Instron machine and we figured out what sort of forces you needed in order to compress a briquette to the level that you actually are getting improved performance out of it",
+      "true_token": " it",
+      "predicted_token": " it",
+      "index": 65,
+      "text": "German: Also gingen wir zurück ins MIT, nahmen die Instron-Maschine und fanden heraus, was für Kräfte man braucht, um ein Brikett auf ein Niveau zu komprimieren, das seine Leistung verbessert. English: So we went back to MIT, we took out the Instron machine and we figured out what sort of forces you needed in order to compress a briquette to the level that you actually are getting improved performance out of it"
+    },
+    {
+      "delta_log_prob": -8.951456665992737,
+      "prompt": "German: Und während Studenten die Sache im Labor untersuchten, hatten wir auch Partner in Haiti, die an der Entwicklung und Verbesserung des Prozesses arbeiteten und ihn den Dorfbewohnern dort nahebrachten. English: And at the same time that we had students in the lab looking at this, we also had community partners in Haiti working to develop the process, to improve it and make it more accessible to people in the villages there",
+      "true_token": " there",
+      "predicted_token": " there",
+      "index": 66,
+      "text": "German: Und während Studenten die Sache im Labor untersuchten, hatten wir auch Partner in Haiti, die an der Entwicklung und Verbesserung des Prozesses arbeiteten und ihn den Dorfbewohnern dort nahebrachten. English: And at the same time that we had students in the lab looking at this, we also had community partners in Haiti working to develop the process, to improve it and make it more accessible to people in the villages there"
+    },
+    {
+      "delta_log_prob": -6.4211293905973434,
+      "prompt": "German: Und nach einiger Zeit entwickelten wir eine kostengünstige Presse, die das Herstellen von Kohle erlaubt, die jetzt sogar länger und sauberer verbrennt als Holzkohle. English: And after some time, we developed a low-cost press that allows you to produce charcoal, which actually now burns not only -- actually, it burns longer, cleaner than wood charcoal",
+      "true_token": " charcoal",
+      "predicted_token": " charcoal",
+      "index": 67,
+      "text": "German: Und nach einiger Zeit entwickelten wir eine kostengünstige Presse, die das Herstellen von Kohle erlaubt, die jetzt sogar länger und sauberer verbrennt als Holzkohle. English: And after some time, we developed a low-cost press that allows you to produce charcoal, which actually now burns not only -- actually, it burns longer, cleaner than wood charcoal"
+    },
+    {
+      "delta_log_prob": -8.52412672713399,
+      "prompt": "German: Und jetzt sind wir in einer Situation, wo wir ein Produkt haben, das sogar besser ist als das, was man auf dem Markt in Haiti kaufen kann. Und das ist doch eine tolle Sache. English: So now we're in a situation where we have a product, which is actually better than what you can buy in Haiti in the marketplace, which is a very wonderful place to be",
+      "true_token": " be",
+      "predicted_token": " be",
+      "index": 68,
+      "text": "German: Und jetzt sind wir in einer Situation, wo wir ein Produkt haben, das sogar besser ist als das, was man auf dem Markt in Haiti kaufen kann. Und das ist doch eine tolle Sache. English: So now we're in a situation where we have a product, which is actually better than what you can buy in Haiti in the marketplace, which is a very wonderful place to be"
+    },
+    {
+      "delta_log_prob": -1.930146649479866,
+      "prompt": "German: Für ein Land wie Haiti ist das eine ungeheure Menge - mit einer Bevölkerung von ungefähr acht Millionen und einem Durchschnittseinkommen von weniger als 400 Dollar. English: That's an awful lot for a country like Haiti -- with a population of eight million and an average income of less than 400 dollars",
+      "true_token": " dollars",
+      "predicted_token": " dollars",
+      "index": 69,
+      "text": "German: Für ein Land wie Haiti ist das eine ungeheure Menge - mit einer Bevölkerung von ungefähr acht Millionen und einem Durchschnittseinkommen von weniger als 400 Dollar. English: That's an awful lot for a country like Haiti -- with a population of eight million and an average income of less than 400 dollars"
+    },
+    {
+      "delta_log_prob": -12.568556785583496,
+      "prompt": "German: Und hier ist noch eines der Dinge, die ich interessant finde. Ich habe einen Freund an der Uni Berkeley, der sich mit Risikoanalyse beschäftigt. English: And one of the things that I think is also interesting, is I have a friend up at UC Berkeley who's been doing risk analysis",
+      "true_token": " analysis",
+      "predicted_token": " analysis",
+      "index": 70,
+      "text": "German: Und hier ist noch eines der Dinge, die ich interessant finde. Ich habe einen Freund an der Uni Berkeley, der sich mit Risikoanalyse beschäftigt. English: And one of the things that I think is also interesting, is I have a friend up at UC Berkeley who's been doing risk analysis"
+    },
+    {
+      "delta_log_prob": -1.2941013425588608,
+      "prompt": "German: Und er hat herausgefunden, dass man auf der ganzen Welt eine Million Tode verhindern könnte, wenn man als Kochbrennstoff English: And he's found that worldwide, you could prevent a million deaths switching from wood to charcoal as a cooking fuel",
+      "true_token": " fuel",
+      "predicted_token": " fuel",
+      "index": 71,
+      "text": "German: Und er hat herausgefunden, dass man auf der ganzen Welt eine Million Tode verhindern könnte, wenn man als Kochbrennstoff English: And he's found that worldwide, you could prevent a million deaths switching from wood to charcoal as a cooking fuel"
+    },
+    {
+      "delta_log_prob": -1.9774034451693296,
+      "prompt": "German: Eines der wirklich aufregenden Dinge ist aber etwas, das sich auf meiner Reise nach Ghana letzten Monat herausstellte. English: One of the really exciting things, though, is something that came out of the trip that I took to Ghana just last month",
+      "true_token": " month",
+      "predicted_token": " month",
+      "index": 72,
+      "text": "German: Eines der wirklich aufregenden Dinge ist aber etwas, das sich auf meiner Reise nach Ghana letzten Monat herausstellte. English: One of the really exciting things, though, is something that came out of the trip that I took to Ghana just last month"
+    },
+    {
+      "delta_log_prob": -3.5489524747245014,
+      "prompt": "German: Und das ist, finde ich, supercool und sogar noch einfacher in der Anwendung als das, was Sie eben gesehen haben. Wenn Sie sich so was vorstellen können. Hier ist es. English: And I think it's the coolest thing, and it's even lower tech than what you just saw, if you can imagine such a thing. Here it is",
+      "true_token": " is",
+      "predicted_token": " is",
+      "index": 73,
+      "text": "German: Und das ist, finde ich, supercool und sogar noch einfacher in der Anwendung als das, was Sie eben gesehen haben. Wenn Sie sich so was vorstellen können. Hier ist es. English: And I think it's the coolest thing, and it's even lower tech than what you just saw, if you can imagine such a thing. Here it is"
+    },
+    {
+      "delta_log_prob": -7.999561324715614,
+      "prompt": "German: Und das tolle daran ist, man muss nicht erst Briketts formen. Die sind ja schon fertig. Genau das ist mein 100-Dollar-Laptop. English: And the beauty of this is that you don't need to form briquettes -- it comes ready made. This is my $100 laptop, right here",
+      "true_token": " here",
+      "predicted_token": " here",
+      "index": 74,
+      "text": "German: Und das tolle daran ist, man muss nicht erst Briketts formen. Die sind ja schon fertig. Genau das ist mein 100-Dollar-Laptop. English: And the beauty of this is that you don't need to form briquettes -- it comes ready made. This is my $100 laptop, right here"
+    },
+    {
+      "delta_log_prob": -11.612008609808981,
+      "prompt": "German: Und ich finde, ein bemerkenswerter Aspekt dieser Sache ist die Einfachheit des Technologietransfers. Im Unterschied zur Holzkohle aus Zuckerrohr, wo wir den Leuten beibringen müssen, sie zu Briketts zu formen, und wo es den Extraschritt gibt, das Bindemittel zuzubereiten, kommen die Maiskolben schon vor-brikettiert. English: And I think one of the things which is also remarkable about this technology, is that the technology transfer is so easy. Compared to the sugarcane charcoal, where we have to teach people how to form it into briquettes and you have the extra step of cooking the binder, this comes pre-briquetted",
+      "true_token": "ted",
+      "predicted_token": "ted",
+      "index": 75,
+      "text": "German: Und ich finde, ein bemerkenswerter Aspekt dieser Sache ist die Einfachheit des Technologietransfers. Im Unterschied zur Holzkohle aus Zuckerrohr, wo wir den Leuten beibringen müssen, sie zu Briketts zu formen, und wo es den Extraschritt gibt, das Bindemittel zuzubereiten, kommen die Maiskolben schon vor-brikettiert. English: And I think one of the things which is also remarkable about this technology, is that the technology transfer is so easy. Compared to the sugarcane charcoal, where we have to teach people how to form it into briquettes and you have the extra step of cooking the binder, this comes pre-briquetted"
+    },
+    {
+      "delta_log_prob": -0.7557793273590505,
+      "prompt": "German: Und das ist gerade eines der spannendsten Dinge in meinem Leben, was vielleicht ein trauriger Kommentar über mein Leben ist. English: And this is about the most exciting thing in my life right now, which is perhaps a sad commentary on my life",
+      "true_token": " life",
+      "predicted_token": " life",
+      "index": 76,
+      "text": "German: Und das ist gerade eines der spannendsten Dinge in meinem Leben, was vielleicht ein trauriger Kommentar über mein Leben ist. English: And this is about the most exciting thing in my life right now, which is perhaps a sad commentary on my life"
+    },
+    {
+      "delta_log_prob": -11.624224722385406,
+      "prompt": "German: Aber wenn Sie es erstmal sehen, wie Sie da vorn in der ersten Reihe, nicht wahr? Eben! Okay. Also auf jeden Fall --  -- hier ist es. Und ich finde, das ist ein perfektes Beispiel dessen, was Robert Wright erwähnte, als er über diese Nicht-Nullsummendinge redete. English: But once you see it, like you guys in the front row -- All right, yeah, OK. So anyway --  Here it is. And this is, I think, a perfect example of what Robert Wright was talking about in those non-zero-sum things",
+      "true_token": " things",
+      "predicted_token": " games",
+      "index": 77,
+      "text": "German: Aber wenn Sie es erstmal sehen, wie Sie da vorn in der ersten Reihe, nicht wahr? Eben! Okay. Also auf jeden Fall --  -- hier ist es. Und ich finde, das ist ein perfektes Beispiel dessen, was Robert Wright erwähnte, als er über diese Nicht-Nullsummendinge redete. English: But once you see it, like you guys in the front row -- All right, yeah, OK. So anyway --  Here it is. And this is, I think, a perfect example of what Robert Wright was talking about in those non-zero-sum things"
+    },
+    {
+      "delta_log_prob": -3.63044835627079,
+      "prompt": "German: Sie können das Geld sparen, das sie für Kohle ausgegeben hätten, und sie können mehr produzieren und auf dem Markt an die Leute verkaufen, die nicht selbst Kohle herstellen. English: They can save the money that they were going to spend on charcoal and they can produce excess and sell it in the market to people who aren't making their own",
+      "true_token": " own",
+      "predicted_token": " own",
+      "index": 78,
+      "text": "German: Sie können das Geld sparen, das sie für Kohle ausgegeben hätten, und sie können mehr produzieren und auf dem Markt an die Leute verkaufen, die nicht selbst Kohle herstellen. English: They can save the money that they were going to spend on charcoal and they can produce excess and sell it in the market to people who aren't making their own"
+    },
+    {
+      "delta_log_prob": -2.498480673879385,
+      "prompt": "German: Das ist also ein ungeheuer spannendes Projekt und ich freue mich sehr darauf zu sehen, wohin es uns bringt. English: So this is a project that I just find extremely exciting and I'm really looking forward to see where it takes us",
+      "true_token": " us",
+      "predicted_token": " us",
+      "index": 79,
+      "text": "German: Das ist also ein ungeheuer spannendes Projekt und ich freue mich sehr darauf zu sehen, wohin es uns bringt. English: So this is a project that I just find extremely exciting and I'm really looking forward to see where it takes us"
+    },
+    {
+      "delta_log_prob": -3.4084529131650925,
+      "prompt": "German: Also wenn wir jetzt über die Zukunft reden, die wir schaffen werden, dann ist eines der Dinge, die meiner Meinung nach wichtig sind, eine klare Vision der Welt, in der wir leben. English: So when we talk about, now, the future we will create, one of the things that I think is necessary is to have a very clear vision of the world that we live in",
+      "true_token": " in",
+      "predicted_token": " in",
+      "index": 80,
+      "text": "German: Also wenn wir jetzt über die Zukunft reden, die wir schaffen werden, dann ist eines der Dinge, die meiner Meinung nach wichtig sind, eine klare Vision der Welt, in der wir leben. English: So when we talk about, now, the future we will create, one of the things that I think is necessary is to have a very clear vision of the world that we live in"
+    },
+    {
+      "delta_log_prob": -14.49300654232502,
+      "prompt": "German: Die Welt, wo fortschrittliche Baumaterialien handgemachte Zementdachziegel sind und wo man bei zehnstündigen Arbeitstagen immer noch nur 60 Dollar pro Monat verdient. English: I mean the world where advanced building materials means cement roofing tiles that are made by hand, and where, when you work 10 hours a day, you're still only earning 60 dollars in a month",
+      "true_token": " month",
+      "predicted_token": " month",
+      "index": 81,
+      "text": "German: Die Welt, wo fortschrittliche Baumaterialien handgemachte Zementdachziegel sind und wo man bei zehnstündigen Arbeitstagen immer noch nur 60 Dollar pro Monat verdient. English: I mean the world where advanced building materials means cement roofing tiles that are made by hand, and where, when you work 10 hours a day, you're still only earning 60 dollars in a month"
+    },
+    {
+      "delta_log_prob": -12.674144305288792,
+      "prompt": "German: Das ist so, als wenn alle Arbeitstätigen im Staat Kalifornien das ganze Jahr Vollzeit mit Wasserholen beschäftigt wären. English: That's as if the entire workforce of the state of California worked full time for a year doing nothing but fetching water",
+      "true_token": " water",
+      "predicted_token": " water",
+      "index": 82,
+      "text": "German: Das ist so, als wenn alle Arbeitstätigen im Staat Kalifornien das ganze Jahr Vollzeit mit Wasserholen beschäftigt wären. English: That's as if the entire workforce of the state of California worked full time for a year doing nothing but fetching water"
+    },
+    {
+      "delta_log_prob": -12.414524038787931,
+      "prompt": "German: Es ist ein Ort, wo zum Beispiel, wenn dies Indien wäre, in diesem Raum nur drei von uns ein Auto hätten. English: It's a place where, for example, if this were India, in this room, only three of us would have a car",
+      "true_token": " car",
+      "predicted_token": " car",
+      "index": 83,
+      "text": "German: Es ist ein Ort, wo zum Beispiel, wenn dies Indien wäre, in diesem Raum nur drei von uns ein Auto hätten. English: It's a place where, for example, if this were India, in this room, only three of us would have a car"
+    },
+    {
+      "delta_log_prob": -7.806450247764587,
+      "prompt": "German: Die Dinge, für die wir unsere Ingenieure ausbilden müssen, unsere Designer, unsere Geschäftsleute, unsere Unternehmer. English: These are the issues that we need to be training our engineers, our designers, our business people, our entrepreneurs to be facing",
+      "true_token": " facing",
+      "predicted_token": " able",
+      "index": 84,
+      "text": "German: Die Dinge, für die wir unsere Ingenieure ausbilden müssen, unsere Designer, unsere Geschäftsleute, unsere Unternehmer. English: These are the issues that we need to be training our engineers, our designers, our business people, our entrepreneurs to be facing"
+    },
+    {
+      "delta_log_prob": -1.5706441402435303,
+      "prompt": "German: Eines davon ist die Schaffung von Technologien, die Mikro-Unternehmen und Mikro-Finanzierungen unterstützen, damit Leute unterhalb der Armutsgrenze eine Möglichkeit finden, sich dort rauszubewegen und dass sie es nicht tun, indem sie auf althergebrachte Weise Körbe flechten, Geflügel züchten, und so weiter. English: One of them is creating technologies to promote micro-finance and micro-enterprise, so that people who are living below the poverty line can find a way to move out -- and that they're not doing it using the same traditional basket making, poultry rearing, etc",
+      "true_token": " etc",
+      "predicted_token": " and",
+      "index": 85,
+      "text": "German: Eines davon ist die Schaffung von Technologien, die Mikro-Unternehmen und Mikro-Finanzierungen unterstützen, damit Leute unterhalb der Armutsgrenze eine Möglichkeit finden, sich dort rauszubewegen und dass sie es nicht tun, indem sie auf althergebrachte Weise Körbe flechten, Geflügel züchten, und so weiter. English: One of them is creating technologies to promote micro-finance and micro-enterprise, so that people who are living below the poverty line can find a way to move out -- and that they're not doing it using the same traditional basket making, poultry rearing, etc"
+    },
+    {
+      "delta_log_prob": -1.4948196411132812,
+      "prompt": "German: Das nächste, was wir schaffen müssen, sind Technologien für arme Bauern, um ihre eigenen Ernten aufzuwerten. English: The next thing I believe is that we need to create technologies for poor farmers to add value to their own crops",
+      "true_token": " crops",
+      "predicted_token": " crops",
+      "index": 86,
+      "text": "German: Das nächste, was wir schaffen müssen, sind Technologien für arme Bauern, um ihre eigenen Ernten aufzuwerten. English: The next thing I believe is that we need to create technologies for poor farmers to add value to their own crops"
+    },
+    {
+      "delta_log_prob": -16.654543990269303,
+      "prompt": "German: Und wir müssen unsere Entwicklungsstrategien überdenken, damit wir keine Aufklärungskampagnen durchführen, die sie von einem Bauernleben abbringen, sondern die sie von einem armen Bauernleben abbringen. English: And we need to rethink our development strategies, so that we're not promoting educational campaigns to get them to stop being farmers, but rather to stop being poor farmers",
+      "true_token": " farmers",
+      "predicted_token": " farmers",
+      "index": 87,
+      "text": "German: Und wir müssen unsere Entwicklungsstrategien überdenken, damit wir keine Aufklärungskampagnen durchführen, die sie von einem Bauernleben abbringen, sondern die sie von einem armen Bauernleben abbringen. English: And we need to rethink our development strategies, so that we're not promoting educational campaigns to get them to stop being farmers, but rather to stop being poor farmers"
+    },
+    {
+      "delta_log_prob": -6.283557862043381,
+      "prompt": "German: Wir müssen mit den Leuten in diesen Gemeinden arbeiten und ihnen die Ressourcen und Werkzeuge geben, die sie brauchen, damit sie ihre eigenen Probleme lösen können. Das ist die beste Lösung. English: We need to work with the people in these communities and give them the resources and the tools that they need to solve their own problems. That's the best way to do it",
+      "true_token": " it",
+      "predicted_token": " it",
+      "index": 88,
+      "text": "German: Wir müssen mit den Leuten in diesen Gemeinden arbeiten und ihnen die Ressourcen und Werkzeuge geben, die sie brauchen, damit sie ihre eigenen Probleme lösen können. Das ist die beste Lösung. English: We need to work with the people in these communities and give them the resources and the tools that they need to solve their own problems. That's the best way to do it"
+    },
+    {
+      "delta_log_prob": -5.1315145287662745,
+      "prompt": "German: Chris Anderson: Erzählen Sie doch - während wir sehen, ob jemand eine Frage hat - erzählen Sie doch bitte von einer der anderen Sachen, an denen Sie arbeiten. English: Chris Anderson: Thank you, incredible. Stay here. Tell us -- just while we see if someone has a question -- just tell us about one of the other things that you've worked on",
+      "true_token": " on",
+      "predicted_token": " on",
+      "index": 89,
+      "text": "German: Chris Anderson: Erzählen Sie doch - während wir sehen, ob jemand eine Frage hat - erzählen Sie doch bitte von einer der anderen Sachen, an denen Sie arbeiten. English: Chris Anderson: Thank you, incredible. Stay here. Tell us -- just while we see if someone has a question -- just tell us about one of the other things that you've worked on"
+    },
+    {
+      "delta_log_prob": -7.66731770336628,
+      "prompt": "German: Amy Smith: Ein paar von unseren anderen Projekten sind Untersuchungen, wie man kostengünstig Wasserqualität testen kann, damit Gemeinden ihre eigenen Wassersysteme betreiben können und wissen, wann sie funktionieren, wann sie aufbereitet werden müssen, etc. English: Amy Smith: Some of the other things we're working on are ways to do low-cost water quality testing, so that communities can maintain their own water systems, know when they're working, know when they treat them, etc",
+      "true_token": " etc",
+      "predicted_token": " etc",
+      "index": 90,
+      "text": "German: Amy Smith: Ein paar von unseren anderen Projekten sind Untersuchungen, wie man kostengünstig Wasserqualität testen kann, damit Gemeinden ihre eigenen Wassersysteme betreiben können und wissen, wann sie funktionieren, wann sie aufbereitet werden müssen, etc. English: Amy Smith: Some of the other things we're working on are ways to do low-cost water quality testing, so that communities can maintain their own water systems, know when they're working, know when they treat them, etc"
+    },
+    {
+      "delta_log_prob": -1.1257768273353577,
+      "prompt": "German: Eines der spannendsten Dinge ist solare Wasser-Desinfektion und die Verbesserung ihrer Verwendbarkeit. English: One of the really exciting things is looking at solar water disinfection and improving the ability to be able to do that",
+      "true_token": " that",
+      "predicted_token": " that",
+      "index": 91,
+      "text": "German: Eines der spannendsten Dinge ist solare Wasser-Desinfektion und die Verbesserung ihrer Verwendbarkeit. English: One of the really exciting things is looking at solar water disinfection and improving the ability to be able to do that"
+    },
+    {
+      "delta_log_prob": -2.206352710723877,
+      "prompt": "German: Brauchen Sie Unternehmer oder Risikokapitalgeber, oder was brauchen Sie, um das, was Sie haben, umzusetzen? English: Do you need to find entrepreneurs, or venture capitalists, or what do you need to take what you've got and get it to scale",
+      "true_token": " scale",
+      "predicted_token": " market",
+      "index": 92,
+      "text": "German: Brauchen Sie Unternehmer oder Risikokapitalgeber, oder was brauchen Sie, um das, was Sie haben, umzusetzen? English: Do you need to find entrepreneurs, or venture capitalists, or what do you need to take what you've got and get it to scale"
+    },
+    {
+      "delta_log_prob": -6.023868918418884,
+      "prompt": "German: AS: Ja, ich glaube es sind große Mengen von Leuten, die involviert sind. Es ist schwierig. Der Markt ist sehr aufgespalten und die Konsumenten haben kein Einkommen. English: AS: I think it's large numbers of people moving it forward. It's a difficult thing -- it's a marketplace which is very fragmented and a consumer population with no income",
+      "true_token": " income",
+      "predicted_token": " income",
+      "index": 93,
+      "text": "German: AS: Ja, ich glaube es sind große Mengen von Leuten, die involviert sind. Es ist schwierig. Der Markt ist sehr aufgespalten und die Konsumenten haben kein Einkommen. English: AS: I think it's large numbers of people moving it forward. It's a difficult thing -- it's a marketplace which is very fragmented and a consumer population with no income"
+    },
+    {
+      "delta_log_prob": -2.071681946516037,
+      "prompt": "German: Wir haben 30 Studenten pro Jahr, die raus in die Welt gehen und versuchen, die Technologien umzusetzen und voranzubringen. English: We have 30 students a year go out into the field and try to implement this and move it forward",
+      "true_token": " forward",
+      "predicted_token": " forward",
+      "index": 94,
+      "text": "German: Wir haben 30 Studenten pro Jahr, die raus in die Welt gehen und versuchen, die Technologien umzusetzen und voranzubringen. English: We have 30 students a year go out into the field and try to implement this and move it forward"
+    },
+    {
+      "delta_log_prob": -8.561325192451477,
+      "prompt": "German: Die andere Sache ist, dass alles einen langen Zeitrahmen hat, da man, na ja, man kann nicht erwarten, dass etwas in einem oder zwei Jahren gelöst ist. Man muss also fünf oder zehn Jahre vorausschauen. English: The other thing is you have to do things with a long time frame, as, you know, you can't expect to get something done in a year or two years; you have to be looking five or 10 years ahead",
+      "true_token": " ahead",
+      "predicted_token": " ahead",
+      "index": 95,
+      "text": "German: Die andere Sache ist, dass alles einen langen Zeitrahmen hat, da man, na ja, man kann nicht erwarten, dass etwas in einem oder zwei Jahren gelöst ist. Man muss also fünf oder zehn Jahre vorausschauen. English: The other thing is you have to do things with a long time frame, as, you know, you can't expect to get something done in a year or two years; you have to be looking five or 10 years ahead"
+    },
+    {
+      "delta_log_prob": -16.48557472229004,
+      "prompt": "German: durch Diskussion und Debatte. Wenn wir die Tyrannei der Vermutungen in Frage stellen und geläufige Meinungen vermeiden sollen, den Bereich des Nichthinterfragten, dann müssen wir bereit sein unsere eigenen Vermutungen der Debatte und Diskussion zu unterstellen. Es ist in diesem Sinne, dass ich in eine Diskussion eintrete über eines der entscheidenden Themen unserer Zeit, nämlich wie man verschiedene Formen von Kapital für die English: If we are to call the tyranny of assumptions into question, and avoid doxa, the realm of the unquestioned, then we must be willing to subject our own assumptions to debate and discussion. It is in this spirit that I join into a discussion of one of the critical issues of our time, namely, how to mobilize different forms of capital for the project of state building",
+      "true_token": " building",
+      "predicted_token": "-building",
+      "index": 96,
+      "text": "German: durch Diskussion und Debatte. Wenn wir die Tyrannei der Vermutungen in Frage stellen und geläufige Meinungen vermeiden sollen, den Bereich des Nichthinterfragten, dann müssen wir bereit sein unsere eigenen Vermutungen der Debatte und Diskussion zu unterstellen. Es ist in diesem Sinne, dass ich in eine Diskussion eintrete über eines der entscheidenden Themen unserer Zeit, nämlich wie man verschiedene Formen von Kapital für die English: If we are to call the tyranny of assumptions into question, and avoid doxa, the realm of the unquestioned, then we must be willing to subject our own assumptions to debate and discussion. It is in this spirit that I join into a discussion of one of the critical issues of our time, namely, how to mobilize different forms of capital for the project of state building"
+    },
+    {
+      "delta_log_prob": -5.375337243080139,
+      "prompt": "German: Wenn wir die Welt von 1945 betrachten und auf die Landkarte von kapitalistischen Wirtschaften und demokratischen politischen Systemen schauen, waren diese die seltene Ausnahme, English: If we looked in the world of 1945 and looked at the map of capitalist economies and democratic polities, they were the rare exception, not the norm",
+      "true_token": " norm",
+      "predicted_token": " rule",
+      "index": 97,
+      "text": "German: Wenn wir die Welt von 1945 betrachten und auf die Landkarte von kapitalistischen Wirtschaften und demokratischen politischen Systemen schauen, waren diese die seltene Ausnahme, English: If we looked in the world of 1945 and looked at the map of capitalist economies and democratic polities, they were the rare exception, not the norm"
+    },
+    {
+      "delta_log_prob": -5.633148431777954,
+      "prompt": "German: nicht die Norm. Die Frage stellt sich nun aber sowohl über die Form von Kapitalismus als auch über die Art von demokratischer Teilnahme. Wir müssen aber anerkennen, dass dieser Zeitpunkt durch einen seltenen Konsens English: The question now, however, is both about which form of capitalism and which type of democratic participation. But we must acknowledge that this moment has brought about a rare consensus of assumptions",
+      "true_token": " assumptions",
+      "predicted_token": " the",
+      "index": 98,
+      "text": "German: nicht die Norm. Die Frage stellt sich nun aber sowohl über die Form von Kapitalismus als auch über die Art von demokratischer Teilnahme. Wir müssen aber anerkennen, dass dieser Zeitpunkt durch einen seltenen Konsens English: The question now, however, is both about which form of capitalism and which type of democratic participation. But we must acknowledge that this moment has brought about a rare consensus of assumptions"
+    },
+    {
+      "delta_log_prob": -5.022331647574902,
+      "prompt": "German: von Vermutungen hervorgebracht wird, und das bietet die Basis für eine Art von Handeln, denn Konsens zu jedem Zeitpunkt ermöglicht es uns zu handeln. Und es ist notwendig, egal wie zerbrechlich oder wie provisorisch unser Konsens ist, um vorwärts kommen zu können. English: And that provides the ground for a type of action, because consensus of each moment allows us to act. And it is necessary, no matter how fragile or how provisional our consensus, to be able to move forward",
+      "true_token": " forward",
+      "predicted_token": " forward",
+      "index": 99,
+      "text": "German: von Vermutungen hervorgebracht wird, und das bietet die Basis für eine Art von Handeln, denn Konsens zu jedem Zeitpunkt ermöglicht es uns zu handeln. Und es ist notwendig, egal wie zerbrechlich oder wie provisorisch unser Konsens ist, um vorwärts kommen zu können. English: And that provides the ground for a type of action, because consensus of each moment allows us to act. And it is necessary, no matter how fragile or how provisional our consensus, to be able to move forward"
+    },
+    {
+      "delta_log_prob": -4.778775572776794,
+      "prompt": "German: Aber der Großteil der Welt profitiert weder vom Kapitalismus noch von demokratischen Systemen. Die Mehrheit des Globusses erlebt den Staat als unterdrückend, als eine auf Ablehnung von Rechten, des Justizwesens bedachte Organisation anstatt ebendies bereit zu English: But the majority of the world neither benefits from capitalism nor from democratic systems. Most of the globe experiences the state as repressive, as an organization that is concerned about denial of rights, rather than provision of it",
+      "true_token": " it",
+      "predicted_token": " rights",
+      "index": 100,
+      "text": "German: Aber der Großteil der Welt profitiert weder vom Kapitalismus noch von demokratischen Systemen. Die Mehrheit des Globusses erlebt den Staat als unterdrückend, als eine auf Ablehnung von Rechten, des Justizwesens bedachte Organisation anstatt ebendies bereit zu English: But the majority of the world neither benefits from capitalism nor from democratic systems. Most of the globe experiences the state as repressive, as an organization that is concerned about denial of rights, rather than provision of it"
+    },
+    {
+      "delta_log_prob": -8.684081772051286,
+      "prompt": "German: technische Unterstützung. Und technische Unterstützung schockiert Sie vielleicht, aber sie ist heutzutage die schlimmste Form des hässlichen Gesichts der entwickelten Welt gegenüber Entwicklungsländern. Zehntausende von Dollar werden angeblich ausgegeben für den Aufbau der Leistungsfähigkeit mit Leuten, die mit bis zu 1500 Dollar pro Tag bezahlt werden, die nicht imstande sind kreativ oder organisch English: And technical assistance might shock you, but it's the worst form of -- today -- of the ugly face of the developed world to the developing countries. Tens of billions of dollars are supposedly spent on building capacity with people who are paid up to 1,500 dollars a day, who are incapable of thinking creatively, or organically",
+      "true_token": "ically",
+      "predicted_token": "ically",
+      "index": 101,
+      "text": "German: technische Unterstützung. Und technische Unterstützung schockiert Sie vielleicht, aber sie ist heutzutage die schlimmste Form des hässlichen Gesichts der entwickelten Welt gegenüber Entwicklungsländern. Zehntausende von Dollar werden angeblich ausgegeben für den Aufbau der Leistungsfähigkeit mit Leuten, die mit bis zu 1500 Dollar pro Tag bezahlt werden, die nicht imstande sind kreativ oder organisch English: And technical assistance might shock you, but it's the worst form of -- today -- of the ugly face of the developed world to the developing countries. Tens of billions of dollars are supposedly spent on building capacity with people who are paid up to 1,500 dollars a day, who are incapable of thinking creatively, or organically"
+    },
+    {
+      "delta_log_prob": -2.9100183695554733,
+      "prompt": "German: zu denken. Nächste Vermutung -- und natürlich haben uns die Ereignisse vom 7. Juli -- ich gebe mein Beileid -- und zuvor vom 11. September daran erinnert, dass wir nicht in drei verschiedenen Welten leben. English: Next assumption -- and of course the events of July 7, I express my deep sympathy, and before that, September 11 -- have reminded us we do not live in three different worlds",
+      "true_token": " worlds",
+      "predicted_token": " worlds",
+      "index": 102,
+      "text": "German: zu denken. Nächste Vermutung -- und natürlich haben uns die Ereignisse vom 7. Juli -- ich gebe mein Beileid -- und zuvor vom 11. September daran erinnert, dass wir nicht in drei verschiedenen Welten leben. English: Next assumption -- and of course the events of July 7, I express my deep sympathy, and before that, September 11 -- have reminded us we do not live in three different worlds"
+    },
+    {
+      "delta_log_prob": -2.1627601981163025,
+      "prompt": "German: diese eine Welt nicht auf einem riesigen Ausschlussgebiet und einem Einschluss weniger aufbauen darf, wenn wir eine Welt haben wollen. Wir müssen nun endlich über Welt in Bezug aufs Rechtssystem nachdenken, auf Pflichten und Verantwortungen, die in ihrem Ausmaß wirklich global sind. Sonst werden wir diesen offenen Zeitpunkt in der Geschichte verpassen, in welchem wir sowohl über die Form von Politik wie auch über die Wirtschaftsform einen Konsens haben. English: this one world cannot be based on huge pockets of exclusion, and then inclusion for some. We must now finally come to think about the premises of a truly global world, in relationship to the regime of rights and responsibilities and accountabilities that are truly global in scope. Otherwise we will be missing this open moment in history, where we have a consensus on both the form of politics and the form of economics",
+      "true_token": " economics",
+      "predicted_token": " the",
+      "index": 103,
+      "text": "German: diese eine Welt nicht auf einem riesigen Ausschlussgebiet und einem Einschluss weniger aufbauen darf, wenn wir eine Welt haben wollen. Wir müssen nun endlich über Welt in Bezug aufs Rechtssystem nachdenken, auf Pflichten und Verantwortungen, die in ihrem Ausmaß wirklich global sind. Sonst werden wir diesen offenen Zeitpunkt in der Geschichte verpassen, in welchem wir sowohl über die Form von Politik wie auch über die Wirtschaftsform einen Konsens haben. English: this one world cannot be based on huge pockets of exclusion, and then inclusion for some. We must now finally come to think about the premises of a truly global world, in relationship to the regime of rights and responsibilities and accountabilities that are truly global in scope. Otherwise we will be missing this open moment in history, where we have a consensus on both the form of politics and the form of economics"
+    },
+    {
+      "delta_log_prob": -8.68600618839264,
+      "prompt": "German: haben drei entscheidende Begriffe: Wirtschaft, Zivilgesellschaft und der Staat. Mit diesen ersten beiden werde ich mich nicht weiter beschäftigen, außer zu sagen, dass unkritische Übertragung von Annahmen von einem Zusammenhang zu einem anderen nur Unheil verursachen kann. Ökonomik, so wie sie gelehrt wird in den meisten Eliteuniversitäten, ist praktisch nutzlos in English: We have three critical terms: economy, and the state. I will not deal with those first two, except to say that uncritical transfer of assumptions, from one context to another, can only make for disaster. Economics taught in most of the elite universities are practically useless in my context",
+      "true_token": " context",
+      "predicted_token": " opinion",
+      "index": 104,
+      "text": "German: haben drei entscheidende Begriffe: Wirtschaft, Zivilgesellschaft und der Staat. Mit diesen ersten beiden werde ich mich nicht weiter beschäftigen, außer zu sagen, dass unkritische Übertragung von Annahmen von einem Zusammenhang zu einem anderen nur Unheil verursachen kann. Ökonomik, so wie sie gelehrt wird in den meisten Eliteuniversitäten, ist praktisch nutzlos in English: We have three critical terms: economy, and the state. I will not deal with those first two, except to say that uncritical transfer of assumptions, from one context to another, can only make for disaster. Economics taught in most of the elite universities are practically useless in my context"
+    },
+    {
+      "delta_log_prob": -10.072950316593051,
+      "prompt": "German: nicht in meinem Zusammenhang, und ich habe fast keine Vorschläge von irgendjemandem darüber, wie man eine legale Wirtschaft aufstellt. Die Armut unseres Wissens muss die erste Grundlage zum Fortschritt werden und nicht der Aufzwang eines auf Grundlage matheamtischer Muster arbeitenden Systems, für welches ich enormen Respekt habe. Meine Kollegen an der English: Textbook economics does not work in my context, and I have very few recommendations from anybody as to how to put together a legal economy. The poverty of our knowledge must become the first basis of moving forward, and not imposition of the framework that works on the basis of mathematical modeling, for which I have enormous respect",
+      "true_token": " respect",
+      "predicted_token": " respect",
+      "index": 105,
+      "text": "German: nicht in meinem Zusammenhang, und ich habe fast keine Vorschläge von irgendjemandem darüber, wie man eine legale Wirtschaft aufstellt. Die Armut unseres Wissens muss die erste Grundlage zum Fortschritt werden und nicht der Aufzwang eines auf Grundlage matheamtischer Muster arbeitenden Systems, für welches ich enormen Respekt habe. Meine Kollegen an der English: Textbook economics does not work in my context, and I have very few recommendations from anybody as to how to put together a legal economy. The poverty of our knowledge must become the first basis of moving forward, and not imposition of the framework that works on the basis of mathematical modeling, for which I have enormous respect"
+    },
+    {
+      "delta_log_prob": -5.786042809486389,
+      "prompt": "German: Zweitens, anstatt ohne Ende darüber zu diskutieren, was die Staatsstruktur ist, warum machen wir es nicht einfacher und sagen: Was ist eine Reihe von Funktionen, die der Staat im 21. Jahrhundert ausführen muss? English: Second, instead of debating endlessly about what is the structure of the state, why don't we simplify and say, what are a series of functions that the state in the 21st century must perform",
+      "true_token": " perform",
+      "predicted_token": " carry",
+      "index": 106,
+      "text": "German: Zweitens, anstatt ohne Ende darüber zu diskutieren, was die Staatsstruktur ist, warum machen wir es nicht einfacher und sagen: Was ist eine Reihe von Funktionen, die der Staat im 21. Jahrhundert ausführen muss? English: Second, instead of debating endlessly about what is the structure of the state, why don't we simplify and say, what are a series of functions that the state in the 21st century must perform"
+    },
+    {
+      "delta_log_prob": -3.769552916288376,
+      "prompt": "German: Clare Lockhart und ich schreiben ein Buch darüber. Wir hoffen es findet weite Verbreitung -- und der dritte Punkt ist, dass wir tatsächlich einen Index erstellen könnten um Vergleiche zu ziehen, wie gut diese Funktionen, über die wir uns einig wären, an verschiedenen Orten durchgeführt werden. English: Clare Lockhart and I are writing a book on this; we hope to share that much widely with -- and third is that we could actually construct an index to measure comparatively how well these functions that we would agree on are being performed in different places",
+      "true_token": " places",
+      "predicted_token": " places",
+      "index": 107,
+      "text": "German: Clare Lockhart und ich schreiben ein Buch darüber. Wir hoffen es findet weite Verbreitung -- und der dritte Punkt ist, dass wir tatsächlich einen Index erstellen könnten um Vergleiche zu ziehen, wie gut diese Funktionen, über die wir uns einig wären, an verschiedenen Orten durchgeführt werden. English: Clare Lockhart and I are writing a book on this; we hope to share that much widely with -- and third is that we could actually construct an index to measure comparatively how well these functions that we would agree on are being performed in different places"
+    },
+    {
+      "delta_log_prob": -8.57453864114359,
+      "prompt": "German: zwar ein rechtliches Monopol auf Mittel von Gewalt, eine Verwaltungskontrolle, eine Handhabung der öffenlichen Finanzen, Investitionen in Humankapital, zur Verfügung gestellte/geregelete Bürgerrechte, Infrastrukturregelung, Regulierung des materiellen und immateriellen Staatsvermögens, Erstellung eines Markts, internationale Abkommen -- inklusive öffentliche Kreditaufnahmen -- und, was am wichtigsten ist, Rechtsstaatlichkeit. English: And it's legitimate monopoly of means of violence, administrative control, management of public finances, investment in human capital, provision of citizenship rights, provision of infrastructure, management of the tangible and intangible assets of the state through regulation, creation of the market, international agreements, including public borrowing, and then, most importantly, rule of law",
+      "true_token": " law",
+      "predicted_token": " law",
+      "index": 108,
+      "text": "German: zwar ein rechtliches Monopol auf Mittel von Gewalt, eine Verwaltungskontrolle, eine Handhabung der öffenlichen Finanzen, Investitionen in Humankapital, zur Verfügung gestellte/geregelete Bürgerrechte, Infrastrukturregelung, Regulierung des materiellen und immateriellen Staatsvermögens, Erstellung eines Markts, internationale Abkommen -- inklusive öffentliche Kreditaufnahmen -- und, was am wichtigsten ist, Rechtsstaatlichkeit. English: And it's legitimate monopoly of means of violence, administrative control, management of public finances, investment in human capital, provision of citizenship rights, provision of infrastructure, management of the tangible and intangible assets of the state through regulation, creation of the market, international agreements, including public borrowing, and then, most importantly, rule of law"
+    },
+    {
+      "delta_log_prob": -4.792153477668762,
+      "prompt": "German: dazu noch Gelegenheit geben werden. Das ist ein erreichbares Ziel, weil ich – im Gegensatz zur weitverbreiteten Annahme -- sagen würde, dass wir im Grunde wissen, wie man das English: This is a feasible goal, basically because, contrary to widespread assumption, I would argue that we know how to do this",
+      "true_token": " this",
+      "predicted_token": " that",
+      "index": 109,
+      "text": "German: dazu noch Gelegenheit geben werden. Das ist ein erreichbares Ziel, weil ich – im Gegensatz zur weitverbreiteten Annahme -- sagen würde, dass wir im Grunde wissen, wie man das English: This is a feasible goal, basically because, contrary to widespread assumption, I would argue that we know how to do this"
+    },
+    {
+      "delta_log_prob": -10.87118780775927,
+      "prompt": "German: macht. Wer hätte sich vorstellen können, dass Deutschland heute entweder vereinigt oder demokratisch wäre, wenn man es aus Oxfords Perspektive von 1943 ansieht? Aber Leute in Oxford bereiteten sich auf ein English: Who would have imagined that Germany would be either united or democratic today, if you looked at it from the perspective of Oxford of 1943",
+      "true_token": "3",
+      "predicted_token": "3",
+      "index": 110,
+      "text": "German: macht. Wer hätte sich vorstellen können, dass Deutschland heute entweder vereinigt oder demokratisch wäre, wenn man es aus Oxfords Perspektive von 1943 ansieht? Aber Leute in Oxford bereiteten sich auf ein English: Who would have imagined that Germany would be either united or democratic today, if you looked at it from the perspective of Oxford of 1943"
+    },
+    {
+      "delta_log_prob": -5.587472073733807,
+      "prompt": "German: Nun um dies zu tun -- und das bringt diese Gruppe -- müssen wir die Vorstellung von Kapital überdenken. English: Now in order to do this -- and this brings this group -- we have to rethink the notion of capital",
+      "true_token": " capital",
+      "predicted_token": " capital",
+      "index": 111,
+      "text": "German: Nun um dies zu tun -- und das bringt diese Gruppe -- müssen wir die Vorstellung von Kapital überdenken. English: Now in order to do this -- and this brings this group -- we have to rethink the notion of capital"
+    },
+    {
+      "delta_log_prob": -8.641928762197495,
+      "prompt": "German: institutionellen, organisatorischen, unternehmerischen Formen um es in Kaptial zu verwandeln. Und was man benötigt, ist die Kombination von materiellem Kapital, institutionellem Kapital, Humankapital -- und Sicherheit ist natürlich entscheidend -- aber ebenso auch Informationen. English: Because it lacks the institutional, organizational, managerial forms to turn it into capital. And what is required is a combination of physical capital, institutional capital, human capital -- and security, of course, is critical, but so is information",
+      "true_token": " information",
+      "predicted_token": " information",
+      "index": 112,
+      "text": "German: institutionellen, organisatorischen, unternehmerischen Formen um es in Kaptial zu verwandeln. Und was man benötigt, ist die Kombination von materiellem Kapital, institutionellem Kapital, Humankapital -- und Sicherheit ist natürlich entscheidend -- aber ebenso auch Informationen. English: Because it lacks the institutional, organizational, managerial forms to turn it into capital. And what is required is a combination of physical capital, institutional capital, human capital -- and security, of course, is critical, but so is information"
+    },
+    {
+      "delta_log_prob": -12.197495490312576,
+      "prompt": "German: Nun, die Sache, um die wir uns hier kümmern sollten, und welche die Herausforderung ist, die ich dieser Gruppe geben möchte, ist wiederum: Es dauert 16 Jahre in euren Ländern um jemanden bis zu einem Studiumsabschluss auszubilden. English: Now, the issue that should concern us here -- and that's the challenge that I would like to pose to this group -- is again, it takes 16 years in your countries to produce somebody with a B.S. degree",
+      "true_token": " degree",
+      "predicted_token": " degree",
+      "index": 113,
+      "text": "German: Nun, die Sache, um die wir uns hier kümmern sollten, und welche die Herausforderung ist, die ich dieser Gruppe geben möchte, ist wiederum: Es dauert 16 Jahre in euren Ländern um jemanden bis zu einem Studiumsabschluss auszubilden. English: Now, the issue that should concern us here -- and that's the challenge that I would like to pose to this group -- is again, it takes 16 years in your countries to produce somebody with a B.S. degree"
+    },
+    {
+      "delta_log_prob": -8.841552734375,
+      "prompt": "German: rasch ist? Die absolute Mehrheit der Weltbevölkerung ist unter 20 und sie wächst, und wächst schneller. Sie benötigen andere Wege, sich angesprochen zu fühlen. Andere Wege, sich zubefreien. Andere Wege, sich zu qualifizieren. Und English: The absolute majority of the world's population are below 20, and they are growing larger and faster. They need different ways of being approached, different ways of being enfranchised, different ways of being skilled",
+      "true_token": " skilled",
+      "predicted_token": " qualified",
+      "index": 114,
+      "text": "German: rasch ist? Die absolute Mehrheit der Weltbevölkerung ist unter 20 und sie wächst, und wächst schneller. Sie benötigen andere Wege, sich angesprochen zu fühlen. Andere Wege, sich zubefreien. Andere Wege, sich zu qualifizieren. Und English: The absolute majority of the world's population are below 20, and they are growing larger and faster. They need different ways of being approached, different ways of being enfranchised, different ways of being skilled"
+    },
+    {
+      "delta_log_prob": -9.534300822764635,
+      "prompt": "German: Nutzen. Die Welt, in der ich arbeite, arbeitet mit Entwürfen von Straßen oder Dämmen oder Elektrizitätsversorgungen, die seit 60 Jahren nicht mehr aufgegriffen wurden. English: The world in which I operate operates with designs regarding roads, or dams, or provision of electricity that have not been revisited in 60 years",
+      "true_token": " years",
+      "predicted_token": " years",
+      "index": 115,
+      "text": "German: Nutzen. Die Welt, in der ich arbeite, arbeitet mit Entwürfen von Straßen oder Dämmen oder Elektrizitätsversorgungen, die seit 60 Jahren nicht mehr aufgegriffen wurden. English: The world in which I operate operates with designs regarding roads, or dams, or provision of electricity that have not been revisited in 60 years"
+    },
+    {
+      "delta_log_prob": -1.9542463421821594,
+      "prompt": "German: Aber was wir insbesondere brauchen, mehr als alles andere von dieser Gruppe, ist dass eure Vorstellungskraft angewendet wird auf Probleme, wie Mem funktionieren sollte. Wie die Arbeit an Gedankensystemen English: But, particularly, what we need more than anything else from this group is your imagination to be brought to bear on problems the way a meme is supposed to work",
+      "true_token": " work",
+      "predicted_token": " work",
+      "index": 116,
+      "text": "German: Aber was wir insbesondere brauchen, mehr als alles andere von dieser Gruppe, ist dass eure Vorstellungskraft angewendet wird auf Probleme, wie Mem funktionieren sollte. Wie die Arbeit an Gedankensystemen English: But, particularly, what we need more than anything else from this group is your imagination to be brought to bear on problems the way a meme is supposed to work"
+    },
+    {
+      "delta_log_prob": -8.70663070678711,
+      "prompt": "German: vor langer Zeit zeigte -- Thomas Kuhns Arbeit – ereignen sich am Schnittpunkt von Ideen neue Entwicklungen -- wahre Durchbrüche. Und ich hoffe, dass diese English: As the work on paradigms, long time ago showed -- Thomas Kuhn's work -- it's in the intersection of ideas that new developments -- true breakthroughs -- occur",
+      "true_token": " occur",
+      "predicted_token": " take",
+      "index": 117,
+      "text": "German: vor langer Zeit zeigte -- Thomas Kuhns Arbeit – ereignen sich am Schnittpunkt von Ideen neue Entwicklungen -- wahre Durchbrüche. Und ich hoffe, dass diese English: As the work on paradigms, long time ago showed -- Thomas Kuhn's work -- it's in the intersection of ideas that new developments -- true breakthroughs -- occur"
+    },
+    {
+      "delta_log_prob": -5.585922002792358,
+      "prompt": "German: Gruppe dazu fähig wäre, sich auf diesem Weg mit dem Thema Staat und Entwicklung sowie der Ermächtigung des Großteils der Welt, der Armen, zu befassen. English: And I hope that this group would be able to deal with the issue of state and development and the empowerment of the majority of the world's poor, through this means",
+      "true_token": " means",
+      "predicted_token": " approach",
+      "index": 118,
+      "text": "German: Gruppe dazu fähig wäre, sich auf diesem Weg mit dem Thema Staat und Entwicklung sowie der Ermächtigung des Großteils der Welt, der Armen, zu befassen. English: And I hope that this group would be able to deal with the issue of state and development and the empowerment of the majority of the world's poor, through this means"
+    },
+    {
+      "delta_log_prob": -8.737958312034607,
+      "prompt": "German: Chris Anderson: Also, Ashraf, bis vor kurzem waren Sie der Finanzminister von Afghanistan, ein Land direkt im Zentrum eines großen Teils des English: Chris Anderson: So, Ashraf, until recently, you were the finance minister of Afghanistan, a country right at the middle of much of the world's agenda",
+      "true_token": " agenda",
+      "predicted_token": " English",
+      "index": 119,
+      "text": "German: Chris Anderson: Also, Ashraf, bis vor kurzem waren Sie der Finanzminister von Afghanistan, ein Land direkt im Zentrum eines großen Teils des English: Chris Anderson: So, Ashraf, until recently, you were the finance minister of Afghanistan, a country right at the middle of much of the world's agenda"
+    },
+    {
+      "delta_log_prob": -10.075900614261627,
+      "prompt": "German: Ashraf Ghani: Was mir am meisten Angst macht ist -- seid ihr. Mangel an eurem Engagement.  Sie fragen mich, wohlwissend, dass ich immer eine unkonventionelle Antwort gebe. English: Ashraf Ghani: What scares me most is -- is you, lack of your engagement.  You asked me. You know I always give the unconventional answer",
+      "true_token": " answer",
+      "predicted_token": " answer",
+      "index": 120,
+      "text": "German: Ashraf Ghani: Was mir am meisten Angst macht ist -- seid ihr. Mangel an eurem Engagement.  Sie fragen mich, wohlwissend, dass ich immer eine unkonventionelle Antwort gebe. English: Ashraf Ghani: What scares me most is -- is you, lack of your engagement.  You asked me. You know I always give the unconventional answer"
+    },
+    {
+      "delta_log_prob": -5.6213714480400085,
+      "prompt": "German: Nein. Im Ernst, die Sache mit Afghanistan muss zuerst -- mindestens – in einer 10- bis 20-jährigen Perspektive English: No. But seriously, the issue of Afghanistan first has to be seen as, at least, a 10- to 20-year perspective",
+      "true_token": " perspective",
+      "predicted_token": " perspective",
+      "index": 121,
+      "text": "German: Nein. Im Ernst, die Sache mit Afghanistan muss zuerst -- mindestens – in einer 10- bis 20-jährigen Perspektive English: No. But seriously, the issue of Afghanistan first has to be seen as, at least, a 10- to 20-year perspective"
+    },
+    {
+      "delta_log_prob": -8.645560957491398,
+      "prompt": "German: existiert nicht für die meisten Menschen. Aber in meiner Welt -- wissen Sie, als ich nach 23 Jahren nach Afghanistan zurückging, hatte sich der Raum ausgedehnt. Jegliche denkbare Form English: And space does not exist for most people. But in my world -- you know, when I went back to Afghanistan after 23 years, space had expanded. Every conceivable form of infrastructure had broken down",
+      "true_token": " down",
+      "predicted_token": " down",
+      "index": 122,
+      "text": "German: existiert nicht für die meisten Menschen. Aber in meiner Welt -- wissen Sie, als ich nach 23 Jahren nach Afghanistan zurückging, hatte sich der Raum ausgedehnt. Jegliche denkbare Form English: And space does not exist for most people. But in my world -- you know, when I went back to Afghanistan after 23 years, space had expanded. Every conceivable form of infrastructure had broken down"
+    },
+    {
+      "delta_log_prob": -0.824606716632843,
+      "prompt": "German: wenn dies das Ausmaß ist: dass wir erkennen müssen, dass es eben die einfachen Dinge, die Infrastruktur, sind -- es dauert sechs Jahre, um die Infrastruktur zu liefern. In English: So the first is when the scale is that, we need to recognize that just the simple things that are infrastructure -- it takes six years to deliver infrastructure",
+      "true_token": " infrastructure",
+      "predicted_token": " the",
+      "index": 123,
+      "text": "German: wenn dies das Ausmaß ist: dass wir erkennen müssen, dass es eben die einfachen Dinge, die Infrastruktur, sind -- es dauert sechs Jahre, um die Infrastruktur zu liefern. In English: So the first is when the scale is that, we need to recognize that just the simple things that are infrastructure -- it takes six years to deliver infrastructure"
+    },
+    {
+      "delta_log_prob": -5.505770206451416,
+      "prompt": "German: brutalsten Formen von Machtausübung unterworfen ist -- wir hatten die Rote Armee 10 Jahre hintereinander, 110'000 Mann stark. Buchstäblich terrorisierend. Der Himmel. Jeder, jeder Afghane sieht den Himmel als eine Quelle English: Second is, when a country has been subjected to one of the most immense, brutal forms of exercise of power -- every Afghan sees the sky as a source of fear",
+      "true_token": " fear",
+      "predicted_token": " English",
+      "index": 124,
+      "text": "German: brutalsten Formen von Machtausübung unterworfen ist -- wir hatten die Rote Armee 10 Jahre hintereinander, 110'000 Mann stark. Buchstäblich terrorisierend. Der Himmel. Jeder, jeder Afghane sieht den Himmel als eine Quelle English: Second is, when a country has been subjected to one of the most immense, brutal forms of exercise of power -- every Afghan sees the sky as a source of fear"
+    },
+    {
+      "delta_log_prob": -12.473279476165771,
+      "prompt": "German: Vereinigten Staaten, Großbrittanien, vereinigten sich, zum Beispiel, mit dem ägyptischen Geheimdienst um Tausende von Leuten in Widerstand und Stadtterrorismus English: The United States, Great Britain, joined for instance, Egyptian intelligence service to train thousands of people in resistance and urban terrorism",
+      "true_token": " terrorism",
+      "predicted_token": " terrorism",
+      "index": 125,
+      "text": "German: Vereinigten Staaten, Großbrittanien, vereinigten sich, zum Beispiel, mit dem ägyptischen Geheimdienst um Tausende von Leuten in Widerstand und Stadtterrorismus English: The United States, Great Britain, joined for instance, Egyptian intelligence service to train thousands of people in resistance and urban terrorism"
+    },
+    {
+      "delta_log_prob": -2.0220335721969604,
+      "prompt": "German: Als ich als Finanzminister eintritt dachte ich, dass die Chancen, dass ich länger als drei Jahre leben würde, nicht größer als 5 Prozent wären. Das war English: When I joined as finance minister, I thought that the chances of my living more than three years would not be more than five percent",
+      "true_token": " percent",
+      "predicted_token": " percent",
+      "index": 126,
+      "text": "German: Als ich als Finanzminister eintritt dachte ich, dass die Chancen, dass ich länger als drei Jahre leben würde, nicht größer als 5 Prozent wären. Das war English: When I joined as finance minister, I thought that the chances of my living more than three years would not be more than five percent"
+    },
+    {
+      "delta_log_prob": -10.218537092208862,
+      "prompt": "German: Ich denke wir können es schaffen, und der Grund, warum wir es schaffen können, sind die Menschen. Seht ihr, weil -- ich English: I think we can make it, and the reason we can make it is because of the people. You see, because, I mean -- I give you one statistic",
+      "true_token": " statistic",
+      "predicted_token": " example",
+      "index": 127,
+      "text": "German: Ich denke wir können es schaffen, und der Grund, warum wir es schaffen können, sind die Menschen. Seht ihr, weil -- ich English: I think we can make it, and the reason we can make it is because of the people. You see, because, I mean -- I give you one statistic"
+    },
+    {
+      "delta_log_prob": -1.7060217205435038,
+      "prompt": "German: gebe euch eine Statistik. 91 Prozent der Männer in Afghanistan, 86 Prozent der Frauen hören mindestens drei Radiosender pro Tag. In Bezug auf ihren English: 91 percent of the men in Afghanistan, 86 percent of the women, listen to at least three radio stations a day",
+      "true_token": " day",
+      "predicted_token": " day",
+      "index": 128,
+      "text": "German: gebe euch eine Statistik. 91 Prozent der Männer in Afghanistan, 86 Prozent der Frauen hören mindestens drei Radiosender pro Tag. In Bezug auf ihren English: 91 percent of the men in Afghanistan, 86 percent of the women, listen to at least three radio stations a day"
+    },
+    {
+      "delta_log_prob": -4.135798450093716,
+      "prompt": "German: Diskurs, in Bezug auf ihre Gewandtheit gegenüber dem Weltwissen , denke ich, dass – wage ich zu behaupten -- sie viel gewandter sind, als ländliche Amerikaner mit Universitätsabschluss und der Großteil von Europäern. Weil ihnen die Welt etwas bedeutet. English: In terms of their discourse, in terms of their sophistication of knowledge of the world, I think that I would dare say, they're much more sophisticated than rural Americans with college degrees and the bulk of Europeans -- because the world matters to them",
+      "true_token": " them",
+      "predicted_token": " them",
+      "index": 129,
+      "text": "German: Diskurs, in Bezug auf ihre Gewandtheit gegenüber dem Weltwissen , denke ich, dass – wage ich zu behaupten -- sie viel gewandter sind, als ländliche Amerikaner mit Universitätsabschluss und der Großteil von Europäern. Weil ihnen die Welt etwas bedeutet. English: In terms of their discourse, in terms of their sophistication of knowledge of the world, I think that I would dare say, they're much more sophisticated than rural Americans with college degrees and the bulk of Europeans -- because the world matters to them"
+    },
+    {
+      "delta_log_prob": -10.444845490157604,
+      "prompt": "German: Wissen Sie, wenn ich im Dezember 2001 zurückging, hatte ich absolut kein Interesse mit der afghanischen Regierung zu arbeiten. Weil ich als Nationalist gelebt habe. English: You know, when I went back in December of 2001, I had absolutely no desire to work with the Afghan government because I'd lived as a nationalist",
+      "true_token": " nationalist",
+      "predicted_token": " nationalist",
+      "index": 130,
+      "text": "German: Wissen Sie, wenn ich im Dezember 2001 zurückging, hatte ich absolut kein Interesse mit der afghanischen Regierung zu arbeiten. Weil ich als Nationalist gelebt habe. English: You know, when I went back in December of 2001, I had absolutely no desire to work with the Afghan government because I'd lived as a nationalist"
+    },
+    {
+      "delta_log_prob": 0.11640985310077667,
+      "prompt": "German: Und ich sagte ihnen -- meinem Volk, mit den Amerikanern hier, die -- getrennt, getrennt. Ja, ich habe eine Beratungsstelle English: And I told them -- my people, with the Americans here -- separate. Yes, I have an advisory position with the U.N",
+      "true_token": ".N",
+      "predicted_token": ".S",
+      "index": 131,
+      "text": "German: Und ich sagte ihnen -- meinem Volk, mit den Amerikanern hier, die -- getrennt, getrennt. Ja, ich habe eine Beratungsstelle English: And I told them -- my people, with the Americans here -- separate. Yes, I have an advisory position with the U.N"
+    },
+    {
+      "delta_log_prob": -10.488263130187988,
+      "prompt": "German: des gewöhnlichen Volks. Und die Sache, um die sich der gewöhnliche Afghane am meisten kümmert, ist -- Clare Lockhart ist hier -- sie -- ich erwähne eine English: And the thing that the ordinary Afghan is most concerned with is -- Clare Lockhart is here, so I'll recite a discussion she had with an illiterate woman in Northern Afghanistan",
+      "true_token": " Afghanistan",
+      "predicted_token": " Afghanistan",
+      "index": 132,
+      "text": "German: des gewöhnlichen Volks. Und die Sache, um die sich der gewöhnliche Afghane am meisten kümmert, ist -- Clare Lockhart ist hier -- sie -- ich erwähne eine English: And the thing that the ordinary Afghan is most concerned with is -- Clare Lockhart is here, so I'll recite a discussion she had with an illiterate woman in Northern Afghanistan"
+    },
+    {
+      "delta_log_prob": -1.3993712197989225,
+      "prompt": "German: Was sie bekümmerte, war, ob es einen Plan für die Zukunft gäbe, wo ihre Kinder wirklich ein anderes Leben haben könnten. English: What she worried about was whether there was a plan for the future, where her children could really have a different life",
+      "true_token": " life",
+      "predicted_token": " life",
+      "index": 133,
+      "text": "German: Was sie bekümmerte, war, ob es einen Plan für die Zukunft gäbe, wo ihre Kinder wirklich ein anderes Leben haben könnten. English: What she worried about was whether there was a plan for the future, where her children could really have a different life"
+    },
+    {
+      "delta_log_prob": -15.376681700348854,
+      "prompt": "German: CA: Wie wird Afghanistan alternatives Einkommen beschaffen für die vielen Leute, die vom Drogenhandel leben? English: CA: How is Afghanistan going to provide alternative income to the many people who are making their living off the drugs trade",
+      "true_token": " trade",
+      "predicted_token": " trade",
+      "index": 134,
+      "text": "German: CA: Wie wird Afghanistan alternatives Einkommen beschaffen für die vielen Leute, die vom Drogenhandel leben? English: CA: How is Afghanistan going to provide alternative income to the many people who are making their living off the drugs trade"
+    },
+    {
+      "delta_log_prob": -8.34420496225357,
+      "prompt": "German: AG: Naja, erstens, anstatt eine Milliarde Dollar für die Drogenbeseitigung zu senden und damit einige Sicherheitsfirmen zu bezahlen, sollten sie diese hundert Milliarden Dollar 50 der entschiedenst innovativen Firmen der Welt geben, um sie nach einer Million zu schaffender Arbeitsplätze zu fragen. Der Schlüssel English: AG: Certainly. Well, the first is, instead of sending a billion dollars on drug eradication and paying it to a couple of security companies, they should give this hundred billion dollars to 50 of the most critically innovative companies in the world to ask them to create one million jobs",
+      "true_token": " jobs",
+      "predicted_token": " jobs",
+      "index": 135,
+      "text": "German: AG: Naja, erstens, anstatt eine Milliarde Dollar für die Drogenbeseitigung zu senden und damit einige Sicherheitsfirmen zu bezahlen, sollten sie diese hundert Milliarden Dollar 50 der entschiedenst innovativen Firmen der Welt geben, um sie nach einer Million zu schaffender Arbeitsplätze zu fragen. Der Schlüssel English: AG: Certainly. Well, the first is, instead of sending a billion dollars on drug eradication and paying it to a couple of security companies, they should give this hundred billion dollars to 50 of the most critically innovative companies in the world to ask them to create one million jobs"
+    },
+    {
+      "delta_log_prob": -10.092424988746643,
+      "prompt": "German: recht unbekannte Tatsache -- Länder, die ein legales durchschnittliches Einkommen pro Kopf von 1000 Dollar haben, produzieren keine Drogen. English: Look, there's a very little known fact: countries that have a legal average income per capita of 1,000 dollars don't produce drugs",
+      "true_token": " drugs",
+      "predicted_token": " drugs",
+      "index": 136,
+      "text": "German: recht unbekannte Tatsache -- Länder, die ein legales durchschnittliches Einkommen pro Kopf von 1000 Dollar haben, produzieren keine Drogen. English: Look, there's a very little known fact: countries that have a legal average income per capita of 1,000 dollars don't produce drugs"
+    },
+    {
+      "delta_log_prob": -17.497386813163757,
+      "prompt": "German: wir mit China konkurrieren und Investitionen anziehen können, könnten wir wahrscheinlich vier bis sechs Milliarden Dollar recht einfach anziehen im Textiliensektor, wenn es keinen Zolltarif gäbe -- würde dies eine Art Arbeit beschaffen. Baumwolle konkurriert nicht mit Opium. Ein T-shirt schon. Und wir müssen verstehen, es ist die English: If you want us to be able to compete with China and to attract investment, we could probably attract four to six billion dollars quite easily in the textile sector, if there was zero tariffs -- would create the type of job. Cotton does not compete with opium; a t-shirt does. And we need to understand, it's the value chain",
+      "true_token": " chain",
+      "predicted_token": "-added",
+      "index": 137,
+      "text": "German: wir mit China konkurrieren und Investitionen anziehen können, könnten wir wahrscheinlich vier bis sechs Milliarden Dollar recht einfach anziehen im Textiliensektor, wenn es keinen Zolltarif gäbe -- würde dies eine Art Arbeit beschaffen. Baumwolle konkurriert nicht mit Opium. Ein T-shirt schon. Und wir müssen verstehen, es ist die English: If you want us to be able to compete with China and to attract investment, we could probably attract four to six billion dollars quite easily in the textile sector, if there was zero tariffs -- would create the type of job. Cotton does not compete with opium; a t-shirt does. And we need to understand, it's the value chain"
+    },
+    {
+      "delta_log_prob": -8.862450063228607,
+      "prompt": "German: Sie wollen nicht an die Wohltätigkeitsbasare verkaufen, die nur für Ausländer sind, wissen Sie, und dasselbe verfluchte Hemd bestickt ein ums andere Mal. Was English: They don't want to sell to the charity bazaars that are only for foreigners -- and the same bloody shirt embroidered time and again",
+      "true_token": " again",
+      "predicted_token": " time",
+      "index": 138,
+      "text": "German: Sie wollen nicht an die Wohltätigkeitsbasare verkaufen, die nur für Ausländer sind, wissen Sie, und dasselbe verfluchte Hemd bestickt ein ums andere Mal. Was English: They don't want to sell to the charity bazaars that are only for foreigners -- and the same bloody shirt embroidered time and again"
+    },
+    {
+      "delta_log_prob": -6.9133569076657295,
+      "prompt": "German: davon eingeworben -- ja, genau gesagt, sehen Sie, ich schaffte es, die Welt dazu zu überreden, dass sie meinem Land 27,5 Milliarden Dollar geben müsste. Sie wollten uns das Geld English: Yeah, to be exact, you know, I managed to persuade the world that they had to give my country 27.5 billion",
+      "true_token": " billion",
+      "predicted_token": " billion",
+      "index": 139,
+      "text": "German: davon eingeworben -- ja, genau gesagt, sehen Sie, ich schaffte es, die Welt dazu zu überreden, dass sie meinem Land 27,5 Milliarden Dollar geben müsste. Sie wollten uns das Geld English: Yeah, to be exact, you know, I managed to persuade the world that they had to give my country 27.5 billion"
+    },
+    {
+      "delta_log_prob": -7.004378497600555,
+      "prompt": "German: ein Dollar in privater Investitionen, meiner Meinung nach, mindestens 20 Dollar an Beihilfe entspricht, in Bezug auf die Dynamik, die es erzeugt. Zweitens, ein English: It's that a dollar of private investment, in my judgment, is equal at least to 20 dollars of aid, in terms of the dynamic that it generates",
+      "true_token": " generates",
+      "predicted_token": " generates",
+      "index": 140,
+      "text": "German: ein Dollar in privater Investitionen, meiner Meinung nach, mindestens 20 Dollar an Beihilfe entspricht, in Bezug auf die Dynamik, die es erzeugt. Zweitens, ein English: It's that a dollar of private investment, in my judgment, is equal at least to 20 dollars of aid, in terms of the dynamic that it generates"
+    },
+    {
+      "delta_log_prob": 0.022898893803358078,
+      "prompt": "German: Dollar an Beihilfe könnte 10 Cent sein, es könnte 20 Cent sein, oder es könnten vier Dollar sein. Es English: Second is that one dollar of aid could be 10 cents; it could be 20 cents; or it could be four dollars",
+      "true_token": " dollars",
+      "predicted_token": " dollars",
+      "index": 141,
+      "text": "German: Dollar an Beihilfe könnte 10 Cent sein, es könnte 20 Cent sein, oder es könnten vier Dollar sein. Es English: Second is that one dollar of aid could be 10 cents; it could be 20 cents; or it could be four dollars"
+    },
+    {
+      "delta_log_prob": -5.79637323692441,
+      "prompt": "German: Beihilfesystem wurde ursprünglich entworfen, um Unternehmer der entwickelten Länder zu fördern, nicht um Wachstum in armen Ländern zu erzeugen. Und das English: You know, the aid system, at first, was designed to benefit entrepreneurs of the developed countries, not to generate growth in the poor countries",
+      "true_token": " countries",
+      "predicted_token": " countries",
+      "index": 142,
+      "text": "German: Beihilfesystem wurde ursprünglich entworfen, um Unternehmer der entwickelten Länder zu fördern, nicht um Wachstum in armen Ländern zu erzeugen. Und das English: You know, the aid system, at first, was designed to benefit entrepreneurs of the developed countries, not to generate growth in the poor countries"
+    },
+    {
+      "delta_log_prob": -10.983761930838227,
+      "prompt": "German: ist wiederum eine dieser Vermutungen, genauso wie Autositze eine Vermutung sind, die wir von Regierungen geerbt haben. Man würde denken, dass die US Regierung nicht denken würde, dass amerikanische Unternehmen Subventionierung brauchten um in entwickelnden Ländern zu funktionieren. Gelder bereitstellen. Aber sie tun es. Es gibt ein ganzes Gewicht der Geschichte hinsichtlich Beihilfe, das nun English: And this is, again, one of those assumptions -- the way car seats are an assumption that we've inherited in governments, and doors. You would think that the US government would not think that American firms needed subsidizing to function in developing countries, provide advice, but they do. There's an entire weight of history vis-a-vis aid that now needs to be reexamined",
+      "true_token": "ined",
+      "predicted_token": "ined",
+      "index": 143,
+      "text": "German: ist wiederum eine dieser Vermutungen, genauso wie Autositze eine Vermutung sind, die wir von Regierungen geerbt haben. Man würde denken, dass die US Regierung nicht denken würde, dass amerikanische Unternehmen Subventionierung brauchten um in entwickelnden Ländern zu funktionieren. Gelder bereitstellen. Aber sie tun es. Es gibt ein ganzes Gewicht der Geschichte hinsichtlich Beihilfe, das nun English: And this is, again, one of those assumptions -- the way car seats are an assumption that we've inherited in governments, and doors. You would think that the US government would not think that American firms needed subsidizing to function in developing countries, provide advice, but they do. There's an entire weight of history vis-a-vis aid that now needs to be reexamined"
+    },
+    {
+      "delta_log_prob": -8.351899445056915,
+      "prompt": "German: wieder überprüft werden muss. Wenn das Ziel ist Staaten aufzubauen, die glaubwürdig für sich selbst sorgen können -- und ich stelle diese Behauptung gleichermaßen -- wissen Sie, ich bin sehr streng zu meinen Ansprechpartnern, und Beihilfe muss in jedem Land in einem bestimmbaren Zeitabschnitt aufhören. English: If the goal is to build states that can credibly take care of themselves -- and I'm putting that proposition equally; you know I'm very harsh on my counterparts -- aid must end in each country in a definable period",
+      "true_token": " period",
+      "predicted_token": " time",
+      "index": 144,
+      "text": "German: wieder überprüft werden muss. Wenn das Ziel ist Staaten aufzubauen, die glaubwürdig für sich selbst sorgen können -- und ich stelle diese Behauptung gleichermaßen -- wissen Sie, ich bin sehr streng zu meinen Ansprechpartnern, und Beihilfe muss in jedem Land in einem bestimmbaren Zeitabschnitt aufhören. English: If the goal is to build states that can credibly take care of themselves -- and I'm putting that proposition equally; you know I'm very harsh on my counterparts -- aid must end in each country in a definable period"
+    },
+    {
+      "delta_log_prob": -0.34286773204803467,
+      "prompt": "German: Die Gefahr ist groß, dass wir unsere Jugend nicht mehr dafür begeistern können, diese eine wichtige Eigenschaft zu pflegen, die die Menschheit immer ausgezeichnet hat. English: We stand a very big chance of losing our ability to inspire our youth to go out and continue this very important thing that we as a species have always done",
+      "true_token": " done",
+      "predicted_token": " done",
+      "index": 145,
+      "text": "German: Die Gefahr ist groß, dass wir unsere Jugend nicht mehr dafür begeistern können, diese eine wichtige Eigenschaft zu pflegen, die die Menschheit immer ausgezeichnet hat. English: We stand a very big chance of losing our ability to inspire our youth to go out and continue this very important thing that we as a species have always done"
+    },
+    {
+      "delta_log_prob": -1.2612425684928894,
+      "prompt": "German: Ich meine den Drang, den wir immer verspürt haben, an immer unwirtlichere und feindseligere Orte vorzudringen, nur um später überrascht festzustellen, dass wir genau deswegen überlebt haben. English: And that is, instinctively we've gone out and climbed over difficult places, went to more hostile places, and found out later, maybe to our surprise, that that's the reason we survived",
+      "true_token": " survived",
+      "predicted_token": "'re",
+      "index": 146,
+      "text": "German: Ich meine den Drang, den wir immer verspürt haben, an immer unwirtlichere und feindseligere Orte vorzudringen, nur um später überrascht festzustellen, dass wir genau deswegen überlebt haben. English: And that is, instinctively we've gone out and climbed over difficult places, went to more hostile places, and found out later, maybe to our surprise, that that's the reason we survived"
+    },
+    {
+      "delta_log_prob": -5.978468760848045,
+      "prompt": "German: Für mich ist absolut klar, dass es nicht gut ist, wenn ganze Generationen junger Leute nichts weiter herbeisehnen können als die Entwicklung besserer Handys mit Videofunktion. English: And I feel very strongly that it's not good enough for us to have generations of kids that think that it's OK to look forward to a better version of a cell phone with a video in it",
+      "true_token": " it",
+      "predicted_token": " it",
+      "index": 147,
+      "text": "German: Für mich ist absolut klar, dass es nicht gut ist, wenn ganze Generationen junger Leute nichts weiter herbeisehnen können als die Entwicklung besserer Handys mit Videofunktion. English: And I feel very strongly that it's not good enough for us to have generations of kids that think that it's OK to look forward to a better version of a cell phone with a video in it"
+    },
+    {
+      "delta_log_prob": -9.036195918917656,
+      "prompt": "German: Sie sollten sich auf Erforschung freuen können, auf Kolonisierung, auf große wissenschaftliche Fortschritte. Sie müssen es. English: They need to look forward to exploration; they need to look forward to colonization; they need to look forward to breakthroughs",
+      "true_token": "s",
+      "predicted_token": "s",
+      "index": 148,
+      "text": "German: Sie sollten sich auf Erforschung freuen können, auf Kolonisierung, auf große wissenschaftliche Fortschritte. Sie müssen es. English: They need to look forward to exploration; they need to look forward to colonization; they need to look forward to breakthroughs"
+    },
+    {
+      "delta_log_prob": -2.6931631565093994,
+      "prompt": "German: Besonders beunruhigend finde ich das, was die NASA nach Bushs neuen Plänen in diesem und dem nächsten Jahrzehnt -- oh, verflixt, jetzt hab' ich's vermasselt. English: I'm particularly troubled that what NASA's doing right now with this new Bush doctrine to -- for this next decade and a half -- oh shoot, I screwed up",
+      "true_token": " up",
+      "predicted_token": " that",
+      "index": 149,
+      "text": "German: Besonders beunruhigend finde ich das, was die NASA nach Bushs neuen Plänen in diesem und dem nächsten Jahrzehnt -- oh, verflixt, jetzt hab' ich's vermasselt. English: I'm particularly troubled that what NASA's doing right now with this new Bush doctrine to -- for this next decade and a half -- oh shoot, I screwed up"
+    },
+    {
+      "delta_log_prob": -7.294912904500961,
+      "prompt": "German: Wir wollen aber nicht nur --  Wir wollen aber nicht nur Inspiration für unsere Kinder, sondern die derzeitigen Pläne erlauben nicht einmal den kreativsten Köpfen in diesem Land -- den Raumfahrtingenieuren von Firmen wie Boeing und Lockheed, Risiken einzugehen und neue Ideen auszuprobieren. English: What we're looking forward to is --  what we're looking forward to is not only the inspiration of our children, but the current plan right now is not really even allowing the most creative people in this country -- the Boeing's and Lockheed's space engineers -- to go out and take risks and try new stuff",
+      "true_token": " stuff",
+      "predicted_token": " ideas",
+      "index": 150,
+      "text": "German: Wir wollen aber nicht nur --  Wir wollen aber nicht nur Inspiration für unsere Kinder, sondern die derzeitigen Pläne erlauben nicht einmal den kreativsten Köpfen in diesem Land -- den Raumfahrtingenieuren von Firmen wie Boeing und Lockheed, Risiken einzugehen und neue Ideen auszuprobieren. English: What we're looking forward to is --  what we're looking forward to is not only the inspiration of our children, but the current plan right now is not really even allowing the most creative people in this country -- the Boeing's and Lockheed's space engineers -- to go out and take risks and try new stuff"
+    },
+    {
+      "delta_log_prob": -0.883752703666687,
+      "prompt": "German: Das macht mich wirklich fertig. Aber wie auch immer, das ist -- was ich aber im Grunde heute mit Ihnen teilen will, ist genau diese Inspiration für die Menschen die später einmal unsere wichtigen Anführer sein werden. English: I'm really troubled by that. But anyway that's -- the basis of the thing that I want to share with you today, though, is that right back to where we inspire people who will be our great leaders later",
+      "true_token": " later",
+      "predicted_token": " in",
+      "index": 151,
+      "text": "German: Das macht mich wirklich fertig. Aber wie auch immer, das ist -- was ich aber im Grunde heute mit Ihnen teilen will, ist genau diese Inspiration für die Menschen die später einmal unsere wichtigen Anführer sein werden. English: I'm really troubled by that. But anyway that's -- the basis of the thing that I want to share with you today, though, is that right back to where we inspire people who will be our great leaders later"
+    },
+    {
+      "delta_log_prob": -6.155009905807674,
+      "prompt": "German: Angefangen hat es 1908, als die Gebrüder Wright in Paris abgehoben haben, und alle haben gesagt, \"Oh, hey, das kann ich auch!\" Nur ganz wenige Leute waren Anfang 1908 schon mal geflogen. Vier Jahre später gab es hunderte von Flugzeugen in 39 Ländern, und tausende Piloten. Flugzeuge sind durch natürliche Selektion entstanden. English: It started in 1908, when the Wright brothers flew in Paris, and everybody said, \"Ooh, hey, I can do that.\" There's only a few people that have flown in early 1908. In four years, 39 countries had hundreds of airplanes, thousand of pilots. Airplanes were invented by natural selection",
+      "true_token": " selection",
+      "predicted_token": " selection",
+      "index": 152,
+      "text": "German: Angefangen hat es 1908, als die Gebrüder Wright in Paris abgehoben haben, und alle haben gesagt, \"Oh, hey, das kann ich auch!\" Nur ganz wenige Leute waren Anfang 1908 schon mal geflogen. Vier Jahre später gab es hunderte von Flugzeugen in 39 Ländern, und tausende Piloten. Flugzeuge sind durch natürliche Selektion entstanden. English: It started in 1908, when the Wright brothers flew in Paris, and everybody said, \"Ooh, hey, I can do that.\" There's only a few people that have flown in early 1908. In four years, 39 countries had hundreds of airplanes, thousand of pilots. Airplanes were invented by natural selection"
+    },
+    {
+      "delta_log_prob": -2.1453560292720795,
+      "prompt": "German: Heute kann man sagen, dass unsere Flugzeuge durch \"Intelligent Design\" entstehen, aber bei diesen frühen Flugzeugen gab es so etwas noch nicht. English: Now you can say that intelligent design designs our airplanes of today, but there was no intelligent design really designing those early airplanes",
+      "true_token": " airplanes",
+      "predicted_token": " airplanes",
+      "index": 153,
+      "text": "German: Heute kann man sagen, dass unsere Flugzeuge durch \"Intelligent Design\" entstehen, aber bei diesen frühen Flugzeugen gab es so etwas noch nicht. English: Now you can say that intelligent design designs our airplanes of today, but there was no intelligent design really designing those early airplanes"
+    },
+    {
+      "delta_log_prob": -6.222066029906273,
+      "prompt": "German: Da hat man bestimmt 30.000 verschiedene Sachen ausprobiert, und wenn jemand abgestürzt und gestorben ist, dann wurde das nicht nochmal versucht. English: There were probably at least 30,000 different things tried, and when they crash and kill the pilot, don't try that again",
+      "true_token": " again",
+      "predicted_token": " again",
+      "index": 154,
+      "text": "German: Da hat man bestimmt 30.000 verschiedene Sachen ausprobiert, und wenn jemand abgestürzt und gestorben ist, dann wurde das nicht nochmal versucht. English: There were probably at least 30,000 different things tried, and when they crash and kill the pilot, don't try that again"
+    },
+    {
+      "delta_log_prob": -3.0126423835754395,
+      "prompt": "German: Die, die geflogen sind und sicher gelandet sind -- okay es gab ja keine ausgebildeten Piloten, die nachweislich gute Flieger gewesen wären. English: The ones that flew and landed OK because there were no trained pilots who had good flying qualities by definition",
+      "true_token": " definition",
+      "predicted_token": " definition",
+      "index": 155,
+      "text": "German: Die, die geflogen sind und sicher gelandet sind -- okay es gab ja keine ausgebildeten Piloten, die nachweislich gute Flieger gewesen wären. English: The ones that flew and landed OK because there were no trained pilots who had good flying qualities by definition"
+    },
+    {
+      "delta_log_prob": -2.4157875180244446,
+      "prompt": "German: Wir haben also, in einem ganzen Haufen von Versuchen, tausenden von Versuchen, in diesen vier Jahren die Konzepte entwickelt, mit denen die heutigen Flugzeuge funktionieren. Und deshalb sind sie so sicher, weil wir jede Möglichkeit genutzt haben, um herauszufinden, was funktioniert. English: So we, by making a whole bunch of attempts, thousands of attempts, in that four-year time period, we invented the concepts of the airplanes that we fly today. And that's why they're so safe, as we gave it a lot of chance to find what's good",
+      "true_token": " good",
+      "predicted_token": " going",
+      "index": 156,
+      "text": "German: Wir haben also, in einem ganzen Haufen von Versuchen, tausenden von Versuchen, in diesen vier Jahren die Konzepte entwickelt, mit denen die heutigen Flugzeuge funktionieren. Und deshalb sind sie so sicher, weil wir jede Möglichkeit genutzt haben, um herauszufinden, was funktioniert. English: So we, by making a whole bunch of attempts, thousands of attempts, in that four-year time period, we invented the concepts of the airplanes that we fly today. And that's why they're so safe, as we gave it a lot of chance to find what's good"
+    },
+    {
+      "delta_log_prob": -0.6929266452789307,
+      "prompt": "German: Ich habe für die Aviation Week eine Liste von Leuten gemacht, die meiner Meinung nach die ersten 100 Jahre der Luftfahrt geprägt haben. English: Aviation Week asked me to make a list of who I thought were the movers and shakers of the first 100 years of aviation",
+      "true_token": " aviation",
+      "predicted_token": " aviation",
+      "index": 157,
+      "text": "German: Ich habe für die Aviation Week eine Liste von Leuten gemacht, die meiner Meinung nach die ersten 100 Jahre der Luftfahrt geprägt haben. English: Aviation Week asked me to make a list of who I thought were the movers and shakers of the first 100 years of aviation"
+    },
+    {
+      "delta_log_prob": -12.094882309436798,
+      "prompt": "German: Ich habe das also aufgeschrieben und später fand ich heraus, dass jeder einzelne während dieser großartigen Renaissance der Luftfahrt ein kleines Kind war. English: And I wrote them down and I found out later that every one of them was a little kid in that wonderful renaissance of aviation",
+      "true_token": " aviation",
+      "predicted_token": " aviation",
+      "index": 158,
+      "text": "German: Ich habe das also aufgeschrieben und später fand ich heraus, dass jeder einzelne während dieser großartigen Renaissance der Luftfahrt ein kleines Kind war. English: And I wrote them down and I found out later that every one of them was a little kid in that wonderful renaissance of aviation"
+    },
+    {
+      "delta_log_prob": -14.907656071009114,
+      "prompt": "German: Es gab die ersten Düsenflugzeuge und Raketen. Von Braun hat erklärt, wie man zum Mars fliegen kann -- und das war vor Sputnik. English: The jet age started: the missile age started. Von Braun was on there showing how to go to Mars -- and this was before Sputnik",
+      "true_token": "nik",
+      "predicted_token": "nik",
+      "index": 159,
+      "text": "German: Es gab die ersten Düsenflugzeuge und Raketen. Von Braun hat erklärt, wie man zum Mars fliegen kann -- und das war vor Sputnik. English: The jet age started: the missile age started. Von Braun was on there showing how to go to Mars -- and this was before Sputnik"
+    },
+    {
+      "delta_log_prob": -3.4121291637420654,
+      "prompt": "German: Und damals war der Mars noch viel interessanter als heute. Wir dachten, da würde es Tiere geben, und wir waren sicher, dass es Pflanzen gab, weil sich ja die Farben änderten. English: And this was at a time when Mars was a hell of a lot more interesting than it is now. We thought there'd be animals there; we knew there were plants there; the colors change, right",
+      "true_token": " right",
+      "predicted_token": " so",
+      "index": 160,
+      "text": "German: Und damals war der Mars noch viel interessanter als heute. Wir dachten, da würde es Tiere geben, und wir waren sicher, dass es Pflanzen gab, weil sich ja die Farben änderten. English: And this was at a time when Mars was a hell of a lot more interesting than it is now. We thought there'd be animals there; we knew there were plants there; the colors change, right"
+    },
+    {
+      "delta_log_prob": -17.009208688687067,
+      "prompt": "German: Aber, naja, die NASA hat uns das vermasselt, weil sie diese Roboter hingeschickt hat, und damit bloß in den Wüsten gelandet ist. English: But, you know, NASA screwed that up because they've sent these robots and they've landed it only in the deserts",
+      "true_token": "erts",
+      "predicted_token": "erts",
+      "index": 161,
+      "text": "German: Aber, naja, die NASA hat uns das vermasselt, weil sie diese Roboter hingeschickt hat, und damit bloß in den Wüsten gelandet ist. English: But, you know, NASA screwed that up because they've sent these robots and they've landed it only in the deserts"
+    },
+    {
+      "delta_log_prob": -7.9388293623924255,
+      "prompt": "German: Sehen Sie sich das an -- die dünne schwarze Linie ist die höchste Geschwindigkeit, mit der wir je geflogen sind. und die rote Line, das sind die schnellsten Militärjets und die blaue Linie steht für die kommerzielle Luftfahrt. English: If you look at what happened -- this little black line is as fast as man ever flew, and the red line is top-of-the-line military fighters and the blue line is commercial air transport",
+      "true_token": " transport",
+      "predicted_token": " travel",
+      "index": 162,
+      "text": "German: Sehen Sie sich das an -- die dünne schwarze Linie ist die höchste Geschwindigkeit, mit der wir je geflogen sind. und die rote Line, das sind die schnellsten Militärjets und die blaue Linie steht für die kommerzielle Luftfahrt. English: If you look at what happened -- this little black line is as fast as man ever flew, and the red line is top-of-the-line military fighters and the blue line is commercial air transport"
+    },
+    {
+      "delta_log_prob": -8.495921552181244,
+      "prompt": "German: Sie sehen da einen riesigen Sprung zu der Zeit, als ich ein kleiner Junge war -- und ich glaube, damit hat es zu tun, dass ich den Mut hatte einfach mal etwas auszuprobieren, wozu andere nicht den Mut hatten. English: You notice here's a big jump when I was a little kid -- and I think that had something to do with giving me the courage to go out and try something that other people weren't having the courage to try",
+      "true_token": " try",
+      "predicted_token": " try",
+      "index": 163,
+      "text": "German: Sie sehen da einen riesigen Sprung zu der Zeit, als ich ein kleiner Junge war -- und ich glaube, damit hat es zu tun, dass ich den Mut hatte einfach mal etwas auszuprobieren, wozu andere nicht den Mut hatten. English: You notice here's a big jump when I was a little kid -- and I think that had something to do with giving me the courage to go out and try something that other people weren't having the courage to try"
+    },
+    {
+      "delta_log_prob": -14.518161594867706,
+      "prompt": "German: Ich habe mich nicht für Autos interessiert oder für Mädchen oder fürs Tanzen. Und, naja, Drogen gab es damals keine. Aber ich habe Flugmodelle für Wettkämpfe gebaut. English: I didn't do the hotrods and the girls and the dancing and, well, we didn't have drugs in those days. But I did competition model airplanes",
+      "true_token": " airplanes",
+      "predicted_token": " airplanes",
+      "index": 164,
+      "text": "German: Ich habe mich nicht für Autos interessiert oder für Mädchen oder fürs Tanzen. Und, naja, Drogen gab es damals keine. Aber ich habe Flugmodelle für Wettkämpfe gebaut. English: I didn't do the hotrods and the girls and the dancing and, well, we didn't have drugs in those days. But I did competition model airplanes"
+    },
+    {
+      "delta_log_prob": -15.626266081701033,
+      "prompt": "German: Und danach hatte ich einen Riesenspaß damit, Flugzeuge zu bauen, die die Leute in ihren Garagen zusammenbasteln konnten. English: And then I went in and I had a lot of fun building airplanes that people could build in their garages",
+      "true_token": "ages",
+      "predicted_token": "ages",
+      "index": 165,
+      "text": "German: Und danach hatte ich einen Riesenspaß damit, Flugzeuge zu bauen, die die Leute in ihren Garagen zusammenbasteln konnten. English: And then I went in and I had a lot of fun building airplanes that people could build in their garages"
+    },
+    {
+      "delta_log_prob": -2.525861084461212,
+      "prompt": "German: Und davon fliegen ungefähr 3000 herum. Eins davon ist natürlich die Voyager, die um die Welt gefogen ist. 1982 habe ich noch eine Firma gegründet, die ich heute noch leite. English: And some 3,000 of those are flying. Of course, one of them is around the world Voyager. I founded another company in '82, which is my company now",
+      "true_token": " now",
+      "predicted_token": " today",
+      "index": 166,
+      "text": "German: Und davon fliegen ungefähr 3000 herum. Eins davon ist natürlich die Voyager, die um die Welt gefogen ist. 1982 habe ich noch eine Firma gegründet, die ich heute noch leite. English: And some 3,000 of those are flying. Of course, one of them is around the world Voyager. I founded another company in '82, which is my company now"
+    },
+    {
+      "delta_log_prob": -11.36572765931487,
+      "prompt": "German: Das -- für mich -- beeindruckendste Raumschiff aller Zeiten war die Grumman Mondlandefähre. Das war ein -- wissen Sie, die ist auf dem Mond gelandet, hat wieder vom Mond abgehoben, hat kein Wartungspersonal gebraucht -- das ist schon cool. English: The most impressive spaceship ever, I believe, was a Grumman Lunar Lander. It was a -- you know, it landed on the moon, take off of the moon, didn't need any maintenance guys -- that's kind of cool",
+      "true_token": " cool",
+      "predicted_token": " cool",
+      "index": 167,
+      "text": "German: Das -- für mich -- beeindruckendste Raumschiff aller Zeiten war die Grumman Mondlandefähre. Das war ein -- wissen Sie, die ist auf dem Mond gelandet, hat wieder vom Mond abgehoben, hat kein Wartungspersonal gebraucht -- das ist schon cool. English: The most impressive spaceship ever, I believe, was a Grumman Lunar Lander. It was a -- you know, it landed on the moon, take off of the moon, didn't need any maintenance guys -- that's kind of cool"
+    },
+    {
+      "delta_log_prob": -2.4875379651784897,
+      "prompt": "German: Wahnsinn! Ich muss kurz über Innovationszyklen reden -- die Sachen entwickeln sich, es gibt eine Menge Aktivität, und dann werden sie durch etwas anderes ersetzt und sterben aus. English: Talk very briefly about innovation cycles, things that grow, have a lot of activity; they die out when they're replaced by something else",
+      "true_token": " else",
+      "predicted_token": " else",
+      "index": 168,
+      "text": "German: Wahnsinn! Ich muss kurz über Innovationszyklen reden -- die Sachen entwickeln sich, es gibt eine Menge Aktivität, und dann werden sie durch etwas anderes ersetzt und sterben aus. English: Talk very briefly about innovation cycles, things that grow, have a lot of activity; they die out when they're replaced by something else"
+    },
+    {
+      "delta_log_prob": -2.7523175477981567,
+      "prompt": "German: oder alle 40 Jahre, mit Überschneidungen. Das kann man bei allen möglichen Technologien feststellen. Das Interessante daran -- übrigens, die Geschwindigkeit hier, Entschuldigung, Reisen mit höherer Geschwindigkeit steht über diesen Innovationszyklen. Aber hier ist keiner. English: 40 years long, with an overlap. You can put that statement on all kinds of different technologies. The interesting thing -- by the way, the speed here, excuse me, higher-speed travel is the title of these innovation cycles. There is none here",
+      "true_token": " here",
+      "predicted_token": ".",
+      "index": 169,
+      "text": "German: oder alle 40 Jahre, mit Überschneidungen. Das kann man bei allen möglichen Technologien feststellen. Das Interessante daran -- übrigens, die Geschwindigkeit hier, Entschuldigung, Reisen mit höherer Geschwindigkeit steht über diesen Innovationszyklen. Aber hier ist keiner. English: 40 years long, with an overlap. You can put that statement on all kinds of different technologies. The interesting thing -- by the way, the speed here, excuse me, higher-speed travel is the title of these innovation cycles. There is none here"
+    },
+    {
+      "delta_log_prob": -2.591908872127533,
+      "prompt": "German: Und das ist der Knackpunkt, dass es nämlich keine Innovationszyklen gibt wenn der Staat für die Entwicklung und die Nutzung verantwortlich ist. English: Here's the biggie, and that is, you don't have innovation cycles if the government develops and the government uses it",
+      "true_token": " it",
+      "predicted_token": ".",
+      "index": 170,
+      "text": "German: Und das ist der Knackpunkt, dass es nämlich keine Innovationszyklen gibt wenn der Staat für die Entwicklung und die Nutzung verantwortlich ist. English: Here's the biggie, and that is, you don't have innovation cycles if the government develops and the government uses it"
+    },
+    {
+      "delta_log_prob": -2.5044562071561813,
+      "prompt": "German: Aber dann bekamen wir es, jetzt gibt es diese ganze Aktivität, den ganz Nutzen. Die Privatwirtschaft muss es machen. English: But when we got it, now you have all the level of activity, all the benefit from it. Private sector has to do it",
+      "true_token": " it",
+      "predicted_token": " it",
+      "index": 171,
+      "text": "German: Aber dann bekamen wir es, jetzt gibt es diese ganze Aktivität, den ganz Nutzen. Die Privatwirtschaft muss es machen. English: But when we got it, now you have all the level of activity, all the benefit from it. Private sector has to do it"
+    },
+    {
+      "delta_log_prob": -1.3211576752364635,
+      "prompt": "German: Gleich im ersten Jahr, als Gagarin ins All flog, und ein paar Wochen später Alan Shepherd, gab es fünf bemannte Raumflüge auf der ganzen Welt; im allerersten Jahr English: The very first year, starting when Gagarin went in space, and a few weeks later Alan Shepherd, there were five manned space flights in the world -- the very first year",
+      "true_token": " year",
+      "predicted_token": " year",
+      "index": 172,
+      "text": "German: Gleich im ersten Jahr, als Gagarin ins All flog, und ein paar Wochen später Alan Shepherd, gab es fünf bemannte Raumflüge auf der ganzen Welt; im allerersten Jahr English: The very first year, starting when Gagarin went in space, and a few weeks later Alan Shepherd, there were five manned space flights in the world -- the very first year"
+    },
+    {
+      "delta_log_prob": -10.215087380260229,
+      "prompt": "German: 2004 gab es nur zwei Flüge: mit russischen Sojus-Kapseln zur Internationalen Raumstation. Und ich musste in der Mojave drei Flüge machen mit meinen paar Dutzend Leuten, damit es unterm Strich fünf wurden, so viele, wie es auch schon damals im Jahr 1961 waren. English: In 2004, there were only two flights: two Russian Soyuz flights to the international manned station. And I had to fly three in Mojave with my little group of a couple dozen people in order to get to a total of five, which was the number the same year back in 1961",
+      "true_token": "1",
+      "predicted_token": "1",
+      "index": 173,
+      "text": "German: 2004 gab es nur zwei Flüge: mit russischen Sojus-Kapseln zur Internationalen Raumstation. Und ich musste in der Mojave drei Flüge machen mit meinen paar Dutzend Leuten, damit es unterm Strich fünf wurden, so viele, wie es auch schon damals im Jahr 1961 waren. English: In 2004, there were only two flights: two Russian Soyuz flights to the international manned station. And I had to fly three in Mojave with my little group of a couple dozen people in order to get to a total of five, which was the number the same year back in 1961"
+    },
+    {
+      "delta_log_prob": -1.4692744836211205,
+      "prompt": "German: Wir wissen heute, wie das mit suborbitalen Flüge geht, und zwar sicher genug -- mindestens so sicher wie bei den ersten Airlines -- das ist also möglich. English: We know how to do it for sub-orbital flying now, do it safe enough -- at least as safe as the early airlines -- so that can be done",
+      "true_token": " done",
+      "predicted_token": " done",
+      "index": 174,
+      "text": "German: Wir wissen heute, wie das mit suborbitalen Flüge geht, und zwar sicher genug -- mindestens so sicher wie bei den ersten Airlines -- das ist also möglich. English: We know how to do it for sub-orbital flying now, do it safe enough -- at least as safe as the early airlines -- so that can be done"
+    },
+    {
+      "delta_log_prob": -1.7296492755413055,
+      "prompt": "German: Und ich denke, ich möchte ein bisschen davon erzählen, warum wir den Mut hatten das alles als kleines Unternehmen zu versuchen. English: And I think I want to talk a little bit about why we had the courage to go out and try that as a small company",
+      "true_token": " company",
+      "predicted_token": " company",
+      "index": 175,
+      "text": "German: Und ich denke, ich möchte ein bisschen davon erzählen, warum wir den Mut hatten das alles als kleines Unternehmen zu versuchen. English: And I think I want to talk a little bit about why we had the courage to go out and try that as a small company"
+    },
+    {
+      "delta_log_prob": -3.4589676447212696,
+      "prompt": "German: Und es wird suborbital sein. Und der Grund, warum es suborbital sein muss ist, dass es keine ausreichenden Sicherheitslösungen gibt, um mit Passagieren in den Orbit zu fliegen. Die Regierungen machen das -- drei Regierungen machen das seit 45 Jahren, und trotzdem sind vier Prozent der Menschen, die die Atmosphäre verlassen haben, gestorben. English: And it will be sub-orbital. And the reason it has to be sub-orbital is, there is not solutions for adequate safety to fly the public to orbit. The governments have been doing this -- three governments have been doing this for 45 years, and still four percent of the people that have left the atmosphere have died",
+      "true_token": " died",
+      "predicted_token": " died",
+      "index": 176,
+      "text": "German: Und es wird suborbital sein. Und der Grund, warum es suborbital sein muss ist, dass es keine ausreichenden Sicherheitslösungen gibt, um mit Passagieren in den Orbit zu fliegen. Die Regierungen machen das -- drei Regierungen machen das seit 45 Jahren, und trotzdem sind vier Prozent der Menschen, die die Atmosphäre verlassen haben, gestorben. English: And it will be sub-orbital. And the reason it has to be sub-orbital is, there is not solutions for adequate safety to fly the public to orbit. The governments have been doing this -- three governments have been doing this for 45 years, and still four percent of the people that have left the atmosphere have died"
+    },
+    {
+      "delta_log_prob": -8.55704228579998,
+      "prompt": "German: Aber ich glaube, sobald wir soweit sind, werden wir Lösungen finden. Und dann wird es recht schnell diese Hotels im Orbit geben. English: But I think once it does, we will find solutions, and very quickly, you'll see those resort hotels in orbit",
+      "true_token": " orbit",
+      "predicted_token": " orbit",
+      "index": 177,
+      "text": "German: Aber ich glaube, sobald wir soweit sind, werden wir Lösungen finden. Und dann wird es recht schnell diese Hotels im Orbit geben. English: But I think once it does, we will find solutions, and very quickly, you'll see those resort hotels in orbit"
+    },
+    {
+      "delta_log_prob": -1.9455922078341246,
+      "prompt": "German: Und eine ganz einfache Sache ist dann dieser Schwung um den Mond herum, wo man diese coole Aussicht hat. Und das wird wirklich cool. English: And that real easy thing to do, which is a swing around the moon so you have this cool view. And that will be really cool",
+      "true_token": " cool",
+      "predicted_token": " cool",
+      "index": 178,
+      "text": "German: Und eine ganz einfache Sache ist dann dieser Schwung um den Mond herum, wo man diese coole Aussicht hat. Und das wird wirklich cool. English: And that real easy thing to do, which is a swing around the moon so you have this cool view. And that will be really cool"
+    },
+    {
+      "delta_log_prob": -4.789536148309708,
+      "prompt": "German: Weil der Mond nämlich keine Atmosphäre hat -- da kann man mit einem elliptischen Orbit auf drei Meter rankommen, wenn man will. English: Because the moon doesn't have an atmosphere -- you can do an elliptical orbit and miss it by 10 feet if you want",
+      "true_token": " want",
+      "predicted_token": " want",
+      "index": 179,
+      "text": "German: Weil der Mond nämlich keine Atmosphäre hat -- da kann man mit einem elliptischen Orbit auf drei Meter rankommen, wenn man will. English: Because the moon doesn't have an atmosphere -- you can do an elliptical orbit and miss it by 10 feet if you want"
+    },
+    {
+      "delta_log_prob": -6.27403131686151,
+      "prompt": "German: Und früher hat mich das auch gestört, aber dann dachte ich mir, Moment mal. Meinen ersten Apple-Computer habe ich mir 1978 gekauft und zwar, damit ich sagen konnte: \"Ich hab' einen Computer zuhause und Du nicht!\" English: And I used to be bothered by that, and then I got to thinking, well, wait a minute. I bought my first Apple computer in 1978 and I bought it because I could say, \"I got a computer at my house and you don't",
+      "true_token": "'t",
+      "predicted_token": "'t",
+      "index": 180,
+      "text": "German: Und früher hat mich das auch gestört, aber dann dachte ich mir, Moment mal. Meinen ersten Apple-Computer habe ich mir 1978 gekauft und zwar, damit ich sagen konnte: \"Ich hab' einen Computer zuhause und Du nicht!\" English: And I used to be bothered by that, and then I got to thinking, well, wait a minute. I bought my first Apple computer in 1978 and I bought it because I could say, \"I got a computer at my house and you don't"
+    },
+    {
+      "delta_log_prob": -5.446464292705059,
+      "prompt": "German: Aber was ist passiert? Wir hatten eine große Industrie, enorme Entwicklung, immer mehr Leistung und so weiter, und als genug Leute einen daheim hatten, waren wir reif für eine neue Erfindung. English: But what happened, the fact that we had this big industry, big development, big improvement and capability and so on, and they get out there in enough homes -- we were ripe for a new invention",
+      "true_token": " invention",
+      "predicted_token": " invention",
+      "index": 181,
+      "text": "German: Aber was ist passiert? Wir hatten eine große Industrie, enorme Entwicklung, immer mehr Leistung und so weiter, und als genug Leute einen daheim hatten, waren wir reif für eine neue Erfindung. English: But what happened, the fact that we had this big industry, big development, big improvement and capability and so on, and they get out there in enough homes -- we were ripe for a new invention"
+    },
+    {
+      "delta_log_prob": -2.035453498363495,
+      "prompt": "German: Al Gore hat das Internet erfunden, und deswegen wurde etwas -- etwas, was wir ein ganzes Jahr -- Entschuldigung, ein ganzes Jahrzehnt nur als Spielzeug benutzten, wichtig für den Handel, die Forschung, die Kommunikation, und wenn die Jungs bei Google noch ein paar Wochenenden darüber nachdenken, kommt noch ein Dutzend anderer Sachen auf die Liste. Und es dauert nicht mehr lang, dann glauben einem die Kinder nicht mehr English: Al Gore invented the Internet and because of that, something that we used for a whole year -- excuse me -- a whole decade for fun, became everything -- our commerce, our research, our communication and, if we let the Google guys think for another couple weekends, we can add a dozen more things to the list.  And it won't be very long before you won't be able to convince kids",
+      "true_token": " kids",
+      "predicted_token": " the",
+      "index": 182,
+      "text": "German: Al Gore hat das Internet erfunden, und deswegen wurde etwas -- etwas, was wir ein ganzes Jahr -- Entschuldigung, ein ganzes Jahrzehnt nur als Spielzeug benutzten, wichtig für den Handel, die Forschung, die Kommunikation, und wenn die Jungs bei Google noch ein paar Wochenenden darüber nachdenken, kommt noch ein Dutzend anderer Sachen auf die Liste. Und es dauert nicht mehr lang, dann glauben einem die Kinder nicht mehr English: Al Gore invented the Internet and because of that, something that we used for a whole year -- excuse me -- a whole decade for fun, became everything -- our commerce, our research, our communication and, if we let the Google guys think for another couple weekends, we can add a dozen more things to the list.  And it won't be very long before you won't be able to convince kids"
+    },
+    {
+      "delta_log_prob": -0.3475514594465494,
+      "prompt": "German: Okay, ich möchte Ihnen ein etwas wirres Diagramm zeigen, aber darin sehen Sie meine Voraussage, was passieren wird. English: OK, I want to show you kind of a busy chart, but in it is my prediction with what's going to happen",
+      "true_token": " happen",
+      "predicted_token": " happen",
+      "index": 183,
+      "text": "German: Okay, ich möchte Ihnen ein etwas wirres Diagramm zeigen, aber darin sehen Sie meine Voraussage, was passieren wird. English: OK, I want to show you kind of a busy chart, but in it is my prediction with what's going to happen"
+    },
+    {
+      "delta_log_prob": -10.064067959785461,
+      "prompt": "German: Es hat sich eine Gruppe von Leuten gebildet -- die sind nicht alle bekannt -- aber die, die dazugehören sind als Kinder inspiriert worden, in diesem Alter zwischen drei und 15 Jahren, dadurch, dass wir hier den Orbit und den Mond erreicht haben, genau in dieser Zeit. English: There's a group of people that have come forward -- and you don't know all of them -- but the ones that have come forward were inspired as young children, this little three- to 15-year-old age, by us going to orbit and going to the moon here, right in this time period",
+      "true_token": " period",
+      "predicted_token": " period",
+      "index": 184,
+      "text": "German: Es hat sich eine Gruppe von Leuten gebildet -- die sind nicht alle bekannt -- aber die, die dazugehören sind als Kinder inspiriert worden, in diesem Alter zwischen drei und 15 Jahren, dadurch, dass wir hier den Orbit und den Mond erreicht haben, genau in dieser Zeit. English: There's a group of people that have come forward -- and you don't know all of them -- but the ones that have come forward were inspired as young children, this little three- to 15-year-old age, by us going to orbit and going to the moon here, right in this time period"
+    },
+    {
+      "delta_log_prob": -12.732844304060563,
+      "prompt": "German: Paul Allen, Elan Musk, Richard Branson, Jeff Bezos, die Familie Ansari, die jetzt diese suborbitale Sache der Russen finanziert, Bob Bigelow mit seiner privaten Raumstation, und Carmack. English: Paul Allen, Elan Musk, Richard Branson, Jeff Bezos, the Ansari family, which is now funding the Russians' sub-orbital thing, Bob Bigelow, a private space station, and Carmack",
+      "true_token": "ack",
+      "predicted_token": "ack",
+      "index": 185,
+      "text": "German: Paul Allen, Elan Musk, Richard Branson, Jeff Bezos, die Familie Ansari, die jetzt diese suborbitale Sache der Russen finanziert, Bob Bigelow mit seiner privaten Raumstation, und Carmack. English: Paul Allen, Elan Musk, Richard Branson, Jeff Bezos, the Ansari family, which is now funding the Russians' sub-orbital thing, Bob Bigelow, a private space station, and Carmack"
+    },
+    {
+      "delta_log_prob": -1.9109225273132324,
+      "prompt": "German: Diese Leute nehmen ihr Geld und investieren in eine interessante Sache, und ich finde das viel besser, als wenn man es in ein besseres Handy oder sowas steckt -- aber sie investieren in sehr [unklar] Gebiete, und dadurch bekommen wir diese Möglichkeiten, und das wird uns zu der nächsten wirklich großen Sache führen und uns ermöglichen, zu erforschen. Und ich glaube, irgendwann English: These people are taking money and putting it in an interesting area, and I think it's a lot better than they put it in an area of a better cell phone or something -- but they're putting it in very -- areas and this will lead us into this kind of capability, and it will lead us into the next really big thing and it will allow us to explore. And I think eventually",
+      "true_token": " eventually",
+      "predicted_token": ",",
+      "index": 186,
+      "text": "German: Diese Leute nehmen ihr Geld und investieren in eine interessante Sache, und ich finde das viel besser, als wenn man es in ein besseres Handy oder sowas steckt -- aber sie investieren in sehr [unklar] Gebiete, und dadurch bekommen wir diese Möglichkeiten, und das wird uns zu der nächsten wirklich großen Sache führen und uns ermöglichen, zu erforschen. Und ich glaube, irgendwann English: These people are taking money and putting it in an interesting area, and I think it's a lot better than they put it in an area of a better cell phone or something -- but they're putting it in very -- areas and this will lead us into this kind of capability, and it will lead us into the next really big thing and it will allow us to explore. And I think eventually"
+    },
+    {
+      "delta_log_prob": -4.087814450263977,
+      "prompt": "German: Die Militärjets hatten eine -- das Militärflugzeug mit der größten Leistung war die SR71. Es flog einen ganzen Lebenszyklus, bis es zu alt war und wurde dann außer Dienst gestellt. Die Concorde hat die Geschwindigkeit in bei den Airlines verdoppelt. English: The military fighters had a -- highest-performance military airplane was the SR71. It went a whole life cycle, got too rusty to fly, and was taken out of service. The Concorde doubled the speed for airline travel",
+      "true_token": " travel",
+      "predicted_token": " travel",
+      "index": 187,
+      "text": "German: Die Militärjets hatten eine -- das Militärflugzeug mit der größten Leistung war die SR71. Es flog einen ganzen Lebenszyklus, bis es zu alt war und wurde dann außer Dienst gestellt. Die Concorde hat die Geschwindigkeit in bei den Airlines verdoppelt. English: The military fighters had a -- highest-performance military airplane was the SR71. It went a whole life cycle, got too rusty to fly, and was taken out of service. The Concorde doubled the speed for airline travel"
+    },
+    {
+      "delta_log_prob": -7.700451850891113,
+      "prompt": "German: Sie flog für einen ganzen Lebenszyklus ohne Konkurrenz; außer Dienst gestellt. Und da stecken wir jetzt fest mit der gleichen Leistung bei Militärjets und in der kommerziellen Luftfahrt, die wir schon in den späten 50ern hatten. English: It went a whole life cycle without competition, took out of service. And we're stuck back here with the same kind of capability for military fighters and commercial airline travel that we had back in the late '50s",
+      "true_token": "s",
+      "predicted_token": "s",
+      "index": 188,
+      "text": "German: Sie flog für einen ganzen Lebenszyklus ohne Konkurrenz; außer Dienst gestellt. Und da stecken wir jetzt fest mit der gleichen Leistung bei Militärjets und in der kommerziellen Luftfahrt, die wir schon in den späten 50ern hatten. English: It went a whole life cycle without competition, took out of service. And we're stuck back here with the same kind of capability for military fighters and commercial airline travel that we had back in the late '50s"
+    },
+    {
+      "delta_log_prob": -8.567588821053505,
+      "prompt": "German: Relativ bald werden Sie in der Lage sein, ein Ticket zu kaufen und höher und schneller zu fliegen als die leistungsstärksten Militärflugzeuge, die im Einsatz sind. Das hat es noch nie gegeben. English: Relatively soon, you'll be able to buy a ticket and fly higher and faster than the highest-performance military operational airplane. It's never happened before",
+      "true_token": " before",
+      "predicted_token": " before",
+      "index": 189,
+      "text": "German: Relativ bald werden Sie in der Lage sein, ein Ticket zu kaufen und höher und schneller zu fliegen als die leistungsstärksten Militärflugzeuge, die im Einsatz sind. Das hat es noch nie gegeben. English: Relatively soon, you'll be able to buy a ticket and fly higher and faster than the highest-performance military operational airplane. It's never happened before"
+    },
+    {
+      "delta_log_prob": -5.69653707370162,
+      "prompt": "German: Dass die hier bei dieser Leistung festsitzen liegt daran, naja, wissen Sie, man gewinnt den Krieg in 12 Minuten, wozu braucht man da was besseres? English: The fact that they have stuck here with this kind of performance has been, well, you know, you win the war in 12 minutes; why do you need something better",
+      "true_token": " better",
+      "predicted_token": " better",
+      "index": 190,
+      "text": "German: Dass die hier bei dieser Leistung festsitzen liegt daran, naja, wissen Sie, man gewinnt den Krieg in 12 Minuten, wozu braucht man da was besseres? English: The fact that they have stuck here with this kind of performance has been, well, you know, you win the war in 12 minutes; why do you need something better"
+    },
+    {
+      "delta_log_prob": -4.022777199745178,
+      "prompt": "German: Aber ich glaube, wenn Sie alle anfangen, Tickets zu kaufen und suborbitale Raumflüge zu machen, dann wird bald -- Moment mal, was passiert dann? Wir werden suborbitale Militärjets bekommen, und zwar ziemlich schnell, glaube ich. English: But I think when you guys start buying tickets and flying sub-orbital flights to space, very soon -- wait a minute, what's happening here, we'll have military fighters with sub-orbital capability, and I think very soon this",
+      "true_token": " this",
+      "predicted_token": ".",
+      "index": 191,
+      "text": "German: Aber ich glaube, wenn Sie alle anfangen, Tickets zu kaufen und suborbitale Raumflüge zu machen, dann wird bald -- Moment mal, was passiert dann? Wir werden suborbitale Militärjets bekommen, und zwar ziemlich schnell, glaube ich. English: But I think when you guys start buying tickets and flying sub-orbital flights to space, very soon -- wait a minute, what's happening here, we'll have military fighters with sub-orbital capability, and I think very soon this"
+    },
+    {
+      "delta_log_prob": -7.970431908965111,
+      "prompt": "German: Technisch gesehen haben wir nicht verloren. Wir hatten die Technik um etwas in den Orbit zu bringen damals bei von Braun, also kann man sagen, dass wir technisch nicht verloren haben. English: We didn't lose them technically. The fact that we had the hardware to put something in orbit when we let Von Braun fly it -- you can argue that's not a technical loss",
+      "true_token": " loss",
+      "predicted_token": " loss",
+      "index": 192,
+      "text": "German: Technisch gesehen haben wir nicht verloren. Wir hatten die Technik um etwas in den Orbit zu bringen damals bei von Braun, also kann man sagen, dass wir technisch nicht verloren haben. English: We didn't lose them technically. The fact that we had the hardware to put something in orbit when we let Von Braun fly it -- you can argue that's not a technical loss"
+    },
+    {
+      "delta_log_prob": -2.221576690673828,
+      "prompt": "German: Amerika -- für die Welt war Amerika nicht Technologieführer, und das war eine ziemlich harte Sache. English: America -- the world saw America as not being the leader in technology, and that was a very strong thing",
+      "true_token": " thing",
+      "predicted_token": " thing",
+      "index": 193,
+      "text": "German: Amerika -- für die Welt war Amerika nicht Technologieführer, und das war eine ziemlich harte Sache. English: America -- the world saw America as not being the leader in technology, and that was a very strong thing"
+    },
+    {
+      "delta_log_prob": -13.180502355098724,
+      "prompt": "German: Und dann flog Alan Shepherd ein paar Wochen nach Gagarin, nicht Monate oder Jahrzehnte oder sowas. Also, wir hatten die Fähigkeiten. English: And then we flew Alan Shepherd weeks after Gagarin, not months or decades, or whatever. So we had the capability",
+      "true_token": " capability",
+      "predicted_token": " capabilities",
+      "index": 194,
+      "text": "German: Und dann flog Alan Shepherd ein paar Wochen nach Gagarin, nicht Monate oder Jahrzehnte oder sowas. Also, wir hatten die Fähigkeiten. English: And then we flew Alan Shepherd weeks after Gagarin, not months or decades, or whatever. So we had the capability"
+    },
+    {
+      "delta_log_prob": -4.106705975718796,
+      "prompt": "German: Man kann in Amerika kein Ticket kaufen, um ins All zu fliegen -- es geht nicht. In Russland geht das. English: You cannot buy a ticket commercially to fly into space in America -- can't do it. You can buy it in Russia",
+      "true_token": " Russia",
+      "predicted_token": " Russia",
+      "index": 195,
+      "text": "German: Man kann in Amerika kein Ticket kaufen, um ins All zu fliegen -- es geht nicht. In Russland geht das. English: You cannot buy a ticket commercially to fly into space in America -- can't do it. You can buy it in Russia"
+    },
+    {
+      "delta_log_prob": -8.994961142539978,
+      "prompt": "German: Man kann mit russischer Technik rauffliegen. Das geht deshalb, weil das russische Raumfahrtprogramm pleite ist, und für die ist es toll, wenn sie ab und zu 20 Millionen für einen Platz kassieren. English: You can fly with Russian hardware. This is available because a Russian space program is starving, and it's nice for them to get 20 million here and there to take one of the seats",
+      "true_token": " seats",
+      "predicted_token": " seats",
+      "index": 196,
+      "text": "German: Man kann mit russischer Technik rauffliegen. Das geht deshalb, weil das russische Raumfahrtprogramm pleite ist, und für die ist es toll, wenn sie ab und zu 20 Millionen für einen Platz kassieren. English: You can fly with Russian hardware. This is available because a Russian space program is starving, and it's nice for them to get 20 million here and there to take one of the seats"
+    },
+    {
+      "delta_log_prob": -2.5218958854675293,
+      "prompt": "German: Das ist ein Geschäft. Man kann es Weltraumtourismus nennen. Sie bieten auch so einen Flug um den Mond herum an, wie ihn Apollo 8 gemacht hat. English: It's commercial. It can be defined as space tourism. They are also offering a trip to go on this whip around the moon, like Apollo 8 was done",
+      "true_token": " done",
+      "predicted_token": ".\n",
+      "index": 197,
+      "text": "German: Das ist ein Geschäft. Man kann es Weltraumtourismus nennen. Sie bieten auch so einen Flug um den Mond herum an, wie ihn Apollo 8 gemacht hat. English: It's commercial. It can be defined as space tourism. They are also offering a trip to go on this whip around the moon, like Apollo 8 was done"
+    },
+    {
+      "delta_log_prob": -11.478358164429665,
+      "prompt": "German: Aber, sagen Sie, hätten Sie gedacht, damals in den 60ern als das Rennen ins All am Laufen war, dass die erste kommerzielle, kapitalistische Sache sein würde, dass man ein Ticket für einen Flug zum Mond mit russischer Technik kaufen kann? English: But, you know, would you have thought back in the '60s, when the space race was going on, that the first commercial capitalist-like thing to do to buy a ticket to go to the moon would be in Russian hardware",
+      "true_token": " hardware",
+      "predicted_token": " technology",
+      "index": 198,
+      "text": "German: Aber, sagen Sie, hätten Sie gedacht, damals in den 60ern als das Rennen ins All am Laufen war, dass die erste kommerzielle, kapitalistische Sache sein würde, dass man ein Ticket für einen Flug zum Mond mit russischer Technik kaufen kann? English: But, you know, would you have thought back in the '60s, when the space race was going on, that the first commercial capitalist-like thing to do to buy a ticket to go to the moon would be in Russian hardware"
+    },
+    {
+      "delta_log_prob": -4.132399067282677,
+      "prompt": "German: Und hätten sie gedacht, hätten die Russen gedacht, dass an dem Tag, an dem sie mit ihrer Technik zum Mond fliegen würden, gar keine Russen an Bord sein würden? Es wird wahrscheinlich ein japanischer oder amerikanischer Milliardär sein? Also, das ist doch wirklich bizarr, oder? English: And would you have thought, would the Russians have thought, that when they first go to the moon in their developed hardware, the guys inside won't be Russians? Maybe it'll probably be a Japanese or an American billionaire? Well, that's weird: you know, it really is",
+      "true_token": " is",
+      "predicted_token": " is",
+      "index": 199,
+      "text": "German: Und hätten sie gedacht, hätten die Russen gedacht, dass an dem Tag, an dem sie mit ihrer Technik zum Mond fliegen würden, gar keine Russen an Bord sein würden? Es wird wahrscheinlich ein japanischer oder amerikanischer Milliardär sein? Also, das ist doch wirklich bizarr, oder? English: And would you have thought, would the Russians have thought, that when they first go to the moon in their developed hardware, the guys inside won't be Russians? Maybe it'll probably be a Japanese or an American billionaire? Well, that's weird: you know, it really is"
+    }
+  ]
+}
