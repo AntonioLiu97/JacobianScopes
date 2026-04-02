@@ -1,4 +1,4 @@
-name: JCBScope
+name: JacobianScopes
 channels:
   - conda-forge
 dependencies:

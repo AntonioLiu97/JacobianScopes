@@ -10,14 +10,39 @@ This repository contains interactive demonstrations for the paper:
 
     Jacobian Scopes: token-level causal attributions in LLMs
 
-## Notebooks
-- The time-series generator is adapted from [LLMs learn governing principles of dynamical systems, revealing an in-context neural scaling law](https://aclanthology.org/2024.emnlp-main.842/).
-  You can generate all time series used in the paper (e.g., Brownian motion and Lorenz systems) using [`time_series_genrator/series_generator.ipynb`](./time_series_genrator/series_generator.ipynb).
-- Temperature Scope + Semantic Scope notebooks (same core ideas, with different visualization pipeline adapted to linguistic/numerical inputs):
-  - Natural language: [`Temperature_Semantic_Scopes_natural_language.ipynb`](./Temperature_Semantic_Scopes_natural_language.ipynb)
-  - Time series: [`Temperature_Semantic_Scopes_time_series.ipynb`](./Temperature_Semantic_Scopes_time_series.ipynb)
-- Path-integrated Semantic Scope, inspired by [Axiomatic Attribution for Deep Networks](https://proceedings.mlr.press/v70/sundararajan17a.html): [`Path_Integrated_Semantic_Scope.ipynb`](./Path_Integrated_Semantic_Scope.ipynb)
-- Fisher + Temperature (for side-by-side comparison): [`Fisher_Temperature_Scopes.ipynb`](./Fisher_Temperature_Scopes.ipynb)
+## Installation
+
+Clone the repository and install the package in editable mode:
+
+```bash
+git clone https://github.com/AntonioLiu97/JacobianScopes.git
+cd JacobianScopes
+pip install -e .
+```
+
+## Repository Structure
+
+```
+JacobianScopes/
+│
+├── src/JacobianScopes/              # Installable Python package
+│   ├── __init__.py                  # Public API
+│   ├── JacobianScopes.py            # Fisher, Temperature, and Semantic scope algorithms
+│   ├── JacobianScopes_utils.py      # Forward pass construction and model utilities
+│   └── plotter_utils.py             # Visualization utilities
+│
+├── Jacobian_Scopes_natural_language.ipynb   # Demo: attribution on natural language
+├── Jacobian_Scopes_time_series.ipynb        # Demo: attribution on time-series data
+│
+├── paper/                           # Reproducibility for the paper
+│   ├── benchmarks/                  # Scripts that run large-scale evaluations
+│   ├── figures/                     # Notebooks that generate paper figures
+│   ├── data/                        # Datasets and data processing
+│   └── results/                     # Benchmark outputs (JSON)
+│
+├── pyproject.toml                   # Package metadata and dependencies
+└── README.md
+```
 
 ## Authors
 
