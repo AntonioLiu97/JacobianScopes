@@ -4,8 +4,10 @@ modes = ['Temperature', 'Semantic', 'gradient_x_input','Fisher', "random_ablatio
 # modes = ['IG']
 modes = ['Fisher']
 # fisher_k = 4
-fisher_k = 16
-# fisher_k = 1
+# fisher_k = 16
+fisher_k = 1
+
+# path intervals for integrated gradients
 presence_list = [0.2, 0.4, 0.6, 0.8, 1]
 
 top_k_fractions = [0.05, 0.1, 0.2]

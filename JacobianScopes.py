@@ -56,7 +56,7 @@ def fisher_scope_scores(
     residual,
     loss_position,
     lm_head,
-    method="full",
+    method='low_rank',
     batch_size=16,
     k=1,
     n_hutchinson_samples=8,
@@ -282,7 +282,7 @@ def gradient_x_input_scores(forward_pass, residual, loss_position, embedding_lay
     return scores, logits
 
 
-def setup_scope_context(model, tokenizer, string, front_pad=0, back_pad=0, front_strip=0, eos_token_id=None):
+def setup_scope_context(model, tokenizer, string, front_pad=2, front_strip=0):
     """
     Build input_ids, attention_mask, grad_idx, decoded_tokens, residual, presence, forward_pass, d_model, embed_device
     for use with scope functions. Caller must still set model.eval() and pass loss_position.
@@ -292,8 +292,6 @@ def setup_scope_context(model, tokenizer, string, front_pad=0, back_pad=0, front
         forward_pass, d_model, embed_device
     """
     input_ids_list = tokenizer(string, add_special_tokens=False)["input_ids"]
-    if eos_token_id is not None:
-        input_ids_list += [eos_token_id] * back_pad
     decoded_tokens = tokenizer.batch_decode([[tid] for tid in input_ids_list], skip_special_tokens=True)
     grad_idx = list(range(front_pad, len(decoded_tokens)))[front_strip:]
 
@@ -319,3 +317,61 @@ def setup_scope_context(model, tokenizer, string, front_pad=0, back_pad=0, front
         "d_model": d_model,
         "embed_device": embed_device,
     }
+    
+def run_scope(model, tokenizer, string, mode,
+              front_pad=2, loss_position=None, device=None,
+              method = 'low_rank',rank_cut_off=1, skip_delimiters = False):
+    """
+    High-level API. Given a model, tokenizer, input string, and scope type,
+    returns attribution scores without requiring any internal setup.
+
+    Returns: scores, logits, decoded_tokens, grad_idx, loss_position
+    """
+    import JacobianScopes
+    from torch import nn
+
+    if device is None:
+        device = next(model.parameters()).device
+
+    bos_token_id = tokenizer.bos_token_id or tokenizer.cls_token_id
+    input_ids_list = ([bos_token_id] * front_pad if bos_token_id else [])
+    input_ids_list += tokenizer(string, add_special_tokens=False)["input_ids"]
+
+    input_ids = torch.tensor([input_ids_list], dtype=torch.long).to(device)
+    decoded_tokens = [
+        tokenizer.decode(t.item(), skip_special_tokens=True)
+        for t in input_ids[0]
+    ]
+    if skip_delimiters:
+        grad_idx = list(range(front_pad, len(decoded_tokens), 2))
+    else:    
+        grad_idx = list(range(front_pad, len(decoded_tokens)))
+    if loss_position is None:
+        loss_position = grad_idx[-1] - 1
+    else:
+        loss_position = loss_position % len(decoded_tokens)
+
+    embedding_layer = model.get_input_embeddings()
+    d_model = embedding_layer.embedding_dim
+    residual = nn.Parameter(torch.zeros(len(grad_idx), d_model))
+    presence = torch.ones(len(decoded_tokens), 1)
+
+    forward_pass =  JCBScope_utils.customize_forward_pass(
+        model, residual, presence, input_ids, grad_idx
+    )
+
+    if mode == 'Temperature':
+        scores, logits = temperature_scope_scores(
+            forward_pass, residual, loss_position)
+    elif mode == 'Semantic':
+        scores, logits = semantic_scope_scores(
+            forward_pass, residual, loss_position)
+    elif mode == 'Fisher':
+        lm_head =  JCBScope_utils.get_lm_head(model)
+        scores, logits = fisher_scope_scores(
+            forward_pass, residual, loss_position, lm_head,
+            method=method, k=rank_cut_off)
+    else:
+        raise ValueError(f"Unknown mode: {mode!r}. Choose 'Temperature', 'Semantic', or 'Fisher'.")
+
+    return scores, logits, decoded_tokens, grad_idx, loss_position    

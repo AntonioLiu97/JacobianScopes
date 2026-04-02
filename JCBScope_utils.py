@@ -31,13 +31,15 @@ def get_input_embeddings(model):
     else:
         raise ValueError(f"Unsupported model architecture: {type(model)}")
 
-def customize_forward_pass(model, residual, presence, input_ids, grad_idx, attention_mask, ):
+def customize_forward_pass(model, residual, presence, input_ids, grad_idx, attention_mask=None):
     lm_head = get_lm_head(model)
     embedding_layer = model.get_input_embeddings()
     vocab_embed = embedding_layer.weight
     embed_device = embedding_layer.weight.device
     residual = residual.to(embed_device)
     presence = presence.to(embed_device) 
+    if attention_mask is None:
+        attention_mask = torch.ones_like(input_ids)
 
     with torch.no_grad():
         input_ids_to_dev = input_ids.to(embed_device)
