@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/JacobianScopes/JacobianScopes.py
+src/JacobianScopes/JacobianScopes_utils.py
+src/JacobianScopes/__init__.py
+src/JacobianScopes/plotter_utils.py
+src/JacobianScopes.egg-info/PKG-INFO
+src/JacobianScopes.egg-info/SOURCES.txt
+src/JacobianScopes.egg-info/dependency_links.txt
+src/JacobianScopes.egg-info/requires.txt
+src/JacobianScopes.egg-info/top_level.txt
