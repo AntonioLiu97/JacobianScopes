@@ -20,6 +20,8 @@ cd JacobianScopes
 pip install -e .
 ```
 
+<!-- `pip` and PyPI normalize the **distribution** name to `jacobian-scopes` (lowercase, hyphenated) for packaging; the **Python import** is always `JacobianScopes`, matching the `src/JacobianScopes/` package directory. -->
+
 In notebooks and scripts, import the library as:
 
 ```python
