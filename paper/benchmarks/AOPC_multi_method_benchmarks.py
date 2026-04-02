@@ -41,16 +41,10 @@ import math
                               
 from transformers import AutoModelForCausalLM, AutoTokenizer  
 from tqdm import tqdm
-import matplotlib.pyplot as plt  
-import torch.nn.functional as F
-import gc
-import re
-import copy
 
-import sys
-sys.path.append('..')
-import JCBScope_utils
-import JacobianScopes
+
+from JacobianScopes import JacobianScopes_utils as JCBScope_utils
+from JacobianScopes import JacobianScopes
 
 # Move to GPU with optimal dtype
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')

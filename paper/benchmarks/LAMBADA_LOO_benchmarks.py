@@ -15,7 +15,7 @@ cutoff = 1000
 
 import os
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3"  
+os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"  
 # os.environ["CUDA_VISIBLE_DEVICES"] = "2,3"  
 from torch import nn
 
@@ -34,10 +34,8 @@ import gc
 import re
 import copy
 
-import sys
-sys.path.append('..')
-import JCBScope_utils
-import JacobianScopes
+from JacobianScopes import JacobianScopes_utils as JCBScope_utils
+from JacobianScopes import JacobianScopes
 
 # Move to GPU with optimal dtype
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')

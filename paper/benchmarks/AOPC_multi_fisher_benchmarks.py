@@ -32,10 +32,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from tqdm import tqdm
 import gc
 
-import sys
-sys.path.append('..')
-import JCBScope_utils
-import JacobianScopes
+from JacobianScopes import JacobianScopes_utils as JCBScope_utils
+from JacobianScopes import JacobianScopes
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
