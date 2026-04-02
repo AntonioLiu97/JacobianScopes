@@ -1,12 +1,13 @@
 """
 JacobianScopes: Fisher, Temperature, and Semantic scope implementations.
-Uses JCBScope_utils.customize_forward_pass for the forward interface.
+Uses JacobianScopes_utilscustomize_forward_pass for the forward interface.
 """
 
 from __future__ import annotations
 
 import numpy as np
 import torch
+from torch import nn
 import torch.nn.functional as F
 
 try:
@@ -14,7 +15,7 @@ try:
 except ImportError:
     tqdm = None
 
-import JCBScope_utils
+from . import JacobianScopes_utils
 
 
 def fisher_hidden_from_logits_and_W(logits_t, W, chunk_size=8192):
@@ -67,7 +68,7 @@ def fisher_scope_scores(
     Compute Fisher scope influence scores per token: tr(J^T Fx J) per token.
 
     Args:
-        forward_pass: from JCBScope_utils.customize_forward_pass
+        forward_pass: from JacobianScopes_utils.customize_forward_pass
         residual: nn.Parameter [n_tokens, d_model]
         loss_position: int or tensor, position for loss
         lm_head: model lm_head (for W and logits)
@@ -207,7 +208,7 @@ def semantic_scope_scores(
     When path_integral=True: Path_integrated_grad = mean(grads) * (x_final - x_initial) at grad_idx, scores = norm.
 
     Args:
-        forward_pass: from JCBScope_utils.customize_forward_pass
+        forward_pass: from JacobianScopes_utils.customize_forward_pass
         residual: nn.Parameter [n_tokens, d_model]
         loss_position: int or tensor
         path_integral: if True, use path integration as in Path_Integrated_Semantic_Scope.ipynb
@@ -275,7 +276,7 @@ def gradient_x_input_scores(forward_pass, residual, loss_position, embedding_lay
     )
     grads = torch.autograd.grad(loss, residual, retain_graph=False)[0]
     with torch.no_grad():
-        token_embeds = JCBScope_utils.embedding_lookup(input_ids[0, grad_idx], embedding_layer)
+        token_embeds = JacobianScopes_utils.embedding_lookup(input_ids[0, grad_idx], embedding_layer)
     scores = (grads * token_embeds.to(grads.device)).norm(dim=-1).squeeze().cpu().numpy().astype(np.float32)
     if scores.ndim > 1:
         scores = scores.squeeze()
@@ -303,7 +304,7 @@ def setup_scope_context(model, tokenizer, string, front_pad=2, front_strip=0):
     attention_mask = torch.ones_like(input_ids, device=embed_device)
     residual = torch.nn.Parameter(torch.zeros(len(grad_idx), d_model, device=embed_device))
     presence = torch.ones(len(decoded_tokens), 1, device=embed_device)
-    forward_pass = JCBScope_utils.customize_forward_pass(
+    forward_pass = JacobianScopes_utils.customize_forward_pass(
         model, residual, presence, input_ids, grad_idx, attention_mask
     )
     return {
@@ -327,8 +328,7 @@ def run_scope(model, tokenizer, string, mode,
 
     Returns: scores, logits, decoded_tokens, grad_idx, loss_position
     """
-    import JacobianScopes
-    from torch import nn
+    
 
     if device is None:
         device = next(model.parameters()).device
@@ -356,7 +356,7 @@ def run_scope(model, tokenizer, string, mode,
     residual = nn.Parameter(torch.zeros(len(grad_idx), d_model))
     presence = torch.ones(len(decoded_tokens), 1)
 
-    forward_pass =  JCBScope_utils.customize_forward_pass(
+    forward_pass =  JacobianScopes_utils.customize_forward_pass(
         model, residual, presence, input_ids, grad_idx
     )
 
@@ -367,7 +367,7 @@ def run_scope(model, tokenizer, string, mode,
         scores, logits = semantic_scope_scores(
             forward_pass, residual, loss_position)
     elif mode == 'Fisher':
-        lm_head =  JCBScope_utils.get_lm_head(model)
+        lm_head =  JacobianScopes_utils.get_lm_head(model)
         scores, logits = fisher_scope_scores(
             forward_pass, residual, loss_position, lm_head,
             method=method, k=rank_cut_off)

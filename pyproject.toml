@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jacobian-scopes"
+version = "0.1.0"
+description = "Fisher, Temperature, and Semantic Scopes for LLMs"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "transformers",
+    "numpy",
+    "tqdm",
+    "matplotlib",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["jacobian_scopes*"]
