@@ -1,14 +1,20 @@
 # Jacobian Scopes
-![Temperature Scope on time-series data](./figures/fig2.png)
+![Temperature Scope on time-series data](./assets/fig2.png)
 
-<!-- ![Sesmantic Scope liberal_conservative](./figures/liberal_conservative.png) -->
+<!-- ![Sesmantic Scope liberal_conservative](./assets/liberal_conservative.png) -->
 
-![Fisher translations](./figures/Fisher_translations.png)
+![Fisher translations](./assets/Fisher_translations.png)
 
 ## Overview
 This repository contains interactive demonstrations for the paper:
 
     Jacobian Scopes: token-level causal attributions in LLMs
+
+## Interactive demo
+
+You could also run Jacobian Scopes in the browser (no install) on **[Hugging Face Spaces — Jacobian Scopes Demo](https://huggingface.co/spaces/Typony/JacobianScopes)**.
+
+![JS demo](./assets/JS_demo.png)
 
 ## Installation
 
@@ -33,6 +39,8 @@ JacobianScopes/
 │
 ├── Jacobian_Scopes_natural_language.ipynb   # Demo: attribution on natural language
 ├── Jacobian_Scopes_time_series.ipynb        # Demo: attribution on time-series data
+│
+├── assets/                          # Static images for the README and docs
 │
 ├── paper/                           # Reproducibility for the paper
 │   ├── benchmarks/                  # Scripts that run large-scale evaluations
