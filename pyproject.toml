@@ -13,6 +13,15 @@ dependencies = [
     "numpy",
     "tqdm",
     "matplotlib",
+    # plotter_utils imports IPython.display; needed for `import JacobianScopes` everywhere
+    "ipython>=8",
+]
+
+[project.optional-dependencies]
+# Everything needed to run the demo notebooks in this repo (kernel + UI).
+notebooks = [
+    "ipykernel>=6.0",
+    "jupyterlab>=4.0",
 ]
 
 [tool.setuptools.packages.find]

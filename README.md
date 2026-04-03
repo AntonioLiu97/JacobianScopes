@@ -24,8 +24,13 @@ Clone the repository and install the package in editable mode (from the reposito
 ```bash
 git clone https://github.com/AntonioLiu97/JacobianScopes.git
 cd JacobianScopes
-pip install -e .
+python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -U pip
+pip install -e ".[notebooks]"
 ```
+
+Use a **fresh virtual environment** for each machine (or project) so `pip` does not mix with a user-wide `--user` install or another conda stack. For library-only use (no local notebooks), `pip install -e .` is enough.
 
 <!-- `pip` and PyPI normalize the **distribution** name to `jacobian-scopes` (lowercase, hyphenated) for packaging; the **Python import** is always `JacobianScopes`, matching the `src/JacobianScopes/` package directory. -->
 
