@@ -12,3 +12,5 @@ dependencies:
   - captum
   - pandas
   - scipy
+  - transformers
+  - accelerate
