@@ -27,7 +27,7 @@ cd JacobianScopes
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -U pip
-pip install -e ".[notebooks]"
+pip install -e ".[notebooks]" 
 ```
 
 Use a **fresh virtual environment** for each machine (or project) so `pip` does not mix with a user-wide `--user` install or another conda stack. For library-only use (no local notebooks), `pip install -e .` is enough.

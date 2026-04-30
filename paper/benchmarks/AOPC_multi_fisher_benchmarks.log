@@ -1,19 +1,0 @@
-nohup: ignoring input
-/home/jl3499/conda/LLM1/lib/python3.12/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
-  warnings.warn(
-Fisher k values: [2048]
-Processing Fisher k=2048
-Processing prompts:   0%|          | 0/1000 [00:00<?, ?it/s]/home/jl3499/conda/LLM1/lib/python3.12/site-packages/torch/autograd/graph.py:769: UserWarning: Attempting to run cuBLAS, but there was no current CUDA context! Attempting to set the primary context... (Triggered internally at /home/conda/feedstock_root/build_artifacts/libtorch_1742433629875/work/aten/src/ATen/cuda/CublasHandlePool.cpp:135.)
-  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
-Processing prompts:   0%|          | 0/1000 [02:26<?, ?it/s]
-Traceback (most recent call last):
-  File "/home/jl3499/JacobianScopes/JacobianScopes/Benchmarks/AOPC_multi_fisher_benchmarks.py", line 161, in <module>
-    delta_log_prob_dict, grad_vals, ablated_indices_dict, tick_label_text, logits_orig, true_token, predicted_token = change_in_max_log_p_with_ablation(
-                                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jl3499/JacobianScopes/JacobianScopes/Benchmarks/AOPC_multi_fisher_benchmarks.py", line 90, in change_in_max_log_p_with_ablation
-    grad_vals, logits_orig = JacobianScopes.fisher_scope_scores(
-                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jl3499/JacobianScopes/JacobianScopes/Benchmarks/../JacobianScopes.py", line 112, in fisher_scope_scores
-    tmp = Fx.unsqueeze(0) @ J_all
-          ~~~~~~~~~~~~~~~~^~~~~~~
-RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cuda:2! (when checking argument for argument mat2 in method wrapper_CUDA_mm)

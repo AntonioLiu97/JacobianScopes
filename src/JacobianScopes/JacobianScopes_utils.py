@@ -42,10 +42,14 @@ def customize_forward_pass(model, residual, presence, input_ids, grad_idx, atten
         attention_mask = torch.ones_like(input_ids)
 
     with torch.no_grad():
+        # Use F.embedding directly to bypass Accelerate hooks (which cause device mismatches
+        # under device_map="auto" with multiple GPUs). Then manually apply any scale factor
+        # that the embedding module's forward() would normally add (e.g. Gemma3's
+        # Gemma3TextScaledWordEmbedding multiplies by sqrt(hidden_size) inside forward()).
         input_ids_to_dev = input_ids.to(embed_device)
-        # Use F.embedding directly to bypass Accelerate hooks that can move inputs to the wrong device
-        base_embeds = F.embedding(input_ids_to_dev, embedding_layer.weight) 
-        # base_embeds = embedding_layer(input_ids.to(embedding_layer.weight.device))
+        base_embeds = F.embedding(input_ids_to_dev, embedding_layer.weight)
+        if hasattr(embedding_layer, 'embed_scale'):
+            base_embeds = base_embeds * embedding_layer.embed_scale.to(device=base_embeds.device, dtype=base_embeds.dtype)
         
     def build_inputs(residual_override=None, residual_batch=None):
         """residual_override: [n_tokens, d] for single. residual_batch: [B, n_tokens, d] for batched (e.g. finite-diff JVP)."""

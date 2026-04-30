@@ -1,5 +1,10 @@
-torch
+torch==2.4.1
 transformers
 numpy
 tqdm
 matplotlib
+ipython>=8
+
+[notebooks]
+ipykernel>=6.0
+jupyterlab>=4.0

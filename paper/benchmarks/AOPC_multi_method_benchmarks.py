@@ -2,7 +2,7 @@
 from pathlib import Path
 modes = ['Temperature', 'Semantic', 'gradient_x_input','Fisher', "random_ablation", 'IG']
 # modes = ['IG']
-modes = ['Fisher']
+# modes = ['Fisher']
 # fisher_k = 4
 # fisher_k = 16
 fisher_k = 1
@@ -11,11 +11,17 @@ fisher_k = 1
 presence_list = [0.2, 0.4, 0.6, 0.8, 1]
 
 top_k_fractions = [0.05, 0.1, 0.2]
-model_name = "meta-llama/Llama-3.2-1B"
+# model_name = "meta-llama/Llama-3.2-1B"
 # model_name = "meta-llama/Llama-3.2-3B"
 # model_name = "meta-llama/Llama-3.1-8B"
 # model_name = "Qwen/Qwen2.5-3B"
 # model_name = "Qwen/Qwen2.5-1.5B"
+
+# Add Gemma3 1B model entry to the available model options
+
+model_name = "google/gemma-3-1b-pt"
+# model_name = "google/gemma-3-4b-pt"
+
 
 prompts_path = Path("../data/lambada_prompts_1000.json")
 dataset_name_short = "lmbd1000"
