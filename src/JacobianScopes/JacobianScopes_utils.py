@@ -15,10 +15,14 @@ def embedding_lookup(indices, embedding_layer):
     """
     Look up embeddings at given indices. Uses F.embedding directly to avoid
     Accelerate hook device mismatches when using device_map="auto".
+    Applies embed_scale if present (e.g. Gemma3's sqrt(hidden_size) scaling).
     """
     w_device = embedding_layer.weight.device
     indices = indices.to(w_device) if indices.device != w_device else indices
-    return F.embedding(indices, embedding_layer.weight)
+    embeds = F.embedding(indices, embedding_layer.weight)
+    if hasattr(embedding_layer, 'embed_scale'):
+        embeds = embeds * embedding_layer.embed_scale.to(device=embeds.device, dtype=embeds.dtype)
+    return embeds
 
 
 def get_input_embeddings(model):

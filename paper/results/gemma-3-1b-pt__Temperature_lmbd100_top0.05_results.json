@@ -1,0 +1,806 @@
+{
+  "label": "gemma-3-1b-pt__Temperature_lmbd100_top0.05",
+  "top_k_fraction": 0.05,
+  "results": [
+    {
+      "delta_log_prob": -5.595845937728882,
+      "prompt": "Bob was pensive for the rest of the evening, talking openly and realistically about his work on the railroad to the four students who appeared enthused over the prospect of high speed rail in their lifetime. Perhaps they just hadn’t done the math.  \nThe couple that accompanied Paul and Debbie got up to leave, they were expecting the girl’s parents to fetch them any moment now. After they had left, Paul and Debbie looked at each other, then at Bob",
+      "true_token": " Bob",
+      "predicted_token": " the",
+      "index": 0,
+      "text": "Bob was pensive for the rest of the evening, talking openly and realistically about his work on the railroad to the four students who appeared enthused over the prospect of high speed rail in their lifetime. Perhaps they just hadn’t done the math.  \nThe couple that accompanied Paul and Debbie got up to leave, they were expecting the girl’s parents to fetch them any moment now. After they had left, Paul and Debbie looked at each other, then at Bob"
+    },
+    {
+      "delta_log_prob": -5.484608173370361,
+      "prompt": "For the hungrier set there seemed to be every kind of fowl, from quail to goose, neatly carved into small pieces so a dancer could eat quickly and return to the floor.\n\nOnce again I wished I was hungry for normal human food. But instead I indulged in a glass of champagne.\n\n\"Hilda, Hilda,\" Bridget called out in a voice that carried well considering how crowded the space was. A beautiful girl in a rose-pink gown turned from her gentleman friend, face lighting up when she saw Bridget",
+      "true_token": " Bridget",
+      "predicted_token": " me",
+      "index": 1,
+      "text": "For the hungrier set there seemed to be every kind of fowl, from quail to goose, neatly carved into small pieces so a dancer could eat quickly and return to the floor.\n\nOnce again I wished I was hungry for normal human food. But instead I indulged in a glass of champagne.\n\n\"Hilda, Hilda,\" Bridget called out in a voice that carried well considering how crowded the space was. A beautiful girl in a rose-pink gown turned from her gentleman friend, face lighting up when she saw Bridget"
+    },
+    {
+      "delta_log_prob": -12.701470375061035,
+      "prompt": "Every few hours, one of them wheeled in the portable ultrasound machine -- Josh during the day, and Nellie in the evenings.  Lashonda couldn't understand the monochrome squiggles on its greenish-black screen, but she could read the expression on Josh's face.  The set of his jowls was serious; the angle of his brows concerned.\n\"Of course,\" he said, his face transforming to jovial jocularity, \"we can't really tell from the ultrasound",
+      "true_token": " ultrasound",
+      "predicted_token": " ultrasound",
+      "index": 2,
+      "text": "Every few hours, one of them wheeled in the portable ultrasound machine -- Josh during the day, and Nellie in the evenings.  Lashonda couldn't understand the monochrome squiggles on its greenish-black screen, but she could read the expression on Josh's face.  The set of his jowls was serious; the angle of his brows concerned.\n\"Of course,\" he said, his face transforming to jovial jocularity, \"we can't really tell from the ultrasound"
+    },
+    {
+      "delta_log_prob": -6.128631830215454,
+      "prompt": "\"Erin talked to a reporter,\" Liz told him. Erin was Brady's ex-girlfriend. They had broken up after he had visited Liz in October.\n\n\"What makes you think that? She's not the type to get involved with the press.\"\n\n\"She is the press,\" Liz reminded him. Erin worked as an anchor for Baltimore Mornings, though it was kind of a stretch in Liz's mind to call her press",
+      "true_token": " press",
+      "predicted_token": " a",
+      "index": 3,
+      "text": "\"Erin talked to a reporter,\" Liz told him. Erin was Brady's ex-girlfriend. They had broken up after he had visited Liz in October.\n\n\"What makes you think that? She's not the type to get involved with the press.\"\n\n\"She is the press,\" Liz reminded him. Erin worked as an anchor for Baltimore Mornings, though it was kind of a stretch in Liz's mind to call her press"
+    },
+    {
+      "delta_log_prob": -5.571415305137634,
+      "prompt": "But then in the end she didn't have to.\n\n\"This is the daddy I want,\" Jessie said in a voice as clear as crystal. If Meg had wanted to be discreet about the drawing those hopes were dashed immediately. Jessie pointed to the stick figure of the man. \"Mommy, when are you going to get me a daddy",
+      "true_token": " daddy",
+      "predicted_token": " real",
+      "index": 4,
+      "text": "But then in the end she didn't have to.\n\n\"This is the daddy I want,\" Jessie said in a voice as clear as crystal. If Meg had wanted to be discreet about the drawing those hopes were dashed immediately. Jessie pointed to the stick figure of the man. \"Mommy, when are you going to get me a daddy"
+    },
+    {
+      "delta_log_prob": -8.972185492515564,
+      "prompt": "A small scream escaped her, but she landed in a shallow stream of frigid water. The fall had only been a meter or so.\n\n\"Watch out!\" Gray called.\n\nRachel rolled clear as the others slid, skidded, and dropped into the water with her. Rachel retrieved her cell phone from the edge of the stream",
+      "true_token": " stream",
+      "predicted_token": " stream",
+      "index": 5,
+      "text": "A small scream escaped her, but she landed in a shallow stream of frigid water. The fall had only been a meter or so.\n\n\"Watch out!\" Gray called.\n\nRachel rolled clear as the others slid, skidded, and dropped into the water with her. Rachel retrieved her cell phone from the edge of the stream"
+    },
+    {
+      "delta_log_prob": -14.445674901158782,
+      "prompt": "Not only did he not fully trust the constable, but he also doubted the little man’s abilities to comprehend it. “We shall see what turns up.” \n“Where are you going, Inspector?”\nHe was turning off the path, towards a certain manor. “I have an important question to ask the good marquis.”\n\n~~~\n\nThe sky was beginning to darken when he was ushered into the sitting room to wait for the marquis",
+      "true_token": "quis",
+      "predicted_token": "quis",
+      "index": 6,
+      "text": "Not only did he not fully trust the constable, but he also doubted the little man’s abilities to comprehend it. “We shall see what turns up.” \n“Where are you going, Inspector?”\nHe was turning off the path, towards a certain manor. “I have an important question to ask the good marquis.”\n\n~~~\n\nThe sky was beginning to darken when he was ushered into the sitting room to wait for the marquis"
+    },
+    {
+      "delta_log_prob": -8.935076117515564,
+      "prompt": "Never did I have a daughter.  Now, I would appreciate it if you would change me.\"  Dad continued to order me.\nI rested my hand on Dad's head and rubbed his clammy skin.  \"Daddy, it's me, Stacey your daughter.  Don't you remember me?  I am your only child; you didn't have any sons",
+      "true_token": " sons",
+      "predicted_token": " other",
+      "index": 7,
+      "text": "Never did I have a daughter.  Now, I would appreciate it if you would change me.\"  Dad continued to order me.\nI rested my hand on Dad's head and rubbed his clammy skin.  \"Daddy, it's me, Stacey your daughter.  Don't you remember me?  I am your only child; you didn't have any sons"
+    },
+    {
+      "delta_log_prob": -16.88365086913109,
+      "prompt": "I nodded, both thankful and discouraged at the news. At least she was no worse.\n\nA few seconds passed. The room was quiet except for the sound of the ventilator.\n\n\"Eva?\" Steve whispered.\n\nMy heart broke as her name came from his lips, his heartache unbearable.\n\n\"Yeah, your granddaughter's name is Eva",
+      "true_token": " Eva",
+      "predicted_token": " Eva",
+      "index": 8,
+      "text": "I nodded, both thankful and discouraged at the news. At least she was no worse.\n\nA few seconds passed. The room was quiet except for the sound of the ventilator.\n\n\"Eva?\" Steve whispered.\n\nMy heart broke as her name came from his lips, his heartache unbearable.\n\n\"Yeah, your granddaughter's name is Eva"
+    },
+    {
+      "delta_log_prob": -10.016245365142822,
+      "prompt": "One was a girl of nine or ten with her father's straight, fine brown hair. Her brother was a few years younger. They stared at me with wide eyes, at Zach and then up at their father. Sam's lined face was pale and his kids began to cry.\n\"These are my children,\" said Sam",
+      "true_token": " Sam",
+      "predicted_token": " Sam",
+      "index": 9,
+      "text": "One was a girl of nine or ten with her father's straight, fine brown hair. Her brother was a few years younger. They stared at me with wide eyes, at Zach and then up at their father. Sam's lined face was pale and his kids began to cry.\n\"These are my children,\" said Sam"
+    },
+    {
+      "delta_log_prob": -8.205687403678894,
+      "prompt": "“I’m telling them what went down in the graveyard,” the storyteller explains.\n“In the graveyard?”  Geist asks, turning to Cale with a puzzled expression.\n“You haven’t heard?”  Cale blurts out, shocked there is anyone who isn’t aware of the fall of Captain Keeta.  “Aqua lives in the housing closest to the graveyard",
+      "true_token": " graveyard",
+      "predicted_token": " graveyard",
+      "index": 10,
+      "text": "“I’m telling them what went down in the graveyard,” the storyteller explains.\n“In the graveyard?”  Geist asks, turning to Cale with a puzzled expression.\n“You haven’t heard?”  Cale blurts out, shocked there is anyone who isn’t aware of the fall of Captain Keeta.  “Aqua lives in the housing closest to the graveyard"
+    },
+    {
+      "delta_log_prob": -4.155188679695129,
+      "prompt": "\"The lad may be a self-absorbed brat, but he's no devil. Have a drink, Derek. It might loosen you up.\"\n\nI watched with disgust as my own father brushed off the thought of having given away his own daughter to the nobleman's son. I gritted my teeth, knowing fully well that the Maslens were far from noble",
+      "true_token": " noble",
+      "predicted_token": " the",
+      "index": 11,
+      "text": "\"The lad may be a self-absorbed brat, but he's no devil. Have a drink, Derek. It might loosen you up.\"\n\nI watched with disgust as my own father brushed off the thought of having given away his own daughter to the nobleman's son. I gritted my teeth, knowing fully well that the Maslens were far from noble"
+    },
+    {
+      "delta_log_prob": -4.946599245071411,
+      "prompt": "He guided her inside, barely touching her except for his grip on her hand, but the heat from his body hovered and invaded her until she leaned into his side, wanting that wonderful jolt of awareness all over again.\n\nConversation stopped when she and Dillon re-entered the living room, and once again there was open speculation on the faces of the Colters.\n\nSeth's gaze dropped to her and Dillon's linked hands. His expression remained neutral, but his eyes told a different story. There was uncertainty there, and forgetting that Dillon was going to inform him that she was taking a ride with him, she dropped Dillon's hand and went straight to Seth",
+      "true_token": " Seth",
+      "predicted_token": " the",
+      "index": 12,
+      "text": "He guided her inside, barely touching her except for his grip on her hand, but the heat from his body hovered and invaded her until she leaned into his side, wanting that wonderful jolt of awareness all over again.\n\nConversation stopped when she and Dillon re-entered the living room, and once again there was open speculation on the faces of the Colters.\n\nSeth's gaze dropped to her and Dillon's linked hands. His expression remained neutral, but his eyes told a different story. There was uncertainty there, and forgetting that Dillon was going to inform him that she was taking a ride with him, she dropped Dillon's hand and went straight to Seth"
+    },
+    {
+      "delta_log_prob": -8.46810482442379,
+      "prompt": "Is it because of the toad in my throat?\"\nAt this, Madame Butterflies descended to her chair and studied Gladys thoughtfully, first with one set of eyes, then another.\nFinally she said, \"It must have been the spinach.\"\n\"Really?\" said Gladys. \"Do you mean the toad didn't like the spinach",
+      "true_token": " spinach",
+      "predicted_token": " spinach",
+      "index": 13,
+      "text": "Is it because of the toad in my throat?\"\nAt this, Madame Butterflies descended to her chair and studied Gladys thoughtfully, first with one set of eyes, then another.\nFinally she said, \"It must have been the spinach.\"\n\"Really?\" said Gladys. \"Do you mean the toad didn't like the spinach"
+    },
+    {
+      "delta_log_prob": -7.8742401003837585,
+      "prompt": "I see her embarrassment.\n“Paul,” the predator supplies his name but does not offer to shake hands. Instead he sits back in his chair and deliberately gives John the once over. A hint of… aggression in Paul’s attitude seems to annoy the dog.\nLooking a little miffed and then worried, John says, “Nice to meet you, Paul",
+      "true_token": " Paul",
+      "predicted_token": " Paul",
+      "index": 14,
+      "text": "I see her embarrassment.\n“Paul,” the predator supplies his name but does not offer to shake hands. Instead he sits back in his chair and deliberately gives John the once over. A hint of… aggression in Paul’s attitude seems to annoy the dog.\nLooking a little miffed and then worried, John says, “Nice to meet you, Paul"
+    },
+    {
+      "delta_log_prob": -5.064331412315369,
+      "prompt": "We got to the shop a little before nine. Carole was sitting at the cash register, talking to Karl Schindler about the upcoming book talk at the library, featuring Mona Dubiel, author of Thunder in the Valley. If I didn’t know better, I’d think he had the hots for my friend. And judging from the rosy cheeks on Carole, it might be mutual",
+      "true_token": " mutual",
+      "predicted_token": " true",
+      "index": 15,
+      "text": "We got to the shop a little before nine. Carole was sitting at the cash register, talking to Karl Schindler about the upcoming book talk at the library, featuring Mona Dubiel, author of Thunder in the Valley. If I didn’t know better, I’d think he had the hots for my friend. And judging from the rosy cheeks on Carole, it might be mutual"
+    },
+    {
+      "delta_log_prob": -5.5515546798706055,
+      "prompt": "\"For now,\" Circes acknowledged. \"Just heed the warning, princess. Your mother felt it was important enough to send me here, so it must be important indeed.\"\n\nI nodded. \"You may tell my mother that I understand,\" I instructed. \"But I do not understand why my mother did not come herself",
+      "true_token": " herself",
+      "predicted_token": " with",
+      "index": 16,
+      "text": "\"For now,\" Circes acknowledged. \"Just heed the warning, princess. Your mother felt it was important enough to send me here, so it must be important indeed.\"\n\nI nodded. \"You may tell my mother that I understand,\" I instructed. \"But I do not understand why my mother did not come herself"
+    },
+    {
+      "delta_log_prob": -13.625967904925346,
+      "prompt": "“Hmm...” Her mother didn’t look convinced.\nShrugging, she tied the thread and got ready to add more to the rose she’d just started on her veil.\n“The poor boy doesn’t stand a chance.”\nShe gasped.  “Why would marrying me be a burden to him?”\n“I didn’t say it would be a burden",
+      "true_token": " burden",
+      "predicted_token": " burden",
+      "index": 17,
+      "text": "“Hmm...” Her mother didn’t look convinced.\nShrugging, she tied the thread and got ready to add more to the rose she’d just started on her veil.\n“The poor boy doesn’t stand a chance.”\nShe gasped.  “Why would marrying me be a burden to him?”\n“I didn’t say it would be a burden"
+    },
+    {
+      "delta_log_prob": -9.805857539176941,
+      "prompt": "His cheeks were red, capillaries broken on the surface. \"Please.\"\n\nThen, as suddenly as he'd started, he freed my hands, letting them fall back into my lap. They stung, like hundreds of needles were poking at the surface, but what I felt inside hurt the worst.\n\nI loved the broken man kneeling in front of me - loved him like I never would another",
+      "true_token": " another",
+      "predicted_token": " have",
+      "index": 18,
+      "text": "His cheeks were red, capillaries broken on the surface. \"Please.\"\n\nThen, as suddenly as he'd started, he freed my hands, letting them fall back into my lap. They stung, like hundreds of needles were poking at the surface, but what I felt inside hurt the worst.\n\nI loved the broken man kneeling in front of me - loved him like I never would another"
+    },
+    {
+      "delta_log_prob": -6.1734950840473175,
+      "prompt": "Oh gods,” she choked out.\nAnd a card fluttered from a picture on the wall, gliding graceful and serene to lay face-up on the ground at his feet. Ace of Diamonds. Setzer stared down at the card with a blank look as Maria continued to cautiously move toward him. Then she stood in front of him, but he continued to stare at the card",
+      "true_token": " card",
+      "predicted_token": " card",
+      "index": 19,
+      "text": "Oh gods,” she choked out.\nAnd a card fluttered from a picture on the wall, gliding graceful and serene to lay face-up on the ground at his feet. Ace of Diamonds. Setzer stared down at the card with a blank look as Maria continued to cautiously move toward him. Then she stood in front of him, but he continued to stare at the card"
+    },
+    {
+      "delta_log_prob": -3.6849048137664795,
+      "prompt": "The two men enter the controlled access doors and walk down a long corridor together. Stan notices the badge that Evens has dangling from a cord around his neck. It is colored green with his picture, some computer punched holes, and is laminated in plastic. Stan asks, “Gee how do I get a badge like that?” \nEvens smiles and says, “Believe me, Stan",
+      "true_token": " Stan",
+      "predicted_token": " I",
+      "index": 20,
+      "text": "The two men enter the controlled access doors and walk down a long corridor together. Stan notices the badge that Evens has dangling from a cord around his neck. It is colored green with his picture, some computer punched holes, and is laminated in plastic. Stan asks, “Gee how do I get a badge like that?” \nEvens smiles and says, “Believe me, Stan"
+    },
+    {
+      "delta_log_prob": -13.673934930353425,
+      "prompt": "He said reluctantly, \"It will not be simple finding her if she does not want to be found.\"\n\n\"I won't stop-\"\n\n\"That's exactly what you have to do if Mairi chooses to disappear. I searched for her for years, and I am no poor man without resources. Her aunts have connections and they're...good. I only recently learned that they had studied my every movement and by doing so, they were able to prevent me from uncovering any lead that would take me to Mairi",
+      "true_token": "airi",
+      "predicted_token": "airi",
+      "index": 21,
+      "text": "He said reluctantly, \"It will not be simple finding her if she does not want to be found.\"\n\n\"I won't stop-\"\n\n\"That's exactly what you have to do if Mairi chooses to disappear. I searched for her for years, and I am no poor man without resources. Her aunts have connections and they're...good. I only recently learned that they had studied my every movement and by doing so, they were able to prevent me from uncovering any lead that would take me to Mairi"
+    },
+    {
+      "delta_log_prob": -8.268638968467712,
+      "prompt": "\"So Claire,\" she said as she stood there clasping her hands in front of her, wondering how best to broach the subject, \"uhm, how are things working out in your classroom? I haven't seen your assistant today. How's he managing with the babies?\"\n\nClaire looked up from her papers and her face broke into a warm smile. \"Everything's going splendidly,\" she gushed. \"I couldn't have asked for a better assistant",
+      "true_token": " assistant",
+      "predicted_token": " assistant",
+      "index": 22,
+      "text": "\"So Claire,\" she said as she stood there clasping her hands in front of her, wondering how best to broach the subject, \"uhm, how are things working out in your classroom? I haven't seen your assistant today. How's he managing with the babies?\"\n\nClaire looked up from her papers and her face broke into a warm smile. \"Everything's going splendidly,\" she gushed. \"I couldn't have asked for a better assistant"
+    },
+    {
+      "delta_log_prob": -8.164146304130554,
+      "prompt": "And until that day I was keeping my mouth shut.\n\n* * *\n\nWhen training was finished, Sam, Cole and I walked back to the house and I was surprised to see my mother's car parked beside the house.\n\n\"That's my cue to leave,\" Cole said, looking at her car.\n\n\"You don't have to go, Cole",
+      "true_token": " Cole",
+      "predicted_token": " Cole",
+      "index": 23,
+      "text": "And until that day I was keeping my mouth shut.\n\n* * *\n\nWhen training was finished, Sam, Cole and I walked back to the house and I was surprised to see my mother's car parked beside the house.\n\n\"That's my cue to leave,\" Cole said, looking at her car.\n\n\"You don't have to go, Cole"
+    },
+    {
+      "delta_log_prob": -12.977630734443665,
+      "prompt": "In just a few moments she was already finished.\n\"Is that it?\" Joey asked, looking at me as if I knew more than Darcy would. I nodded and smiled.\n\"Thank you, Darcy,\" I said, turning toward her and extending my hand. She brushed it aside and gave me another warm embrace before turning and doing the same with Joey",
+      "true_token": " Joey",
+      "predicted_token": " Joey",
+      "index": 24,
+      "text": "In just a few moments she was already finished.\n\"Is that it?\" Joey asked, looking at me as if I knew more than Darcy would. I nodded and smiled.\n\"Thank you, Darcy,\" I said, turning toward her and extending my hand. She brushed it aside and gave me another warm embrace before turning and doing the same with Joey"
+    },
+    {
+      "delta_log_prob": -2.58110111951828,
+      "prompt": "\"I'll understand if anyone wants a different job,\" she said quickly. \nChuck looked upset. \"You're not kicking us off the team, are you?\"\n\"No. But it...I don't think any of us knew what today would be like. I won't hold it against any of you if it's not something you can do again",
+      "true_token": " again",
+      "predicted_token": ".\"",
+      "index": 25,
+      "text": "\"I'll understand if anyone wants a different job,\" she said quickly. \nChuck looked upset. \"You're not kicking us off the team, are you?\"\n\"No. But it...I don't think any of us knew what today would be like. I won't hold it against any of you if it's not something you can do again"
+    },
+    {
+      "delta_log_prob": -10.328564524650574,
+      "prompt": "She burned to sleep with him, and she couldn't come up with one good reason why she shouldn't.\n\nWould she have the courage to throw caution to the wind and act on what she wanted? \"I made us something to eat-as well as tea with lemon and honey to soothe your throat.\"\n\n\"Thanks, but you don't have to wait on me,\" he answered, his voice more gravelly than usual, punctuating her point about the need for tea",
+      "true_token": " tea",
+      "predicted_token": " privacy",
+      "index": 26,
+      "text": "She burned to sleep with him, and she couldn't come up with one good reason why she shouldn't.\n\nWould she have the courage to throw caution to the wind and act on what she wanted? \"I made us something to eat-as well as tea with lemon and honey to soothe your throat.\"\n\n\"Thanks, but you don't have to wait on me,\" he answered, his voice more gravelly than usual, punctuating her point about the need for tea"
+    },
+    {
+      "delta_log_prob": -10.864343643188477,
+      "prompt": "Ari braced herself. I need you to take me to Azazil.\n\nGlass gave her a sharp, curious look but unlike Red, he didn't question her. All right. Now?\n\nPlease.\n\nVery well. He looked back at Trey and touched his cheek tenderly. Whatever passed between them caused Trey to glower and he turned to Ari",
+      "true_token": " Ari",
+      "predicted_token": " look",
+      "index": 27,
+      "text": "Ari braced herself. I need you to take me to Azazil.\n\nGlass gave her a sharp, curious look but unlike Red, he didn't question her. All right. Now?\n\nPlease.\n\nVery well. He looked back at Trey and touched his cheek tenderly. Whatever passed between them caused Trey to glower and he turned to Ari"
+    },
+    {
+      "delta_log_prob": -5.41213321685791,
+      "prompt": "As I pushed the box back under the edge of the bedspread till I could think of a way to get it out of the apartment surreptitiously, I found myself wondering if Jack had ever used such items. I was embarrassed at the thought of asking him, to my astonishment. I hadn't realized there was anything we could say or do between us that would be embarrassing",
+      "true_token": " embarrassing",
+      "predicted_token": " so",
+      "index": 28,
+      "text": "As I pushed the box back under the edge of the bedspread till I could think of a way to get it out of the apartment surreptitiously, I found myself wondering if Jack had ever used such items. I was embarrassed at the thought of asking him, to my astonishment. I hadn't realized there was anything we could say or do between us that would be embarrassing"
+    },
+    {
+      "delta_log_prob": -11.668701648712158,
+      "prompt": "Ella moved in front of him and, after a quick glance up the road, sprinted through the gate and onto the lawn, avoiding the gravel pathway and heading towards the house. They ran under the windows along the side of the building until they came to the back porch. Ella chanced a look around the corner at the kitchen door.\nThe door is open, I don't hear anything though.\nOisin answered instantly. Either do I, we must move, they're close",
+      "true_token": " close",
+      "predicted_token": " coming",
+      "index": 29,
+      "text": "Ella moved in front of him and, after a quick glance up the road, sprinted through the gate and onto the lawn, avoiding the gravel pathway and heading towards the house. They ran under the windows along the side of the building until they came to the back porch. Ella chanced a look around the corner at the kitchen door.\nThe door is open, I don't hear anything though.\nOisin answered instantly. Either do I, we must move, they're close"
+    },
+    {
+      "delta_log_prob": -15.806901216506958,
+      "prompt": "\"We stick together.\"\n\n\"We'll all go,\" Monk said, but he turned to Jada. \"Maybe you'd best stay with the helicopter.\"\n\nShe considered it for a few seconds, then shook her head, forcing as much bravado as she could muster. \"I've not come all this way to stay in the helicopter",
+      "true_token": " helicopter",
+      "predicted_token": " helicopter",
+      "index": 30,
+      "text": "\"We stick together.\"\n\n\"We'll all go,\" Monk said, but he turned to Jada. \"Maybe you'd best stay with the helicopter.\"\n\nShe considered it for a few seconds, then shook her head, forcing as much bravado as she could muster. \"I've not come all this way to stay in the helicopter"
+    },
+    {
+      "delta_log_prob": -11.993203415288008,
+      "prompt": "The air filled with flowers rising from the earth, sprinkling the boughs like diamonds, until I could no longer tell the difference between the boughs and the starry night sky beyond.\nA flower flew close and turned into a miniature dragonfly, glowing silver-white.\nAudrey’s face filled my vision as she bent to look at me. “Are you alright?”\n“I’m hallucinating,” I said.\n“No, the drink’s worn off, you can’t be hallucinating",
+      "true_token": "inating",
+      "predicted_token": "inating",
+      "index": 31,
+      "text": "The air filled with flowers rising from the earth, sprinkling the boughs like diamonds, until I could no longer tell the difference between the boughs and the starry night sky beyond.\nA flower flew close and turned into a miniature dragonfly, glowing silver-white.\nAudrey’s face filled my vision as she bent to look at me. “Are you alright?”\n“I’m hallucinating,” I said.\n“No, the drink’s worn off, you can’t be hallucinating"
+    },
+    {
+      "delta_log_prob": -6.336186408996582,
+      "prompt": "Maybe they decided to have desert after all.  Finally, with Frank just about ready to walk into the Croce’s to see what was going on, the couple came out and started up the street.\n“That’s them, the couple up ahead.  Try and get right alongside them.”\nNarayan had a bad feeling as he moved toward the couple",
+      "true_token": " couple",
+      "predicted_token": " couple",
+      "index": 32,
+      "text": "Maybe they decided to have desert after all.  Finally, with Frank just about ready to walk into the Croce’s to see what was going on, the couple came out and started up the street.\n“That’s them, the couple up ahead.  Try and get right alongside them.”\nNarayan had a bad feeling as he moved toward the couple"
+    },
+    {
+      "delta_log_prob": -5.7779073033016175,
+      "prompt": "She'd make certain of that.\n\n\"Can't you stay in one of the places around here, Mack? I'm used to being on my own and you're bossy.\"\n\nKane made a sound in his throat that was cut off when Mack shot him a warning look. \"I'm not in the least bit bossy",
+      "true_token": "y",
+      "predicted_token": "y",
+      "index": 33,
+      "text": "She'd make certain of that.\n\n\"Can't you stay in one of the places around here, Mack? I'm used to being on my own and you're bossy.\"\n\nKane made a sound in his throat that was cut off when Mack shot him a warning look. \"I'm not in the least bit bossy"
+    },
+    {
+      "delta_log_prob": -12.024319529533386,
+      "prompt": "Persistent little guy.  I told him I wouldn’t let him through unless he got the mask from those rancher brothers,” he explains, shrugging in disbelief.  “Figured it would get him out of my hair for a while.  Not much of a conversationalist.”\n“Why would the ranchers give him a mask",
+      "true_token": " mask",
+      "predicted_token": " mask",
+      "index": 34,
+      "text": "Persistent little guy.  I told him I wouldn’t let him through unless he got the mask from those rancher brothers,” he explains, shrugging in disbelief.  “Figured it would get him out of my hair for a while.  Not much of a conversationalist.”\n“Why would the ranchers give him a mask"
+    },
+    {
+      "delta_log_prob": -13.348904728889465,
+      "prompt": "“Katrina speaks seven languages Captain,” said Johns.  “She speaks Spanish, Arabic, French, Italian, Mandarin, Russian and of course English.  \nKatrina looked at Det. Johns with speculation in her eyes.  “You’ve been checking up on me?”\n“Not really, just a routine background check.  You were the last one to see your friend alive after all,” said Johns",
+      "true_token": " Johns",
+      "predicted_token": " Det",
+      "index": 35,
+      "text": "“Katrina speaks seven languages Captain,” said Johns.  “She speaks Spanish, Arabic, French, Italian, Mandarin, Russian and of course English.  \nKatrina looked at Det. Johns with speculation in her eyes.  “You’ve been checking up on me?”\n“Not really, just a routine background check.  You were the last one to see your friend alive after all,” said Johns"
+    },
+    {
+      "delta_log_prob": -17.609500348567963,
+      "prompt": "Emily asked, looking around.\n\nCassie shrugged. \"Is Bellissima okay?\"\n\n\"That's fine,\" Emily answered, feeling pleasantly surprised that Cassie wanted to hang out with her alone.\n\nAs Emily let herself out of the gate, she glanced over her shoulder. Luckily Mrs. Meriwether was still occupied with Rudolph and didn't notice that Emily was hanging out with Cassie",
+      "true_token": " Cassie",
+      "predicted_token": " Cassie",
+      "index": 36,
+      "text": "Emily asked, looking around.\n\nCassie shrugged. \"Is Bellissima okay?\"\n\n\"That's fine,\" Emily answered, feeling pleasantly surprised that Cassie wanted to hang out with her alone.\n\nAs Emily let herself out of the gate, she glanced over her shoulder. Luckily Mrs. Meriwether was still occupied with Rudolph and didn't notice that Emily was hanging out with Cassie"
+    },
+    {
+      "delta_log_prob": -3.167256712913513,
+      "prompt": "As the car careened off the road and rolled again and again, I had only one thought: I never got to tell Sam I loved him.\n\nPain is a funny thing. You know that you hurt. You know that your body isn't working the way it should, but you can't really feel it, you know? The pain is sometimes so intense that you're numb",
+      "true_token": " numb",
+      "predicted_token": " not",
+      "index": 37,
+      "text": "As the car careened off the road and rolled again and again, I had only one thought: I never got to tell Sam I loved him.\n\nPain is a funny thing. You know that you hurt. You know that your body isn't working the way it should, but you can't really feel it, you know? The pain is sometimes so intense that you're numb"
+    },
+    {
+      "delta_log_prob": -15.196938008069992,
+      "prompt": "\"You know,\" Molly said, smiling and placing a hand on Monson, \"Monson is automatically on the team.\"\n\"What?!\" Monson shot back, \"What exactly am I automatically on?\" \n\"The Legion,\" Molly said, acting as if this was the most obvious answer. \n\"Thanks Molly,\" Monson replied sarcastically, \"and what is the Legion",
+      "true_token": " Legion",
+      "predicted_token": " Legion",
+      "index": 38,
+      "text": "\"You know,\" Molly said, smiling and placing a hand on Monson, \"Monson is automatically on the team.\"\n\"What?!\" Monson shot back, \"What exactly am I automatically on?\" \n\"The Legion,\" Molly said, acting as if this was the most obvious answer. \n\"Thanks Molly,\" Monson replied sarcastically, \"and what is the Legion"
+    },
+    {
+      "delta_log_prob": -4.662326097488403,
+      "prompt": "A woman with the name Rachel on her nametag greets us, then has us go into what's called a group therapy room to wait for my mom. It makes me feel stiff and uncomfortable, because we had mandatory group therapy sessions when I was in jail. I have to remind myself that this isn't jail",
+      "true_token": " jail",
+      "predicted_token": " a",
+      "index": 39,
+      "text": "A woman with the name Rachel on her nametag greets us, then has us go into what's called a group therapy room to wait for my mom. It makes me feel stiff and uncomfortable, because we had mandatory group therapy sessions when I was in jail. I have to remind myself that this isn't jail"
+    },
+    {
+      "delta_log_prob": -4.832483291625977,
+      "prompt": "She had never been inside his house before. It was small and surprisingly neat for a man who lived alone. The furniture was sparse but of good quality. A number of photographs sat on the mantel. She moved closer for a better look. The first depicted a young couple holding a little boy. There were three other photos of the same couple",
+      "true_token": " couple",
+      "predicted_token": " couple",
+      "index": 40,
+      "text": "She had never been inside his house before. It was small and surprisingly neat for a man who lived alone. The furniture was sparse but of good quality. A number of photographs sat on the mantel. She moved closer for a better look. The first depicted a young couple holding a little boy. There were three other photos of the same couple"
+    },
+    {
+      "delta_log_prob": -11.303175517299678,
+      "prompt": "In his midtwenties, Mark had shaggy brown hair and bright green eyes. Dressed in a baggy tan T-shirt that had seen better days, he looked like he hadn't shaved in a couple of days.\n\nAh, that was where Bubba's beard had gone.\n\nMark had been working for Bubba off and on for years. But more than that, the two of them were best friends, and Mark was every bit as crazy as Bubba",
+      "true_token": "ba",
+      "predicted_token": "ba",
+      "index": 41,
+      "text": "In his midtwenties, Mark had shaggy brown hair and bright green eyes. Dressed in a baggy tan T-shirt that had seen better days, he looked like he hadn't shaved in a couple of days.\n\nAh, that was where Bubba's beard had gone.\n\nMark had been working for Bubba off and on for years. But more than that, the two of them were best friends, and Mark was every bit as crazy as Bubba"
+    },
+    {
+      "delta_log_prob": -5.986504435539246,
+      "prompt": "\"I tried?No.\"\n\n* * *\n\nWHEN KELLY AND Diane had finished their breakfasts and were starting out the door, Kelly noticed that the morning newspapers were being put into the news racks.\n\nDiane started to walk on when Kelly said, \"Wait a minute.\" She turned back and picked up one of the newspapers",
+      "true_token": " newspapers",
+      "predicted_token": " newspapers",
+      "index": 42,
+      "text": "\"I tried?No.\"\n\n* * *\n\nWHEN KELLY AND Diane had finished their breakfasts and were starting out the door, Kelly noticed that the morning newspapers were being put into the news racks.\n\nDiane started to walk on when Kelly said, \"Wait a minute.\" She turned back and picked up one of the newspapers"
+    },
+    {
+      "delta_log_prob": -14.101672291755676,
+      "prompt": "“Ah, ah, ah, Mister,” says Madame Pauline, her tone admonishing.“Off to the bathroom with you and change out of those clothes, right now!”\nI can’t help but smirk at the treatment my uncle’s getting. \n“It’s only a bit of mud, Madame Duguay, really.”\n “A bit of - you call that a bit of a mud",
+      "true_token": " mud",
+      "predicted_token": " mud",
+      "index": 43,
+      "text": "“Ah, ah, ah, Mister,” says Madame Pauline, her tone admonishing.“Off to the bathroom with you and change out of those clothes, right now!”\nI can’t help but smirk at the treatment my uncle’s getting. \n“It’s only a bit of mud, Madame Duguay, really.”\n “A bit of - you call that a bit of a mud"
+    },
+    {
+      "delta_log_prob": -2.345625162124634,
+      "prompt": "Dani supposed that made sense, and asked, \"But otherwise you don't die or age?\"\n\nDecker shook his head.\n\n\"And your sister is one hundred and thirty-seven?\"\n\n\"Thereabouts,\" he agreed.\n\n\"And she's younger than you?\"\n\nDecker seemed to realize where her questions were leading. Lips twisting wryly he said, \"I'm two hundred and fifty-nine years old, Dani",
+      "true_token": " Dani",
+      "predicted_token": " and",
+      "index": 44,
+      "text": "Dani supposed that made sense, and asked, \"But otherwise you don't die or age?\"\n\nDecker shook his head.\n\n\"And your sister is one hundred and thirty-seven?\"\n\n\"Thereabouts,\" he agreed.\n\n\"And she's younger than you?\"\n\nDecker seemed to realize where her questions were leading. Lips twisting wryly he said, \"I'm two hundred and fifty-nine years old, Dani"
+    },
+    {
+      "delta_log_prob": -4.429279953241348,
+      "prompt": "She wished she could discuss it with Carlos, but didn't feel comfortable talking about cat shifters in front of Tanit.\n\nThey'd figured out what the tigers meant about prayers. At the top of the mountain, they'd spotted a big boulder with a symbol painted on it. With a shudder, Tanit had explained it was a prayer for protection.\n\nAs they wound downhill, they noticed several other boulders with the same symbol",
+      "true_token": " symbol",
+      "predicted_token": " symbol",
+      "index": 45,
+      "text": "She wished she could discuss it with Carlos, but didn't feel comfortable talking about cat shifters in front of Tanit.\n\nThey'd figured out what the tigers meant about prayers. At the top of the mountain, they'd spotted a big boulder with a symbol painted on it. With a shudder, Tanit had explained it was a prayer for protection.\n\nAs they wound downhill, they noticed several other boulders with the same symbol"
+    },
+    {
+      "delta_log_prob": -9.699043735861778,
+      "prompt": "Tell me, does he use utensils at the table or merely growl and chew his meat like a brute?\"\n\n\"Both.\" Rosalind laughed. \"But to be fair, he has been very good to me.\"\n\nLord Rawlings squinted, looking into her eyes with such seriousness that she felt the need to turn away. \"And the state of your heart, Rosalind",
+      "true_token": "ind",
+      "predicted_token": "ind",
+      "index": 46,
+      "text": "Tell me, does he use utensils at the table or merely growl and chew his meat like a brute?\"\n\n\"Both.\" Rosalind laughed. \"But to be fair, he has been very good to me.\"\n\nLord Rawlings squinted, looking into her eyes with such seriousness that she felt the need to turn away. \"And the state of your heart, Rosalind"
+    },
+    {
+      "delta_log_prob": -3.415815830230713,
+      "prompt": "The man’s face looked positively cannibalistic, but Mercedes couldn’t look a gift horse in the salivating mouth. Their current funding would not streamline the process or get the devices out to the people of the world. \n“Absolutely, just give my intern a call, and we can set up a private appointment. Our contact information is on the support flier you received at the beginning of the presentation,” said Mercedes",
+      "true_token": " Mercedes",
+      "predicted_token": " the",
+      "index": 47,
+      "text": "The man’s face looked positively cannibalistic, but Mercedes couldn’t look a gift horse in the salivating mouth. Their current funding would not streamline the process or get the devices out to the people of the world. \n“Absolutely, just give my intern a call, and we can set up a private appointment. Our contact information is on the support flier you received at the beginning of the presentation,” said Mercedes"
+    },
+    {
+      "delta_log_prob": -6.835594713687897,
+      "prompt": "What could the meeting be about? There might have been an accident, or a crash.\n\nShe turned on the radio to see if it was on the news. She got a talk station, a caller saying, \" - not fair to make kids wear uniforms to school. It's elitist and discriminatory - \"\n\nCasey pushed a button, changing the station",
+      "true_token": " station",
+      "predicted_token": " station",
+      "index": 48,
+      "text": "What could the meeting be about? There might have been an accident, or a crash.\n\nShe turned on the radio to see if it was on the news. She got a talk station, a caller saying, \" - not fair to make kids wear uniforms to school. It's elitist and discriminatory - \"\n\nCasey pushed a button, changing the station"
+    },
+    {
+      "delta_log_prob": -2.5804476737976074,
+      "prompt": "I'm the guy that will be around forever.\n\nMrs. Rowe yanks the placeholder off the seat next to me and plops down. \"Are you nervous?\"\n\nI glance at her in response and rub my hands together. It's scary how much I want this. It's even more terrifying to think what happens if I do win",
+      "true_token": " win",
+      "predicted_token": " it",
+      "index": 49,
+      "text": "I'm the guy that will be around forever.\n\nMrs. Rowe yanks the placeholder off the seat next to me and plops down. \"Are you nervous?\"\n\nI glance at her in response and rub my hands together. It's scary how much I want this. It's even more terrifying to think what happens if I do win"
+    },
+    {
+      "delta_log_prob": -8.532304465770721,
+      "prompt": "She sounded coy, but the look in her eyes could only be read one way. She wanted me as much as I wanted her.\n\n\"I thought I'd take you for a flight.\"\n\n\"A flight, huh?\"\n\n\"Sound good?\" I watched her, assuming she knew I was talking about two different kinds of flights",
+      "true_token": " flights",
+      "predicted_token": " flights",
+      "index": 50,
+      "text": "She sounded coy, but the look in her eyes could only be read one way. She wanted me as much as I wanted her.\n\n\"I thought I'd take you for a flight.\"\n\n\"A flight, huh?\"\n\n\"Sound good?\" I watched her, assuming she knew I was talking about two different kinds of flights"
+    },
+    {
+      "delta_log_prob": -6.345088720321655,
+      "prompt": "With a square of late-afternoon sun on the floor, even the red room showed itself to be what Beau had described, a dusty collection of old things. Sam took up a broom and swept the white stones and bundled herbs into a harmless pile. The stiff snake went into a garbage bag. It was a little creepy, picking it up, but she handled it just fine. She dropped the black candles—so dusty that they were nearly gray, in the clear light of day—into the same bag with the snake",
+      "true_token": " snake",
+      "predicted_token": " herbs",
+      "index": 51,
+      "text": "With a square of late-afternoon sun on the floor, even the red room showed itself to be what Beau had described, a dusty collection of old things. Sam took up a broom and swept the white stones and bundled herbs into a harmless pile. The stiff snake went into a garbage bag. It was a little creepy, picking it up, but she handled it just fine. She dropped the black candles—so dusty that they were nearly gray, in the clear light of day—into the same bag with the snake"
+    },
+    {
+      "delta_log_prob": -14.022764682769775,
+      "prompt": "`She'll have to lawyer-up,' said Sergio. `That will keep her out of jail.  But she might be unemployable when we look for new jobs.'\n\n`Give her some time,' said Maria. `Maybe she'll be fine tomorrow.'\n\n`If she is not prepared to commit perjury, if she can't lie with credibility, so to speak, then we have to convince her to clam up,' said Sergio",
+      "true_token": " Sergio",
+      "predicted_token": " Sergio",
+      "index": 52,
+      "text": "`She'll have to lawyer-up,' said Sergio. `That will keep her out of jail.  But she might be unemployable when we look for new jobs.'\n\n`Give her some time,' said Maria. `Maybe she'll be fine tomorrow.'\n\n`If she is not prepared to commit perjury, if she can't lie with credibility, so to speak, then we have to convince her to clam up,' said Sergio"
+    },
+    {
+      "delta_log_prob": -12.610092371702194,
+      "prompt": "I could really join the department and be one of the good guys.  I could really have a reason to get up in the morning, do something meaningful with my life.”  Were her eyes getting a little misty?  She would not let herself cry in front of Corey Stone!\n“I think I know why you came back,” said Corey",
+      "true_token": " Corey",
+      "predicted_token": " Corey",
+      "index": 53,
+      "text": "I could really join the department and be one of the good guys.  I could really have a reason to get up in the morning, do something meaningful with my life.”  Were her eyes getting a little misty?  She would not let herself cry in front of Corey Stone!\n“I think I know why you came back,” said Corey"
+    },
+    {
+      "delta_log_prob": -3.5181469917297363,
+      "prompt": "I was young and desperate, and they were scared of what would happen to me if I ended up on the streets. At least this way they could make sure I was okay-that they were there if I needed them.\"\n\nFin shook her head. \"Why would you do that-not let them help you? I don't understand.\"\n\nRyan rubbed a hand over his jaw. \"You don't need to understand, Fin",
+      "true_token": " Fin",
+      "predicted_token": " but",
+      "index": 54,
+      "text": "I was young and desperate, and they were scared of what would happen to me if I ended up on the streets. At least this way they could make sure I was okay-that they were there if I needed them.\"\n\nFin shook her head. \"Why would you do that-not let them help you? I don't understand.\"\n\nRyan rubbed a hand over his jaw. \"You don't need to understand, Fin"
+    },
+    {
+      "delta_log_prob": -11.640651106834412,
+      "prompt": "Blue light enveloped the body, and then faded, and an elderly yet youthfully jovial man appeared, gazing directly at him. He gazed back at the man, and simultaneously the two erupted into laughter. And as the world ceased to exist he laughed, understanding the hilarious secret they shared.\nWhat if Your Hand is Empty?\n\n“What if your hand, right now, is empty",
+      "true_token": " empty",
+      "predicted_token": " empty",
+      "index": 55,
+      "text": "Blue light enveloped the body, and then faded, and an elderly yet youthfully jovial man appeared, gazing directly at him. He gazed back at the man, and simultaneously the two erupted into laughter. And as the world ceased to exist he laughed, understanding the hilarious secret they shared.\nWhat if Your Hand is Empty?\n\n“What if your hand, right now, is empty"
+    },
+    {
+      "delta_log_prob": -4.409360557794571,
+      "prompt": "I can only see his school bag dumped next to the table. There are no pictures or anything that suggests a family lives here. Is he alone? My heart breaks for him. Surely there is no way someone would allow their 17 year old to fend for themselves?\n\n“Hey” his voice fills the room. “I have a few things which are all going to be too big, but at least you'll be warm",
+      "true_token": " warm",
+      "predicted_token": " able",
+      "index": 56,
+      "text": "I can only see his school bag dumped next to the table. There are no pictures or anything that suggests a family lives here. Is he alone? My heart breaks for him. Surely there is no way someone would allow their 17 year old to fend for themselves?\n\n“Hey” his voice fills the room. “I have a few things which are all going to be too big, but at least you'll be warm"
+    },
+    {
+      "delta_log_prob": -17.767137080430984,
+      "prompt": "There, to her relief, she saw Peter standing outside, and Pater sitting inside.  She walked forward, and when Peter saw her, he waved.  She came up to him, her senses alert and questing for his demeanor, which told her everything was ok.  Peter was cool and positive.  Without speaking to him, she went into the small building and did the same with Pater",
+      "true_token": " Pater",
+      "predicted_token": " Pater",
+      "index": 57,
+      "text": "There, to her relief, she saw Peter standing outside, and Pater sitting inside.  She walked forward, and when Peter saw her, he waved.  She came up to him, her senses alert and questing for his demeanor, which told her everything was ok.  Peter was cool and positive.  Without speaking to him, she went into the small building and did the same with Pater"
+    },
+    {
+      "delta_log_prob": -5.0346386432647705,
+      "prompt": "Regardless of who and what they own, they are not in charge here. At least not at this juncture.\n\nCam knows that anything out of his mouth will be just another spark of metaphorical language-the way he spoke when he was first rewound, but he doesn't care.\n\n\"Lemon,\" he says.\n\nThe two men glance around the table in search of a lemon",
+      "true_token": " lemon",
+      "predicted_token": " response",
+      "index": 58,
+      "text": "Regardless of who and what they own, they are not in charge here. At least not at this juncture.\n\nCam knows that anything out of his mouth will be just another spark of metaphorical language-the way he spoke when he was first rewound, but he doesn't care.\n\n\"Lemon,\" he says.\n\nThe two men glance around the table in search of a lemon"
+    },
+    {
+      "delta_log_prob": -8.009717732667923,
+      "prompt": "I disagree and pointed out our best chance of getting her agreement was if we could offer her a suitable alternative. Perhaps if we were able to fool another vampire into vacating his or her own body Valesca might choose their instead. That however created its’ very own list of issues that we would need to overcome.\nIssue one, who would be willing to trick a fellow vampire out of their body",
+      "true_token": " body",
+      "predicted_token": " own",
+      "index": 59,
+      "text": "I disagree and pointed out our best chance of getting her agreement was if we could offer her a suitable alternative. Perhaps if we were able to fool another vampire into vacating his or her own body Valesca might choose their instead. That however created its’ very own list of issues that we would need to overcome.\nIssue one, who would be willing to trick a fellow vampire out of their body"
+    },
+    {
+      "delta_log_prob": -5.260302305221558,
+      "prompt": "wedding's booked for six o'clock tonight, so we'll have plenty of time to get ready.\"\n\n\"Tonight?\" Panic flashed over Bree. For some reason she assumed they'd have at least a day to...to what? If they were getting married, might as well get on with it.\n\nStill, she'd barely had a chance to get used to having a \"fiance\" yet, and they were going to run down the aisle tonight",
+      "true_token": " tonight",
+      "predicted_token": " in",
+      "index": 60,
+      "text": "wedding's booked for six o'clock tonight, so we'll have plenty of time to get ready.\"\n\n\"Tonight?\" Panic flashed over Bree. For some reason she assumed they'd have at least a day to...to what? If they were getting married, might as well get on with it.\n\nStill, she'd barely had a chance to get used to having a \"fiance\" yet, and they were going to run down the aisle tonight"
+    },
+    {
+      "delta_log_prob": -9.36991810798645,
+      "prompt": "The reds and oranges mixed together in a fiery scene of passion and rage, her innermost sensations as she thought of the pain and hurt of her current situation. She knew while painting the picture, she wouldn't sell it. These paintings were for her to keep or to destroy.\n\nNot long after the car accident which left her with the scars, she'd begun to paint",
+      "true_token": " paint",
+      "predicted_token": " paint",
+      "index": 61,
+      "text": "The reds and oranges mixed together in a fiery scene of passion and rage, her innermost sensations as she thought of the pain and hurt of her current situation. She knew while painting the picture, she wouldn't sell it. These paintings were for her to keep or to destroy.\n\nNot long after the car accident which left her with the scars, she'd begun to paint"
+    },
+    {
+      "delta_log_prob": -16.27024483680725,
+      "prompt": "“Do you have any idea how stupid you’re being?”\nGabby’s eyes flashed with anger. “I’m not stupid.” She shoved her way back. “Yeah, I might not be the smartest person in the world, but I’m not an idiot.”\nJesse sighed and shook his head. “That’s not what I meant, Gabby",
+      "true_token": " Gabby",
+      "predicted_token": " Gabby",
+      "index": 62,
+      "text": "“Do you have any idea how stupid you’re being?”\nGabby’s eyes flashed with anger. “I’m not stupid.” She shoved her way back. “Yeah, I might not be the smartest person in the world, but I’m not an idiot.”\nJesse sighed and shook his head. “That’s not what I meant, Gabby"
+    },
+    {
+      "delta_log_prob": -4.126017093658447,
+      "prompt": "\"The witches have you that cowed?\" he taunted, the stake held casually in his fingers as if he forgot he even held it. Dante was not stupid. The wizard hoped to rile his anger and give him the opportunity to strike. \"Pathetic.\"\n\nDante shrugged. \"It has nothing to do with the witches",
+      "true_token": " witches",
+      "predicted_token": " witch",
+      "index": 63,
+      "text": "\"The witches have you that cowed?\" he taunted, the stake held casually in his fingers as if he forgot he even held it. Dante was not stupid. The wizard hoped to rile his anger and give him the opportunity to strike. \"Pathetic.\"\n\nDante shrugged. \"It has nothing to do with the witches"
+    },
+    {
+      "delta_log_prob": -12.172620657947846,
+      "prompt": "Margaret had hung back during this exchange, but she came forward now, and grasped Keira’s hands in her own. \n“Don’t be concerned with my husband’s ways, my dear,” she said gently. “He can be a bit overwhelming, but he has a kind heart.” She tossed a smile over her shoulder at her husband, who scowled at her playfully, before she returned her attention to Keira",
+      "true_token": "ira",
+      "predicted_token": "ira",
+      "index": 64,
+      "text": "Margaret had hung back during this exchange, but she came forward now, and grasped Keira’s hands in her own. \n“Don’t be concerned with my husband’s ways, my dear,” she said gently. “He can be a bit overwhelming, but he has a kind heart.” She tossed a smile over her shoulder at her husband, who scowled at her playfully, before she returned her attention to Keira"
+    },
+    {
+      "delta_log_prob": -11.830529570579529,
+      "prompt": "\"If ye want to leave, I'll send ye home to Dunscaith tomorrow,\" Connor said, though he prayed she would not go.\n\nHe loved her so much.\n\n* * *\n\nWas her happiness to end this quickly? Connor called Dunscaith her home, but it could never be that without him. She had no home.\n\n\"What do you want me to do, Connor",
+      "true_token": " Connor",
+      "predicted_token": " Connor",
+      "index": 65,
+      "text": "\"If ye want to leave, I'll send ye home to Dunscaith tomorrow,\" Connor said, though he prayed she would not go.\n\nHe loved her so much.\n\n* * *\n\nWas her happiness to end this quickly? Connor called Dunscaith her home, but it could never be that without him. She had no home.\n\n\"What do you want me to do, Connor"
+    },
+    {
+      "delta_log_prob": -3.083729386329651,
+      "prompt": "I analyze my emotions; confusion, inquisitiveness and eagerness are flowing inside me, causing chaos. Fear is absent, though. \"I think I'm good. Although, I'm confused.\"\n\nHe scratches his head like it's the weirdest response he's ever heard. \"Alright then, lie down and I'll do my best to eliminate some of the confusion",
+      "true_token": " confusion",
+      "predicted_token": " confusion",
+      "index": 66,
+      "text": "I analyze my emotions; confusion, inquisitiveness and eagerness are flowing inside me, causing chaos. Fear is absent, though. \"I think I'm good. Although, I'm confused.\"\n\nHe scratches his head like it's the weirdest response he's ever heard. \"Alright then, lie down and I'll do my best to eliminate some of the confusion"
+    },
+    {
+      "delta_log_prob": -5.566183924674988,
+      "prompt": "As he examined it he realized that it was a near duplicate of his own wards in this style. He altered the ward slightly but not in any way they would notice. He simply keyed the ward to allow him to pass through it. It would take a highly skilled wizard to notice the difference. He doubted that there was one here other than himself, unless they lived behind one of the other wards",
+      "true_token": " wards",
+      "predicted_token": " wards",
+      "index": 67,
+      "text": "As he examined it he realized that it was a near duplicate of his own wards in this style. He altered the ward slightly but not in any way they would notice. He simply keyed the ward to allow him to pass through it. It would take a highly skilled wizard to notice the difference. He doubted that there was one here other than himself, unless they lived behind one of the other wards"
+    },
+    {
+      "delta_log_prob": -9.094584767939523,
+      "prompt": "In the chaos ahead, they'd be waving those tablets around-her tablets-as still more evidence of their own wisdom and holiness.\n\n\"I'm sorry that your tablets are gone, Siferra,\" Beenay said. \"But maybe there's still a chance the Apostles didn't steal them. That they'll turn up somewhere.\"\n\n\"I'm not counting on that,\" said Siferra",
+      "true_token": "ra",
+      "predicted_token": "ra",
+      "index": 68,
+      "text": "In the chaos ahead, they'd be waving those tablets around-her tablets-as still more evidence of their own wisdom and holiness.\n\n\"I'm sorry that your tablets are gone, Siferra,\" Beenay said. \"But maybe there's still a chance the Apostles didn't steal them. That they'll turn up somewhere.\"\n\n\"I'm not counting on that,\" said Siferra"
+    },
+    {
+      "delta_log_prob": -15.155338704586029,
+      "prompt": "The Wolf-Lady lowered her eyes and examined the carpet. She didn’t want to make a spectacle of herself. Zev and the driver sat down at the small square table, then the Wolf-Lady. Evans sat down last, after bringing out a briefcase and laying it open on the table.  \n“I think the time has come to make some plans,” said Evans",
+      "true_token": " Evans",
+      "predicted_token": " Evans",
+      "index": 69,
+      "text": "The Wolf-Lady lowered her eyes and examined the carpet. She didn’t want to make a spectacle of herself. Zev and the driver sat down at the small square table, then the Wolf-Lady. Evans sat down last, after bringing out a briefcase and laying it open on the table.  \n“I think the time has come to make some plans,” said Evans"
+    },
+    {
+      "delta_log_prob": -7.786924064159393,
+      "prompt": "Every. Single. Day. And I will know if you don't. I will know, if for even one day, you forget to dance, because your body will show me.\n\n\"I don't want to see any of you in the wrong studio. I want you all to be in the right studio",
+      "true_token": " studio",
+      "predicted_token": " studio",
+      "index": 70,
+      "text": "Every. Single. Day. And I will know if you don't. I will know, if for even one day, you forget to dance, because your body will show me.\n\n\"I don't want to see any of you in the wrong studio. I want you all to be in the right studio"
+    },
+    {
+      "delta_log_prob": -8.331246714573354,
+      "prompt": "He has no rights.  I command you to tell me where he is!”\n\n“Command denied.  Please enter the password now.”\n\nMoses snapped off the terminal.  There were few places in the ship in which Hack could hide.  He guessed the shuttles.  If anywhere, Hack would be in one of the shuttles",
+      "true_token": "les",
+      "predicted_token": "les",
+      "index": 71,
+      "text": "He has no rights.  I command you to tell me where he is!”\n\n“Command denied.  Please enter the password now.”\n\nMoses snapped off the terminal.  There were few places in the ship in which Hack could hide.  He guessed the shuttles.  If anywhere, Hack would be in one of the shuttles"
+    },
+    {
+      "delta_log_prob": -17.623901292681694,
+      "prompt": "“If it gets her back to normal and that murderous Eris out of the city, then fine.”\n\nDale turned to Richter and held out his hand. “They have seen you survive an arrow to the chest and dragon fire. The people will always see you as a great and powerful man not to be reckoned with.”\n\nRichter slid the pendant over his head and reluctantly handed it to Dale",
+      "true_token": " Dale",
+      "predicted_token": " Dale",
+      "index": 72,
+      "text": "“If it gets her back to normal and that murderous Eris out of the city, then fine.”\n\nDale turned to Richter and held out his hand. “They have seen you survive an arrow to the chest and dragon fire. The people will always see you as a great and powerful man not to be reckoned with.”\n\nRichter slid the pendant over his head and reluctantly handed it to Dale"
+    },
+    {
+      "delta_log_prob": -8.997127175331116,
+      "prompt": "Not sure if this was a trick question, and what the right answer should be, I responded, “No.”\nI was afraid that when he asked me to get out of the car, he would see the joint, or smell the smoke drifting up. Very nonchalantly, I looked down to try to find the joint",
+      "true_token": " joint",
+      "predicted_token": " joint",
+      "index": 73,
+      "text": "Not sure if this was a trick question, and what the right answer should be, I responded, “No.”\nI was afraid that when he asked me to get out of the car, he would see the joint, or smell the smoke drifting up. Very nonchalantly, I looked down to try to find the joint"
+    },
+    {
+      "delta_log_prob": -4.630106210708618,
+      "prompt": "She watched her tall, naturally thin father scarf down a couple of donuts and drink his stone black coffee. The donuts were left over from last night, his dinner.... The way he ate disgusted her, yet all her lecturing wasn’t going to stop him. She grabbed her protein shake from the fridge; it was barely cold.\n“Dad, we really, really need a new fridge",
+      "true_token": " fridge",
+      "predicted_token": " car",
+      "index": 74,
+      "text": "She watched her tall, naturally thin father scarf down a couple of donuts and drink his stone black coffee. The donuts were left over from last night, his dinner.... The way he ate disgusted her, yet all her lecturing wasn’t going to stop him. She grabbed her protein shake from the fridge; it was barely cold.\n“Dad, we really, really need a new fridge"
+    },
+    {
+      "delta_log_prob": -15.12498813867569,
+      "prompt": "Spencer leaned against one of the wooden posts and watched as a tiny speck of a person plunged from the bungee crane. The crowd applauded. \"She's a salon addict. She gets her arms waxed, highlights, a monthly facial, and then there's nails, Reiki treatments, the tanning booth ... she's super high-maintenance.\"\n\n\"Huh.\" Colin ran his hand over his chin and looked at Spencer",
+      "true_token": " Spencer",
+      "predicted_token": " Spencer",
+      "index": 75,
+      "text": "Spencer leaned against one of the wooden posts and watched as a tiny speck of a person plunged from the bungee crane. The crowd applauded. \"She's a salon addict. She gets her arms waxed, highlights, a monthly facial, and then there's nails, Reiki treatments, the tanning booth ... she's super high-maintenance.\"\n\n\"Huh.\" Colin ran his hand over his chin and looked at Spencer"
+    },
+    {
+      "delta_log_prob": -9.141049206256866,
+      "prompt": "Evens walks up to the lead truck, sees a Major in the front seat, and salutes him. Then, he says, \"Good morning, Major. May I see your ID and orders?\" \nThe Major hands them over and Evens checks everything carefully. \nSatisfied, he hands them back, saying, \"Welcome to the middle of nowhere, Major",
+      "true_token": " Major",
+      "predicted_token": " Major",
+      "index": 76,
+      "text": "Evens walks up to the lead truck, sees a Major in the front seat, and salutes him. Then, he says, \"Good morning, Major. May I see your ID and orders?\" \nThe Major hands them over and Evens checks everything carefully. \nSatisfied, he hands them back, saying, \"Welcome to the middle of nowhere, Major"
+    },
+    {
+      "delta_log_prob": -0.3905362888472155,
+      "prompt": "“In truth, Ananda, only the being himself, or herself, can wake the being—and only from within.\n“Men’s laws are like walls or fences which contain the herd, and keep it from straying. They are like the banks or levees of a river to guide its course or prevent its overflowing.”\n“We have many rules for the Sangha,” said Ananda",
+      "true_token": "anda",
+      "predicted_token": "anda",
+      "index": 77,
+      "text": "“In truth, Ananda, only the being himself, or herself, can wake the being—and only from within.\n“Men’s laws are like walls or fences which contain the herd, and keep it from straying. They are like the banks or levees of a river to guide its course or prevent its overflowing.”\n“We have many rules for the Sangha,” said Ananda"
+    },
+    {
+      "delta_log_prob": -16.07360452832654,
+      "prompt": "He felt Samara's fingers entwine around his other hand and clasped her hand in his. Then he ducked his head to swipe his eyes on his sleeve. \n'Good griffin, clever griffin,' Samara said in an unsteady voice, standing on tip-toes, so she too could pet at Balkind's neck feathers. Alfred swayed on Balkind's other side, a slow smile spreading over his face as he gazed in wonder at the griffin",
+      "true_token": "iffin",
+      "predicted_token": "iffin",
+      "index": 78,
+      "text": "He felt Samara's fingers entwine around his other hand and clasped her hand in his. Then he ducked his head to swipe his eyes on his sleeve. \n'Good griffin, clever griffin,' Samara said in an unsteady voice, standing on tip-toes, so she too could pet at Balkind's neck feathers. Alfred swayed on Balkind's other side, a slow smile spreading over his face as he gazed in wonder at the griffin"
+    },
+    {
+      "delta_log_prob": -2.7069999277591705,
+      "prompt": "The doctor said that these beings were brought here for experiments. These creatures are not intelligent beings. EBE-2 then used the word animals. \nOK, now I understand. All these creatures are animals from other planets. The doctor didn't seem to understand the word animal. EBE-2 and the doctor exchanged words in Eben and the doctor then said, yes, they are animals",
+      "true_token": " animals",
+      "predicted_token": " animals",
+      "index": 79,
+      "text": "The doctor said that these beings were brought here for experiments. These creatures are not intelligent beings. EBE-2 then used the word animals. \nOK, now I understand. All these creatures are animals from other planets. The doctor didn't seem to understand the word animal. EBE-2 and the doctor exchanged words in Eben and the doctor then said, yes, they are animals"
+    },
+    {
+      "delta_log_prob": -10.647068500518799,
+      "prompt": "But then she realized that the phantom was not only burning. She was also laughing.\n\n\"You fool,\" the phantom said to Damon, in a soft and almost tender voice. \"You think fire can hurt me? Jealousy can burn hotter than fire as wel as colder than ice. You of al people should know that, Damon",
+      "true_token": " Damon",
+      "predicted_token": " Damon",
+      "index": 80,
+      "text": "But then she realized that the phantom was not only burning. She was also laughing.\n\n\"You fool,\" the phantom said to Damon, in a soft and almost tender voice. \"You think fire can hurt me? Jealousy can burn hotter than fire as wel as colder than ice. You of al people should know that, Damon"
+    },
+    {
+      "delta_log_prob": -9.149630520492792,
+      "prompt": "The swelling in her face had receded a little, but her skin remained a deep purple.\nKatja smiled. “You look good.” At least, as good as someone who got beat up the day before could look. “Before we go to the doctor we have to go to the police station. I know you don’t want to…”\n“I do, Katja",
+      "true_token": "ja",
+      "predicted_token": "ja",
+      "index": 81,
+      "text": "The swelling in her face had receded a little, but her skin remained a deep purple.\nKatja smiled. “You look good.” At least, as good as someone who got beat up the day before could look. “Before we go to the doctor we have to go to the police station. I know you don’t want to…”\n“I do, Katja"
+    },
+    {
+      "delta_log_prob": -0.3808915615081787,
+      "prompt": "The moment he’d been told it was another girl, he’d known there would be no more children for him. Whether his countess survived or not.\nHe’d sat down at his desk and written. Come home, brother, I need you.\nAnd George had come.\nThey might irritate each other no end but they were brothers",
+      "true_token": " brothers",
+      "predicted_token": " each",
+      "index": 82,
+      "text": "The moment he’d been told it was another girl, he’d known there would be no more children for him. Whether his countess survived or not.\nHe’d sat down at his desk and written. Come home, brother, I need you.\nAnd George had come.\nThey might irritate each other no end but they were brothers"
+    },
+    {
+      "delta_log_prob": -14.546159744262695,
+      "prompt": "ordered Peter Hubbard, pushing a plastic cup to the space on the table between the two of them.\nAlley wiped his mustache, poured whisky into the plastic cups and leaned forward over the bar to see around his brother.\n“We seen you come in with Lizzy. You her husband?” He pointed at Jon with the neck of the bottle he held.\n“He’d best be,” laughed Peter Hubbard as he picked up a plastic cup and turned to face Jon",
+      "true_token": " Jon",
+      "predicted_token": " Alley",
+      "index": 83,
+      "text": "ordered Peter Hubbard, pushing a plastic cup to the space on the table between the two of them.\nAlley wiped his mustache, poured whisky into the plastic cups and leaned forward over the bar to see around his brother.\n“We seen you come in with Lizzy. You her husband?” He pointed at Jon with the neck of the bottle he held.\n“He’d best be,” laughed Peter Hubbard as he picked up a plastic cup and turned to face Jon"
+    },
+    {
+      "delta_log_prob": -4.257625579833984,
+      "prompt": "“We had a lot of fun, didn’t we?”\nAnna stood on the bottom of the step and handed me the top to a pair of long underwear. “This will have to do. I’ve seen some reenactors wearing long underwear tops.”\nI took the shirt and said, “You surprise me a little, Anna",
+      "true_token": " Anna",
+      "predicted_token": " but",
+      "index": 84,
+      "text": "“We had a lot of fun, didn’t we?”\nAnna stood on the bottom of the step and handed me the top to a pair of long underwear. “This will have to do. I’ve seen some reenactors wearing long underwear tops.”\nI took the shirt and said, “You surprise me a little, Anna"
+    },
+    {
+      "delta_log_prob": -17.17110800743103,
+      "prompt": "I entered Aidan’s address into my cellphone and soon had directions to a residential area in the nearby town of Cambria. My cellphone directed us to a posh-looking gated community called Canterbury Estates. We drove past a couple of times uncertainly and then finally pulled in. The security guard at the gate looked at me inquiringly. I was unsure of what to say, so I said, “Uh, we’re here to see Aidan",
+      "true_token": " Aidan",
+      "predicted_token": " Aidan",
+      "index": 85,
+      "text": "I entered Aidan’s address into my cellphone and soon had directions to a residential area in the nearby town of Cambria. My cellphone directed us to a posh-looking gated community called Canterbury Estates. We drove past a couple of times uncertainly and then finally pulled in. The security guard at the gate looked at me inquiringly. I was unsure of what to say, so I said, “Uh, we’re here to see Aidan"
+    },
+    {
+      "delta_log_prob": -3.2046117782592773,
+      "prompt": "But to use it to political ends is an outrage. How do you answer to these charges leveled against you, Chaiko of Standing-Rock?” An expectant hush fell over the place, all eyes fixed on the shaman of the Standing-Rock Clan. But he remained composed as if the matter were trivial.\n“In the course of a day I do many things, some of which I forget",
+      "true_token": " forget",
+      "predicted_token": " do",
+      "index": 86,
+      "text": "But to use it to political ends is an outrage. How do you answer to these charges leveled against you, Chaiko of Standing-Rock?” An expectant hush fell over the place, all eyes fixed on the shaman of the Standing-Rock Clan. But he remained composed as if the matter were trivial.\n“In the course of a day I do many things, some of which I forget"
+    },
+    {
+      "delta_log_prob": -10.537283182144165,
+      "prompt": "\"Would you like to show us what you're doing here?\" \"Of course. How much of a tour would you like? We have a five-hour tour, a four-hour tour, and an hour-and-a-half tour.\" Corinne Murphy grinned. \"It would be nice to take the five-\" Senator Van Luven interrupted. \"We'll settle for the hour-and-a-half tour",
+      "true_token": " tour",
+      "predicted_token": " tour",
+      "index": 87,
+      "text": "\"Would you like to show us what you're doing here?\" \"Of course. How much of a tour would you like? We have a five-hour tour, a four-hour tour, and an hour-and-a-half tour.\" Corinne Murphy grinned. \"It would be nice to take the five-\" Senator Van Luven interrupted. \"We'll settle for the hour-and-a-half tour"
+    },
+    {
+      "delta_log_prob": -8.297309041023254,
+      "prompt": "It’s strange that this one is empty of water though.” Dalya rubbed her right hand on her chin as she stared quizzically down into the hole. \n\nDeclan noticed how the glowing light reflected off his sister’s long brown hair. Suddenly, the glow became brighter and a misty cloud of rays splayed toward them. Just then, a blinding light engulfed the unsuspecting on-lookers, and in a few seconds all went dark in the hole",
+      "true_token": " hole",
+      "predicted_token": " cave",
+      "index": 88,
+      "text": "It’s strange that this one is empty of water though.” Dalya rubbed her right hand on her chin as she stared quizzically down into the hole. \n\nDeclan noticed how the glowing light reflected off his sister’s long brown hair. Suddenly, the glow became brighter and a misty cloud of rays splayed toward them. Just then, a blinding light engulfed the unsuspecting on-lookers, and in a few seconds all went dark in the hole"
+    },
+    {
+      "delta_log_prob": -9.536431550979614,
+      "prompt": "Mari slipped the SQuare back into the satchel then gestured at the menacing door. \"This is the HOC - Hystorian Operations Center. Are you two ready?\"\n\nSera glanced over at Dak, who was actually smiling. Smiling. Maybe he'd survive his parents' disappearance after all. They both nodded at each other with knowing looks.\n\n\"We're ready,\" Sera said, right before Dak added his own confirmation:\n\n\"The Time Nerds are a go",
+      "true_token": " go",
+      "predicted_token": " little",
+      "index": 89,
+      "text": "Mari slipped the SQuare back into the satchel then gestured at the menacing door. \"This is the HOC - Hystorian Operations Center. Are you two ready?\"\n\nSera glanced over at Dak, who was actually smiling. Smiling. Maybe he'd survive his parents' disappearance after all. They both nodded at each other with knowing looks.\n\n\"We're ready,\" Sera said, right before Dak added his own confirmation:\n\n\"The Time Nerds are a go"
+    },
+    {
+      "delta_log_prob": -7.065781276207417,
+      "prompt": "I’m Logan, Holt’s younger, more charming brother. Come in and I’ll get him.”\nHe almost yanked me into the entryway. I was glad I’d been there before, because otherwise I would have been really intimidated. \nLogan didn’t stand on ceremony. He cupped his hands around his mouth and yelled, “Holt",
+      "true_token": "t",
+      "predicted_token": "t",
+      "index": 90,
+      "text": "I’m Logan, Holt’s younger, more charming brother. Come in and I’ll get him.”\nHe almost yanked me into the entryway. I was glad I’d been there before, because otherwise I would have been really intimidated. \nLogan didn’t stand on ceremony. He cupped his hands around his mouth and yelled, “Holt"
+    },
+    {
+      "delta_log_prob": -3.820742130279541,
+      "prompt": "Now, though, as she stood right in front of him and actually watched a shutter come down over his eyes, effectively blocking her out, she wondered if coming here had been the right thing to do after all.\n\nStill, she was here. And since she was, she would at least get Justice back on his feet.\n\n\"So, what's it going to be, Justice",
+      "true_token": " Justice",
+      "predicted_token": " then",
+      "index": 91,
+      "text": "Now, though, as she stood right in front of him and actually watched a shutter come down over his eyes, effectively blocking her out, she wondered if coming here had been the right thing to do after all.\n\nStill, she was here. And since she was, she would at least get Justice back on his feet.\n\n\"So, what's it going to be, Justice"
+    },
+    {
+      "delta_log_prob": -13.566871762275696,
+      "prompt": "She made a fist as she followed Luminaria all the way to the back of the bar. “You, sit there,” Luminaria gestured towards a booth. It was suitably gloomy and dank. “I must investigate.” Luminaria darted away.\nThough Anna wanted to follow, Luminaria had already wended through the patrons’ legs and out of sight.\nWith a nervous sigh, she sat down at the booth",
+      "true_token": " booth",
+      "predicted_token": " booth",
+      "index": 92,
+      "text": "She made a fist as she followed Luminaria all the way to the back of the bar. “You, sit there,” Luminaria gestured towards a booth. It was suitably gloomy and dank. “I must investigate.” Luminaria darted away.\nThough Anna wanted to follow, Luminaria had already wended through the patrons’ legs and out of sight.\nWith a nervous sigh, she sat down at the booth"
+    },
+    {
+      "delta_log_prob": -16.84132707118988,
+      "prompt": "He's a good guy. You know I wouldn't defend someone that I didn't truly believe that about.\"\n\nI rolled my eyes.\n\n\"He's being terrible to Rule and Shaw, and I'm not going to just watch.\"\n\n\"That's a family matter. Rule can fight his own battles, and he isn't going to let anything happen to Shaw",
+      "true_token": " Shaw",
+      "predicted_token": " Shaw",
+      "index": 93,
+      "text": "He's a good guy. You know I wouldn't defend someone that I didn't truly believe that about.\"\n\nI rolled my eyes.\n\n\"He's being terrible to Rule and Shaw, and I'm not going to just watch.\"\n\n\"That's a family matter. Rule can fight his own battles, and he isn't going to let anything happen to Shaw"
+    },
+    {
+      "delta_log_prob": -12.153671026229858,
+      "prompt": "Kelly watched as Diane stepped out onto the road and threw the cards down on the street. Within minutes, they had been run over by a dozen cars and trucks.\n\nIn the distance, the sounds of approaching sirens were filling the air.\n\nKelly stood up. \"We'd better get away from here, Diane",
+      "true_token": " Diane",
+      "predicted_token": " Diane",
+      "index": 94,
+      "text": "Kelly watched as Diane stepped out onto the road and threw the cards down on the street. Within minutes, they had been run over by a dozen cars and trucks.\n\nIn the distance, the sounds of approaching sirens were filling the air.\n\nKelly stood up. \"We'd better get away from here, Diane"
+    },
+    {
+      "delta_log_prob": -17.32594519853592,
+      "prompt": "“Detective Reiss was the detective in charge of the case,” said Greg, “He has been a detective for over twenty years.  Why would he make such a rookie mistake of touching the body without gloves?  He had to have known that such a move would make any DNA evidence found inadmissible in court.”\n“We all make mistakes sometimes,” said Jackie.\n“I don’t think so,” said Greg",
+      "true_token": " Greg",
+      "predicted_token": " Greg",
+      "index": 95,
+      "text": "“Detective Reiss was the detective in charge of the case,” said Greg, “He has been a detective for over twenty years.  Why would he make such a rookie mistake of touching the body without gloves?  He had to have known that such a move would make any DNA evidence found inadmissible in court.”\n“We all make mistakes sometimes,” said Jackie.\n“I don’t think so,” said Greg"
+    },
+    {
+      "delta_log_prob": -2.5306477546691895,
+      "prompt": "They just would have argued with me about it like they always do. And then, when I didn't eat my lunch? Well, you would have thought that I'd tried to jump out the window. I'm upset, and I have every right to be upset. When I get upset, I don't eat",
+      "true_token": " eat",
+      "predicted_token": " want",
+      "index": 96,
+      "text": "They just would have argued with me about it like they always do. And then, when I didn't eat my lunch? Well, you would have thought that I'd tried to jump out the window. I'm upset, and I have every right to be upset. When I get upset, I don't eat"
+    },
+    {
+      "delta_log_prob": -12.84187138080597,
+      "prompt": "Petr turned to see who had spoken. \nA tall black-haired, dark-eyed, man leaned forward in his seat so that his face entered the beam of light shining through the window. His garishly large hook-nose had past-times been broken and badly reset. A large golden hoop dangled from his left ear. ‘I’m Kassim,’ he offered his hand to Petr",
+      "true_token": " Petr",
+      "predicted_token": " Petr",
+      "index": 97,
+      "text": "Petr turned to see who had spoken. \nA tall black-haired, dark-eyed, man leaned forward in his seat so that his face entered the beam of light shining through the window. His garishly large hook-nose had past-times been broken and badly reset. A large golden hoop dangled from his left ear. ‘I’m Kassim,’ he offered his hand to Petr"
+    },
+    {
+      "delta_log_prob": 0.22537612915039062,
+      "prompt": "\"Lizard bites are very common,\" Guitierrez said. \"Animal handlers in zoos get bitten all the time. And just the other day I heard that a lizard had bitten an infant in her Crib in Amaloya, about sixty miles from where you were. So bites do occur. I'm not sure why your daughter had so many bites",
+      "true_token": " bites",
+      "predicted_token": " bites",
+      "index": 98,
+      "text": "\"Lizard bites are very common,\" Guitierrez said. \"Animal handlers in zoos get bitten all the time. And just the other day I heard that a lizard had bitten an infant in her Crib in Amaloya, about sixty miles from where you were. So bites do occur. I'm not sure why your daughter had so many bites"
+    },
+    {
+      "delta_log_prob": -4.0447564125061035,
+      "prompt": "\"It means you're an idiot if you think I'm going to let you talk your way out of this.\"\n\nShe gestures for me to enter the lobby and I do. \"I wasn't going to talk. I was going to kiss my way out of it. Do you have any idea how long it's been since we kissed?\"\n\n\"If you talk to your brother, we'll kiss",
+      "true_token": " kiss",
+      "predicted_token": " be",
+      "index": 99,
+      "text": "\"It means you're an idiot if you think I'm going to let you talk your way out of this.\"\n\nShe gestures for me to enter the lobby and I do. \"I wasn't going to talk. I was going to kiss my way out of it. Do you have any idea how long it's been since we kissed?\"\n\n\"If you talk to your brother, we'll kiss"
+    }
+  ]
+}
