@@ -1,22 +1,41 @@
+import argparse
+import os
 from pathlib import Path
 
-# model_name = "meta-llama/Llama-3.2-1B"
-model_name = "meta-llama/Llama-3.2-3B"
-# model_name = "Qwen/Qwen2.5-3B"
-prompts_path = Path("../data/lambada_prompts_1000.json")
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+DATASETS = {
+    "lambada": SCRIPT_DIR.parent / "data" / "lambada_prompts_1000.json",
+    "IWSLT2017DE_EN": SCRIPT_DIR.parent / "data" / "IWSLT2017DE_EN.json",
+}
+
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    "--model",
+    choices=("meta-llama/Llama-3.2-1B", "meta-llama/Llama-3.2-3B"),
+    default="meta-llama/Llama-3.2-3B",
+)
+parser.add_argument("--dataset", choices=DATASETS, default="lambada")
+parser.add_argument("--devices", default="0,1")
+parser.add_argument("--cutoff", type=int, default=1000)
+parser.add_argument("--fisher-k", type=int, default=4)
+parser.add_argument("--seed", type=int, default=42)
+args = parser.parse_args()
+
+os.environ["CUDA_VISIBLE_DEVICES"] = args.devices
+model_name = args.model
+prompts_path = DATASETS[args.dataset]
 model_name_short = model_name.split("/")[-1]
-save_path = Path(f"../results/{model_name_short}__LOO_KL_lambada_loo_results.json")
-print(f"Results will be saved to {save_path}")
+save_path = (
+    SCRIPT_DIR.parent
+    / "results"
+    / f"{model_name_short}__LOO_KL_{args.dataset}_loo_results.json"
+)
 mode_list = ['temperature', 'semantic', 'gradient_x_input', 'ig', 'random', 'fisher']
-# fisher_k = 4
-fisher_k = 4
-cutoff = 1000
-# cutoff = 2
+fisher_k = args.fisher_k
+cutoff = args.cutoff
+print(f"Results will be saved to {save_path}")
 
-import os
-
-os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"  
-# os.environ["CUDA_VISIBLE_DEVICES"] = "2,3"  
 from torch import nn
 
 
@@ -33,6 +52,9 @@ import torch.nn.functional as F
 import gc
 import re
 import copy
+
+np.random.seed(args.seed)
+torch.manual_seed(args.seed)
 
 from JacobianScopes import JacobianScopes_utils as JCBScope_utils
 from JacobianScopes import JacobianScopes
@@ -380,8 +402,8 @@ for mode in mode_list:
     print(f"\n{mode_name} scope most influential token is within top 5% of LOO ranking for {within_5_pct_count}/{total} prompts ({fraction_within_5_pct:.1%})")
 
     # Save to master_results.json
-    label = f"{model_name_short}__{mode_name}_lambada_loo_rank"
-    master_path = Path("../results/master_results.json")
+    label = f"{model_name_short}__{mode_name}_{args.dataset}_loo_rank"
+    master_path = SCRIPT_DIR.parent / "results" / "master_results.json"
     master_path.parent.mkdir(parents=True, exist_ok=True)
     master = {}
     if master_path.exists():
