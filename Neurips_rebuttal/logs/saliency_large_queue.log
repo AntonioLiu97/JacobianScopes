@@ -8555,3 +8555,75 @@ START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4272 2026-08-11T19:55:33-04:00
 FAILED gemma-4b lmbd1000 attempt=4272; retrying in 300s
 START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4273 2026-08-11T20:00:38-04:00
 FAILED gemma-4b lmbd1000 attempt=4273; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4274 2026-08-11T20:05:44-04:00
+FAILED gemma-4b lmbd1000 attempt=4274; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4275 2026-08-11T20:10:49-04:00
+FAILED gemma-4b lmbd1000 attempt=4275; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4276 2026-08-11T20:15:54-04:00
+FAILED gemma-4b lmbd1000 attempt=4276; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4277 2026-08-11T20:20:59-04:00
+FAILED gemma-4b lmbd1000 attempt=4277; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4278 2026-08-11T20:26:04-04:00
+FAILED gemma-4b lmbd1000 attempt=4278; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4279 2026-08-11T20:31:09-04:00
+FAILED gemma-4b lmbd1000 attempt=4279; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4280 2026-08-11T20:36:14-04:00
+FAILED gemma-4b lmbd1000 attempt=4280; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4281 2026-08-11T20:41:19-04:00
+FAILED gemma-4b lmbd1000 attempt=4281; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4282 2026-08-11T20:46:24-04:00
+FAILED gemma-4b lmbd1000 attempt=4282; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4283 2026-08-11T20:51:29-04:00
+FAILED gemma-4b lmbd1000 attempt=4283; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4284 2026-08-11T20:56:35-04:00
+FAILED gemma-4b lmbd1000 attempt=4284; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4285 2026-08-11T21:01:40-04:00
+FAILED gemma-4b lmbd1000 attempt=4285; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4286 2026-08-11T21:06:45-04:00
+FAILED gemma-4b lmbd1000 attempt=4286; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4287 2026-08-11T21:11:50-04:00
+FAILED gemma-4b lmbd1000 attempt=4287; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4288 2026-08-11T21:16:55-04:00
+FAILED gemma-4b lmbd1000 attempt=4288; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4289 2026-08-11T21:22:00-04:00
+FAILED gemma-4b lmbd1000 attempt=4289; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4290 2026-08-11T21:27:05-04:00
+FAILED gemma-4b lmbd1000 attempt=4290; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4291 2026-08-11T21:32:10-04:00
+FAILED gemma-4b lmbd1000 attempt=4291; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4292 2026-08-11T21:37:15-04:00
+FAILED gemma-4b lmbd1000 attempt=4292; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4293 2026-08-11T21:42:21-04:00
+FAILED gemma-4b lmbd1000 attempt=4293; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4294 2026-08-11T21:47:26-04:00
+FAILED gemma-4b lmbd1000 attempt=4294; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4295 2026-08-11T21:52:31-04:00
+FAILED gemma-4b lmbd1000 attempt=4295; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4296 2026-08-11T21:57:36-04:00
+FAILED gemma-4b lmbd1000 attempt=4296; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4297 2026-08-11T22:02:41-04:00
+FAILED gemma-4b lmbd1000 attempt=4297; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4298 2026-08-11T22:07:46-04:00
+FAILED gemma-4b lmbd1000 attempt=4298; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4299 2026-08-11T22:12:51-04:00
+FAILED gemma-4b lmbd1000 attempt=4299; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4300 2026-08-11T22:17:56-04:00
+FAILED gemma-4b lmbd1000 attempt=4300; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4301 2026-08-11T22:23:01-04:00
+FAILED gemma-4b lmbd1000 attempt=4301; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4302 2026-08-11T22:28:06-04:00
+FAILED gemma-4b lmbd1000 attempt=4302; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4303 2026-08-11T22:33:12-04:00
+FAILED gemma-4b lmbd1000 attempt=4303; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4304 2026-08-11T22:38:17-04:00
+FAILED gemma-4b lmbd1000 attempt=4304; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4305 2026-08-11T22:43:22-04:00
+FAILED gemma-4b lmbd1000 attempt=4305; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4306 2026-08-11T22:48:27-04:00
+FAILED gemma-4b lmbd1000 attempt=4306; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4307 2026-08-11T22:53:32-04:00
+FAILED gemma-4b lmbd1000 attempt=4307; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4308 2026-08-11T22:58:37-04:00
+FAILED gemma-4b lmbd1000 attempt=4308; retrying in 300s
+START gemma-4b lmbd1000 GPUs=0,1,2,3 attempt=4309 2026-08-11T23:03:42-04:00
+FAILED gemma-4b lmbd1000 attempt=4309; retrying in 300s

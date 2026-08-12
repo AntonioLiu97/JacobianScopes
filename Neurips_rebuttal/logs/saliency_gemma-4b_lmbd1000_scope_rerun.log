@@ -42728,3 +42728,363 @@ Traceback (most recent call last):
     return super().__getattribute__(key)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
+Traceback (most recent call last):
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 696, in <module>
+    main()
+  File "/home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/run_saliency_randomization.py", line 525, in main
+    num_layers = int(config.num_hidden_layers)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jl3499/.local/lib/python3.12/site-packages/transformers/configuration_utils.py", line 419, in __getattribute__
+    return super().__getattribute__(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Gemma3Config' object has no attribute 'num_hidden_layers'
