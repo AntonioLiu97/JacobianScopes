@@ -1,0 +1,3 @@
+===== attempt=1 2026-07-27T06:15:27-04:00 =====
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights:  33%|███▎      | 48/146 [00:00<00:00, 467.29it/s]Loading weights:  83%|████████▎ | 121/146 [00:00<00:00, 610.75it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 620.97it/s]
+Wrote prefix-concentration analysis to /home/jl3499/JacobianScopes/JacobianScopes/Neurips_rebuttal/prefix_concentration_results

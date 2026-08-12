@@ -2842,5 +2842,32 @@
     "accuracy": 0.767,
     "num_correct": 767,
     "total": 1000
+  },
+  "Llama-3.2-1B__temperature_IWSLT2017DE_EN_loo_rank": {
+    "mean_rank": 9.632,
+    "mean_ranking_pct": 11.738644956738037,
+    "sem_mean_ranking_pct": 0.611147540744139,
+    "n_with_rank": 1000,
+    "total": 1000,
+    "within_top5_pct_count": 611,
+    "fraction_within_top5_pct": 0.611
+  },
+  "Llama-3.2-1B__semantic_IWSLT2017DE_EN_loo_rank": {
+    "mean_rank": 8.864,
+    "mean_ranking_pct": 11.018773712355449,
+    "sem_mean_ranking_pct": 0.5913110815801011,
+    "n_with_rank": 1000,
+    "total": 1000,
+    "within_top5_pct_count": 615,
+    "fraction_within_top5_pct": 0.615
+  },
+  "Llama-3.2-1B__gradient_x_input_IWSLT2017DE_EN_loo_rank": {
+    "mean_rank": 7.248,
+    "mean_ranking_pct": 8.997556280283424,
+    "sem_mean_ranking_pct": 0.4901264408878752,
+    "n_with_rank": 1000,
+    "total": 1000,
+    "within_top5_pct_count": 642,
+    "fraction_within_top5_pct": 0.642
   }
 }

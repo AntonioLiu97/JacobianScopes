@@ -16,7 +16,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-from scipy.stats import wilcoxon
+from scipy.stats import t, wilcoxon
 
 
 FRACTIONS = (0.05, 0.1, 0.2)
@@ -115,33 +115,6 @@ def sem(values: pd.Series) -> float:
     return float(values.std(ddof=1) / math.sqrt(len(values))) if len(values) > 1 else float("nan")
 
 
-def bootstrap_mean_ci(
-    differences: np.ndarray,
-    rng: np.random.Generator,
-    n_resamples: int,
-    chunk_size: int = 500,
-) -> tuple[float, float]:
-    means = np.empty(n_resamples, dtype=float)
-    n = len(differences)
-    for start in range(0, n_resamples, chunk_size):
-        stop = min(start + chunk_size, n_resamples)
-        sampled_indices = rng.integers(0, n, size=(stop - start, n))
-        means[start:stop] = differences[sampled_indices].mean(axis=1)
-    low, high = np.quantile(means, [0.025, 0.975])
-    return float(low), float(high)
-
-
-def holm_adjust(p_values: pd.Series) -> pd.Series:
-    """Holm step-down family-wise correction."""
-    order = np.argsort(p_values.to_numpy())
-    sorted_p = p_values.to_numpy()[order]
-    adjusted_sorted = np.maximum.accumulate((len(sorted_p) - np.arange(len(sorted_p))) * sorted_p)
-    adjusted_sorted = np.minimum(adjusted_sorted, 1.0)
-    adjusted = np.empty_like(adjusted_sorted)
-    adjusted[order] = adjusted_sorted
-    return pd.Series(adjusted, index=p_values.index)
-
-
 def paired_row(
     model: str,
     dataset: str,
@@ -150,12 +123,12 @@ def paired_row(
     baseline: str,
     scope_values: pd.Series,
     baseline_values: pd.Series,
-    rng: np.random.Generator,
-    n_resamples: int,
 ) -> dict:
     common = scope_values.index.intersection(baseline_values.index)
     differences = (scope_values.loc[common] - baseline_values.loc[common]).to_numpy()
-    ci_low, ci_high = bootstrap_mean_ci(differences, rng, n_resamples)
+    mean_difference = float(differences.mean())
+    standard_error = float(differences.std(ddof=1) / math.sqrt(len(differences)))
+    margin = float(t.ppf(0.975, df=len(differences) - 1) * standard_error)
     if np.allclose(differences, 0):
         p_value = 1.0
     else:
@@ -167,9 +140,9 @@ def paired_row(
         "scope": METHODS[scope],
         "baseline": METHODS[baseline],
         "n": len(common),
-        "mean_scope_minus_baseline": float(differences.mean()),
-        "bootstrap_ci_low": ci_low,
-        "bootstrap_ci_high": ci_high,
+        "mean_scope_minus_baseline": mean_difference,
+        "ci_low": mean_difference - margin,
+        "ci_high": mean_difference + margin,
         "wilcoxon_p": p_value,
         "scope_win_fraction": float(np.mean(differences < 0)),
         "tie_fraction": float(np.mean(differences == 0)),
@@ -235,159 +208,95 @@ def render_paired_markdown(paired: pd.DataFrame, summary: pd.DataFrame) -> str:
     lines = [
         "# Paired AOPC analysis",
         "",
-        "Each comparison uses within-passage differences "
-        "`AOPC(scope) - AOPC(baseline)`; negative differences favor the Scope. "
-        "Holm correction is applied across all Scope-versus-baseline comparisons within each subset.",
+        "The Scope and baseline for each model–dataset cell are fixed to the methods "
+        "with the lowest mean AOPC in the original all-passage table. Each comparison "
+        "uses within-passage differences `AOPC(scope) - AOPC(baseline)`; negative "
+        "differences favor the Scope. The 95% confidence interval is the standard "
+        "Student-t interval for the mean paired difference. Reported p-values are "
+        "from two-sided paired Wilcoxon signed-rank tests.",
         "",
     ]
+    original = summary[summary["subset"] == "all"]
+    selected_methods: dict[tuple[str, str], tuple[str, str]] = {}
+    for model in MODELS.values():
+        for dataset in DATASETS.values():
+            cell = original[
+                (original["model"] == model) & (original["dataset"] == dataset)
+            ]
+            scope = cell[
+                cell["method"].isin([METHODS[name] for name in SCOPES])
+            ].nsmallest(1, "mean_aopc").iloc[0]["method"]
+            baseline = cell[
+                cell["method"].isin([METHODS[name] for name in NON_SCOPE_BASELINES])
+            ].nsmallest(1, "mean_aopc").iloc[0]["method"]
+            selected_methods[(model, dataset)] = (scope, baseline)
+
+    counts: dict[str, dict[str, int]] = {}
     for subset in ("all", "correct_only"):
         block = paired[paired["subset"] == subset]
-        significant = block[block["holm_p"] < 0.05]
-        favor_scope = significant[significant["mean_scope_minus_baseline"] < 0]
-        favor_baseline = significant[significant["mean_scope_minus_baseline"] > 0]
+        selected_rows = []
+        for (model, dataset), (scope, baseline) in selected_methods.items():
+            selected_rows.append(
+                block[
+                    (block["model"] == model)
+                    & (block["dataset"] == dataset)
+                    & (block["scope"] == scope)
+                    & (block["baseline"] == baseline)
+                ].iloc[0]
+            )
+        selected = pd.DataFrame(selected_rows)
+        significant = selected["wilcoxon_p"] < 0.05
+        counts[subset] = {
+            "scope_wins": int(
+                (significant & (selected["mean_scope_minus_baseline"] < 0)).sum()
+            ),
+            "baseline_wins": int(
+                (significant & (selected["mean_scope_minus_baseline"] > 0)).sum()
+            ),
+            "total": len(selected),
+        }
+
+        display = selected.copy()
+        display["difference"] = display["mean_scope_minus_baseline"].map(
+            lambda value: f"{value:.4f}"
+        )
+        display["ci"] = display.apply(
+            lambda row: f"[{row['ci_low']:.4f}, {row['ci_high']:.4f}]", axis=1
+        )
+        display["p_value"] = display["wilcoxon_p"].map(lambda value: f"{value:.3g}")
         lines.extend(
             [
                 f"## {subset}",
                 "",
-                f"- Comparisons: {len(block)}",
-                f"- Significant in favor of a Scope: {len(favor_scope)}",
-                f"- Significant in favor of a baseline: {len(favor_baseline)}",
-                f"- Not significant after correction: {len(block) - len(significant)}",
+                markdown_table(
+                    display,
+                    ["model", "dataset", "scope", "baseline", "difference", "ci", "p_value"],
+                    [
+                        "Model",
+                        "Dataset",
+                        "Top-performing Scope",
+                        "Top-performing baseline",
+                        "Mean paired difference",
+                        "95% CI",
+                        "Wilcoxon p",
+                    ],
+                ),
                 "",
             ]
         )
-        if len(significant):
-            display = significant.copy()
-            display["difference"] = display["mean_scope_minus_baseline"].map(lambda value: f"{value:.4f}")
-            display["ci"] = display.apply(
-                lambda row: f"[{row['bootstrap_ci_low']:.4f}, {row['bootstrap_ci_high']:.4f}]",
-                axis=1,
-            )
-            display["holm"] = display["holm_p"].map(lambda value: f"{value:.3g}")
-            lines.append(
-                markdown_table(
-                    display,
-                    ["model", "dataset", "scope", "baseline", "difference", "ci", "holm"],
-                    ["Model", "Dataset", "Scope", "Baseline", "Paired difference", "95% CI", "Holm p"],
-                )
-            )
-            lines.append("")
 
     lines.extend(
         [
-            "## Best-performing Scope versus best-performing baseline",
+            "## Summary",
             "",
-            "For each model–dataset combination, this section compares the Scope and "
-            "non-Scope baseline with the lowest mean AOPC in the corresponding subset. "
-            "Holm p-values retain the correction across all Scope-versus-baseline "
-            "comparisons within that subset.",
-            "",
-        ]
-    )
-    best_counts = {}
-    for subset in ("all", "correct_only"):
-        block = paired[paired["subset"] == subset]
-        subset_summary = summary[summary["subset"] == subset]
-        selected_rows = []
-        for model in MODELS.values():
-            for dataset in DATASETS.values():
-                cell = subset_summary[
-                    (subset_summary["model"] == model) & (subset_summary["dataset"] == dataset)
-                ]
-                best_scope = cell[cell["method"].isin([METHODS[name] for name in SCOPES])].nsmallest(
-                    1, "mean_aopc"
-                ).iloc[0]
-                best_baseline = cell[
-                    cell["method"].isin([METHODS[name] for name in NON_SCOPE_BASELINES])
-                ].nsmallest(1, "mean_aopc").iloc[0]
-                selected = block[
-                    (block["model"] == model)
-                    & (block["dataset"] == dataset)
-                    & (block["scope"] == best_scope["method"])
-                    & (block["baseline"] == best_baseline["method"])
-                ].iloc[0].copy()
-                selected["scope_mean"] = best_scope["mean_aopc"]
-                selected["baseline_mean"] = best_baseline["mean_aopc"]
-                selected_rows.append(selected)
-        selected_block = pd.DataFrame(selected_rows)
-        best_counts[subset] = {
-            "scope_wins": int(
-                (
-                    (selected_block["holm_p"] < 0.05)
-                    & (selected_block["mean_scope_minus_baseline"] < 0)
-                ).sum()
-            ),
-            "baseline_wins": int(
-                (
-                    (selected_block["holm_p"] < 0.05)
-                    & (selected_block["mean_scope_minus_baseline"] > 0)
-                ).sum()
-            ),
-            "total": len(selected_block),
-        }
-        lines.extend([f"### {subset}", ""])
-        display = selected_block.copy()
-        display["scope_mean"] = display["scope_mean"].map(lambda value: f"{value:.3f}")
-        display["baseline_mean"] = display["baseline_mean"].map(lambda value: f"{value:.3f}")
-        display["difference"] = display["mean_scope_minus_baseline"].map(lambda value: f"{value:.4f}")
-        display["ci"] = display.apply(
-            lambda row: f"[{row['bootstrap_ci_low']:.4f}, {row['bootstrap_ci_high']:.4f}]",
-            axis=1,
-        )
-        display["holm"] = display["holm_p"].map(lambda value: f"{value:.3g}")
-        lines.append(
-            markdown_table(
-                display,
-                [
-                    "model",
-                    "dataset",
-                    "scope",
-                    "scope_mean",
-                    "baseline",
-                    "baseline_mean",
-                    "difference",
-                    "ci",
-                    "holm",
-                ],
-                [
-                    "Model",
-                    "Dataset",
-                    "Best Scope",
-                    "Scope AOPC",
-                    "Best baseline",
-                    "Baseline AOPC",
-                    "Paired difference",
-                    "95% CI",
-                    "Holm p",
-                ],
-            )
-        )
-        lines.append("")
-    lines.extend(
-        [
-            "### Summary and statistical interpretation",
-            "",
-            f"On all passages, the best Scope significantly beats the best non-Scope "
-            f"baseline in **{best_counts['all']['scope_wins']}/{best_counts['all']['total']}** "
-            f"model–dataset combinations. On correctly predicted passages, it does so in "
-            f"**{best_counts['correct_only']['scope_wins']}/"
-            f"{best_counts['correct_only']['total']}** combinations. There are "
-            f"**{best_counts['all']['baseline_wins']}** significant best-baseline wins on "
-            f"all passages and **{best_counts['correct_only']['baseline_wins']}** on the "
+            f"On all passages, the top-performing Scope significantly beats the "
+            f"top-performing baseline in **{counts['all']['scope_wins']}/"
+            f"{counts['all']['total']}** model–dataset combinations. On correctly "
+            f"predicted passages, it does so in **{counts['correct_only']['scope_wins']}/"
+            f"{counts['correct_only']['total']}** combinations. There are "
+            f"**{counts['all']['baseline_wins']}** significant baseline wins on all "
+            f"passages and **{counts['correct_only']['baseline_wins']}** on the "
             "correct-only subset.",
-            "",
-            "The 95% CI is a bootstrap confidence interval for the mean paired difference. "
-            "We resampled passages with replacement 10,000 times, preserving each passage's "
-            "Scope–baseline pairing, computed the mean difference for every resample, and "
-            "reported the 2.5th and 97.5th percentiles. Thus, we did perform the "
-            "reviewer-suggested bootstrapping. An interval below zero supports the Scope; "
-            "an interval crossing zero indicates that zero remains plausible.",
-            "",
-            "The Holm p-value is the two-sided paired Wilcoxon signed-rank p-value after "
-            "Holm correction across all 72 Scope-versus-baseline comparisons in the "
-            "corresponding subset. A Holm p-value below 0.05 is treated as significant. "
-            "The confidence interval is bootstrap-based, whereas the p-value comes from "
-            "the Wilcoxon test; they are complementary rather than the same calculation.",
             "",
         ]
     )
@@ -402,12 +311,9 @@ def main() -> None:
         default=Path(__file__).resolve().parents[1] / "paper" / "results",
     )
     parser.add_argument("--output-dir", type=Path, default=Path(__file__).resolve().parent)
-    parser.add_argument("--bootstrap-resamples", type=int, default=10_000)
-    parser.add_argument("--seed", type=int, default=20260723)
     args = parser.parse_args()
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
-    rng = np.random.default_rng(args.seed)
     summary_rows: list[dict] = []
     accuracy_rows: list[dict] = []
     paired_rows: list[dict] = []
@@ -461,8 +367,6 @@ def main() -> None:
                                 baseline=baseline,
                                 scope_values=values_by_subset[subset][scope],
                                 baseline_values=values_by_subset[subset][baseline],
-                                rng=rng,
-                                n_resamples=args.bootstrap_resamples,
                             )
                         )
 
@@ -472,10 +376,6 @@ def main() -> None:
     )
     accuracies = pd.DataFrame(accuracy_rows)
     paired = pd.DataFrame(paired_rows)
-    paired["holm_p"] = np.nan
-    for subset in paired["subset"].unique():
-        mask = paired["subset"] == subset
-        paired.loc[mask, "holm_p"] = holm_adjust(paired.loc[mask, "wilcoxon_p"]).to_numpy()
 
     summary.to_csv(args.output_dir / "aopc_subset_summary.csv", index=False)
     accuracies.to_csv(args.output_dir / "prediction_accuracies.csv", index=False)
@@ -489,8 +389,6 @@ def main() -> None:
 
     machine_readable = {
         "fractions": FRACTIONS,
-        "bootstrap_resamples": args.bootstrap_resamples,
-        "seed": args.seed,
         "accuracies": accuracy_rows,
         "summary": summary_rows,
         "paired_tests": paired.to_dict(orient="records"),

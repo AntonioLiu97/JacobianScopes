@@ -1,0 +1,5 @@
+===== two-GPU sharded attempt=1 2026-07-27T12:33:53-04:00 =====
+Stage=original; prompt shard 1/2 (100 prompts)
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights:   1%|          | 1/146 [00:00<00:18,  7.70it/s]Loading weights:  40%|███▉      | 58/146 [00:00<00:00, 300.67it/s]Loading weights:  64%|██████▎   | 93/146 [00:00<00:00, 306.42it/s]Loading weights:  88%|████████▊ | 129/146 [00:00<00:00, 317.55it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 312.88it/s]
+Original maps:   0%|          | 0/100 [00:00<?, ?it/s]Original maps: 100%|██████████| 100/100 [00:00<00:00, 3579.34it/s]
+Original-map checkpoints: resumed 100, computed 0

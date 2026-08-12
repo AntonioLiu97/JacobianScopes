@@ -1,0 +1,142 @@
+START llama-1b_lmbd1000_original shard0 GPU2 attempt=1 2026-07-27T12:33:53-04:00
+START llama-1b_lmbd1000_original shard1 GPU3 attempt=1 2026-07-27T12:33:53-04:00
+DONE llama-1b_lmbd1000_original shard0 GPU2 2026-07-27T12:34:02-04:00
+DONE llama-1b_lmbd1000_original shard1 GPU3 2026-07-27T12:34:02-04:00
+DONE pair llama-1b_lmbd1000_original 2026-07-27T12:34:02-04:00
+START llama-1b_lmbd1000_final_quarter shard1 GPU3 attempt=1 2026-07-27T12:34:02-04:00
+START llama-1b_lmbd1000_final_quarter shard0 GPU2 attempt=1 2026-07-27T12:34:02-04:00
+DONE llama-1b_lmbd1000_final_quarter shard1 GPU3 2026-07-27T12:39:12-04:00
+DONE llama-1b_lmbd1000_final_quarter shard0 GPU2 2026-07-27T12:40:25-04:00
+DONE pair llama-1b_lmbd1000_final_quarter 2026-07-27T12:40:25-04:00
+START llama-1b_lmbd1000_final_half shard0 GPU2 attempt=1 2026-07-27T12:40:25-04:00
+START llama-1b_lmbd1000_final_half shard1 GPU3 attempt=1 2026-07-27T12:40:25-04:00
+DONE llama-1b_lmbd1000_final_half shard1 GPU3 2026-07-27T12:45:43-04:00
+DONE llama-1b_lmbd1000_final_half shard0 GPU2 2026-07-27T12:47:00-04:00
+DONE pair llama-1b_lmbd1000_final_half 2026-07-27T12:47:00-04:00
+START llama-1b_lmbd1000_all_blocks shard0 GPU2 attempt=1 2026-07-27T12:47:00-04:00
+START llama-1b_lmbd1000_all_blocks shard1 GPU3 attempt=1 2026-07-27T12:47:00-04:00
+DONE llama-1b_lmbd1000_all_blocks shard1 GPU3 2026-07-27T12:52:26-04:00
+DONE llama-1b_lmbd1000_all_blocks shard0 GPU2 2026-07-27T12:53:44-04:00
+DONE pair llama-1b_lmbd1000_all_blocks 2026-07-27T12:53:44-04:00
+START finalize llama-1b_lmbd1000 attempt=1 2026-07-27T12:53:44-04:00
+DONE finalize llama-1b_lmbd1000 2026-07-27T12:53:49-04:00
+COMPLETE llama-1b_lmbd1000 2026-07-27T12:53:49-04:00
+START llama-1b_IWSLT2017DE_EN_original shard0 GPU2 attempt=1 2026-07-27T12:53:49-04:00
+START llama-1b_IWSLT2017DE_EN_original shard1 GPU3 attempt=1 2026-07-27T12:53:49-04:00
+DONE llama-1b_IWSLT2017DE_EN_original shard1 GPU3 2026-07-27T12:58:53-04:00
+DONE llama-1b_IWSLT2017DE_EN_original shard0 GPU2 2026-07-27T13:00:05-04:00
+DONE pair llama-1b_IWSLT2017DE_EN_original 2026-07-27T13:00:05-04:00
+START llama-1b_IWSLT2017DE_EN_final_quarter shard1 GPU3 attempt=1 2026-07-27T13:00:05-04:00
+START llama-1b_IWSLT2017DE_EN_final_quarter shard0 GPU2 attempt=1 2026-07-27T13:00:05-04:00
+DONE llama-1b_IWSLT2017DE_EN_final_quarter shard1 GPU3 2026-07-27T13:05:34-04:00
+DONE llama-1b_IWSLT2017DE_EN_final_quarter shard0 GPU2 2026-07-27T13:06:53-04:00
+DONE pair llama-1b_IWSLT2017DE_EN_final_quarter 2026-07-27T13:06:53-04:00
+START llama-1b_IWSLT2017DE_EN_final_half shard0 GPU2 attempt=1 2026-07-27T13:06:53-04:00
+START llama-1b_IWSLT2017DE_EN_final_half shard1 GPU3 attempt=1 2026-07-27T13:06:53-04:00
+DONE llama-1b_IWSLT2017DE_EN_final_half shard1 GPU3 2026-07-27T13:12:28-04:00
+DONE llama-1b_IWSLT2017DE_EN_final_half shard0 GPU2 2026-07-27T13:13:52-04:00
+DONE pair llama-1b_IWSLT2017DE_EN_final_half 2026-07-27T13:13:52-04:00
+START llama-1b_IWSLT2017DE_EN_all_blocks shard1 GPU3 attempt=1 2026-07-27T13:13:52-04:00
+START llama-1b_IWSLT2017DE_EN_all_blocks shard0 GPU2 attempt=1 2026-07-27T13:13:52-04:00
+DONE llama-1b_IWSLT2017DE_EN_all_blocks shard1 GPU3 2026-07-27T13:19:26-04:00
+DONE llama-1b_IWSLT2017DE_EN_all_blocks shard0 GPU2 2026-07-27T13:20:45-04:00
+DONE pair llama-1b_IWSLT2017DE_EN_all_blocks 2026-07-27T13:20:45-04:00
+START finalize llama-1b_IWSLT2017DE_EN attempt=1 2026-07-27T13:20:45-04:00
+DONE finalize llama-1b_IWSLT2017DE_EN 2026-07-27T13:20:50-04:00
+COMPLETE llama-1b_IWSLT2017DE_EN 2026-07-27T13:20:50-04:00
+MODEL COMPLETE llama-1b BOTH DATASETS 2026-07-27T13:20:50-04:00
+START gemma-1b_lmbd1000_original shard1 GPU3 attempt=1 2026-07-27T13:20:50-04:00
+START gemma-1b_lmbd1000_original shard0 GPU2 attempt=1 2026-07-27T13:20:50-04:00
+DONE gemma-1b_lmbd1000_original shard1 GPU3 2026-07-27T13:24:13-04:00
+DONE gemma-1b_lmbd1000_original shard0 GPU2 2026-07-27T13:25:26-04:00
+DONE pair gemma-1b_lmbd1000_original 2026-07-27T13:25:26-04:00
+START gemma-1b_lmbd1000_final_quarter shard0 GPU2 attempt=1 2026-07-27T13:25:26-04:00
+START gemma-1b_lmbd1000_final_quarter shard1 GPU3 attempt=1 2026-07-27T13:25:26-04:00
+DONE gemma-1b_lmbd1000_final_quarter shard1 GPU3 2026-07-27T13:29:07-04:00
+DONE gemma-1b_lmbd1000_final_quarter shard0 GPU2 2026-07-27T13:30:17-04:00
+DONE pair gemma-1b_lmbd1000_final_quarter 2026-07-27T13:30:17-04:00
+START gemma-1b_lmbd1000_final_half shard0 GPU2 attempt=1 2026-07-27T13:30:17-04:00
+START gemma-1b_lmbd1000_final_half shard1 GPU3 attempt=1 2026-07-27T13:30:17-04:00
+DONE gemma-1b_lmbd1000_final_half shard1 GPU3 2026-07-27T13:33:58-04:00
+DONE gemma-1b_lmbd1000_final_half shard0 GPU2 2026-07-27T13:35:15-04:00
+DONE pair gemma-1b_lmbd1000_final_half 2026-07-27T13:35:15-04:00
+START gemma-1b_lmbd1000_all_blocks shard0 GPU2 attempt=1 2026-07-27T13:35:15-04:00
+START gemma-1b_lmbd1000_all_blocks shard1 GPU3 attempt=1 2026-07-27T13:35:15-04:00
+DONE gemma-1b_lmbd1000_all_blocks shard1 GPU3 2026-07-27T13:38:52-04:00
+DONE gemma-1b_lmbd1000_all_blocks shard0 GPU2 2026-07-27T13:40:13-04:00
+DONE pair gemma-1b_lmbd1000_all_blocks 2026-07-27T13:40:13-04:00
+START finalize gemma-1b_lmbd1000 attempt=1 2026-07-27T13:40:13-04:00
+DONE finalize gemma-1b_lmbd1000 2026-07-27T13:40:18-04:00
+COMPLETE gemma-1b_lmbd1000 2026-07-27T13:40:18-04:00
+START gemma-1b_IWSLT2017DE_EN_original shard0 GPU2 attempt=1 2026-07-27T13:40:18-04:00
+START gemma-1b_IWSLT2017DE_EN_original shard1 GPU3 attempt=1 2026-07-27T13:40:18-04:00
+DONE gemma-1b_IWSLT2017DE_EN_original shard1 GPU3 2026-07-27T13:43:43-04:00
+DONE gemma-1b_IWSLT2017DE_EN_original shard0 GPU2 2026-07-27T13:44:48-04:00
+DONE pair gemma-1b_IWSLT2017DE_EN_original 2026-07-27T13:44:48-04:00
+START gemma-1b_IWSLT2017DE_EN_final_quarter shard0 GPU2 attempt=1 2026-07-27T13:44:48-04:00
+START gemma-1b_IWSLT2017DE_EN_final_quarter shard1 GPU3 attempt=1 2026-07-27T13:44:48-04:00
+DONE gemma-1b_IWSLT2017DE_EN_final_quarter shard1 GPU3 2026-07-27T13:48:29-04:00
+DONE gemma-1b_IWSLT2017DE_EN_final_quarter shard0 GPU2 2026-07-27T13:49:35-04:00
+DONE pair gemma-1b_IWSLT2017DE_EN_final_quarter 2026-07-27T13:49:35-04:00
+START gemma-1b_IWSLT2017DE_EN_final_half shard0 GPU2 attempt=1 2026-07-27T13:49:35-04:00
+START gemma-1b_IWSLT2017DE_EN_final_half shard1 GPU3 attempt=1 2026-07-27T13:49:35-04:00
+DONE gemma-1b_IWSLT2017DE_EN_final_half shard1 GPU3 2026-07-27T13:53:18-04:00
+DONE gemma-1b_IWSLT2017DE_EN_final_half shard0 GPU2 2026-07-27T13:54:22-04:00
+DONE pair gemma-1b_IWSLT2017DE_EN_final_half 2026-07-27T13:54:22-04:00
+START gemma-1b_IWSLT2017DE_EN_all_blocks shard0 GPU2 attempt=1 2026-07-27T13:54:22-04:00
+START gemma-1b_IWSLT2017DE_EN_all_blocks shard1 GPU3 attempt=1 2026-07-27T13:54:22-04:00
+DONE gemma-1b_IWSLT2017DE_EN_all_blocks shard1 GPU3 2026-07-27T13:58:01-04:00
+DONE gemma-1b_IWSLT2017DE_EN_all_blocks shard0 GPU2 2026-07-27T13:59:06-04:00
+DONE pair gemma-1b_IWSLT2017DE_EN_all_blocks 2026-07-27T13:59:06-04:00
+START finalize gemma-1b_IWSLT2017DE_EN attempt=1 2026-07-27T13:59:06-04:00
+DONE finalize gemma-1b_IWSLT2017DE_EN 2026-07-27T13:59:11-04:00
+COMPLETE gemma-1b_IWSLT2017DE_EN 2026-07-27T13:59:11-04:00
+MODEL COMPLETE gemma-1b BOTH DATASETS 2026-07-27T13:59:11-04:00
+START qwen-1.5b_lmbd1000_original shard0 GPU2 attempt=1 2026-07-27T13:59:11-04:00
+START qwen-1.5b_lmbd1000_original shard1 GPU3 attempt=1 2026-07-27T13:59:11-04:00
+DONE qwen-1.5b_lmbd1000_original shard1 GPU3 2026-07-27T14:03:58-04:00
+DONE qwen-1.5b_lmbd1000_original shard0 GPU2 2026-07-27T14:05:55-04:00
+DONE pair qwen-1.5b_lmbd1000_original 2026-07-27T14:05:55-04:00
+START qwen-1.5b_lmbd1000_final_quarter shard0 GPU2 attempt=1 2026-07-27T14:05:55-04:00
+START qwen-1.5b_lmbd1000_final_quarter shard1 GPU3 attempt=1 2026-07-27T14:05:55-04:00
+DONE qwen-1.5b_lmbd1000_final_quarter shard1 GPU3 2026-07-27T14:11:01-04:00
+DONE qwen-1.5b_lmbd1000_final_quarter shard0 GPU2 2026-07-27T14:12:51-04:00
+DONE pair qwen-1.5b_lmbd1000_final_quarter 2026-07-27T14:12:51-04:00
+START qwen-1.5b_lmbd1000_final_half shard1 GPU3 attempt=1 2026-07-27T14:12:51-04:00
+START qwen-1.5b_lmbd1000_final_half shard0 GPU2 attempt=1 2026-07-27T14:12:51-04:00
+DONE qwen-1.5b_lmbd1000_final_half shard1 GPU3 2026-07-27T14:18:01-04:00
+DONE qwen-1.5b_lmbd1000_final_half shard0 GPU2 2026-07-27T14:19:50-04:00
+DONE pair qwen-1.5b_lmbd1000_final_half 2026-07-27T14:19:50-04:00
+START qwen-1.5b_lmbd1000_all_blocks shard0 GPU2 attempt=1 2026-07-27T14:19:50-04:00
+START qwen-1.5b_lmbd1000_all_blocks shard1 GPU3 attempt=1 2026-07-27T14:19:50-04:00
+DONE qwen-1.5b_lmbd1000_all_blocks shard1 GPU3 2026-07-27T14:25:06-04:00
+DONE qwen-1.5b_lmbd1000_all_blocks shard0 GPU2 2026-07-27T14:26:48-04:00
+DONE pair qwen-1.5b_lmbd1000_all_blocks 2026-07-27T14:26:48-04:00
+START finalize qwen-1.5b_lmbd1000 attempt=1 2026-07-27T14:26:48-04:00
+DONE finalize qwen-1.5b_lmbd1000 2026-07-27T14:26:53-04:00
+COMPLETE qwen-1.5b_lmbd1000 2026-07-27T14:26:53-04:00
+START qwen-1.5b_IWSLT2017DE_EN_original shard1 GPU3 attempt=1 2026-07-27T14:26:53-04:00
+START qwen-1.5b_IWSLT2017DE_EN_original shard0 GPU2 attempt=1 2026-07-27T14:26:53-04:00
+DONE qwen-1.5b_IWSLT2017DE_EN_original shard1 GPU3 2026-07-27T14:31:51-04:00
+DONE qwen-1.5b_IWSLT2017DE_EN_original shard0 GPU2 2026-07-27T14:33:24-04:00
+DONE pair qwen-1.5b_IWSLT2017DE_EN_original 2026-07-27T14:33:24-04:00
+START qwen-1.5b_IWSLT2017DE_EN_final_quarter shard1 GPU3 attempt=1 2026-07-27T14:33:24-04:00
+START qwen-1.5b_IWSLT2017DE_EN_final_quarter shard0 GPU2 attempt=1 2026-07-27T14:33:24-04:00
+DONE qwen-1.5b_IWSLT2017DE_EN_final_quarter shard1 GPU3 2026-07-27T14:38:39-04:00
+DONE qwen-1.5b_IWSLT2017DE_EN_final_quarter shard0 GPU2 2026-07-27T14:40:09-04:00
+DONE pair qwen-1.5b_IWSLT2017DE_EN_final_quarter 2026-07-27T14:40:09-04:00
+START qwen-1.5b_IWSLT2017DE_EN_final_half shard0 GPU2 attempt=1 2026-07-27T14:40:09-04:00
+START qwen-1.5b_IWSLT2017DE_EN_final_half shard1 GPU3 attempt=1 2026-07-27T14:40:09-04:00
+DONE qwen-1.5b_IWSLT2017DE_EN_final_half shard1 GPU3 2026-07-27T14:45:27-04:00
+DONE qwen-1.5b_IWSLT2017DE_EN_final_half shard0 GPU2 2026-07-27T14:46:59-04:00
+DONE pair qwen-1.5b_IWSLT2017DE_EN_final_half 2026-07-27T14:46:59-04:00
+START qwen-1.5b_IWSLT2017DE_EN_all_blocks shard0 GPU2 attempt=1 2026-07-27T14:46:59-04:00
+START qwen-1.5b_IWSLT2017DE_EN_all_blocks shard1 GPU3 attempt=1 2026-07-27T14:46:59-04:00
+DONE qwen-1.5b_IWSLT2017DE_EN_all_blocks shard1 GPU3 2026-07-27T14:52:23-04:00
+DONE qwen-1.5b_IWSLT2017DE_EN_all_blocks shard0 GPU2 2026-07-27T14:53:54-04:00
+DONE pair qwen-1.5b_IWSLT2017DE_EN_all_blocks 2026-07-27T14:53:54-04:00
+START finalize qwen-1.5b_IWSLT2017DE_EN attempt=1 2026-07-27T14:53:54-04:00
+DONE finalize qwen-1.5b_IWSLT2017DE_EN 2026-07-27T14:53:59-04:00
+COMPLETE qwen-1.5b_IWSLT2017DE_EN 2026-07-27T14:53:59-04:00
+MODEL COMPLETE qwen-1.5b BOTH DATASETS 2026-07-27T14:53:59-04:00
+ALL 1B/1.5B SCOPE SANITY CHECKS COMPLETE 2026-07-27T14:53:59-04:00

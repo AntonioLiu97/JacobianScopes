@@ -1,0 +1,32 @@
+{
+  "model": "meta-llama/Llama-3.2-1B",
+  "prompt": "Tom loves Korean food. He grew up in the South and goes to Columbia. Tom is a liberal",
+  "tokens": [
+    "<|begin_of_text|>",
+    "<|begin_of_text|>",
+    "Tom",
+    "\u0120loves",
+    "\u0120Korean",
+    "\u0120food",
+    ".",
+    "\u0120He",
+    "\u0120grew",
+    "\u0120up",
+    "\u0120in",
+    "\u0120the",
+    "\u0120South",
+    "\u0120and",
+    "\u0120goes",
+    "\u0120to",
+    "\u0120Columbia",
+    ".",
+    "\u0120Tom",
+    "\u0120is",
+    "\u0120a",
+    "\u0120liberal"
+  ],
+  "bos_count": 2,
+  "target_token": " liberal",
+  "num_alpha": 100,
+  "interpretation": "One-prompt diagnostic matching the notebook setup; not a benchmark-level estimate of attention-sink prevalence."
+}

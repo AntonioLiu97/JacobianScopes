@@ -1,0 +1,13 @@
+model,dataset,zero_scope,zero_baseline,zero_gap,pad_scope,pad_baseline,pad_gap,gap_change
+Gemma-3 1B,IWSLT2017 DE→EN,Fisher Scope,Input × Gradient,-0.036786302634561396,Temperature Scope,Input × Gradient,-0.015904759804904467,0.02088154282965693
+Gemma-3 1B,LAMBADA,Fisher Scope,Input × Gradient,-0.10845554307550187,Temperature Scope,Integrated Gradients,0.0010064345359802607,0.10946197761148213
+Gemma-3 4B,IWSLT2017 DE→EN,Fisher Scope,Integrated Gradients,0.011989983252121528,Temperature Scope,Input × Gradient,-0.05566884726881982,-0.06765883052094135
+Gemma-3 4B,LAMBADA,Fisher Scope,Input × Gradient,-0.11017807106710964,Temperature Scope,Input × Gradient,-0.025923778754472826,0.08425429231263681
+LLaMA-3.2 1B,IWSLT2017 DE→EN,Temperature Scope,Input × Gradient,-0.04941492095775901,Temperature Scope,Input × Gradient,-0.07450487967586383,-0.02508995871810482
+LLaMA-3.2 1B,LAMBADA,Fisher Scope,Input × Gradient,-0.03581422961303038,Fisher Scope,Input × Gradient,-0.08069208016787854,-0.044877850554848164
+LLaMA-3.2 3B,IWSLT2017 DE→EN,Fisher Scope,Input × Gradient,-0.028464295753475755,Fisher Scope,Input × Gradient,-0.03340525980877018,-0.004940964055294428
+LLaMA-3.2 3B,LAMBADA,Fisher Scope,Input × Gradient,-0.05510162442154254,Fisher Scope,Input × Gradient,-0.05432636066605179,0.0007752637554907515
+Qwen2.5 1.5B,IWSLT2017 DE→EN,Temperature Scope,Input × Gradient,-0.025177468279749426,Temperature Scope,Input × Gradient,-0.11544837321870594,-0.09027090493895651
+Qwen2.5 1.5B,LAMBADA,Temperature Scope,Input × Gradient,-0.14084613035671656,Temperature Scope,Input × Gradient,-0.2737167009725603,-0.13287057061584373
+Qwen2.5 3B,IWSLT2017 DE→EN,Temperature Scope,Input × Gradient,-0.08828879955391167,Temperature Scope,Integrated Gradients,-0.22040196825047964,-0.13211316869656797
+Qwen2.5 3B,LAMBADA,Temperature Scope,Input × Gradient,-0.16158741480776295,Temperature Scope,Input × Gradient,-0.4298518437949519,-0.26826442898718894

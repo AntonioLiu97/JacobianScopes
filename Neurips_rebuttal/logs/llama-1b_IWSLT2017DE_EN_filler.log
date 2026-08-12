@@ -1,0 +1,13 @@
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights:   1%|          | 1/146 [00:00<00:23,  6.18it/s]Loading weights:  37%|███▋      | 54/146 [00:00<00:00, 247.72it/s]Loading weights:  65%|██████▌   | 95/146 [00:00<00:00, 308.42it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 321.07it/s]
+Llama-3.2-1B IWSLT2017DE_EN random_ablation: 1000 complete, 0 pending
+random_ablation: 0it [00:00, ?it/s]random_ablation: 0it [00:00, ?it/s]
+Llama-3.2-1B IWSLT2017DE_EN IG: 1000 complete, 0 pending
+IG: 0it [00:00, ?it/s]IG: 0it [00:00, ?it/s]
+Llama-3.2-1B IWSLT2017DE_EN gradient_x_input: 1000 complete, 0 pending
+gradient_x_input: 0it [00:00, ?it/s]gradient_x_input: 0it [00:00, ?it/s]
+Llama-3.2-1B IWSLT2017DE_EN Semantic: 1000 complete, 0 pending
+Semantic: 0it [00:00, ?it/s]Semantic: 0it [00:00, ?it/s]
+Llama-3.2-1B IWSLT2017DE_EN Temperature: 1000 complete, 0 pending
+Temperature: 0it [00:00, ?it/s]Temperature: 0it [00:00, ?it/s]
+Llama-3.2-1B IWSLT2017DE_EN Fisher_k_1: 1000 complete, 0 pending
+Fisher_k_1: 0it [00:00, ?it/s]Fisher_k_1: 0it [00:00, ?it/s]
