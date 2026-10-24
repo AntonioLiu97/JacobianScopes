@@ -1,0 +1,493 @@
+\begin{thebibliography}{49}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abnar and Zuidema(2020)]{abnar-zuidema-2020-quantifying}
+S.~Abnar and W.~Zuidema.
+\newblock Quantifying attention flow in transformers.
+\newblock In \emph{Proceedings of the 58th Annual Meeting of the Association
+  for Computational Linguistics}, pages 4190--4197. Association for
+  Computational Linguistics, 2020.
+\newblock \doi{10.18653/v1/2020.acl-main.385}.
+\newblock URL \url{https://aclanthology.org/2020.acl-main.385}.
+
+\bibitem[Alighieri et~al.(2002)Alighieri, Hollander, and
+  Hollander]{hollander2002inferno}
+D.~Alighieri, R.~Hollander, and J.~Hollander.
+\newblock \emph{The Inferno}.
+\newblock Vintage, 2002.
+
+\bibitem[Amari and Nagaoka(2000)]{amari2000methods}
+S.-i. Amari and H.~Nagaoka.
+\newblock \emph{Methods of information geometry}.
+\newblock AMS, 2000.
+
+\bibitem[Ameisen et~al.(2025)Ameisen, Lindsey, Pearce, Gurnee, Turner, Chen,
+  Citro, Abrahams, Carter, Hosmer, Marcus, Sklar, Templeton, Bricken,
+  McDougall, Cunningham, Henighan, Jermyn, Jones, Persic, Qi, Ben~Thompson,
+  Zimmerman, Rivoire, Conerly, Olah, and Batson]{ameisen2025circuit}
+E.~Ameisen, J.~Lindsey, A.~Pearce, W.~Gurnee, N.~L. Turner, B.~Chen, C.~Citro,
+  D.~Abrahams, S.~Carter, B.~Hosmer, J.~Marcus, M.~Sklar, A.~Templeton,
+  T.~Bricken, C.~McDougall, H.~Cunningham, T.~Henighan, A.~Jermyn, A.~Jones,
+  A.~Persic, Z.~Qi, T.~Ben~Thompson, S.~Zimmerman, K.~Rivoire, T.~Conerly,
+  C.~Olah, and J.~Batson.
+\newblock Circuit tracing: Revealing computational graphs in language models.
+\newblock \emph{Transformer Circuits Thread}, 2025.
+\newblock URL
+  \url{https://transformer-circuits.pub/2025/attribution-graphs/methods.html}.
+
+\bibitem[Arvanitidis et~al.(2022)Arvanitidis, Duque, Pouplin, Kalatzis, and
+  Hauberg]{arvanitidis2022pullinginformationgeometry}
+G.~Arvanitidis, M.~G. Duque, A.~Pouplin, D.~Kalatzis, and S.~Hauberg.
+\newblock Pulling back information geometry.
+\newblock In G.~Camps{-}Valls, F.~J.~R. Ruiz, and I.~Valera, editors,
+  \emph{International Conference on Artificial Intelligence and Statistics,
+  {AISTATS} 2022, 28-30 March 2022, Virtual Event}, volume 151 of
+  \emph{Proceedings of Machine Learning Research}, pages 4872--4894. {PMLR},
+  2022.
+\newblock URL \url{https://proceedings.mlr.press/v151/arvanitidis22b.html}.
+
+\bibitem[Bishop and Nasrabadi(2006)]{bishop2006pattern}
+C.~M. Bishop and N.~M. Nasrabadi.
+\newblock \emph{Pattern recognition and machine learning}.
+\newblock Springer, 2006.
+
+\bibitem[Cettolo et~al.(2017)Cettolo, Federico, Bentivogli, Niehues,
+  St{\"u}ker, Sudoh, Yoshino, and Federmann]{cettolo-etal-2017-overview}
+M.~Cettolo, M.~Federico, L.~Bentivogli, J.~Niehues, S.~St{\"u}ker, K.~Sudoh,
+  K.~Yoshino, and C.~Federmann.
+\newblock Overview of the {IWSLT} 2017 evaluation campaign.
+\newblock In S.~Sakti and M.~Utiyama, editors, \emph{Proceedings of the 14th
+  International Conference on Spoken Language Translation}, pages 2--14, Tokyo,
+  Japan, Dec. 14-15 2017. International Workshop on Spoken Language
+  Translation.
+\newblock URL \url{https://aclanthology.org/2017.iwslt-1.1/}.
+
+\bibitem[Clark et~al.(2019)Clark, Khandelwal, Levy, and
+  Manning]{Clark-Berts-Attention-2019}
+K.~Clark, U.~Khandelwal, O.~Levy, and C.~D. Manning.
+\newblock What does {BERT} look at? an analysis of bert's attention.
+\newblock In T.~Linzen, G.~Chrupala, Y.~Belinkov, and D.~Hupkes, editors,
+  \emph{Proceedings of the 2019 {ACL} Workshop BlackboxNLP: Analyzing and
+  Interpreting Neural Networks for NLP, BlackboxNLP@ACL 2019, Florence, Italy,
+  August 1, 2019}, pages 276--286. Association for Computational Linguistics,
+  2019.
+\newblock \doi{10.18653/V1/W19-4828}.
+\newblock URL \url{https://doi.org/10.18653/v1/W19-4828}.
+
+\bibitem[DeYoung et~al.(2020)DeYoung, Jain, Rajani, Lehman, Xiong, Socher, and
+  Wallace]{deyoung-etal-2020-eraser}
+J.~DeYoung, S.~Jain, N.~F. Rajani, E.~Lehman, C.~Xiong, R.~Socher, and B.~C.
+  Wallace.
+\newblock {ERASER}: {A} benchmark to evaluate rationalized {NLP} models.
+\newblock In D.~Jurafsky, J.~Chai, N.~Schluter, and J.~Tetreault, editors,
+  \emph{Proceedings of the 58th Annual Meeting of the Association for
+  Computational Linguistics}, pages 4443--4458, Online, July 2020. Association
+  for Computational Linguistics.
+\newblock \doi{10.18653/v1/2020.acl-main.408}.
+\newblock URL \url{https://aclanthology.org/2020.acl-main.408/}.
+
+\bibitem[Dong et~al.(2024)Dong, Li, Dai, Zheng, Ma, Li, Xia, Xu, Wu, Chang,
+  Sun, Li, and Sui]{dong-etal-2024-survey}
+Q.~Dong, L.~Li, D.~Dai, C.~Zheng, J.~Ma, R.~Li, H.~Xia, J.~Xu, Z.~Wu, B.~Chang,
+  X.~Sun, L.~Li, and Z.~Sui.
+\newblock A survey on in-context learning.
+\newblock In Y.~Al-Onaizan, M.~Bansal, and Y.-N. Chen, editors,
+  \emph{Proceedings of the 2024 Conference on Empirical Methods in Natural
+  Language Processing}, pages 1107--1128, Miami, Florida, USA, Nov. 2024.
+  Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.emnlp-main.64}.
+\newblock URL \url{https://aclanthology.org/2024.emnlp-main.64/}.
+
+\bibitem[Einstein(1905)]{einstein1905molekularkinetischen}
+A.~Einstein.
+\newblock {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme
+  geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten
+  Teilchen}.
+\newblock \emph{Ann. Phys.}, 4, 1905.
+
+\bibitem[Ferrando et~al.(2022)Ferrando, G{\'a}llego, Bujjankura, and
+  Costa-juss{\`a}]{ferrando-etal-2022-towards}
+J.~Ferrando, G.~I. G{\'a}llego, B.~Bujjankura, and M.~R. Costa-juss{\`a}.
+\newblock Towards opening the black box of neural machine translation: Source
+  and target interpretations of the transformer.
+\newblock In \emph{Proceedings of the 2022 Conference on Empirical Methods in
+  Natural Language Processing}, pages 8756--8769. Association for Computational
+  Linguistics, 2022.
+\newblock \doi{10.18653/v1/2022.emnlp-main.599}.
+\newblock URL \url{https://aclanthology.org/2022.emnlp-main.599}.
+
+\bibitem[Fisher(1922)]{fisher1922mathematical}
+R.~A. Fisher.
+\newblock On the mathematical foundations of theoretical statistics.
+\newblock \emph{Philosophical transactions of the Royal Society of London.
+  Series A, containing papers of a mathematical or physical character},
+  222\penalty0 (594-604):\penalty0 309--368, 1922.
+
+\bibitem[Foster and Kokko(2009)]{foster2009evolution}
+K.~R. Foster and H.~Kokko.
+\newblock The evolution of superstitious and superstition-like behaviour.
+\newblock \emph{Proc. R. Soc. B}, 276\penalty0 (1654):\penalty0 31--37, 2009.
+
+\bibitem[Garg et~al.(2023)Garg, Tsipras, Liang, and
+  Valiant]{garg2023transformerslearnincontextcase}
+S.~Garg, D.~Tsipras, P.~Liang, and G.~Valiant.
+\newblock What can transformers learn in-context? a case study of simple
+  function classes, 2023.
+\newblock URL \url{https://arxiv.org/abs/2208.01066}.
+
+\bibitem[Ghandeharioun et~al.(2024)Ghandeharioun, Caciularu, Pearce, Dixon, and
+  Geva]{pmlr-v235-ghandeharioun24a}
+A.~Ghandeharioun, A.~Caciularu, A.~Pearce, L.~Dixon, and M.~Geva.
+\newblock Patchscopes: A unifying framework for inspecting hidden
+  representations of language models.
+\newblock In R.~Salakhutdinov, Z.~Kolter, K.~Heller, A.~Weller, N.~Oliver,
+  J.~Scarlett, and F.~Berkenkamp, editors, \emph{Proceedings of the 41st
+  International Conference on Machine Learning}, volume 235 of
+  \emph{Proceedings of Machine Learning Research}, pages 15466--15490. PMLR,
+  21--27 Jul 2024.
+\newblock URL \url{https://proceedings.mlr.press/v235/ghandeharioun24a.html}.
+
+\bibitem[Grattafiori et~al.(2024)Grattafiori, Dubey, Jauhri, Pandey, Kadian,
+  Al-Dahle, Letman, Mathur, Schelten, Vaughan, et~al.]{llama3-2024}
+A.~Grattafiori, A.~Dubey, A.~Jauhri, A.~Pandey, A.~Kadian, A.~Al-Dahle,
+  A.~Letman, A.~Mathur, A.~Schelten, A.~Vaughan, et~al.
+\newblock {The Llama 3 Herd of Models}.
+\newblock \emph{arXiv preprint arXiv:2407.21783}, 2024.
+
+\bibitem[Gruver et~al.(2023)Gruver, Finzi, Qiu, and
+  Wilson]{gruver2024largelanguagemodelszeroshot}
+N.~Gruver, M.~Finzi, S.~Qiu, and A.~G. Wilson.
+\newblock Large language models are zero-shot time series forecasters.
+\newblock In A.~Oh, T.~Naumann, A.~Globerson, K.~Saenko, M.~Hardt, and
+  S.~Levine, editors, \emph{Advances in Neural Information Processing Systems
+  36: Annual Conference on Neural Information Processing Systems 2023, NeurIPS
+  2023, New Orleans, LA, USA, December 10 - 16, 2023}, 2023.
+\newblock URL
+  \url{http://papers.nips.cc/paper\_files/paper/2023/hash/3eb7ca52e8207697361b2c0fb3926511-Abstract-Conference.html}.
+
+\bibitem[Guo et~al.(2017)Guo, Pleiss, Sun, and Weinberger]{guo2017calibration}
+C.~Guo, G.~Pleiss, Y.~Sun, and K.~Q. Weinberger.
+\newblock On calibration of modern neural networks.
+\newblock In \emph{Proceedings of the 34th International Conference on Machine
+  Learning}, volume~70 of \emph{Proceedings of Machine Learning Research},
+  pages 1321--1330. PMLR, 2017.
+\newblock URL \url{https://proceedings.mlr.press/v70/guo17a.html}.
+
+\bibitem[Guo et~al.(2024)Guo, Guo, Su, Yang, Zhu, Li, Qiu, and
+  Liu]{guo2024biaslargelanguagemodels}
+Y.~Guo, M.~Guo, J.~Su, Z.~Yang, M.~Zhu, H.~Li, M.~Qiu, and S.~S. Liu.
+\newblock Bias in large language models: Origin, evaluation, and mitigation,
+  2024.
+\newblock URL \url{https://arxiv.org/abs/2411.10915}.
+
+\bibitem[Heimersheim and
+  Nanda(2024)]{heimersheim2024useinterpretactivationpatching}
+S.~Heimersheim and N.~Nanda.
+\newblock How to use and interpret activation patching, 2024.
+\newblock URL \url{https://arxiv.org/abs/2404.15255}.
+
+\bibitem[Huang and Chang(2023)]{huang-chang-2023-towards}
+J.~Huang and K.~C.-C. Chang.
+\newblock Towards reasoning in large language models: A survey.
+\newblock In A.~Rogers, J.~Boyd-Graber, and N.~Okazaki, editors, \emph{Findings
+  of the Association for Computational Linguistics: ACL 2023}, pages
+  1049--1065, Toronto, Canada, July 2023. Association for Computational
+  Linguistics.
+\newblock \doi{10.18653/v1/2023.findings-acl.67}.
+\newblock URL \url{https://aclanthology.org/2023.findings-acl.67/}.
+
+\bibitem[Lieberum et~al.(2024)Lieberum, Rajamanoharan, Conmy, Smith, Sonnerat,
+  Varma, Kramár, Dragan, Shah, and Nanda]{lieberum2024gemmascopeopensparse}
+T.~Lieberum, S.~Rajamanoharan, A.~Conmy, L.~Smith, N.~Sonnerat, V.~Varma,
+  J.~Kramár, A.~Dragan, R.~Shah, and N.~Nanda.
+\newblock Gemma scope: Open sparse autoencoders everywhere all at once on gemma
+  2, 2024.
+\newblock URL \url{https://arxiv.org/abs/2408.05147}.
+
+\bibitem[Liu et~al.(2024)Liu, Boulle, Sarfati, and
+  Earls]{liu-etal-2024-llms-learn}
+T.~J. Liu, N.~Boulle, R.~Sarfati, and C.~Earls.
+\newblock {LLM}s learn governing principles of dynamical systems, revealing an
+  in-context neural scaling law.
+\newblock In Y.~Al-Onaizan, M.~Bansal, and Y.-N. Chen, editors,
+  \emph{Proceedings of the 2024 Conference on Empirical Methods in Natural
+  Language Processing}, pages 15097--15117, Miami, Florida, USA, Nov. 2024.
+  Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.emnlp-main.842}.
+\newblock URL \url{https://aclanthology.org/2024.emnlp-main.842/}.
+
+\bibitem[Liu et~al.(2025)Liu, Boulle, Sarfati, and Earls]{liu2025density}
+T.~J. Liu, N.~Boulle, R.~Sarfati, and C.~Earls.
+\newblock Density estimation with {LLM}s: a geometric investigation of
+  in-context learning trajectories.
+\newblock In \emph{The Thirteenth International Conference on Learning
+  Representations}, 2025.
+\newblock URL \url{https://openreview.net/forum?id=semTHoVGsJ}.
+
+\bibitem[Lorenz(1963)]{lorenz1963deterministic}
+E.~N. Lorenz.
+\newblock Deterministic nonperiodic flow.
+\newblock \emph{J. Atmos. Sci.}, 20\penalty0 (2):\penalty0 130--141, 1963.
+
+\bibitem[Lundberg and Lee(2017)]{lundberg2017unified}
+S.~M. Lundberg and S.-I. Lee.
+\newblock A unified approach to interpreting model predictions.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~30, 2017.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html}.
+
+\bibitem[Meng et~al.(2022)Meng, Bau, Andonian, and Belinkov]{meng2022locating}
+K.~Meng, D.~Bau, A.~Andonian, and Y.~Belinkov.
+\newblock Locating and editing factual associations in {GPT}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~35, pages 17359--17372, 2022.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2022/hash/6f1d43d5a82a37e89b0665b33bf3a182-Abstract-Conference.html}.
+
+\bibitem[Mirchandani et~al.(2023)Mirchandani, Xia, Florence, Ichter, Driess,
+  Arenas, Rao, Sadigh, and Zeng]{mirchandani2023largelanguagemodelsgeneral}
+S.~Mirchandani, F.~Xia, P.~Florence, B.~Ichter, D.~Driess, M.~G. Arenas,
+  K.~Rao, D.~Sadigh, and A.~Zeng.
+\newblock Large language models as general pattern machines.
+\newblock In J.~Tan, M.~Toussaint, and K.~Darvish, editors, \emph{Conference on
+  Robot Learning, CoRL 2023, 6-9 November 2023, Atlanta, GA, {USA}}, volume 229
+  of \emph{Proceedings of Machine Learning Research}, pages 2498--2518. {PMLR},
+  2023.
+\newblock URL \url{https://proceedings.mlr.press/v229/mirchandani23a.html}.
+
+\bibitem[Olsson et~al.(2022)Olsson, Elhage, Nanda, Joseph, DasSarma, Henighan,
+  Mann, Askell, Bai, Chen, et~al.]{olsson2022context}
+C.~Olsson, N.~Elhage, N.~Nanda, N.~Joseph, N.~DasSarma, T.~Henighan, B.~Mann,
+  A.~Askell, Y.~Bai, A.~Chen, et~al.
+\newblock In-context learning and induction heads.
+\newblock \emph{arXiv preprint arXiv:2209.11895}, 2022.
+
+\bibitem[Paperno et~al.(2016)Paperno, Kruszewski, Lazaridou, Pham, Bernardi,
+  Pezzelle, Baroni, Boleda, and Fern{\'a}ndez]{paperno-etal-2016-lambada}
+D.~Paperno, G.~Kruszewski, A.~Lazaridou, N.~Q. Pham, R.~Bernardi, S.~Pezzelle,
+  M.~Baroni, G.~Boleda, and R.~Fern{\'a}ndez.
+\newblock The {LAMBADA} dataset: Word prediction requiring a broad discourse
+  context.
+\newblock In K.~Erk and N.~A. Smith, editors, \emph{Proceedings of the 54th
+  Annual Meeting of the Association for Computational Linguistics (Volume 1:
+  Long Papers)}, pages 1525--1534, Berlin, Germany, Aug. 2016. Association for
+  Computational Linguistics.
+\newblock \doi{10.18653/v1/P16-1144}.
+\newblock URL \url{https://aclanthology.org/P16-1144/}.
+
+\bibitem[{Qwen Team}(2025)]{qwen2025qwen25}
+{Qwen Team}.
+\newblock Qwen2.5 technical report, 2025.
+\newblock URL \url{https://arxiv.org/abs/2412.15115}.
+
+\bibitem[Reddy(2024)]{reddy2023mechanisticbasisdatadependence}
+G.~Reddy.
+\newblock The mechanistic basis of data dependence and abrupt learning in an
+  in-context classification task.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations, {ICLR} 2024, Vienna, Austria, May 7-11, 2024}.
+  OpenReview.net, 2024.
+\newblock URL \url{https://openreview.net/forum?id=aN4Jf6Cx69}.
+
+\bibitem[Samek et~al.(2016)Samek, Binder, Montavon, Lapuschkin, and
+  M{\"u}ller]{samek2016evaluating}
+W.~Samek, A.~Binder, G.~Montavon, S.~Lapuschkin, and K.-R. M{\"u}ller.
+\newblock Evaluating the visualization of what a deep neural network has
+  learned.
+\newblock \emph{IEEE transactions on neural networks and learning systems},
+  28\penalty0 (11):\penalty0 2660--2673, 2016.
+
+\bibitem[Sanyal and
+  Ren(2021)]{sanyal2021discretizedintegratedgradientsexplaining}
+S.~Sanyal and X.~Ren.
+\newblock Discretized integrated gradients for explaining language models.
+\newblock In M.~Moens, X.~Huang, L.~Specia, and S.~W. Yih, editors,
+  \emph{Proceedings of the 2021 Conference on Empirical Methods in Natural
+  Language Processing, {EMNLP} 2021, Virtual Event / Punta Cana, Dominican
+  Republic, 7-11 November, 2021}, pages 10285--10299. Association for
+  Computational Linguistics, 2021.
+\newblock \doi{10.18653/V1/2021.EMNLP-MAIN.805}.
+\newblock URL \url{https://doi.org/10.18653/v1/2021.emnlp-main.805}.
+
+\bibitem[Selvaraju et~al.(2017)Selvaraju, Cogswell, Das, Vedantam, Parikh, and
+  Batra]{Ramprasaath-Grad-Cam-2017}
+R.~R. Selvaraju, M.~Cogswell, A.~Das, R.~Vedantam, D.~Parikh, and D.~Batra.
+\newblock Grad-cam: Visual explanations from deep networks via gradient-based
+  localization.
+\newblock In \emph{{IEEE} International Conference on Computer Vision, {ICCV}
+  2017, Venice, Italy, October 22-29, 2017}, pages 618--626. {IEEE} Computer
+  Society, 2017.
+\newblock \doi{10.1109/ICCV.2017.74}.
+\newblock URL \url{https://doi.org/10.1109/ICCV.2017.74}.
+
+\bibitem[Shrikumar et~al.(2017)Shrikumar, Greenside, and
+  Kundaje]{shrikumar2017learning}
+A.~Shrikumar, P.~Greenside, and A.~Kundaje.
+\newblock Learning important features through propagating activation
+  differences.
+\newblock In \emph{International conference on machine learning}, pages
+  3145--3153. PMlR, 2017.
+
+\bibitem[Simonyan et~al.(2013)Simonyan, Vedaldi, and
+  Zisserman]{simonyan2013deep}
+K.~Simonyan, A.~Vedaldi, and A.~Zisserman.
+\newblock Deep inside convolutional networks: Visualising image classification
+  models and saliency maps.
+\newblock \emph{arXiv preprint arXiv:1312.6034}, 2013.
+
+\bibitem[Smilkov et~al.(2017)Smilkov, Thorat, Kim, Viégas, and
+  Wattenberg]{smilkov2017smoothgradremovingnoiseadding}
+D.~Smilkov, N.~Thorat, B.~Kim, F.~Viégas, and M.~Wattenberg.
+\newblock Smoothgrad: removing noise by adding noise, 2017.
+\newblock URL \url{https://arxiv.org/abs/1706.03825}.
+
+\bibitem[Strogatz(2015)]{strogatz2018nonlinear}
+S.~H. Strogatz.
+\newblock \emph{{Nonlinear dynamics and chaos: With applications to physics,
+  biology, chemistry, and engineering}}.
+\newblock CRC Press, 2nd edition, 2015.
+
+\bibitem[Sundararajan et~al.(2017)Sundararajan, Taly, and
+  Yan]{Sundararajan-Axiomatic-Attribution-DNN-2017}
+M.~Sundararajan, A.~Taly, and Q.~Yan.
+\newblock Axiomatic attribution for deep networks.
+\newblock In D.~Precup and Y.~W. Teh, editors, \emph{Proceedings of the 34th
+  International Conference on Machine Learning, {ICML} 2017, Sydney, NSW,
+  Australia, 6-11 August 2017}, volume~70 of \emph{Proceedings of Machine
+  Learning Research}, pages 3319--3328. {PMLR}, 2017.
+\newblock URL \url{http://proceedings.mlr.press/v70/sundararajan17a.html}.
+
+\bibitem[Team et~al.(2025)Team, Kamath, Ferret, Pathak, Vieillard, Merhej,
+  Perrin, Matejovicova, Ramé, Rivière, Rouillard, Mesnard, Cideron, bastien
+  Grill, Ramos, Yvinec, Casbon, Pot, Penchev, Liu, Visin, Kenealy, Beyer, Zhai,
+  Tsitsulin, Busa-Fekete, Feng, Sachdeva, Coleman, Gao, Mustafa, Barr,
+  Parisotto, Tian, Eyal, Cherry, Peter, Sinopalnikov, Bhupatiraju, Agarwal,
+  Kazemi, Malkin, Kumar, Vilar, Brusilovsky, Luo, Steiner, Friesen, Sharma,
+  Sharma, Gilady, Goedeckemeyer, Saade, Feng, Kolesnikov, Bendebury, Abdagic,
+  Vadi, György, Pinto, Das, Bapna, Miech, Yang, Paterson, Shenoy, Chakrabarti,
+  Piot, Wu, Shahriari, Petrini, Chen, Lan, Choquette-Choo, Carey, Brick,
+  Deutsch, Eisenbud, Cattle, Cheng, Paparas, Sreepathihalli, Reid, Tran, Zelle,
+  Noland, Huizenga, Kharitonov, Liu, Amirkhanyan, Cameron, Hashemi,
+  Klimczak-Plucińska, Singh, Mehta, Lehri, Hazimeh, Ballantyne, Szpektor,
+  Nardini, Pouget-Abadie, Chan, Stanton, Wieting, Lai, Orbay, Fernandez,
+  Newlan, yeong Ji, Singh, Black, Yu, Hui, Vodrahalli, Greff, Qiu, Valentine,
+  Coelho, Ritter, Hoffman, Watson, Chaturvedi, Moynihan, Ma, Babar, Noy, Byrd,
+  Roy, Momchev, Chauhan, Sachdeva, Bunyan, Botarda, Caron, Rubenstein,
+  Culliton, Schmid, Sessa, Xu, Stanczyk, Tafti, Shivanna, Wu, Pan, Rokni,
+  Willoughby, Vallu, Mullins, Jerome, Smoot, Girgin, Iqbal, Reddy, Sheth,
+  Põder, Bhatnagar, Panyam, Eiger, Zhang, Liu, Yacovone, Liechty, Kalra, Evci,
+  Misra, Roseberry, Feinberg, Kolesnikov, Han, Kwon, Chen, Chow, Zhu, Wei,
+  Egyed, Cotruta, Giang, Kirk, Rao, Black, Babar, Lo, Moreira, Martins,
+  Sanseviero, Gonzalez, Gleicher, Warkentin, Mirrokni, Senter, Collins, Barral,
+  Ghahramani, Hadsell, Matias, Sculley, Petrov, Fiedel, Shazeer, Vinyals, Dean,
+  Hassabis, Kavukcuoglu, Farabet, Buchatskaya, Alayrac, Anil, Dmitry, Lepikhin,
+  Borgeaud, Bachem, Joulin, Andreev, Hardin, Dadashi, and
+  Hussenot]{gemmateam2025gemma3technicalreport}
+G.~Team, A.~Kamath, J.~Ferret, S.~Pathak, N.~Vieillard, R.~Merhej, S.~Perrin,
+  T.~Matejovicova, A.~Ramé, M.~Rivière, L.~Rouillard, T.~Mesnard, G.~Cideron,
+  J.~bastien Grill, S.~Ramos, E.~Yvinec, M.~Casbon, E.~Pot, I.~Penchev, G.~Liu,
+  F.~Visin, K.~Kenealy, L.~Beyer, X.~Zhai, A.~Tsitsulin, R.~Busa-Fekete,
+  A.~Feng, N.~Sachdeva, B.~Coleman, Y.~Gao, B.~Mustafa, I.~Barr, E.~Parisotto,
+  D.~Tian, M.~Eyal, C.~Cherry, J.-T. Peter, D.~Sinopalnikov, S.~Bhupatiraju,
+  R.~Agarwal, M.~Kazemi, D.~Malkin, R.~Kumar, D.~Vilar, I.~Brusilovsky, J.~Luo,
+  A.~Steiner, A.~Friesen, A.~Sharma, A.~Sharma, A.~M. Gilady, A.~Goedeckemeyer,
+  A.~Saade, A.~Feng, A.~Kolesnikov, A.~Bendebury, A.~Abdagic, A.~Vadi,
+  A.~György, A.~S. Pinto, A.~Das, A.~Bapna, A.~Miech, A.~Yang, A.~Paterson,
+  A.~Shenoy, A.~Chakrabarti, B.~Piot, B.~Wu, B.~Shahriari, B.~Petrini, C.~Chen,
+  C.~L. Lan, C.~A. Choquette-Choo, C.~Carey, C.~Brick, D.~Deutsch, D.~Eisenbud,
+  D.~Cattle, D.~Cheng, D.~Paparas, D.~S. Sreepathihalli, D.~Reid, D.~Tran,
+  D.~Zelle, E.~Noland, E.~Huizenga, E.~Kharitonov, F.~Liu, G.~Amirkhanyan,
+  G.~Cameron, H.~Hashemi, H.~Klimczak-Plucińska, H.~Singh, H.~Mehta, H.~T.
+  Lehri, H.~Hazimeh, I.~Ballantyne, I.~Szpektor, I.~Nardini, J.~Pouget-Abadie,
+  J.~Chan, J.~Stanton, J.~Wieting, J.~Lai, J.~Orbay, J.~Fernandez, J.~Newlan,
+  J.~yeong Ji, J.~Singh, K.~Black, K.~Yu, K.~Hui, K.~Vodrahalli, K.~Greff,
+  L.~Qiu, M.~Valentine, M.~Coelho, M.~Ritter, M.~Hoffman, M.~Watson,
+  M.~Chaturvedi, M.~Moynihan, M.~Ma, N.~Babar, N.~Noy, N.~Byrd, N.~Roy,
+  N.~Momchev, N.~Chauhan, N.~Sachdeva, O.~Bunyan, P.~Botarda, P.~Caron, P.~K.
+  Rubenstein, P.~Culliton, P.~Schmid, P.~G. Sessa, P.~Xu, P.~Stanczyk,
+  P.~Tafti, R.~Shivanna, R.~Wu, R.~Pan, R.~Rokni, R.~Willoughby, R.~Vallu,
+  R.~Mullins, S.~Jerome, S.~Smoot, S.~Girgin, S.~Iqbal, S.~Reddy, S.~Sheth,
+  S.~Põder, S.~Bhatnagar, S.~R. Panyam, S.~Eiger, S.~Zhang, T.~Liu,
+  T.~Yacovone, T.~Liechty, U.~Kalra, U.~Evci, V.~Misra, V.~Roseberry,
+  V.~Feinberg, V.~Kolesnikov, W.~Han, W.~Kwon, X.~Chen, Y.~Chow, Y.~Zhu,
+  Z.~Wei, Z.~Egyed, V.~Cotruta, M.~Giang, P.~Kirk, A.~Rao, K.~Black, N.~Babar,
+  J.~Lo, E.~Moreira, L.~G. Martins, O.~Sanseviero, L.~Gonzalez, Z.~Gleicher,
+  T.~Warkentin, V.~Mirrokni, E.~Senter, E.~Collins, J.~Barral, Z.~Ghahramani,
+  R.~Hadsell, Y.~Matias, D.~Sculley, S.~Petrov, N.~Fiedel, N.~Shazeer,
+  O.~Vinyals, J.~Dean, D.~Hassabis, K.~Kavukcuoglu, C.~Farabet, E.~Buchatskaya,
+  J.-B. Alayrac, R.~Anil, Dmitry, Lepikhin, S.~Borgeaud, O.~Bachem, A.~Joulin,
+  A.~Andreev, C.~Hardin, R.~Dadashi, and L.~Hussenot.
+\newblock Gemma 3 technical report, 2025.
+\newblock URL \url{https://arxiv.org/abs/2503.19786}.
+
+\bibitem[Varshney et~al.(2023)Varshney, Yao, Zhang, Chen, and
+  Yu]{varshney2023stitch}
+N.~Varshney, W.~Yao, H.~Zhang, J.~Chen, and D.~Yu.
+\newblock A stitch in time saves nine: Detecting and mitigating hallucinations
+  of {LLM}s by validating low-confidence generation.
+\newblock \emph{arXiv preprint arXiv:2307.03987}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2307.03987}.
+
+\bibitem[Von~Oswald et~al.(2023)Von~Oswald, Niklasson, Randazzo, Sacramento,
+  Mordvintsev, Zhmoginov, and Vladymyrov]{von2023transformers}
+J.~Von~Oswald, E.~Niklasson, E.~Randazzo, J.~Sacramento, A.~Mordvintsev,
+  A.~Zhmoginov, and M.~Vladymyrov.
+\newblock Transformers learn in-context by gradient descent.
+\newblock In \emph{International Conference on Machine Learning}, pages
+  35151--35174. PMLR, 2023.
+
+\bibitem[Wan et~al.(2023)Wan, Pu, Sun, Garimella, Chang, and
+  Peng]{wan2023kellywarmpersonjoseph}
+Y.~Wan, G.~Pu, J.~Sun, A.~Garimella, K.~Chang, and N.~Peng.
+\newblock "kelly is a warm person, joseph is a role model": Gender biases in
+  llm-generated reference letters.
+\newblock In H.~Bouamor, J.~Pino, and K.~Bali, editors, \emph{Findings of the
+  Association for Computational Linguistics: {EMNLP} 2023, Singapore, December
+  6-10, 2023}, pages 3730--3748. Association for Computational Linguistics,
+  2023.
+\newblock \doi{10.18653/V1/2023.FINDINGS-EMNLP.243}.
+\newblock URL \url{https://doi.org/10.18653/v1/2023.findings-emnlp.243}.
+
+\bibitem[Wang et~al.(2023)Wang, Min, Deng, Shen, Wu, Zettlemoyer, and
+  Sun]{wang2023understandingchainofthoughtpromptingempirical}
+B.~Wang, S.~Min, X.~Deng, J.~Shen, Y.~Wu, L.~Zettlemoyer, and H.~Sun.
+\newblock Towards understanding chain-of-thought prompting: An empirical study
+  of what matters.
+\newblock In A.~Rogers, J.~L. Boyd{-}Graber, and N.~Okazaki, editors,
+  \emph{Proceedings of the 61st Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers), {ACL} 2023, Toronto,
+  Canada, July 9-14, 2023}, pages 2717--2739. Association for Computational
+  Linguistics, 2023.
+\newblock \doi{10.18653/V1/2023.ACL-LONG.153}.
+\newblock URL \url{https://doi.org/10.18653/v1/2023.acl-long.153}.
+
+\bibitem[Wei et~al.(2022)Wei, Wang, Schuurmans, Bosma, Xia, Chi, Le, Zhou,
+  et~al.]{wei2022chain}
+J.~Wei, X.~Wang, D.~Schuurmans, M.~Bosma, F.~Xia, E.~Chi, Q.~V. Le, D.~Zhou,
+  et~al.
+\newblock Chain-of-thought prompting elicits reasoning in large language
+  models.
+\newblock \emph{Advances in neural information processing systems},
+  35:\penalty0 24824--24837, 2022.
+
+\bibitem[Xiao et~al.(2024)Xiao, Tian, Chen, Han, and
+  Lewis]{Xiao-attention-sink-2024}
+G.~Xiao, Y.~Tian, B.~Chen, S.~Han, and M.~Lewis.
+\newblock Efficient streaming language models with attention sinks.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations, {ICLR} 2024, Vienna, Austria, May 7-11, 2024}.
+  OpenReview.net, 2024.
+\newblock URL \url{https://openreview.net/forum?id=NG7sS51zVF}.
+
+\bibitem[Zhang and Gilpin(2025)]{zhang2025contextparrotingsimpletoughtobeat}
+Y.~Zhang and W.~Gilpin.
+\newblock Context parroting: A simple but tough-to-beat baseline for foundation
+  models in scientific machine learning, 2025.
+\newblock URL \url{https://arxiv.org/abs/2505.11349}.
+
+\end{thebibliography}

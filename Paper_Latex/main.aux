@@ -1,0 +1,210 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{huang-chang-2023-towards}
+\citation{dong-etal-2024-survey,garg2023transformerslearnincontextcase}
+\citation{olsson2022context,reddy2023mechanisticbasisdatadependence,von2023transformers}
+\citation{wan2023kellywarmpersonjoseph,guo2024biaslargelanguagemodels}
+\citation{wei2022chain,wang2023understandingchainofthoughtpromptingempirical}
+\citation{gruver2024largelanguagemodelszeroshot,mirchandani2023largelanguagemodelsgeneral}
+\citation{paperno-etal-2016-lambada}
+\citation{cettolo-etal-2017-overview}
+\citation{llama3-2024}
+\citation{qwen2025qwen25}
+\citation{gemmateam2025gemma3technicalreport}
+\citation{simonyan2013deep}
+\citation{shrikumar2017learning}
+\citation{Ramprasaath-Grad-Cam-2017}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{smilkov2017smoothgradremovingnoiseadding}
+\citation{Sundararajan-Axiomatic-Attribution-DNN-2017}
+\citation{sanyal2021discretizedintegratedgradientsexplaining}
+\citation{lundberg2017unified}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textbf  {Overview of Jacobian Scopes.} \textbf  {(a)} An autoregressive LLM maps an input token sequence to a hidden state $\bm  {y}$, which is decoded into a predictive distribution over the vocabulary. \textbf  {(b)} A small perturbation to any input token is propagated to the output via the Jacobian $\bm  {J}_t$, then projected onto a direction $\bm  {v}$ in output space; the magnitude of this projection defines the token's influence score, computable in a single backward pass. The three Scopes correspond to $\bm  {v} = \bm  {w}_\mathrm  {target}$ (target unembedding row), $\bm  {v} = \bm  {u}_1$ (principal Fisher direction), and $\bm  {v} = \hat  {\bm  {y}}$ (normalized hidden state). \textbf  {(c)} The three Jacobian Scope variants each target a different feature of the model's output: \textbf  {Semantic Scope} asks which input tokens drive the predicted probability of a specific target word; \textbf  {Fisher Scope} asks which tokens most change the overall shape of the predicted distribution; and \textbf  {Temperature Scope} asks which tokens control the model's confidence, i.e., how sharply peaked the distribution is.}}{2}{figure.1}\protected@file@percent }
+\newlabel{fig:schematic}{{1}{2}{\textbf {Overview of Jacobian Scopes.} \textbf {(a)} An autoregressive LLM maps an input token sequence to a hidden state $\bm {y}$, which is decoded into a predictive distribution over the vocabulary. \textbf {(b)} A small perturbation to any input token is propagated to the output via the Jacobian $\bm {J}_t$, then projected onto a direction $\bm {v}$ in output space; the magnitude of this projection defines the token's influence score, computable in a single backward pass. The three Scopes correspond to $\bm {v} = \bm {w}_\mathrm {target}$ (target unembedding row), $\bm {v} = \bm {u}_1$ (principal Fisher direction), and $\bm {v} = \hat {\bm {y}}$ (normalized hidden state). \textbf {(c)} The three Jacobian Scope variants each target a different feature of the model's output: \textbf {Semantic Scope} asks which input tokens drive the predicted probability of a specific target word; \textbf {Fisher Scope} asks which tokens most change the overall shape of the predicted distribution; and \textbf {Temperature Scope} asks which tokens control the model's confidence, i.e., how sharply peaked the distribution is}{figure.1}{}}
+\newlabel{fig:schematic@cref}{{[figure][1][]1}{[1][1][]2}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related work}{2}{section.2}\protected@file@percent }
+\newlabel{sec:related_work}{{2}{2}{Related work}{section.2}{}}
+\newlabel{sec:related_work@cref}{{[section][2][]2}{[1][1][]2}}
+\citation{Clark-Berts-Attention-2019}
+\citation{abnar-zuidema-2020-quantifying}
+\citation{heimersheim2024useinterpretactivationpatching}
+\citation{ferrando-etal-2022-towards}
+\citation{heimersheim2024useinterpretactivationpatching,pmlr-v235-ghandeharioun24a}
+\citation{ameisen2025circuit}
+\citation{lieberum2024gemmascopeopensparse}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methodology}{3}{section.3}\protected@file@percent }
+\newlabel{sec:methodology}{{3}{3}{Methodology}{section.3}{}}
+\newlabel{sec:methodology@cref}{{[section][3][]3}{[1][3][]3}}
+\newlabel{def:influence}{{1}{3}{Methodology}{equation.3.1}{}}
+\newlabel{def:influence@cref}{{[equation][1][]1}{[1][3][]3}}
+\newlabel{influence via auto-diff}{{2}{3}{Methodology}{equation.3.2}{}}
+\newlabel{influence via auto-diff@cref}{{[equation][2][]2}{[1][3][]3}}
+\citation{fisher1922mathematical}
+\citation{bishop2006pattern}
+\citation{amari2000methods}
+\citation{hollander2002inferno}
+\citation{hollander2002inferno}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Example applications}{4}{section.4}\protected@file@percent }
+\newlabel{sec:applications}{{4}{4}{Example applications}{section.4}{}}
+\newlabel{sec:applications@cref}{{[section][4][]4}{[1][4][]4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Semantic Scope}{4}{subsection.4.1}\protected@file@percent }
+\newlabel{sec:Semantic Scope}{{4.1}{4}{Semantic Scope}{subsection.4.1}{}}
+\newlabel{sec:Semantic Scope@cref}{{[subsection][1][4]4.1}{[1][4][]4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Semantic Scope reveals the potential for political bias that may be present in models such as LLaMA-3.2. The prediction for the subject being a ``liberal'' is attributed to the input token ``Columbia'', while ``conservative'' to the token pairs for ``the South''. }}{4}{figure.2}\protected@file@percent }
+\newlabel{fig:causal attribution 2}{{2}{4}{Semantic Scope reveals the potential for political bias that may be present in models such as LLaMA-3.2. The prediction for the subject being a ``liberal'' is attributed to the input token ``Columbia'', while ``conservative'' to the token pairs for ``the South''}{figure.2}{}}
+\newlabel{fig:causal attribution 2@cref}{{[figure][2][]2}{[1][4][]4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Fisher Scope}{4}{subsection.4.2}\protected@file@percent }
+\newlabel{sec:fisher_scope}{{4.2}{4}{Fisher Scope}{subsection.4.2}{}}
+\newlabel{sec:fisher_scope@cref}{{[subsection][2][4]4.2}{[1][4][]4}}
+\newlabel{eq:fisher_metric}{{5}{4}{Fisher Scope}{equation.4.5}{}}
+\newlabel{eq:fisher_metric@cref}{{[equation][5][]5}{[1][4][]4}}
+\newlabel{eq: fisher influence}{{6}{4}{Fisher Scope}{equation.4.6}{}}
+\newlabel{eq: fisher influence@cref}{{[equation][6][]6}{[1][4][]4}}
+\citation{gruver2024largelanguagemodelszeroshot}
+\citation{liu2025density}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Fisher Scope visualizes LLaMA-3.2 3B's strategy for translating Dante's Inferno \cite  {hollander2002inferno}. Left: Magnitude of influence from each source word (blue) on the predicted distribution at each target position (red). Right: Probability distribution of top 7 words predicted at each target position. (a) LLaMA assigns high probability to ``world'', the unambiguous literal translation of ``mondo''. (b) When translating the phrase ``priegoti ch'a la mente altrui mi rechi'' (literally: ``I pray thee to bring me to another's mind''), LLaMA's predicted distribution is highly uncertain, with each top token hinting at a different phrasing strategy.}}{5}{figure.3}\protected@file@percent }
+\newlabel{fig:translating Dante}{{3}{5}{Fisher Scope visualizes LLaMA-3.2 3B's strategy for translating Dante's Inferno \cite {hollander2002inferno}. Left: Magnitude of influence from each source word (blue) on the predicted distribution at each target position (red). Right: Probability distribution of top 7 words predicted at each target position. (a) LLaMA assigns high probability to ``world'', the unambiguous literal translation of ``mondo''. (b) When translating the phrase ``priegoti ch'a la mente altrui mi rechi'' (literally: ``I pray thee to bring me to another's mind''), LLaMA's predicted distribution is highly uncertain, with each top token hinting at a different phrasing strategy}{figure.3}{}}
+\newlabel{fig:translating Dante@cref}{{[figure][3][]3}{[1][4][]5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Temperature Scope}{5}{subsection.4.3}\protected@file@percent }
+\newlabel{sec:Temperature Scope}{{4.3}{5}{Temperature Scope}{subsection.4.3}{}}
+\newlabel{sec:Temperature Scope@cref}{{[subsection][3][4]4.3}{[1][5][]5}}
+\citation{gruver2024largelanguagemodelszeroshot}
+\citation{zhang2025contextparrotingsimpletoughtobeat}
+\citation{liu-etal-2024-llms-learn}
+\newlabel{prop:beta_variance}{{1}{6}{Effective temperature as inverse variance}{proposition.1}{}}
+\newlabel{prop:beta_variance@cref}{{[proposition][1][]1}{[1][5][]6}}
+\newlabel{eq:beta_variance}{{7}{6}{Effective temperature as inverse variance}{equation.4.7}{}}
+\newlabel{eq:beta_variance@cref}{{[equation][7][]7}{[1][6][]6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Left: Temperature Scope reveals different strategies employed by LLaMA-3.2 during time-series forecasting: (a) when continuing the dynamics of a partially observed Lorenz system, LLaMA attends to regions in the input history that exhibit patterns similar to those near the cutoff. (b) When extrapolating unstructured Brownian motion, LLaMA shows diminished influence of early context. Right: Predicted probability distribution over the top 30 most probable tokens.}}{6}{figure.4}\protected@file@percent }
+\newlabel{fig:lorenz brownian}{{4}{6}{Left: Temperature Scope reveals different strategies employed by LLaMA-3.2 during time-series forecasting: (a) when continuing the dynamics of a partially observed Lorenz system, LLaMA attends to regions in the input history that exhibit patterns similar to those near the cutoff. (b) When extrapolating unstructured Brownian motion, LLaMA shows diminished influence of early context. Right: Predicted probability distribution over the top 30 most probable tokens}{figure.4}{}}
+\newlabel{fig:lorenz brownian@cref}{{[figure][4][]4}{[1][6][]6}}
+\citation{paperno-etal-2016-lambada}
+\citation{cettolo-etal-2017-overview}
+\citation{Sundararajan-Axiomatic-Attribution-DNN-2017}
+\citation{shrikumar2017learning,simonyan2013deep}
+\citation{samek2016evaluating}
+\citation{samek2016evaluating,deyoung-etal-2020-eraser}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Quantitative Evaluations}{7}{section.5}\protected@file@percent }
+\newlabel{sec:evaluation}{{5}{7}{Quantitative Evaluations}{section.5}{}}
+\newlabel{sec:evaluation@cref}{{[section][5][]5}{[1][6][]7}}
+\citation{gemmateam2025gemma3technicalreport}
+\citation{guo2017calibration}
+\citation{varshney2023stitch}
+\citation{meng2022locating}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces AOPC (higher magnitude is better) on LAMBADA (LMB) and IWSLT2017 DE$\to $EN (IWS) for all six models, averaged over ablation fractions $k \in \{5\%, 10\%, 20\%\}$ via the trapezoidal rule over 1000 test passages.}}{8}{table.1}\protected@file@percent }
+\newlabel{tab:aupc}{{1}{8}{AOPC (higher magnitude is better) on LAMBADA (LMB) and IWSLT2017 DE$\to $EN (IWS) for all six models, averaged over ablation fractions $k \in \{5\%, 10\%, 20\%\}$ via the trapezoidal rule over 1000 test passages}{table.1}{}}
+\newlabel{tab:aupc@cref}{{[table][1][]1}{[1][7][]8}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion and conclusion}{8}{section.6}\protected@file@percent }
+\newlabel{sec:discussion}{{6}{8}{Discussion and conclusion}{section.6}{}}
+\newlabel{sec:discussion@cref}{{[section][6][]6}{[1][8][]8}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces  Comparison of the Jacobian Scopes methods introduced. $\bm  {w}_{\mathrm  {target}}$ denotes the target vocab embedding, $\bm  {u}_1$ the principal Fisher direction, and $\hat  {\bm  {y}}$ the normalized hidden direction. }}{8}{table.2}\protected@file@percent }
+\newlabel{tab:jacobian_scopes_summary}{{2}{8}{Comparison of the Jacobian Scopes methods introduced. $\bm {w}_{\mathrm {target}}$ denotes the target vocab embedding, $\bm {u}_1$ the principal Fisher direction, and $\hat {\bm {y}}$ the normalized hidden direction}{table.2}{}}
+\newlabel{tab:jacobian_scopes_summary@cref}{{[table][2][]2}{[1][8][]8}}
+\citation{smilkov2017smoothgradremovingnoiseadding}
+\citation{Sundararajan-Axiomatic-Attribution-DNN-2017,sanyal2021discretizedintegratedgradientsexplaining}
+\citation{heimersheim2024useinterpretactivationpatching,pmlr-v235-ghandeharioun24a}
+\citation{ameisen2025circuit}
+\citation{Clark-Berts-Attention-2019}
+\citation{ameisen2025circuit,lieberum2024gemmascopeopensparse}
+\citation{Xiao-attention-sink-2024}
+\citation{lieberum2024gemmascopeopensparse}
+\citation{Clark-Berts-Attention-2019}
+\bibstyle{abbrvnat}
+\bibdata{custom}
+\citation{paperno-etal-2016-lambada}
+\citation{cettolo-etal-2017-overview}
+\citation{samek2016evaluating}
+\citation{shrikumar2017learning}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Appendix}{9}{appendix.A}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}Additional information on Benchmarks}{9}{subsection.A.1}\protected@file@percent }
+\newlabel{sec:benchmark_details}{{A.1}{9}{Additional information on Benchmarks}{subsection.A.1}{}}
+\newlabel{sec:benchmark_details@cref}{{[subappendix][1][2147483647,1]A.1}{[1][9][]9}}
+\citation{Sundararajan-Axiomatic-Attribution-DNN-2017}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Fisher Scope attribution examples on (a) LAMBADA and (b) IWSLT2017 DE$\to $EN, using LLaMA-3.2 3B. Darker blue indicates higher influence; the target token is highlighted in red. Right: Probability distribution of top 7 words predicted at target position.}}{10}{figure.5}\protected@file@percent }
+\newlabel{fig:lambada_iwslt_examples}{{5}{10}{Fisher Scope attribution examples on (a) LAMBADA and (b) IWSLT2017 DE$\to $EN, using LLaMA-3.2 3B. Darker blue indicates higher influence; the target token is highlighted in red. Right: Probability distribution of top 7 words predicted at target position}{figure.5}{}}
+\newlabel{fig:lambada_iwslt_examples@cref}{{[figure][5][2147483647]5}{[1][9][]10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.2}Additional expamples}{10}{subsection.A.2}\protected@file@percent }
+\newlabel{sec: additional experiments}{{A.2}{10}{Additional expamples}{subsection.A.2}{}}
+\newlabel{sec: additional experiments@cref}{{[subappendix][2][2147483647,1]A.2}{[1][10][]10}}
+\citation{strogatz2018nonlinear}
+\citation{strogatz2018nonlinear}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Semantic Scope visualizes how LLaMA-3.2 understands system-prompt-style instructions. The logit assigned to the token ``truthful'' is most prominently attributed to the input token ``deceive'', and ``nice'' to ``argue''.}}{11}{figure.6}\protected@file@percent }
+\newlabel{fig:causal attribution 1}{{6}{11}{Semantic Scope visualizes how LLaMA-3.2 understands system-prompt-style instructions. The logit assigned to the token ``truthful'' is most prominently attributed to the input token ``deceive'', and ``nice'' to ``argue''}{figure.6}{}}
+\newlabel{fig:causal attribution 1@cref}{{[figure][6][2147483647]6}{[1][10][]11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Fisher Scope reveals that translated words, highlighted in red, are primarily influenced by their lexical counterparts in the source language.}}{11}{figure.7}\protected@file@percent }
+\newlabel{fig:fisher translations}{{7}{11}{Fisher Scope reveals that translated words, highlighted in red, are primarily influenced by their lexical counterparts in the source language}{figure.7}{}}
+\newlabel{fig:fisher translations@cref}{{[figure][7][2147483647]7}{[1][10][]11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.3}Dynamical systems: definitions and additional experiments}{11}{subsection.A.3}\protected@file@percent }
+\newlabel{Additional experiments on Dynamical Systems}{{A.3}{11}{Dynamical systems: definitions and additional experiments}{subsection.A.3}{}}
+\newlabel{Additional experiments on Dynamical Systems@cref}{{[subappendix][3][2147483647,1]A.3}{[1][11][]11}}
+\citation{lorenz1963deterministic}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces \textbf  {Semantic Scope attribution for detective micro-fiction.} The attribution graph illustrates how LLaMA-3.2 3B connects suspects to their associated clues when reasoning about potential perpetrators and weapons in a novel-like setting. Attributions clarify the model’s process for linking evidence to conclusions across a long narrative context.}}{12}{figure.8}\protected@file@percent }
+\newlabel{fig:detective novel}{{8}{12}{\textbf {Semantic Scope attribution for detective micro-fiction.} The attribution graph illustrates how LLaMA-3.2 3B connects suspects to their associated clues when reasoning about potential perpetrators and weapons in a novel-like setting. Attributions clarify the model’s process for linking evidence to conclusions across a long narrative context}{figure.8}{}}
+\newlabel{fig:detective novel@cref}{{[figure][8][2147483647]8}{[1][11][]12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Temperature Scope shows LLaMA-3.2 attending to similar motifs in history when extrapolating a logistic map trajectory. }}{12}{figure.9}\protected@file@percent }
+\newlabel{fig:Logistic map}{{9}{12}{Temperature Scope shows LLaMA-3.2 attending to similar motifs in history when extrapolating a logistic map trajectory}{figure.9}{}}
+\newlabel{fig:Logistic map@cref}{{[figure][9][2147483647]9}{[1][12][]12}}
+\citation{einstein1905molekularkinetischen}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Temperature Scope attribution graph of LLaMA-3.2 extrapolating a partially observed Lorenz system, with different initial condition than \cref  {fig:lorenz brownian} (a).}}{13}{figure.10}\protected@file@percent }
+\newlabel{fig:lorenz lobe switching}{{10}{13}{Temperature Scope attribution graph of LLaMA-3.2 extrapolating a partially observed Lorenz system, with different initial condition than \cref {fig:lorenz brownian} (a)}{figure.10}{}}
+\newlabel{fig:lorenz lobe switching@cref}{{[figure][10][2147483647]10}{[1][13][]13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Temperature Scope attribution graph of LLaMA-3.2 extrapolating (a) a partially observed Lorenz system, and (b) the same Lorenz system with uniform drift.}}{13}{figure.11}\protected@file@percent }
+\newlabel{fig:lorenz with drift}{{11}{13}{Temperature Scope attribution graph of LLaMA-3.2 extrapolating (a) a partially observed Lorenz system, and (b) the same Lorenz system with uniform drift}{figure.11}{}}
+\newlabel{fig:lorenz with drift@cref}{{[figure][11][2147483647]11}{[1][13][]13}}
+\citation{liu-etal-2024-llms-learn}
+\citation{foster2009evolution}
+\citation{liu-etal-2024-llms-learn}
+\newlabel{eq:brownian_motion}{{12}{14}{Dynamical systems: definitions and additional experiments}{equation.A.12}{}}
+\newlabel{eq:brownian_motion@cref}{{[equation][12][2147483647]12}{[1][13][]14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Additional Temperature Scope attributions on LLaMA-3.2 extrapolating Brownian motions in-context. }}{14}{figure.12}\protected@file@percent }
+\newlabel{fig:extra brownian motion}{{12}{14}{Additional Temperature Scope attributions on LLaMA-3.2 extrapolating Brownian motions in-context}{figure.12}{}}
+\newlabel{fig:extra brownian motion@cref}{{[figure][12][2147483647]12}{[1][14][]14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.4}Temperature Scope is optimal for numerical data}{14}{subsection.A.4}\protected@file@percent }
+\newlabel{app:temperature_optimal_num}{{A.4}{14}{Temperature Scope is optimal for numerical data}{subsection.A.4}{}}
+\newlabel{app:temperature_optimal_num@cref}{{[subappendix][4][2147483647,1]A.4}{[1][14][]14}}
+\citation{liu-etal-2024-llms-learn}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces  Left: (a) Temperature Scope (b) Semantic Scope and (c) Fisher Scope attributions for the same Lorenz system. Right: The predicted probability mass over the top 20 candidate tokens at the target position, ordered by their numerical values. The ground-truth token (shown in red) is used as the target for Semantic Scope. }}{15}{figure.13}\protected@file@percent }
+\newlabel{fig:JS_lorenz}{{13}{15}{Left: (a) Temperature Scope (b) Semantic Scope and (c) Fisher Scope attributions for the same Lorenz system. Right: The predicted probability mass over the top 20 candidate tokens at the target position, ordered by their numerical values. The ground-truth token (shown in red) is used as the target for Semantic Scope}{figure.13}{}}
+\newlabel{fig:JS_lorenz@cref}{{[figure][13][2147483647]13}{[1][14][]15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.5}Effective temperature as variance}{15}{subsection.A.5}\protected@file@percent }
+\newlabel{app:beta_variance}{{A.5}{15}{Effective temperature as variance}{subsection.A.5}{}}
+\newlabel{app:beta_variance@cref}{{[subappendix][5][2147483647,1]A.5}{[1][15][]15}}
+\citation{Sundararajan-Axiomatic-Attribution-DNN-2017}
+\citation{Sundararajan-Axiomatic-Attribution-DNN-2017}
+\citation{Sundararajan-Axiomatic-Attribution-DNN-2017}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.6}Path-Integrated Semantic Scope}{16}{subsection.A.6}\protected@file@percent }
+\newlabel{sec: IG Semantic Scope}{{A.6}{16}{Path-Integrated Semantic Scope}{subsection.A.6}{}}
+\newlabel{sec: IG Semantic Scope@cref}{{[subappendix][6][2147483647,1]A.6}{[1][16][]16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Causal attribution using (a) Semantic Scope and (b) its path-integrated variant based on Integrated Gradients.}}{16}{figure.14}\protected@file@percent }
+\newlabel{fig:semantic vs IG}{{14}{16}{Causal attribution using (a) Semantic Scope and (b) its path-integrated variant based on Integrated Gradients}{figure.14}{}}
+\newlabel{fig:semantic vs IG@cref}{{[figure][14][2147483647]14}{[1][16][]16}}
+\newlabel{def:IG}{{13}{16}{Path-Integrated Semantic Scope}{equation.A.13}{}}
+\newlabel{def:IG@cref}{{[equation][13][2147483647]13}{[1][16][]16}}
+\citation{Xiao-attention-sink-2024}
+\newlabel{def:path-int influence}{{14}{17}{Path-Integrated Semantic Scope}{equation.A.14}{}}
+\newlabel{def:path-int influence@cref}{{[equation][14][2147483647]14}{[1][17][]17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.7}Geometric interpretation of influence under $\varepsilon $ -norm perturbations}{17}{subsection.A.7}\protected@file@percent }
+\newlabel{app:epsilon_perturbation}{{A.7}{17}{Geometric interpretation of influence under \texorpdfstring {$\varepsilon $}{ep} -norm perturbations}{subsection.A.7}{}}
+\newlabel{app:epsilon_perturbation@cref}{{[subappendix][7][2147483647,1]A.7}{[1][17][]17}}
+\citation{amari2000methods}
+\citation{bishop2006pattern}
+\citation{arvanitidis2022pullinginformationgeometry}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.8}Second-order KL expansion and Fisher pullback}{18}{subsection.A.8}\protected@file@percent }
+\newlabel{app:kl_second_order}{{A.8}{18}{Second-order KL expansion and Fisher pullback}{subsection.A.8}{}}
+\newlabel{app:kl_second_order@cref}{{[subappendix][8][2147483647,1]A.8}{[1][17][]18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.9}Fisher Scope as a low-rank approximation of total information}{18}{subsection.A.9}\protected@file@percent }
+\newlabel{app:fisher_total_information}{{A.9}{18}{Fisher Scope as a low-rank approximation of total information}{subsection.A.9}{}}
+\newlabel{app:fisher_total_information@cref}{{[subappendix][9][2147483647,1]A.9}{[1][18][]18}}
+\newlabel{eq:expected_kl_trace}{{16}{18}{Fisher Scope as a low-rank approximation of total information}{equation.A.16}{}}
+\newlabel{eq:expected_kl_trace@cref}{{[equation][16][2147483647]16}{[1][18][]18}}
+\newlabel{eq:low_rank_trace}{{18}{19}{Fisher Scope as a low-rank approximation of total information}{equation.A.18}{}}
+\newlabel{eq:low_rank_trace@cref}{{[equation][18][2147483647]18}{[1][18][]19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Token-wise $\ell _2$ norm of the Integrated Gradient integrand $\nabla z(\bm  {\tilde  X}(\alpha ))$ along the interpolation path $\alpha \in [0,1]$.}}{20}{figure.15}\protected@file@percent }
+\newlabel{IG integral visualization}{{15}{20}{Token-wise $\ell _2$ norm of the Integrated Gradient integrand $\nabla z(\bm {\tilde X}(\alpha ))$ along the interpolation path $\alpha \in [0,1]$}{figure.15}{}}
+\newlabel{IG integral visualization@cref}{{[figure][15][2147483647]15}{[1][17][]20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Justification for the rank-1 approximation used in Fisher Scope, evaluated on LLaMA-3.2 1B and LAMBADA. \textbf  {Top:} Eigenvalue spectrum of $\bm  {F}$ across 10 prompts on a log-log scale, exhibiting a consistent power-law decay spanning 6 orders of magnitude. \textbf  {Middle:} Mean cumulative explained variance $\DOTSB \sum@ \slimits@ _{i=1}^r \lambda _i / \mathrm  {tr}(\bm  {F})$ averaged over 1000 passages (shaded band: $\pm 1\sigma $); $\bm  {u}_1$ alone accounts for $\approx $37\% of total sensitivity (1$\sigma $: 25--50\%). \textbf  {Bottom:} AOPC as a function of rank $r \in \{1, 4, 16, 64, 256\}$, with baselines shown as dashed lines. Rank-1 Fisher Scope already outperforms Input $\times $ Gradient and Semantic Scope; increasing $r$ yields only marginal improvement at $r$-fold computational cost.}}{21}{figure.16}\protected@file@percent }
+\newlabel{fig:fisher_spectrum}{{16}{21}{Justification for the rank-1 approximation used in Fisher Scope, evaluated on LLaMA-3.2 1B and LAMBADA. \textbf {Top:} Eigenvalue spectrum of $\bm {F}$ across 10 prompts on a log-log scale, exhibiting a consistent power-law decay spanning 6 orders of magnitude. \textbf {Middle:} Mean cumulative explained variance $\sum _{i=1}^r \lambda _i / \mathrm {tr}(\bm {F})$ averaged over 1000 passages (shaded band: $\pm 1\sigma $); $\bm {u}_1$ alone accounts for $\approx $37\% of total sensitivity (1$\sigma $: 25--50\%). \textbf {Bottom:} AOPC as a function of rank $r \in \{1, 4, 16, 64, 256\}$, with baselines shown as dashed lines. Rank-1 Fisher Scope already outperforms Input $\times $ Gradient and Semantic Scope; increasing $r$ yields only marginal improvement at $r$-fold computational cost}{figure.16}{}}
+\newlabel{fig:fisher_spectrum@cref}{{[figure][16][2147483647]16}{[1][19][]21}}
+\gdef \@abspage@last{21}
